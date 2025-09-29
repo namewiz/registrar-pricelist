@@ -33,11 +33,11 @@ import 'dotenv/config';
 //    "N/A", empty cells, etc. These are normalized to numbers or null.
 // -------------------------------------------------------------
 
+import { parse } from 'csv-parse';
 import { promises as fsp } from 'node:fs';
 import path from 'node:path';
 import { pipeline } from 'node:stream/promises';
 import { setTimeout as delay } from 'node:timers/promises';
-import { parse } from 'csv-parse';
 
 // ---------------------------- helpers ----------------------------
 const DEFAULT_SHEET_URL = 'https://docs.google.com/spreadsheets/d/1fHBHaxICLF7yhyEI5ir4jvY4H5h4nSa-aIgSMaP0500/edit?gid=1726709886#gid=1726709886';
@@ -66,8 +66,8 @@ const parsePrice = (raw) => {
   if (raw === undefined || raw === null) return null;
   const s = String(raw).trim().toLowerCase();
   if (!s || s === 'na' || s === 'n/a' ||
-      s === 'nonmemberprice' || s === 'non-memberprice' ||
-      s === 'non-member' || s === 'non member' || s === 'nonmember') {
+    s === 'nonmemberprice' || s === 'non-memberprice' ||
+    s === 'non-member' || s === 'non member' || s === 'nonmember') {
     return null;
   }
   if (!looksLikeCurrency(s)) return null;
@@ -154,7 +154,7 @@ function inferColumnIndexes(headers) {
 
 // ------------------------------ main ------------------------------
 async function main() {
-  const [,, sheetUrlArg, outPathArg] = process.argv;
+  const [, , sheetUrlArg, outPathArg] = process.argv;
   const sheetUrlEnv = process.env.OPENPROVIDER_SHEET_URL;
   const outPathEnv = process.env.OPENPROVIDER_OUT_PATH || process.env.OUT_PATH;
   const sheetUrl = sheetUrlArg || sheetUrlEnv || DEFAULT_SHEET_URL;

@@ -1,12 +1,32 @@
 {
   "name": "registrar-pricelist",
-  "version": "1.0.0",
-  "description": "Fetches and parses a public Google Sheet of TLD prices into a structured JSON file.",
+  "version": "0.1.0",
+  "description": "Generates structured JSON price lists for TLDs from different registrars like Namecheap and OpenProvider",
   "type": "module",
   "scripts": {
     "gen-openprovider": "node src/gen-openprovider-prices.js",
     "gen-nira": "node src/gen-nira-prices.js",
     "gen-namecheap": "node src/gen-namecheap-prices.js"
+  },
+  "homepage": "https://github.com/namewiz/registrar-pricelist",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namewiz/registrar-pricelist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/namewiz/registrar-pricelist/issues"
+  },
+  "author": "Justice Ogbonna <dev@justiceo.com>",
+  "keywords": [
+    "domain-price",
+    "tld-price",
+    "registrar-prices",
+    "namecheap-price"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": "^22.12.0",
+    "npm": "^10.9.0"
   },
   "dependencies": {
     "csv-parse": "^5.5.6",

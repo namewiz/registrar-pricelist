@@ -1,0 +1,12 @@
+.github
+.vscode
+src/**
+docs/**
+**/*.ts
+tests/**
+demo/**
+tsconfig.json
+package-lock.json
+.env
+.cache
+node_modules

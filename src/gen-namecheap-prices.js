@@ -27,17 +27,17 @@ import 'dotenv/config';
 // -------------------------------------------------------------
 
 import { promises as fsp } from 'node:fs';
-import { setTimeout as delay } from 'node:timers/promises';
 import path from 'node:path';
+import { setTimeout as delay } from 'node:timers/promises';
 
 const DEFAULT_OUT = path.join('data', 'namecheap-prices.json');
 const DEFAULT_CACHE_PATH = path.join('.cache', 'namecheap-tlds.json');
 const DEFAULT_TTL_MIN = 24 * 60; // 24 hours
 
 let VERBOSE = false;
-function vlog(...args) { 
+function vlog(...args) {
   //if (VERBOSE)
-  console.log(...args); 
+  console.log(...args);
 }
 
 function parseArgs(argv) {
@@ -135,7 +135,7 @@ async function ensureDir(p) {
   const dir = path.dirname(p);
   try {
     await fsp.mkdir(dir, { recursive: true });
-  } catch (_) {}
+  } catch (_) { }
 }
 
 async function readCache(cachePath, ttlMinutes) {
@@ -146,7 +146,7 @@ async function readCache(cachePath, ttlMinutes) {
       const raw = await fsp.readFile(cachePath, 'utf8');
       return JSON.parse(raw);
     }
-  } catch (_) {}
+  } catch (_) { }
   return null;
 }
 
@@ -416,7 +416,7 @@ main().catch((err) => {
   if (VERBOSE && err?.status) console.error('[status]', err.status);
   if (VERBOSE && err?.body) console.error('[body]', err.body);
   if (err?.response) {
-    try { console.error(JSON.stringify(err.response, null, 2)); } catch (_) {}
+    try { console.error(JSON.stringify(err.response, null, 2)); } catch (_) { }
   }
   process.exit(1);
 });

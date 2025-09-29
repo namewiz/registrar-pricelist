@@ -52,7 +52,7 @@ function round2(n) {
 }
 
 async function main() {
-  const [,, outPathArg] = process.argv;
+  const [, , outPathArg] = process.argv;
   const outPathEnv = process.env.NIRA_OUT_PATH || process.env.OUT_PATH;
   const fxEnv = process.env.NIRA_FX_URL;
   const outPath = outPathArg || outPathEnv || OUT_DEFAULT;
