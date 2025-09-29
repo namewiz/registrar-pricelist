@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "source": "manual-nira-pricelist",
+    "generated_at": "2025-09-29T05:49:33.887Z",
+    "fx_source": "https://www.floatrates.com/daily/usd.json",
+    "exchange": "1 USD => N1,488.26",
+    "notes": "Prices represent 1-year registration list prices converted to USD."
+  },
+  "data": {
+    "ng": {
+      "create": 10.08,
+      "renew": 10.08
+    },
+    "com.ng": {
+      "create": 4.7,
+      "renew": 4.7
+    },
+    "org.ng": {
+      "create": 4.7,
+      "renew": 4.7
+    },
+    "name.ng": {
+      "create": 0.27,
+      "renew": 0.27
+    }
+  }
+}
