@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "gen-openprovider": "node gen-openprovider-prices.js",
-    "gen-nira": "node gen-nira-prices.js"
+    "gen-nira": "node gen-nira-prices.js",
+    "gen-namecheap": "node gen-namecheap-prices.js"
   },
   "dependencies": {
     "csv-parse": "^5.5.6"

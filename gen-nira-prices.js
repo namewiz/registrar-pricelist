@@ -12,9 +12,10 @@
 // -------------------------------------------------------------
 
 import { promises as fsp } from 'node:fs';
+import path from 'node:path';
 import { setTimeout as delay } from 'node:timers/promises';
 
-const OUT_DEFAULT = 'nira-prices.json';
+const OUT_DEFAULT = path.join('data', 'nira-prices.json');
 const FX_URL_DEFAULT = 'https://www.floatrates.com/daily/usd.json';
 
 // Static NGN list prices (registration)
@@ -80,6 +81,7 @@ async function main() {
   };
 
   const json = JSON.stringify(result, null, 2);
+  await fsp.mkdir(path.dirname(outPath), { recursive: true });
   await fsp.writeFile(outPath, json, 'utf8');
   console.log(`Saved NIRA USD prices to: ${outPath}`);
 }

@@ -33,6 +33,7 @@
 // -------------------------------------------------------------
 
 import { promises as fsp } from 'node:fs';
+import path from 'node:path';
 import { pipeline } from 'node:stream/promises';
 import { setTimeout as delay } from 'node:timers/promises';
 import { parse } from 'csv-parse';
@@ -158,7 +159,7 @@ async function main() {
     console.log('No sheetUrl provided; using default sheet URL.');
   }
 
-  const outPath = outPathArg || 'openprovider-prices.json';
+  const outPath = outPathArg || path.join('data', 'openprovider-prices.json');
   const csvUrl = buildCsvExportUrl(sheetUrl);
   console.log('Downloading CSV from:', csvUrl);
   const res = await fetchWithRetry(csvUrl, { retries: 4, backoffMs: 700 });
@@ -232,6 +233,7 @@ async function main() {
   };
 
   const json = JSON.stringify(result, null, 2);
+  await fsp.mkdir(path.dirname(outPath), { recursive: true });
   await fsp.writeFile(outPath, json, 'utf8');
   console.log(`Saved ${flat.length} year=1 price rows into nested structure at: ${outPath}`);
 }
