@@ -4,11 +4,12 @@
   "description": "Fetches and parses a public Google Sheet of TLD prices into a structured JSON file.",
   "type": "module",
   "scripts": {
-    "gen-openprovider": "node gen-openprovider-prices.js",
-    "gen-nira": "node gen-nira-prices.js",
-    "gen-namecheap": "node gen-namecheap-prices.js"
+    "gen-openprovider": "node src/gen-openprovider-prices.js",
+    "gen-nira": "node src/gen-nira-prices.js",
+    "gen-namecheap": "node src/gen-namecheap-prices.js"
   },
   "dependencies": {
-    "csv-parse": "^5.5.6"
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5"
   }
 }

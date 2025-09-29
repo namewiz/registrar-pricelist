@@ -17,6 +17,10 @@ Install dependencies once:
 npm install
 ```
 
+### Environment via .env
+
+These scripts auto-load environment variables from a local `.env` file using `dotenv`. You can either export vars in your shell or place them in `.env` at the project root. See `.env.example` for a starting template. CLI arguments still work and take precedence over `.env` values.
+
 ## Generate Price Lists
 
 All commands write results into the `data/` folder by default.
@@ -25,18 +29,26 @@ All commands write results into the `data/` folder by default.
 
 Parses the Openprovider price sheet (Google Sheets) and emits a compact JSON file with year=1 prices and `maxYears` for each TLD.
 
-- Script: `node gen-openprovider-prices.js [sheetUrl] [outPath]`
+- Script: `node src/gen-openprovider-prices.js [sheetUrl] [outPath]`
 - NPM script: `npm run gen-openprovider`
 - Defaults:
   - `sheetUrl`: built into the script (public sheet)
   - `outPath`: `data/openprovider-prices.json`
+
+Optional environment variables (via `.env` or shell):
+
+- `OPENPROVIDER_SHEET_URL` – overrides the source sheet URL
+- `OPENPROVIDER_OUT_PATH` – overrides output path
+
+Notes:
+- CLI args override env if both are provided.
 
 Example:
 
 ```bash
 npm run gen-openprovider
 # or
-node gen-openprovider-prices.js \
+node src/gen-openprovider-prices.js \
   "https://docs.google.com/spreadsheets/d/1fHBHaxICLF7yhyEI5ir4jvY4H5h4nSa-aIgSMaP0500/edit?gid=1726709886#gid=1726709886" \
   data/openprovider-prices.json
 ```
@@ -45,7 +57,7 @@ node gen-openprovider-prices.js \
 
 Fetches year=1 prices from Namecheap’s API for create/renew/transfer/restore and organizes them per TLD.
 
-- Script: `node gen-namecheap-prices.js [-v] [outPath]`
+- Script: `node src/gen-namecheap-prices.js [-v] [outPath]`
 - NPM script: `npm run gen-namecheap`
 - Default `outPath`: `data/namecheap-prices.json`
 - Caches TLD metadata: `.cache/namecheap-tlds.json` (24h TTL)
@@ -63,6 +75,7 @@ Optional environment variables:
 - `NAMECHEAP_BASE_URL` (override API base URL)
 - `NAMECHEAP_TLD_CACHE` (cache path, default `.cache/namecheap-tlds.json`)
 - `NAMECHEAP_TLD_CACHE_TTL_MINUTES` (default `1440`)
+- `NAMECHEAP_OUT_PATH` (override output path; CLI arg still wins)
 
 Example:
 
@@ -79,10 +92,15 @@ npm run gen-namecheap
 
 Derives simple USD prices for selected NIRA namespaces from fixed NGN list prices using a live FX rate.
 
-- Script: `node gen-nira-prices.js [outPath]`
+- Script: `node src/gen-nira-prices.js [outPath]`
 - NPM script: `npm run gen-nira`
 - Default `outPath`: `data/nira-prices.json`
-- Optional env: `FX_URL` (default `https://www.floatrates.com/daily/usd.json`)
+  
+Optional environment variables:
+
+- `NIRA_OUT_PATH` – override output path
+- `NIRA_FX_URL` – override FX feed URL
+- `FX_URL` – also accepted for backward compatibility
 
 Example:
 

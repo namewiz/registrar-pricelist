@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import 'dotenv/config';
 // gen-namecheap-prices.js (ESM)
 // -------------------------------------------------------------
 // Generates a compact price list from Namecheap's API.
@@ -8,11 +9,11 @@
 // - Output maps per TLD: regular-price (retail) and sale-price (your price)
 //
 // Usage:
-//   node gen-namecheap-prices.js [outPath]
+//   node src/gen-namecheap-prices.js [outPath]
 //   # example:
 //   NAMECHEAP_API_USER=... NAMECHEAP_API_KEY=... \
 //   NAMECHEAP_USERNAME=... NAMECHEAP_CLIENT_IP=... \
-//   node gen-namecheap-prices.js namecheap-prices.json
+//   node src/gen-namecheap-prices.js data/namecheap-prices.json
 //
 // Environment variables:
 //   NAMECHEAP_API_USER      (required)
@@ -337,7 +338,8 @@ async function main() {
   console.log('Generating Namecheap prices from API...');
   const args = parseArgs(process.argv);
   VERBOSE = !!args.verbose;
-  const outPath = args.outPath || DEFAULT_OUT;
+  const outPathEnv = process.env.NAMECHEAP_OUT_PATH || process.env.OUT_PATH;
+  const outPath = args.outPath || outPathEnv || DEFAULT_OUT;
 
   // Validate env early to give actionable errors
   requireEnv('NAMECHEAP_API_USER');

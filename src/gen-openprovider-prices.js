@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import 'dotenv/config';
 // gen-openprovider-prices.js (ESM)
 // -------------------------------------------------------------
 // Reads a OpenProvider's public price sheet
@@ -7,10 +8,10 @@
 // prices.json organized for humans and machines.
 //
 // Usage:
-//   node gen-openprovider-prices.js [sheetUrl] [outPath]
+//   node src/gen-openprovider-prices.js [sheetUrl] [outPath]
 //   # example:
-//   node gen-openprovider-prices.js \
-//     "https://docs.google.com/spreadsheets/d/1fHBHaxICLF7yhyEI5ir4jvY4H5h4nSa-aIgSMaP0500/edit?gid=1726709886#gid=1726709886" prices.json
+//   node src/gen-openprovider-prices.js \
+//     "https://docs.google.com/spreadsheets/d/1fHBHaxICLF7yhyEI5ir4jvY4H5h4nSa-aIgSMaP0500/edit?gid=1726709886#gid=1726709886" data/openprovider-prices.json
 //   If omitted, the default sheet URL above is used.
 //
 // Dependencies (install once):
@@ -154,12 +155,10 @@ function inferColumnIndexes(headers) {
 // ------------------------------ main ------------------------------
 async function main() {
   const [,, sheetUrlArg, outPathArg] = process.argv;
-  const sheetUrl = sheetUrlArg || DEFAULT_SHEET_URL;
-  if (!sheetUrlArg) {
-    console.log('No sheetUrl provided; using default sheet URL.');
-  }
-
-  const outPath = outPathArg || path.join('data', 'openprovider-prices.json');
+  const sheetUrlEnv = process.env.OPENPROVIDER_SHEET_URL;
+  const outPathEnv = process.env.OPENPROVIDER_OUT_PATH || process.env.OUT_PATH;
+  const sheetUrl = sheetUrlArg || sheetUrlEnv || DEFAULT_SHEET_URL;
+  const outPath = outPathArg || outPathEnv || path.join('data', 'openprovider-prices.json');
   const csvUrl = buildCsvExportUrl(sheetUrl);
   console.log('Downloading CSV from:', csvUrl);
   const res = await fetchWithRetry(csvUrl, { retries: 4, backoffMs: 700 });

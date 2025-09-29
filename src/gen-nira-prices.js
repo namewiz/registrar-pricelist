@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import 'dotenv/config';
 // gen-nira-prices.js (ESM)
 // -------------------------------------------------------------
 // Generates a simple price list for NIRA namespaces with prices
@@ -6,9 +7,9 @@
 // latest USD->NGN FX rate fetched at runtime.
 //
 // Usage:
-//   node gen-nira-prices.js [outPath]
+//   node src/gen-nira-prices.js [outPath]
 //   # example:
-//   node gen-nira-prices.js nira-prices.json
+//   node src/gen-nira-prices.js data/nira-prices.json
 // -------------------------------------------------------------
 
 import { promises as fsp } from 'node:fs';
@@ -52,8 +53,10 @@ function round2(n) {
 
 async function main() {
   const [,, outPathArg] = process.argv;
-  const outPath = outPathArg || OUT_DEFAULT;
-  const fxUrl = process.env.FX_URL || FX_URL_DEFAULT;
+  const outPathEnv = process.env.NIRA_OUT_PATH || process.env.OUT_PATH;
+  const fxEnv = process.env.NIRA_FX_URL;
+  const outPath = outPathArg || outPathEnv || OUT_DEFAULT;
+  const fxUrl = fxEnv || FX_URL_DEFAULT;
 
   const fxRes = await fetchWithRetry(fxUrl, { retries: 4, backoffMs: 700 });
   const fxJson = await fxRes.json();
