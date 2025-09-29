@@ -1,0 +1,12 @@
+{
+  "name": "registrar-pricelist",
+  "version": "1.0.0",
+  "description": "Fetches and parses a public Google Sheet of TLD prices into a structured JSON file.",
+  "type": "module",
+  "scripts": {
+    "gen-openprovider": "node gen-openprovider-prices.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6"
+  }
+}
