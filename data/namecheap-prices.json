@@ -2,7 +2,7 @@
   "meta": {
     "source": "Namecheap API",
     "endpoint": "https://api.namecheap.com/xml.response",
-    "generated_at": "2025-09-29T07:48:28.363Z",
+    "generated_at": "2025-10-01T15:20:18.798Z",
     "actions_fetched": [
       "REGISTER",
       "RENEW",
@@ -12,9 +12,8 @@
     "currency": "USD",
     "tlds_total": 1201,
     "tlds_in_output": 1191,
-    "tld_cache_used": true,
-    "tld_cache_path": ".cache/namecheap-tlds.json",
-    "notes": "Year=1 prices only. Output mirrors openprovider structure with regular-price and sale-price maps."
+    "tld_metadata_fetched_at": "2025-10-01T15:19:39.487Z",
+    "notes": "Year=1 prices only. Output mirrors OpenProvider structure with regular-price and sale-price maps."
   },
   "data": {
     "1": {
@@ -91,7 +90,7 @@
         "restore": 24.98
       },
       "sale-price": {
-        "create": 6.98,
+        "create": 3.48,
         "renew": 24.98,
         "transfer": 18.98,
         "restore": 24.98
@@ -162,7 +161,7 @@
         "restore": 39.98
       },
       "sale-price": {
-        "create": 12.48,
+        "create": 33.98,
         "renew": 39.98,
         "transfer": 29.98,
         "restore": 39.98
@@ -407,7 +406,7 @@
         "restore": 138.98
       },
       "sale-price": {
-        "create": 12.98,
+        "create": 64.98,
         "renew": 138.98,
         "transfer": 108.98,
         "restore": 138.98
@@ -3847,7 +3846,7 @@
         "restore": 43.98
       },
       "sale-price": {
-        "create": 32.98,
+        "create": 6.98,
         "renew": 43.98,
         "transfer": 32.98,
         "restore": 43.98
@@ -4852,7 +4851,7 @@
         "restore": 148.98
       },
       "sale-price": {
-        "create": 12.98,
+        "create": 64.98,
         "renew": 148.98,
         "transfer": 108.98,
         "restore": 148.98
@@ -4867,7 +4866,7 @@
         "restore": 137.98
       },
       "sale-price": {
-        "create": 12.98,
+        "create": 64.98,
         "renew": 137.98,
         "transfer": 108.98,
         "restore": 137.98
@@ -6113,7 +6112,7 @@
         "restore": 137.98
       },
       "sale-price": {
-        "create": 12.98,
+        "create": 64.98,
         "renew": 137.98,
         "transfer": 108.98,
         "restore": 137.98
@@ -6338,7 +6337,7 @@
         "restore": 30.98
       },
       "sale-price": {
-        "create": 10.98,
+        "create": 5.48,
         "renew": 30.98,
         "transfer": 30.98,
         "restore": 30.98
@@ -6628,7 +6627,7 @@
         "restore": 101.98
       },
       "sale-price": {
-        "create": 59.98,
+        "create": 72.98,
         "renew": 101.98,
         "transfer": 72.98,
         "restore": 101.98
@@ -6731,7 +6730,7 @@
         "restore": 58.98
       },
       "sale-price": {
-        "create": 13.98,
+        "create": 41.98,
         "renew": 58.98,
         "transfer": 46.98,
         "restore": 58.98
@@ -6746,7 +6745,7 @@
         "restore": 34.98
       },
       "sale-price": {
-        "create": 9.98,
+        "create": 13.98,
         "renew": 34.98,
         "transfer": 26.98,
         "restore": 34.98
@@ -6881,7 +6880,7 @@
         "restore": 20.98
       },
       "sale-price": {
-        "create": 1.39,
+        "create": 1.8,
         "renew": 20.98,
         "transfer": 15.98,
         "restore": 20.98
@@ -6926,7 +6925,7 @@
         "restore": 16.98
       },
       "sale-price": {
-        "create": 12.98,
+        "create": 6.98,
         "renew": 16.98,
         "transfer": 12.98,
         "restore": 16.98
@@ -7087,7 +7086,7 @@
         "restore": 58.98
       },
       "sale-price": {
-        "create": 52.98,
+        "create": 16.98,
         "renew": 58.98,
         "transfer": 68.98,
         "restore": 58.98
@@ -7102,7 +7101,7 @@
         "restore": 58.98
       },
       "sale-price": {
-        "create": 52.98,
+        "create": 13.48,
         "renew": 58.98,
         "transfer": 68.98,
         "restore": 58.98
@@ -7117,7 +7116,7 @@
         "restore": 58.98
       },
       "sale-price": {
-        "create": 52.98,
+        "create": 13.48,
         "renew": 58.98,
         "transfer": 68.98,
         "restore": 58.98
@@ -7207,7 +7206,7 @@
         "restore": 19.48
       },
       "sale-price": {
-        "create": 1.39,
+        "create": 1.6,
         "renew": 19.48,
         "transfer": 17.48,
         "restore": 19.48
@@ -7417,7 +7416,7 @@
         "restore": 21.98
       },
       "sale-price": {
-        "create": 1.39,
+        "create": 1.54,
         "renew": 21.98,
         "transfer": 15.98,
         "restore": 21.98
@@ -7462,7 +7461,7 @@
         "restore": 19.48
       },
       "sale-price": {
-        "create": 1.39,
+        "create": 1.54,
         "renew": 19.48,
         "transfer": 15.98,
         "restore": 19.48
@@ -7665,7 +7664,7 @@
         "restore": 16.98
       },
       "sale-price": {
-        "create": 12.98,
+        "create": 6.98,
         "renew": 16.98,
         "transfer": 12.98,
         "restore": 16.98
@@ -11274,8 +11273,8 @@
         "transfer": 75.98
       },
       "sale-price": {
-        "create": 75.98,
-        "renew": 75.98,
+        "create": 17.98,
+        "renew": 17.98,
         "transfer": 75.98
       }
     },
@@ -15659,7 +15658,7 @@
         "restore": 16.98
       },
       "sale-price": {
-        "create": 12.98,
+        "create": 6.98,
         "renew": 16.98,
         "transfer": 12.98,
         "restore": 16.98
@@ -15674,7 +15673,7 @@
         "restore": 16.98
       },
       "sale-price": {
-        "create": 12.98,
+        "create": 6.98,
         "renew": 16.98,
         "transfer": 12.98,
         "restore": 16.98
@@ -15764,7 +15763,7 @@
         "restore": 17.98
       },
       "sale-price": {
-        "create": 6.98,
+        "create": 12.98,
         "renew": 17.98,
         "transfer": 12.98,
         "restore": 17.98
@@ -15779,7 +15778,7 @@
         "restore": 15.98
       },
       "sale-price": {
-        "create": 6.98,
+        "create": 12.98,
         "renew": 15.98,
         "transfer": 12.98,
         "restore": 15.98
@@ -15794,7 +15793,7 @@
         "restore": 15.88
       },
       "sale-price": {
-        "create": 6.98,
+        "create": 12.98,
         "renew": 15.88,
         "transfer": 12.98,
         "restore": 15.88
@@ -16364,7 +16363,7 @@
         "restore": 16.48
       },
       "sale-price": {
-        "create": 6.98,
+        "create": 12.98,
         "renew": 16.48,
         "transfer": 12.98,
         "restore": 16.48

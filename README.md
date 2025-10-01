@@ -1,14 +1,14 @@
 # registrar-pricelist
 
-Small Node.js utilities that generate structured JSON price lists for TLDs from different sources:
+Utilities for generating structured JSON price lists for domain registrars. The project currently supports:
 
-- Openprovider: parses a public Google Sheet into JSON.
-- Namecheap: calls the official API and normalizes prices.
-- NIRA: converts fixed NGN list prices to USD using a live FX rate.
+- **Openprovider** – parses a public Google Sheet into a compact structure.
+- **Namecheap** – calls the official API and normalises create/renew/transfer/restore prices.
+- **NIRA** – converts fixed NGN list prices to USD using a live FX rate.
 
 ## Prerequisites
 
-- Node.js 18+ (for built‑in `fetch`).
+- Node.js 18+ (for built-in `fetch`).
 - npm (to install dependencies).
 
 Install dependencies once:
@@ -19,93 +19,68 @@ npm install
 
 ### Environment via .env
 
-These scripts auto-load environment variables from a local `.env` file using `dotenv`. You can either export vars in your shell or place them in `.env` at the project root. See `.env.example` for a starting template. CLI arguments still work and take precedence over `.env` values.
+The CLI auto-loads environment variables from a local `.env` file using `dotenv`. You can either export variables in your shell or place them in `.env` at the project root. See `.env.example` for a starting template. CLI flags still take precedence.
 
-## Generate Price Lists
+## CLI Usage
 
-All commands write results into the `data/` folder by default.
-
-### Openprovider
-
-Parses the Openprovider price sheet (Google Sheets) and emits a compact JSON file with year=1 prices and `maxYears` for each TLD.
-
-- Script: `node src/gen-openprovider-prices.js [sheetUrl] [outPath]`
-- NPM script: `npm run gen-openprovider`
-- Defaults:
-  - `sheetUrl`: built into the script (public sheet)
-  - `outPath`: `data/openprovider-prices.json`
-
-Optional environment variables (via `.env` or shell):
-
-- `OPENPROVIDER_SHEET_URL` – overrides the source sheet URL
-- `OPENPROVIDER_OUT_PATH` – overrides output path
-
-Notes:
-- CLI args override env if both are provided.
-
-Example:
+The CLI generates price lists for the supported registrars. By default all generators run and write into the `data/` directory.
 
 ```bash
-npm run gen-openprovider
-# or
-node src/gen-openprovider-prices.js \
-  "https://docs.google.com/spreadsheets/d/1fHBHaxICLF7yhyEI5ir4jvY4H5h4nSa-aIgSMaP0500/edit?gid=1726709886#gid=1726709886" \
-  data/openprovider-prices.json
+npx registrar-pricelist
 ```
 
-### Namecheap
+Select specific registrars and customise the output directory:
 
-Fetches year=1 prices from Namecheap’s API for create/renew/transfer/restore and organizes them per TLD.
+```bash
+npx registrar-pricelist --registrars=namecheap,openprovider --outDir=./data
+```
 
-- Script: `node src/gen-namecheap-prices.js [-v] [outPath]`
-- NPM script: `npm run gen-namecheap`
-- Default `outPath`: `data/namecheap-prices.json`
-- Caches TLD metadata: `.cache/namecheap-tlds.json` (24h TTL)
+Useful flags:
 
-Required environment variables:
+- `--list` – print all available registrar ids.
+- `--verbose` – emit detailed progress logs.
+- `--help` – display usage information.
+
+### Registrar specific configuration
+
+Each generator accepts configuration through environment variables. The CLI loads these automatically.
+
+**Openprovider**
+
+- `OPENPROVIDER_SHEET_URL` – override the public spreadsheet URL.
+
+**Namecheap**
 
 - `NAMECHEAP_API_USER`
 - `NAMECHEAP_API_KEY`
 - `NAMECHEAP_USERNAME` (typically same as API user)
 - `NAMECHEAP_CLIENT_IP` (your whitelisted IP)
+- `NAMECHEAP_SANDBOX=1` (optional – use sandbox endpoint)
+- `NAMECHEAP_BASE_URL` (optional – override API base URL)
 
-Optional environment variables:
+**NIRA**
 
-- `NAMECHEAP_SANDBOX=1` (use sandbox endpoint)
-- `NAMECHEAP_BASE_URL` (override API base URL)
-- `NAMECHEAP_TLD_CACHE` (cache path, default `.cache/namecheap-tlds.json`)
-- `NAMECHEAP_TLD_CACHE_TTL_MINUTES` (default `1440`)
-- `NAMECHEAP_OUT_PATH` (override output path; CLI arg still wins)
+- `NIRA_FX_URL` – override the FX feed URL (defaults to the FloatRates USD feed).
 
-Example:
+## Programmatic Usage
 
-```bash
-export NAMECHEAP_API_USER=...
-export NAMECHEAP_API_KEY=...
-export NAMECHEAP_USERNAME=...
-export NAMECHEAP_CLIENT_IP=...
-# optional: export NAMECHEAP_SANDBOX=1
-npm run gen-namecheap
+The core library runs in Node or the browser. Generators follow a common interface that returns the structured price object instead of writing to disk.
+
+```js
+import { getRegistrarGenerator } from 'registrar-pricelist';
+
+const openprovider = getRegistrarGenerator('openprovider');
+const result = await openprovider.generate();
+console.log(result.meta.source);
 ```
 
-### NIRA
+Data snapshots ship with the package and can be imported directly:
 
-Derives simple USD prices for selected NIRA namespaces from fixed NGN list prices using a live FX rate.
+```js
+import { namecheapPrices, dataFiles } from 'registrar-pricelist';
 
-- Script: `node src/gen-nira-prices.js [outPath]`
-- NPM script: `npm run gen-nira`
-- Default `outPath`: `data/nira-prices.json`
-  
-Optional environment variables:
-
-- `NIRA_OUT_PATH` – override output path
-- `NIRA_FX_URL` – override FX feed URL
-- `FX_URL` – also accepted for backward compatibility
-
-Example:
-
-```bash
-npm run gen-nira
+console.log(namecheapPrices.meta.currency);
+console.log(Object.keys(dataFiles));
 ```
 
 ## Output Formats (brief)
@@ -157,18 +132,5 @@ NIRA (`data/nira-prices.json`):
 ## Notes
 
 - Only 1‑year prices are included in the operation maps; `maxYears` captures the maximum supported years per TLD when available.
-- The Openprovider script expects the sheet to be publicly accessible (no auth) and to include the required headers.
-- `.gitignore` excludes `node_modules/` and the `.cache/` folder.
-
-## Quick Commands
-
-```bash
-# Install dependencies
-npm install
-
-# Generate all defaults (writes to data/)
-npm run gen-openprovider
-npm run gen-nira
-# Requires env vars set first
-npm run gen-namecheap
-```
+- The Openprovider generator expects the sheet to be publicly accessible (no auth) and to include the required headers.
+- `.gitignore` excludes `node_modules/`.

@@ -4,9 +4,19 @@
   "description": "Generates structured JSON price lists for TLDs from different registrars like Namecheap and OpenProvider",
   "type": "module",
   "scripts": {
-    "gen-openprovider": "node src/gen-openprovider-prices.js",
-    "gen-nira": "node src/gen-nira-prices.js",
-    "gen-namecheap": "node src/gen-namecheap-prices.js"
+    "cli": "node src/cli/index.js",
+    "test": "node --test"
+  },
+  "bin": {
+    "registrar-pricelist": "./src/cli/index.js"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./cli": "./src/cli/index.js",
+    "./generators": "./src/generators/index.js",
+    "./data/namecheap.json": "./data/namecheap-prices.json",
+    "./data/nira.json": "./data/nira-prices.json",
+    "./data/openprovider.json": "./data/openprovider-prices.json"
   },
   "homepage": "https://github.com/namewiz/registrar-pricelist",
   "repository": {
