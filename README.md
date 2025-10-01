@@ -95,8 +95,8 @@ Openprovider (`data/openprovider-prices.json`):
   "data": {
     "tld": {
       "maxYears": 10,
-      "non-member-price": { "create": 8.27, "renew": 11.82, "transfer": 8.27, "restore": 17.75 },
-      "member-price":     { "create": 4.73, "renew": 4.73,  "transfer": 4.73,  "restore": 17.75 }
+      "regular-price": { "create": 8.27, "renew": 11.82, "transfer": 8.27, "restore": 17.75 },
+      "member-price":  { "create": 4.73, "renew": 4.73,  "transfer": 4.73,  "restore": 17.75 }
     }
   }
 }
@@ -123,8 +123,8 @@ NIRA (`data/nira-prices.json`):
 {
   "meta": { /* fx source and rate */ },
   "data": {
-    "ng":     { "create": 10.08, "renew": 10.08 },
-    "com.ng": { "create":  4.70, "renew":  4.70 }
+    "ng":     { "regular-price": { "create": 10.08, "renew": 10.08 } },
+    "com.ng": { "regular-price": { "create":  4.70, "renew":  4.70 } }
   }
 }
 ```

@@ -111,15 +111,15 @@ export const openproviderGenerator = createRegistrarPriceGenerator({
       const memberCell = String(rawRow[columns.member] ?? '').trim();
       const member = (/^non[-\s]?member price$/i.test(memberCell)) ? nonMember : parsePrice(memberCell);
       if (!data[tld]) {
-        data[tld] = { maxYears: 0, 'non-member-price': {}, 'member-price': {} };
+        data[tld] = { maxYears: 0, 'regular-price': {}, 'member-price': {} };
       }
       if (nonMember !== null || member !== null) {
         data[tld].maxYears = Math.max(data[tld].maxYears, years);
       }
       if (years === 1) {
-        if (nonMember !== null) data[tld]['non-member-price'][op] = nonMember;
+        if (nonMember !== null) data[tld]['regular-price'][op] = nonMember;
         if (member !== null) data[tld]['member-price'][op] = member;
-        flat.push({ tld, years, operation: op, 'non-member-price': nonMember, 'member-price': member });
+        flat.push({ tld, years, operation: op, 'regular-price': nonMember, 'member-price': member });
       }
     }
 

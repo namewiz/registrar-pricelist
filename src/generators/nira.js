@@ -36,7 +36,7 @@ export const niraGenerator = createRegistrarPriceGenerator({
     const data = {};
     for (const [tld, ngnPrice] of Object.entries(NGN_PRICES)) {
       const usd = round2(ngnPrice / ngnPerUsd);
-      data[tld] = { create: usd, renew: usd };
+      data[tld] = { 'regular-price': { create: usd, renew: usd } };
     }
 
     return {
