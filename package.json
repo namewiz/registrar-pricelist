@@ -4,19 +4,16 @@
   "description": "Generates structured JSON price lists for TLDs from different registrars like Namecheap and OpenProvider",
   "type": "module",
   "scripts": {
-    "cli": "node src/cli/index.js",
-    "test": "node --test",
-    "prebuild": "mkdir -p dist",
-    "build": "npx -y esbuild src/browser/index.js --bundle --format=esm --platform=browser --target=es2020 --sourcemap --outfile=dist/registrar-pricelist.js",
-    "postbuild": "mkdir -p docs && cp dist/registrar-pricelist.js docs/registrar-pricelist.js"
+    "build": "node ./scripts/build.mjs",
+    "cli": "node dist/cli/index.js",
+    "test": "npm run build && node --test"
   },
   "bin": {
-    "registrar-pricelist": "./src/cli/index.js"
+    "registrar-pricelist": "./dist/cli/index.js"
   },
   "exports": {
-    ".": "./src/index.js",
-    "./cli": "./src/cli/index.js",
-    "./generators": "./src/generators/index.js",
+    ".": "./dist/index.js",
+    "./cli": "./dist/cli/index.js",
     "./data/namecheap.json": "./data/namecheap-prices.json",
     "./data/nira.json": "./data/nira-prices.json",
     "./data/openprovider.json": "./data/openprovider-prices.json"
@@ -44,5 +41,10 @@
   "dependencies": {
     "csv-parse": "^5.5.6",
     "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "esbuild": "^0.25.10",
+    "typescript": "^5.5.4"
   }
 }
