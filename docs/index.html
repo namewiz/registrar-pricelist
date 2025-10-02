@@ -116,179 +116,100 @@
   </div>
 
   <script type="module">
-    (async function () {
-      let RegLib = null;
-      try {
-        RegLib = await import('./registrar-pricelist.js');
-      } catch (_) { /* bundle not present; fall back to fetching JSON */ }
+    import { datasets, buildPriceIndex } from './registrar-pricelist.js';
 
-      const registrars = RegLib?.registrars || [
-        { key: 'namecheap', label: 'Namecheap', paths: ['../data/namecheap-prices.json', './data/namecheap-prices.json', '/data/namecheap-prices.json'] },
-        { key: 'openprovider', label: 'OpenProvider', paths: ['../data/openprovider-prices.json', './data/openprovider-prices.json', '/data/openprovider-prices.json'] },
-        { key: 'nira', label: 'NIRA', paths: ['../data/nira-prices.json', './data/nira-prices.json', '/data/nira-prices.json'] },
-      ];
+    const registrars = Object.values(datasets).map((dataset) => ({
+      id: dataset.registrarId,
+      label: dataset.registrarName,
+    }));
 
-      const $q = document.getElementById('q');
-      const $clear = document.getElementById('clear');
-      const $theadRow = document.getElementById('thead-row');
-      const $tbody = document.getElementById('tbody');
-      const $summary = document.getElementById('summary');
-      const $loading = document.getElementById('loading');
+    const order = registrars.map((registrar) => registrar.id);
+    const priceIndex = buildPriceIndex(datasets);
 
-      // Try multiple base paths so this works when served from repo root or docs/ root
-      async function fetchFirst(paths) {
-        for (const url of paths) {
-          try {
-            const res = await fetch(url, { cache: 'no-store' });
-            if (!res.ok) throw new Error(String(res.status));
-            return await res.json();
-          } catch (_) { /* try next */ }
-        }
-        return null;
-      }
+    const $q = document.getElementById('q');
+    const $clear = document.getElementById('clear');
+    const $theadRow = document.getElementById('thead-row');
+    const $tbody = document.getElementById('tbody');
+    const $summary = document.getElementById('summary');
+    const $loading = document.getElementById('loading');
 
-      function getCreatePrice(entry) {
-        if (!entry) return undefined;
-        const rp = entry['regular-price'] || {};
-        // Prefer create; fallback to renew when create missing
-        if (typeof rp.create === 'number') return rp.create;
-        if (typeof rp.renew === 'number') return rp.renew;
-        return undefined;
-      }
+    if ($loading) {
+      $loading.hidden = true;
+    }
 
-      function fmtPrice(v) {
-        return typeof v === 'number' && Number.isFinite(v) ? v.toFixed(2) : '—';
-      }
+    function fmtPrice(value) {
+      return typeof value === 'number' && Number.isFinite(value) ? value.toFixed(2) : '—';
+    }
 
-      function buildHeader() {
-        registrars.forEach(r => {
-          const th = document.createElement('th');
-          th.textContent = r.label;
-          th.className = 'right';
-          th.style.minWidth = '120px';
-          $theadRow.appendChild(th);
-        });
-      }
+    function buildHeader() {
+      registrars.forEach((registrar) => {
+        const th = document.createElement('th');
+        th.textContent = registrar.label;
+        th.className = 'right';
+        th.style.minWidth = '120px';
+        $theadRow.appendChild(th);
+      });
+    }
 
-      function buildRows(index, order) {
-        const tlds = Array.from(Object.keys(index)).sort((a, b) => a.localeCompare(b));
-        const frag = document.createDocumentFragment();
-        tlds.forEach(tld => {
-          const tr = document.createElement('tr');
-          tr.dataset.tld = tld.toLowerCase();
+    function buildRows() {
+      const frag = document.createDocumentFragment();
+      const tlds = Object.keys(priceIndex).sort((a, b) => a.localeCompare(b));
+      tlds.forEach((tld) => {
+        const tr = document.createElement('tr');
+        tr.dataset.tld = tld.toLowerCase();
 
-          const tdTld = document.createElement('td');
-          tdTld.textContent = tld;
-          tdTld.className = 'tld';
-          tr.appendChild(tdTld);
+        const tdTld = document.createElement('td');
+        tdTld.textContent = tld;
+        tdTld.className = 'tld';
+        tr.appendChild(tdTld);
 
-          const tdMax = document.createElement('td');
-          tdMax.className = 'right';
-          const my = index[tld].maxYears;
-          tdMax.textContent = Number.isFinite(my) ? String(my) : '—';
-          tr.appendChild(tdMax);
+        const tdMax = document.createElement('td');
+        tdMax.className = 'right';
+        const maxYears = priceIndex[tld].maxYears;
+        tdMax.textContent = Number.isFinite(maxYears) ? String(maxYears) : '—';
+        tr.appendChild(tdMax);
 
-          // Registrar columns in the display order
-          order.forEach(key => {
-            const td = document.createElement('td');
-            td.className = 'right';
-            td.textContent = fmtPrice(index[tld].prices[key]);
-            tr.appendChild(td);
-          });
-
-          frag.appendChild(tr);
-        });
-        $tbody.textContent = '';
-        $tbody.appendChild(frag);
-        updateSummary();
-      }
-
-      function filterRows(term) {
-        const q = (term || '').trim().toLowerCase();
-        let visible = 0;
-        for (const tr of $tbody.rows) {
-          const match = !q || tr.dataset.tld.includes(q);
-          tr.classList.toggle('hidden', !match);
-          if (match) visible++;
-        }
-        updateSummary(visible);
-      }
-
-      function updateSummary(visibleCount) {
-        const total = $tbody.rows.length;
-        const visible = typeof visibleCount === 'number' ? visibleCount : total;
-        $summary.textContent = `${visible.toLocaleString()} of ${total.toLocaleString()} TLDs`;
-      }
-
-      async function init() {
-        $loading.hidden = false;
-        buildHeader();
-
-        // Load datasets either from bundled library or by fetching JSON files
-        let datasets;
-        if (RegLib?.datasets) {
-          datasets = RegLib.datasets;
-        } else {
-          const results = await Promise.all(
-            registrars.map(r => fetchFirst(r.paths).then(json => ({ key: r.key, data: json })))
-          );
-          datasets = Object.fromEntries(results.filter(r => r.data).map(r => [r.key, r.data]));
-        }
-
-        // Build unified index (prefer library helper if available)
-        const index = RegLib?.buildPriceIndex ? RegLib.buildPriceIndex(datasets) : (() => {
-          const idx = {};
-          const addFrom = (key, data) => {
-            if (!data || !data.data) return;
-            for (const [tld, entry] of Object.entries(data.data)) {
-              if (!idx[tld]) idx[tld] = { maxYears: undefined, prices: {} };
-              const my = typeof entry.maxYears === 'number' ? entry.maxYears : undefined;
-              if (Number.isFinite(my)) idx[tld].maxYears = Math.max(idx[tld].maxYears || 0, my);
-              const p = getCreatePrice(entry);
-              if (typeof p === 'number' && Number.isFinite(p)) idx[tld].prices[key] = p;
-            }
-          };
-          addFrom('namecheap', datasets.namecheap);
-          addFrom('openprovider', datasets.openprovider);
-          addFrom('nira', datasets.nira);
-          return idx;
-        })();
-
-        // Column display order mirrors header order
-        const order = registrars.map(r => r.key);
-        buildRows(index, order);
-        $loading.hidden = true;
-
-        // Seed filter from URL param if present
-        const url = new URL(window.location.href);
-        const initial = (url.searchParams.get('q') || '').trim();
-        if (initial) {
-          $q.value = initial;
-          filterRows(initial);
-        }
-
-        // Live filtering on input (no Enter keypress needed)
-        $q.addEventListener('input', (e) => {
-          const val = e.target.value || '';
-          // keep URL in sync for shareable filters
-          const u = new URL(window.location.href);
-          if (val) u.searchParams.set('q', val); else u.searchParams.delete('q');
-          history.replaceState({}, '', u);
-          filterRows(val);
+        order.forEach((id) => {
+          const td = document.createElement('td');
+          td.className = 'right';
+          td.textContent = fmtPrice(priceIndex[tld].prices[id]);
+          tr.appendChild(td);
         });
 
-        $clear.addEventListener('click', () => {
-          $q.value = '';
-          const u = new URL(window.location.href);
-          u.searchParams.delete('q');
-          history.replaceState({}, '', u);
-          filterRows('');
-          $q.focus();
-        });
-      }
+        frag.appendChild(tr);
+      });
+      $tbody.replaceChildren(frag);
+    }
 
-      init();
-    })();
+    function updateSummary(visibleCount) {
+      const total = Object.keys(priceIndex).length;
+      const visible = typeof visibleCount === 'number' ? visibleCount : total;
+      const registrarCount = registrars.length;
+      $summary.textContent = `${visible} of ${total} TLDs shown across ${registrarCount} registrars.`;
+    }
+
+    function applyFilter(value) {
+      const query = value.trim().toLowerCase();
+      const rows = Array.from($tbody.querySelectorAll('tr'));
+      let visible = 0;
+      rows.forEach((row) => {
+        const matches = !query || row.dataset.tld?.includes(query);
+        row.classList.toggle('hidden', !matches);
+        if (matches) visible += 1;
+      });
+      updateSummary(visible);
+    }
+
+    buildHeader();
+    buildRows();
+    updateSummary();
+
+    $q.addEventListener('input', () => applyFilter($q.value));
+    $clear.addEventListener('click', () => {
+      $q.value = '';
+      applyFilter('');
+      $q.focus();
+    });
   </script>
 </body>
 

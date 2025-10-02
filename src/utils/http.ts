@@ -1,15 +1,20 @@
-/**
- * Lightweight fetch helper with retry logic that works in Node and browsers.
- */
+export interface FetchRetryOptions {
+  retries?: number;
+  backoffMs?: number;
+  headers?: Record<string, string>;
+  signal?: AbortSignal;
+  logLevel?: 'info' | 'warn' | 'error';
+  logger?: (entry: { level?: string; message: string }) => void;
+}
 
-function delay(ms, signal) {
+function delay(ms: number, signal?: AbortSignal): Promise<void> {
   return new Promise((resolve, reject) => {
     const timer = setTimeout(resolve, ms);
     if (signal) {
       const abort = () => {
         clearTimeout(timer);
         signal.removeEventListener('abort', abort);
-        let error;
+        let error: Error;
         if (typeof DOMException === 'function') {
           error = new DOMException('Aborted', 'AbortError');
         } else {
@@ -27,29 +32,19 @@ function delay(ms, signal) {
   });
 }
 
-const defaultHeaders = typeof window === 'undefined'
-  ? { 'user-agent': 'registrar-pricelist/1.0 (+https://github.com/namewiz/registrar-pricelist)' }
+const defaultHeaders: Record<string, string> = typeof window === 'undefined'
+  ? { 'user-agent': 'registrar-pricelist/2.0 (+https://github.com/namewiz/registrar-pricelist)' }
   : {};
 
-/**
- * @param {RequestInfo | URL} url
- * @param {Object} [options]
- * @param {number} [options.retries=3]
- * @param {number} [options.backoffMs=500]
- * @param {Record<string, string>} [options.headers]
- * @param {AbortSignal} [options.signal]
- * @param {'info'|'warn'|'error'} [options.logLevel]
- * @param {(entry: { level?: string, message: string }) => void} [options.logger]
- */
-export async function fetchWithRetry(url, {
+export async function fetchWithRetry(url: RequestInfo | URL, {
   retries = 3,
   backoffMs = 500,
   headers,
   signal,
   logLevel = 'info',
   logger,
-} = {}) {
-  let lastErr;
+}: FetchRetryOptions = {}): Promise<Response> {
+  let lastErr: unknown;
   const log = logger || (() => {});
   for (let attempt = 0; attempt <= retries; attempt++) {
     try {
@@ -58,7 +53,7 @@ export async function fetchWithRetry(url, {
         signal,
       });
       if (!res.ok) {
-        const err = new Error(`HTTP ${res.status}`);
+        const err: any = new Error(`HTTP ${res.status}`);
         err.status = res.status;
         err.url = typeof url === 'string' ? url : url.toString();
         throw err;
@@ -66,9 +61,13 @@ export async function fetchWithRetry(url, {
       return res;
     } catch (err) {
       lastErr = err;
-      if (attempt >= retries) break;
-      log({ level: logLevel, message: `Retrying ${url} after error: ${err.message}` });
-      await delay(backoffMs * Math.pow(2, attempt), signal).catch(() => { throw err; });
+      if (attempt >= retries) {
+        break;
+      }
+      log({ level: logLevel, message: `Retrying ${typeof url === 'string' ? url : url.toString()} after error: ${(err as Error).message}` });
+      await delay(backoffMs * Math.pow(2, attempt), signal).catch(() => {
+        throw err;
+      });
     }
   }
   throw lastErr;

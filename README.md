@@ -32,13 +32,14 @@ npx registrar-pricelist
 Select specific registrars and customise the output directory:
 
 ```bash
-npx registrar-pricelist --registrars=namecheap,openprovider --outDir=./data
+npx registrar-pricelist --registrars=namecheap,openprovider --outDir=./data --ttl=infinity
 ```
 
 Useful flags:
 
 - `--list` – print all available registrar ids.
 - `--verbose` – emit detailed progress logs.
+- `--ttl=<ms|infinity>` – control cache usage (`0` forces live fetch, `infinity` returns cached snapshots when available).
 - `--help` – display usage information.
 
 ### Registrar specific configuration
@@ -64,23 +65,40 @@ Each generator accepts configuration through environment variables. The CLI load
 
 ## Programmatic Usage
 
-The core library runs in Node or the browser. Generators follow a common interface that returns the structured price object instead of writing to disk.
+The TypeScript API exposes registrar classes with a unified `getPricelist(ttl)` method and a lightweight orchestrator for parallel runs.
 
-```js
-import { getRegistrarGenerator } from 'registrar-pricelist';
+```ts
+import { generatePricelists } from 'registrar-pricelist';
 
-const openprovider = getRegistrarGenerator('openprovider');
-const result = await openprovider.generate();
-console.log(result.meta.source);
+const results = await generatePricelists({ registrars: ['namecheap', 'openprovider'], ttl: 0 });
+console.log(results.namecheap.items[0].tld);
 ```
 
-Data snapshots ship with the package and can be imported directly:
+Provide credentials once via the shared `RegistrarConfig` to enable registrars without exposing `process.env` to each registrar instance:
 
-```js
-import { namecheapPrices, dataFiles } from 'registrar-pricelist';
+```ts
+import { generatePricelists, RegistrarConfig } from 'registrar-pricelist';
 
-console.log(namecheapPrices.meta.currency);
-console.log(Object.keys(dataFiles));
+const config = RegistrarConfig.fromEnv(process.env);
+const results = await generatePricelists({ config, ttl: 0 });
+```
+
+Instantiate individual registrars when you need finer control over configuration:
+
+```ts
+import { NamecheapRegistrar, RegistrarConfig } from 'registrar-pricelist';
+
+const sharedConfig = RegistrarConfig.fromEnv(process.env);
+const registrar = new NamecheapRegistrar(sharedConfig.getNamecheapParams());
+const pricelist = await registrar.getPricelist(0); // fetch live result
+```
+
+Static data snapshots ship with the package and can be imported as normalised `RegistrarPricelist` objects:
+
+```ts
+import { datasets } from 'registrar-pricelist';
+
+console.log(datasets.openprovider.meta?.requiredHeaders);
 ```
 
 ## Output Formats (brief)
