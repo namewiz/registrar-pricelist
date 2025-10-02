@@ -13,3 +13,6 @@ export const dataFiles = {
 };
 
 export { namecheapPrices, niraPrices, openproviderPrices };
+
+// Browser-friendly exports (also available in Node for convenience)
+export { registrars as browserRegistrars, datasets as embeddedDatasets, buildPriceIndex } from './browser/index.js';

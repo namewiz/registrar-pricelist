@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "cli": "node src/cli/index.js",
-    "test": "node --test"
+    "test": "node --test",
+    "prebuild": "mkdir -p dist",
+    "build": "npx -y esbuild src/browser/index.js --bundle --format=esm --platform=browser --target=es2020 --sourcemap --outfile=dist/registrar-pricelist.js",
+    "postbuild": "mkdir -p docs && cp dist/registrar-pricelist.js docs/registrar-pricelist.js"
   },
   "bin": {
     "registrar-pricelist": "./src/cli/index.js"

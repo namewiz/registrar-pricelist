@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Domain Genie</title>
+  <title>Registrar TLD Price List</title>
   <style>
     :root {
       --bg: #fff;
@@ -13,30 +13,14 @@
       --line: #e5e7eb;
       --ring: #d1d5db;
       --shadow: 0 10px 30px rgba(0, 0, 0, .06);
-      --ok-accent: #10b981;
-      --bad-accent: #ef4444;
-      --ok-tint: #ecfdf5;
-      --bad-tint: #fef2f2;
-      --unk-tint: #f3f4f6;
-      /* Top-N blue tint */
-      --top-accent: #2563eb;
-      --top-tint: #eff6ff;
+      --accent: #2563eb;
+      --accent-tint: #eff6ff;
     }
 
-    * {
-      box-sizing: border-box
-    }
+    * { box-sizing: border-box }
+    [hidden] { display: none !important; }
 
-    /* Ensure hidden attribute consistently hides elements */
-    [hidden] {
-      display: none !important;
-    }
-
-    html,
-    body {
-      height: 100%;
-    }
-
+    html, body { height: 100%; }
     body {
       margin: 0;
       background: var(--bg);
@@ -48,585 +32,262 @@
     }
 
     .wrap {
-      max-width: 920px;
+      max-width: 1100px;
       width: 100%;
-      /* Keep some top spacing, but no bottom margin so footer can sit at the bottom */
-      margin: 64px auto 0;
+      margin: 48px auto 0;
       padding: 0 20px;
       flex: 1;
-      /* Make inner content a column so footer can push to the bottom */
       display: flex;
       flex-direction: column;
     }
 
-    /* Sticky footer within the wrap */
-    .wrap footer {
-      /* Push footer to bottom when content is short */
-      margin-top: auto;
-      /* Preserve visual spacing above footer */
-      padding-top: 48px;
-    }
-
     h1 {
       font-weight: 700;
-      font-size: 44px;
+      font-size: 36px;
       letter-spacing: -.02em;
       margin: 0 0 8px
     }
 
-    h4 {
-      color: var(--muted);
-      font-weight: 400;
-    }
+    .sub { color: var(--muted); margin-bottom: 20px }
 
-    .sub {
-      color: var(--muted);
-      /* max-width: 720px; */
-      margin-bottom: 28px
-    }
+    .search { display:flex; align-items:center; gap:12px; background:#f8fafc; border:1px solid var(--ring); border-radius:14px; padding:12px 14px; box-shadow: var(--shadow); }
+    .search input { border:0; background:transparent; flex:1; outline:none; font-size:16px; color:var(--text); }
+    .search button.icon { border:0; background:#eef2f7; width:32px; height:32px; border-radius:8px; display:grid; place-items:center; cursor:pointer }
+    .search svg { width:18px; height:18px }
 
-    /* Search */
-    .search {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      background: #f8fafc;
-      border: 1px solid var(--ring);
-      border-radius: 14px;
-      padding: 16px 18px;
-      box-shadow: var(--shadow);
-    }
+    .summary { color: var(--muted); margin: 12px 0 10px; font-size: 14px; }
 
-    .search input {
-      border: 0;
-      background: transparent;
-      flex: 1;
-      outline: none;
-      font-size: 18px;
-      color: var(--text);
-    }
+    .table-wrap { margin-top: 10px; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; border: 1px solid var(--line); }
+    thead th { position: sticky; top: 0; background: #f8fafc; color: var(--muted); font-weight: 600; text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+    tbody td { padding: 8px 10px; border-top: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+    tbody tr:nth-child(even) td { background: #fafafa; }
+    tbody tr.hidden { display: none; }
+    .tld { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .right { text-align: right; }
 
-    .search button.icon {
-      border: 0;
-      background: #eef2f7;
-      width: 34px;
-      height: 34px;
-      border-radius: 10px;
-      display: grid;
-      place-items: center;
-      cursor: pointer
-    }
+    .loading { display:flex; align-items:center; gap:8px; color:var(--muted); margin-top: 20px; }
+    .spinner { width:16px; height:16px; border:2px solid var(--ring); border-top-color:var(--accent); border-radius:50%; animation:spin .8s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg);} }
 
-    .search svg {
-      width: 18px;
-      height: 18px
-    }
+    footer { margin-top:auto; padding: 32px 0 40px; text-align:center; color:#6b7280; font-size:14px; }
 
-    /* Summary text above results */
-    .summary {
-      color: var(--muted);
-      margin: 20px 0 0;
-      font-size: 14px;
-      padding-left: 5px;
-    }
-
-    /* Loading indicator */
-    .loading {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      color: var(--muted);
-      margin-top: 50px;
-      padding-left: 0;
-      text-align: center;
-      width: 100%;
-    }
-
-    .spinner {
-      width: 16px;
-      height: 16px;
-      border: 2px solid var(--ring);
-      border-top-color: var(--top-accent);
-      border-radius: 50%;
-      animation: spin 0.8s linear infinite;
-    }
-
-    @keyframes spin {
-      to {
-        transform: rotate(360deg);
-      }
-    }
-
-    /* Dev mode chip beside title */
-    .chip.dev {
-      background: var(--top-tint);
-      border-color: #2563eb33;
-      color: #1e40af;
-      margin-left: 8px;
-      vertical-align: middle;
-    }
-
-    /* Results */
-    .list {
-      margin-top: 0px;
-    }
-
-    /* Pager */
-    .pager {
-      align-items: center;
-      gap: 10px;
-      margin-top: 12px;
-    }
-
-    /* Processed query table */
-    .proc-wrap {
-      margin-top: 8px;
-      margin-bottom: 8px;
-      overflow-x: auto;
-    }
-
-    table.proc-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 6px;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-    }
-
-    table.proc-table th,
-    table.proc-table td {
-      border: 1px solid var(--line);
-      text-align: left;
-      padding: 6px 8px;
-      font-size: 13px;
-    }
-
-    table.proc-table th {
-      background: #f8fafc;
-      color: var(--muted);
-      width: 220px;
-    }
-
-    .pager button {
-      border: 1px solid var(--ring);
-      background: #eef2f7;
-      color: var(--text);
-      padding: 6px 10px;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-
-    .pager button[disabled] {
-      opacity: 0.5;
-      cursor: not-allowed;
-    }
-
-    .row {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      align-items: center;
-      gap: 8px;
-      padding: 8px 12px;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      margin: 6px 0;
-      background: var(--bg);
-      transition: background-color .2s ease, border-color .2s ease, box-shadow .2s ease;
-    }
-
-    /* Top-N rows get blue tint */
-    .row.top {
-      background: var(--top-tint);
-      border-color: #2563eb33;
-    }
-
-    .row.unk {
-      background: var(--unk-tint);
-      border-color: var(--ring);
-    }
-
-    .left {
-      display: grid;
-      gap: 4px;
-      align-content: start;
-    }
-
-    .domain {
-      font-size: 15px;
-      line-height: 1.2;
-    }
-
-    .strategy {
-      font-size: 12px;
-      color: var(--muted);
-      line-height: 1.2;
-    }
-
-    /* Availability chip */
-    .chip {
-      justify-self: end;
-      border-radius: 999px;
-      padding: 2px 8px;
-      font-size: 11px;
-      font-weight: 600;
-      border: 1px solid transparent;
-      background: #f3f4f6;
-      color: #374151
-    }
-
-    /* Main score chip for Top-N (blue) */
-    .chip.top {
-      background: var(--top-tint);
-      border-color: #2563eb33;
-      color: #1e40af;
-    }
-
-    /* Positive/negative component chips */
-    .chip.ok {
-      background: #ecfdf5;
-      border-color: #10b98133;
-      color: #065f46
-    }
-
-    /* Right meta column */
-    .meta {
-      justify-self: end;
-      display: grid;
-      gap: 6px;
-      text-align: right;
-    }
-
-    .components {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      justify-content: flex-end;
-    }
-
-    .chip.bad {
-      background: #fef2f2;
-      border-color: #ef444433;
-      color: #7f1d1d
-    }
-
-    .chip.unk {
-      background: #f3f4f6;
-      border-color: #9ca3af33;
-      color: #374151
-    }
-
-    @media (max-width:640px) {
-      h1 {
-        font-size: 32px
-      }
-
-      .row {
-        grid-template-columns: 1fr auto
-      }
+    @media (max-width: 640px) {
+      h1 { font-size: 28px; }
     }
   </style>
 </head>
 
 <body>
   <div class="wrap">
-    <h4>namewiz / domaingenie <span id="dev-chip" class="chip dev" hidden>dev mode</span></h4>
-    <h1>Generate domain ideas</h1>
-    <p class="sub">Type a short description and get ranked domain ideas with smart scoring across supported TLDs.</p>
-    <p class="sub">Install & usage guide is on the <a href="https://www.npmjs.com/package/domaingenie">npm page</a>.</p>
+    <h1>Registrar TLD Price List</h1>
+    <p class="sub">Compare 1-year regular registration prices by registrar. Filter as you type.</p>
+
     <div class="search" role="search">
       <svg aria-hidden="true" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1010.5 18.5a7.5 7.5 0 006.15-1.85z" />
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1010.5 18.5a7.5 7.5 0 006.15-1.85z" />
       </svg>
-      <input id="q" placeholder="start typing..." aria-label="Search domain" />
+      <input id="q" placeholder="Filter by TLD… e.g. .ng or com" aria-label="Filter TLDs" />
       <button class="icon" id="clear" title="Clear">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
         </svg>
       </button>
     </div>
-    <div class="proc-wrap" id="processed-wrap" hidden></div>
 
-    <div class="loading" id="loading" role="status" aria-live="polite" hidden>
-      <span class="spinner" aria-hidden="true"></span>
-      <span>Searching…</span>
+    <div class="summary" id="summary"></div>
+    <div class="loading" id="loading" hidden><span class="spinner"></span><span>Loading price data…</span></div>
+    <div class="table-wrap">
+      <table id="price-table" aria-label="TLD price comparison table">
+        <thead>
+          <tr id="thead-row">
+            <th style="min-width: 160px;">TLD</th>
+            <th class="right" style="min-width: 90px;">Max Years</th>
+            <!-- Registrar columns will be injected here -->
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
     </div>
 
-    <div class="summary" id="result-summary" aria-live="polite"></div>
-    <div class="list" id="results" aria-live="polite"></div>
-    <div class="pager" id="pager" aria-label="Pagination controls" hidden>
-      <button id="prev" disabled>Prev</button>
-      <button id="next" disabled>Next</button>
-      <span id="pageInfo" style="color:var(--muted); font-size: 12px;"></span>
-    </div>
-
-
-    <footer
-      style="margin:0 auto 0; margin-top:auto; padding-top:48px; padding-bottom: 40px; text-align:center;color:#6b7280;font-size:14px;">
-      Made with ❤️ by Justice &amp; AI. <a href="https://github.com/namewiz/domaingenie" target="_blank"
-        style="color:#2563eb;text-decoration:none;">Source code</a>
+    <footer>
+      Made with ❤️ by Justice &amp; AI.
     </footer>
   </div>
 
-  <template id="row">
-    <div class="row">
-      <div class="left">
-        <div class="domain"></div>
-        <div class="strategy">—</div>
-      </div>
-      <div class="meta">
-        <span class="chip unk score">0</span>
-        <div class="components"></div>
-      </div>
-    </div>
-  </template>
-
   <script type="module">
-    // Try local build first; fallback to CDN when unavailable
-    (async () => {
-      let DomainSearchClient;
-      let isLocalBuild = true;
+    (async function () {
+      let RegLib = null;
       try {
-        ({ DomainSearchClient } = await import('./domaingenie.js'));
-      } catch (err) {
-        console.warn('Error importing local domaingenie.js, using CDN. \n\nError: ', err);
-        isLocalBuild = false;
-        ({ DomainSearchClient } = await import('https://cdn.jsdelivr.net/npm/domaingenie@latest/dist/index.js'));
-      }
+        RegLib = await import('./registrar-pricelist.js');
+      } catch (_) { /* bundle not present; fall back to fetching JSON */ }
 
-      // Read initial state from URL
-      const initUrl = new URL(window.location.href);
-      const initQuery = (initUrl.searchParams.get('query') || '').trim();
-      const initLimitParam = parseInt(initUrl.searchParams.get('limit') || '30', 10);
-      const initOffsetParam = parseInt(initUrl.searchParams.get('offset') || '0', 10);
-      const parseBoolParam = (val, fallback = true) => {
-        if (val == null) return fallback;
-        const s = String(val).trim().toLowerCase();
-        if (['1', 'true', 'yes', 'y', 'on'].includes(s)) return true;
-        if (['0', 'false', 'no', 'n', 'off'].includes(s)) return false;
-        return fallback;
-      };
-      const initCheckAvailability = parseBoolParam(initUrl.searchParams.get('checkAvailability'), true);
-      const resolvedLimit = Number.isFinite(initLimitParam) && initLimitParam > 0 ? initLimitParam : 30;
+      const registrars = RegLib?.registrars || [
+        { key: 'namecheap', label: 'Namecheap', paths: ['../data/namecheap-prices.json', './data/namecheap-prices.json', '/data/namecheap-prices.json'] },
+        { key: 'openprovider', label: 'OpenProvider', paths: ['../data/openprovider-prices.json', './data/openprovider-prices.json', '/data/openprovider-prices.json'] },
+        { key: 'nira', label: 'NIRA', paths: ['../data/nira-prices.json', './data/nira-prices.json', '/data/nira-prices.json'] },
+      ];
 
-      // Configure client and rendering behavior
-      const client = new DomainSearchClient({
-        // Keep defaults from the library; override limit for demo (URL param wins)
-        limit: resolvedLimit,
-      });
-      const TOP_N = 10; // top N results get blue tint
+      const $q = document.getElementById('q');
+      const $clear = document.getElementById('clear');
+      const $theadRow = document.getElementById('thead-row');
+      const $tbody = document.getElementById('tbody');
+      const $summary = document.getElementById('summary');
+      const $loading = document.getElementById('loading');
 
-      const results = document.getElementById('results');
-      const summary = document.getElementById('result-summary');
-      const processedWrap = document.getElementById('processed-wrap');
-      const loading = document.getElementById('loading');
-      const q = document.getElementById('q');
-      const clear = document.getElementById('clear');
-      const prevBtn = document.getElementById('prev');
-      const nextBtn = document.getElementById('next');
-      const pageInfo = document.getElementById('pageInfo');
-      const pager = document.getElementById('pager');
-
-      // Show dev mode chip when using local build
-      const devChip = document.getElementById('dev-chip');
-      if (devChip) devChip.hidden = !isLocalBuild;
-
-      // Prevent stale async updates when user keeps typing
-      let renderToken = 0;
-
-      function sanitize(term) {
-        return (term || '').trim();
-      }
-
-      // Pagination state
-      const PAGE_SIZE = client.getInitOptions().limit;
-      let offset = Number.isFinite(initOffsetParam) && initOffsetParam > 0 ? initOffsetParam : 0;
-      let checkAvailability = initCheckAvailability;
-
-      // Keep URL in sync with state
-      function updateURL({ query, limit, offset, checkAvailability }) {
-        const url = new URL(window.location.href);
-        const term = sanitize(query);
-        if (term) url.searchParams.set('query', term); else url.searchParams.delete('query');
-        // Always encode limit explicitly for shareable links
-        if (Number.isFinite(limit) && limit > 0) url.searchParams.set('limit', String(limit));
-        // Only include offset when greater than zero
-        if (Number.isFinite(offset) && offset > 0) url.searchParams.set('offset', String(offset));
-        else url.searchParams.delete('offset');
-        // Persist availability choice explicitly
-        url.searchParams.set('checkAvailability', String(!!checkAvailability));
-        history.replaceState({}, '', url);
-      }
-
-      function updatePager(count, term) {
-        const hasQuery = !!sanitize(term);
-        const hasResults = count > 0;
-        if (pager) pager.hidden = !hasResults;
-
-        prevBtn.disabled = !hasQuery || offset <= 0 || !hasResults;
-        nextBtn.disabled = !hasQuery || count < PAGE_SIZE || !hasResults;
-
-        if (!hasQuery || !hasResults) {
-          pageInfo.textContent = '';
-          return;
+      // Try multiple base paths so this works when served from repo root or docs/ root
+      async function fetchFirst(paths) {
+        for (const url of paths) {
+          try {
+            const res = await fetch(url, { cache: 'no-store' });
+            if (!res.ok) throw new Error(String(res.status));
+            return await res.json();
+          } catch (_) { /* try next */ }
         }
-        const start = offset + 1;
-        const end = offset + count;
-        pageInfo.textContent = `${start}-${end}`;
+        return null;
       }
 
-      async function renderFromQuery(query) {
-        const token = ++renderToken;
-        const term = sanitize(query);
-        results.innerHTML = '';
-        summary.textContent = '';
-        processedWrap.hidden = true;
-        processedWrap.innerHTML = '';
-        // Always reset loading state at the start of a new render
-        if (loading) loading.hidden = true;
-        results.removeAttribute('aria-busy');
-        if (pager) pager.hidden = true;
-        if (!term) { updatePager(0, term); return; }
+      function getCreatePrice(entry) {
+        if (!entry) return undefined;
+        const rp = entry['regular-price'] || {};
+        // Prefer create; fallback to renew when create missing
+        if (typeof rp.create === 'number') return rp.create;
+        if (typeof rp.renew === 'number') return rp.renew;
+        return undefined;
+      }
 
-        // Show loading indicator and mark results busy
-        if (loading) loading.hidden = false;
-        results.setAttribute('aria-busy', 'true');
+      function fmtPrice(v) {
+        return typeof v === 'number' && Number.isFinite(v) ? v.toFixed(2) : '—';
+      }
 
-        const tpl = document.getElementById('row');
+      function buildHeader() {
+        registrars.forEach(r => {
+          const th = document.createElement('th');
+          th.textContent = r.label;
+          th.className = 'right';
+          th.style.minWidth = '120px';
+          $theadRow.appendChild(th);
+        });
+      }
 
-        try {
-          const t0 = performance.now();
-          const res = await client.search({ query: term, offset, checkAvailability });
-          const { results: items, metadata, processed } = res;
-          const secs = (performance.now() - t0) / 1000;
-          if (token !== renderToken) return; // stale render, skip
+      function buildRows(index, order) {
+        const tlds = Array.from(Object.keys(index)).sort((a, b) => a.localeCompare(b));
+        const frag = document.createDocumentFragment();
+        tlds.forEach(tld => {
+          const tr = document.createElement('tr');
+          tr.dataset.tld = tld.toLowerCase();
 
-          // Summary line before results
-          summary.textContent = `Generated ${metadata.totalGenerated.toLocaleString()} results in ${secs.toFixed(2)} secs`;
+          const tdTld = document.createElement('td');
+          tdTld.textContent = tld;
+          tdTld.className = 'tld';
+          tr.appendChild(tdTld);
 
-          // Processed query table before results (reflects new structure)
-          if (processed) {
-            const synonymPairs = processed.synonyms ? Object.entries(processed.synonyms) : [];
-            const synonymLine = synonymPairs.length
-              ? synonymPairs.map(([k, arr]) => `${k}: ${(arr || []).join(', ')}`).join(' | ')
-              : '';
+          const tdMax = document.createElement('td');
+          tdMax.className = 'right';
+          const my = index[tld].maxYears;
+          tdMax.textContent = Number.isFinite(my) ? String(my) : '—';
+          tr.appendChild(tdMax);
 
-            const rows = [
-              ['Query', processed.query],
-              ['Tokens', (processed.tokens || []).join(', ')],
-              ['Synonyms', synonymLine],
-              ['Ordered TLDs', (processed.orderedTlds || []).join(', ')],
-              ['Include Hyphenated', String(!!processed.includeHyphenated)],
-              ['Check Availability', String(processed.checkAvailability ?? checkAvailability)],
-              ['Limit', String(processed.limit)],
-              ['Prefixes', (processed.prefixes || []).join(', ')],
-              ['Suffixes', (processed.suffixes || []).join(', ')],
-            ];
-            const tbl = document.createElement('table');
-            tbl.className = 'proc-table';
-            const tbody = document.createElement('tbody');
-            rows.forEach(([k, v]) => {
-              const tr = document.createElement('tr');
-              const th = document.createElement('th'); th.textContent = k;
-              const td = document.createElement('td'); td.textContent = v || '';
-              tr.appendChild(th); tr.appendChild(td);
-              tbody.appendChild(tr);
-            });
-            tbl.appendChild(tbody);
-            processedWrap.appendChild(tbl);
-            processedWrap.hidden = false;
-          }
-
-          items.forEach((item, idx) => {
-            const row = tpl.content.firstElementChild.cloneNode(true);
-            // Left column
-            row.querySelector('.domain').textContent = item.domain;
-            const strategyEl = row.querySelector('.strategy');
-            strategyEl.textContent = item.strategy || '';
-
-            // Right meta: overall score
-            const scoreChip = row.querySelector('.chip.score');
-            scoreChip.textContent = String(Math.round(item.score.total));
-
-            // Right meta: component chips under the score
-            const compWrap = row.querySelector('.components');
-            const comps = Object.entries(item.score.components || {}).sort((a, b) => b[1] - a[1]);
-            comps.forEach(([key, val]) => {
-              const n = Math.round(val);
-              const s = document.createElement('span');
-              s.className = 'chip ' + (n >= 0 ? 'ok' : 'bad');
-              s.textContent = `${key} | ${n}`;
-              compWrap.appendChild(s);
-            });
-
-            // Top N get blue tint, others gray
-            if (idx < TOP_N) {
-              row.className = 'row top';
-              scoreChip.className = 'chip top score';
-            } else {
-              row.className = 'row unk';
-              scoreChip.className = 'chip unk score';
-            }
-            results.appendChild(row);
+          // Registrar columns in the display order
+          order.forEach(key => {
+            const td = document.createElement('td');
+            td.className = 'right';
+            td.textContent = fmtPrice(index[tld].prices[key]);
+            tr.appendChild(td);
           });
-          updatePager(items.length, term);
-        } catch (e) {
-          if (token !== renderToken) return;
-          // render nothing on error for now
-          updatePager(0, term);
-        } finally {
-          // Only the latest render controls the spinner
-          if (token === renderToken) {
-            if (loading) loading.hidden = true;
-            results.removeAttribute('aria-busy');
-          }
-        }
+
+          frag.appendChild(tr);
+        });
+        $tbody.textContent = '';
+        $tbody.appendChild(frag);
+        updateSummary();
       }
 
-      // Trigger search only when user presses Enter
-      q.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter') {
-          e.preventDefault();
-          offset = 0; // reset to first page on new search
-          const value = q.value;
-          updateURL({ query: value, limit: PAGE_SIZE, offset, checkAvailability });
-          renderFromQuery(value);
+      function filterRows(term) {
+        const q = (term || '').trim().toLowerCase();
+        let visible = 0;
+        for (const tr of $tbody.rows) {
+          const match = !q || tr.dataset.tld.includes(q);
+          tr.classList.toggle('hidden', !match);
+          if (match) visible++;
         }
-      });
-
-      // Clear input and reset results (no auto-search while typing)
-      clear.addEventListener('click', () => {
-        q.value = '';
-        offset = 0;
-        updateURL({ query: '', limit: PAGE_SIZE, offset, checkAvailability });
-        renderFromQuery('');
-        q.focus();
-      });
-
-      // Pager controls
-      prevBtn.addEventListener('click', () => {
-        if (offset <= 0) return;
-        offset = Math.max(0, offset - PAGE_SIZE);
-        updateURL({ query: q.value, limit: PAGE_SIZE, offset, checkAvailability });
-        renderFromQuery(q.value);
-      });
-      nextBtn.addEventListener('click', () => {
-        offset += PAGE_SIZE;
-        updateURL({ query: q.value, limit: PAGE_SIZE, offset, checkAvailability });
-        renderFromQuery(q.value);
-      });
-
-      // Initial state from URL: set query, offset, and encode limit
-      q.value = initQuery;
-      updateURL({ query: q.value, limit: PAGE_SIZE, offset, checkAvailability });
-      if (sanitize(q.value)) {
-        // Render immediately if URL contained a query
-        renderFromQuery(q.value);
-      } else {
-        // Initial state: empty list until user types
-        updatePager(0, '');
+        updateSummary(visible);
       }
+
+      function updateSummary(visibleCount) {
+        const total = $tbody.rows.length;
+        const visible = typeof visibleCount === 'number' ? visibleCount : total;
+        $summary.textContent = `${visible.toLocaleString()} of ${total.toLocaleString()} TLDs`;
+      }
+
+      async function init() {
+        $loading.hidden = false;
+        buildHeader();
+
+        // Load datasets either from bundled library or by fetching JSON files
+        let datasets;
+        if (RegLib?.datasets) {
+          datasets = RegLib.datasets;
+        } else {
+          const results = await Promise.all(
+            registrars.map(r => fetchFirst(r.paths).then(json => ({ key: r.key, data: json })))
+          );
+          datasets = Object.fromEntries(results.filter(r => r.data).map(r => [r.key, r.data]));
+        }
+
+        // Build unified index (prefer library helper if available)
+        const index = RegLib?.buildPriceIndex ? RegLib.buildPriceIndex(datasets) : (() => {
+          const idx = {};
+          const addFrom = (key, data) => {
+            if (!data || !data.data) return;
+            for (const [tld, entry] of Object.entries(data.data)) {
+              if (!idx[tld]) idx[tld] = { maxYears: undefined, prices: {} };
+              const my = typeof entry.maxYears === 'number' ? entry.maxYears : undefined;
+              if (Number.isFinite(my)) idx[tld].maxYears = Math.max(idx[tld].maxYears || 0, my);
+              const p = getCreatePrice(entry);
+              if (typeof p === 'number' && Number.isFinite(p)) idx[tld].prices[key] = p;
+            }
+          };
+          addFrom('namecheap', datasets.namecheap);
+          addFrom('openprovider', datasets.openprovider);
+          addFrom('nira', datasets.nira);
+          return idx;
+        })();
+
+        // Column display order mirrors header order
+        const order = registrars.map(r => r.key);
+        buildRows(index, order);
+        $loading.hidden = true;
+
+        // Seed filter from URL param if present
+        const url = new URL(window.location.href);
+        const initial = (url.searchParams.get('q') || '').trim();
+        if (initial) {
+          $q.value = initial;
+          filterRows(initial);
+        }
+
+        // Live filtering on input (no Enter keypress needed)
+        $q.addEventListener('input', (e) => {
+          const val = e.target.value || '';
+          // keep URL in sync for shareable filters
+          const u = new URL(window.location.href);
+          if (val) u.searchParams.set('q', val); else u.searchParams.delete('q');
+          history.replaceState({}, '', u);
+          filterRows(val);
+        });
+
+        $clear.addEventListener('click', () => {
+          $q.value = '';
+          const u = new URL(window.location.href);
+          u.searchParams.delete('q');
+          history.replaceState({}, '', u);
+          filterRows('');
+          $q.focus();
+        });
+      }
+
+      init();
     })();
   </script>
 </body>
