@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Registrar TLD Price List</title>
+  <title>namewiz / registrar-pricelist</title>
   <style>
     :root {
       --bg: #fff;
@@ -17,10 +17,19 @@
       --accent-tint: #eff6ff;
     }
 
-    * { box-sizing: border-box }
-    [hidden] { display: none !important; }
+    * {
+      box-sizing: border-box
+    }
 
-    html, body { height: 100%; }
+    [hidden] {
+      display: none !important;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
     body {
       margin: 0;
       background: var(--bg);
@@ -32,60 +41,221 @@
     }
 
     .wrap {
-      max-width: 1100px;
+      max-width: 920px;
       width: 100%;
-      margin: 48px auto 0;
+      margin: 64px auto 0;
       padding: 0 20px;
       flex: 1;
       display: flex;
       flex-direction: column;
     }
 
+    h4 {
+      color: var(--muted);
+      font-weight: 400;
+    }
+
     h1 {
       font-weight: 700;
-      font-size: 36px;
+      font-size: 44px;
       letter-spacing: -.02em;
       margin: 0 0 8px
     }
 
-    .sub { color: var(--muted); margin-bottom: 20px }
+    .sub {
+      color: var(--muted);
+      margin-bottom: 20px
+    }
 
-    .search { display:flex; align-items:center; gap:12px; background:#f8fafc; border:1px solid var(--ring); border-radius:14px; padding:12px 14px; box-shadow: var(--shadow); }
-    .search input { border:0; background:transparent; flex:1; outline:none; font-size:16px; color:var(--text); }
-    .search button.icon { border:0; background:#eef2f7; width:32px; height:32px; border-radius:8px; display:grid; place-items:center; cursor:pointer }
-    .search svg { width:18px; height:18px }
+    .search {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #f8fafc;
+      border: 1px solid var(--ring);
+      border-radius: 14px;
+      padding: 12px 14px;
+      box-shadow: var(--shadow);
+    }
 
-    .summary { color: var(--muted); margin: 12px 0 10px; font-size: 14px; }
+    .search input {
+      border: 0;
+      background: transparent;
+      flex: 1;
+      outline: none;
+      font-size: 16px;
+      color: var(--text);
+    }
 
-    .table-wrap { margin-top: 10px; overflow-x: auto; }
-    table { width: 100%; border-collapse: collapse; border: 1px solid var(--line); }
-    thead th { position: sticky; top: 0; background: #f8fafc; color: var(--muted); font-weight: 600; text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); }
-    tbody td { padding: 8px 10px; border-top: 1px solid var(--line); font-variant-numeric: tabular-nums; }
-    tbody tr:nth-child(even) td { background: #fafafa; }
-    tbody tr.hidden { display: none; }
-    .tld { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-    .right { text-align: right; }
+    .search button.icon {
+      border: 0;
+      background: #eef2f7;
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      display: grid;
+      place-items: center;
+      cursor: pointer
+    }
 
-    .loading { display:flex; align-items:center; gap:8px; color:var(--muted); margin-top: 20px; }
-    .spinner { width:16px; height:16px; border:2px solid var(--ring); border-top-color:var(--accent); border-radius:50%; animation:spin .8s linear infinite; }
-    @keyframes spin { to { transform: rotate(360deg);} }
+    .search svg {
+      width: 18px;
+      height: 18px
+    }
 
-    footer { margin-top:auto; padding: 32px 0 40px; text-align:center; color:#6b7280; font-size:14px; }
+    .summary {
+      color: var(--muted);
+      margin: 40px 0 10px;
+      font-size: 14px;
+    }
+
+    .table-wrap {
+      margin-top: 10px;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid var(--line);
+    }
+
+    thead th {
+      position: sticky;
+      top: 0;
+      background: #f8fafc;
+      color: var(--muted);
+      font-weight: 600;
+      text-align: left;
+      padding: 8px 10px;
+      border-bottom: 1px solid var(--line);
+      user-select: none;
+    }
+
+    tbody td {
+      padding: 8px 10px;
+      border-top: 1px solid var(--line);
+      font-variant-numeric: tabular-nums;
+    }
+
+    tbody tr:nth-child(even) td {
+      background: #fafafa;
+    }
+
+    tbody tr.hidden {
+      display: none;
+    }
+
+    .tld {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+
+    .right {
+      text-align: right;
+    }
+
+    /* Sortable header styles */
+    .sortable {
+      cursor: pointer;
+    }
+
+    .sort-indicator {
+      margin-left: 6px;
+      opacity: 0.7;
+    }
+
+    /* Dev badge */
+    .chip {
+      border-radius: 999px;
+      padding: 2px 8px;
+      font-size: 11px;
+      font-weight: 600;
+      border: 1px solid transparent;
+      background: #f3f4f6;
+      color: #374151
+    }
+
+    .chip.dev {
+      background: var(--accent-tint);
+      border-color: rgba(37, 99, 235, .2);
+      color: #1e40af;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+
+    .loading {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      margin-top: 20px;
+    }
+
+    .spinner {
+      width: 16px;
+      height: 16px;
+      border: 2px solid var(--ring);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* Pager */
+    .pager {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .pager button {
+      border: 1px solid var(--ring);
+      background: #eef2f7;
+      color: var(--text);
+      padding: 6px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .pager button[disabled] {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 32px 0 40px;
+      text-align: center;
+      color: #6b7280;
+      font-size: 14px;
+    }
 
     @media (max-width: 640px) {
-      h1 { font-size: 28px; }
+      h1 {
+        font-size: 28px;
+      }
     }
   </style>
 </head>
 
 <body>
   <div class="wrap">
+    <h4>namewiz / registrar-pricelist <span id="dev-chip" class="chip dev" hidden>dev mode</span></h4>
     <h1>Registrar TLD Price List</h1>
-    <p class="sub">Compare 1-year regular registration prices by registrar. Filter as you type.</p>
+    <p class="sub">Compare 1-year regular registration prices by registrar. Filter, sort, and paginate.</p>
+    <p class="sub">Install & usage guide is on the <a href="https://www.npmjs.com/package/registrar-pricelist">npm
+        page</a>.</p>
 
     <div class="search" role="search">
       <svg aria-hidden="true" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1010.5 18.5a7.5 7.5 0 006.15-1.85z" />
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1010.5 18.5a7.5 7.5 0 006.15-1.85z" />
       </svg>
       <input id="q" placeholder="Filter by TLD… e.g. .ng or com" aria-label="Filter TLDs" />
       <button class="icon" id="clear" title="Clear">
@@ -101,13 +271,22 @@
       <table id="price-table" aria-label="TLD price comparison table">
         <thead>
           <tr id="thead-row">
-            <th style="min-width: 160px;">TLD</th>
-            <th class="right" style="min-width: 90px;">Max Years</th>
+            <th data-sort-key="tld" style="min-width: 160px;" class="sortable" aria-sort="none">TLD <span
+                class="sort-indicator" aria-hidden="true"></span></th>
+            <th data-sort-key="maxYears" class="right sortable" style="min-width: 90px;" aria-sort="none">Max Years
+              <span class="sort-indicator" aria-hidden="true"></span>
+            </th>
             <!-- Registrar columns will be injected here -->
           </tr>
         </thead>
         <tbody id="tbody"></tbody>
       </table>
+    </div>
+
+    <div class="pager" id="pager" hidden>
+      <button id="prev" disabled>Prev</button>
+      <button id="next" disabled>Next</button>
+      <span id="pageInfo" style="color:var(--muted); font-size: 12px;"></span>
     </div>
 
     <footer>
@@ -117,10 +296,20 @@
 
   <script type="module">
     (async function () {
+      // Try local browser bundle first; fallback to CDN latest; then JSON as last resort
       let RegLib = null;
+      let source = 'local';
       try {
         RegLib = await import('./registrar-pricelist.js');
-      } catch (_) { /* bundle not present; fall back to fetching JSON */ }
+      } catch (_) {
+        try {
+          source = 'cdn';
+          RegLib = await import('https://cdn.jsdelivr.net/npm/registrar-pricelist@latest/dist/registrar-pricelist.js');
+        } catch (err) {
+          source = 'json';
+          RegLib = null; // will fallback to JSON fetch below
+        }
+      }
 
       const registrars = RegLib?.registrars || [
         { key: 'namecheap', label: 'Namecheap', paths: ['../data/namecheap-prices.json', './data/namecheap-prices.json', '/data/namecheap-prices.json'] },
@@ -134,6 +323,12 @@
       const $tbody = document.getElementById('tbody');
       const $summary = document.getElementById('summary');
       const $loading = document.getElementById('loading');
+      const $pager = document.getElementById('pager');
+      const $prev = document.getElementById('prev');
+      const $next = document.getElementById('next');
+      const $pageInfo = document.getElementById('pageInfo');
+      const $devChip = document.getElementById('dev-chip');
+      if ($devChip) $devChip.hidden = (source !== 'local');
 
       // Try multiple base paths so this works when served from repo root or docs/ root
       async function fetchFirst(paths) {
@@ -147,52 +342,102 @@
         return null;
       }
 
-      function getCreatePrice(entry) {
+      const getCreatePrice = RegLib?.getCreatePrice || function getCreatePrice(entry) {
         if (!entry) return undefined;
         const rp = entry['regular-price'] || {};
-        // Prefer create; fallback to renew when create missing
         if (typeof rp.create === 'number') return rp.create;
         if (typeof rp.renew === 'number') return rp.renew;
         return undefined;
-      }
+      };
 
+      const usd = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 2 });
       function fmtPrice(v) {
-        return typeof v === 'number' && Number.isFinite(v) ? v.toFixed(2) : '—';
+        return typeof v === 'number' && Number.isFinite(v) ? usd.format(v) : '—';
       }
 
       function buildHeader() {
         registrars.forEach(r => {
           const th = document.createElement('th');
-          th.textContent = r.label;
-          th.className = 'right';
+          th.dataset.sortKey = r.key;
+          th.setAttribute('aria-sort', 'none');
+          th.className = 'right sortable';
           th.style.minWidth = '120px';
+          th.innerHTML = `${r.label} <span class="sort-indicator" aria-hidden="true"></span>`;
           $theadRow.appendChild(th);
         });
       }
 
-      function buildRows(index, order) {
-        const tlds = Array.from(Object.keys(index)).sort((a, b) => a.localeCompare(b));
+      // In-memory rows built from index
+      let allRows = [];
+      const state = {
+        query: '',
+        sortKey: 'tld', // 'tld' | 'maxYears' | registrarKey
+        sortDir: 'asc', // 'asc' | 'desc'
+        limit: 30,
+        offset: 0,
+      };
+
+      function buildAllRows(index) {
+        allRows = Object.keys(index).map(tld => ({
+          tld,
+          tldKey: tld.toLowerCase(),
+          maxYears: index[tld].maxYears,
+          prices: { ...index[tld].prices },
+        }));
+      }
+
+      function compare(a, b, key, dir) {
+        const sgn = dir === 'desc' ? -1 : 1;
+        if (key === 'tld') {
+          return sgn * a.tld.localeCompare(b.tld);
+        }
+        if (key === 'maxYears') {
+          const av = Number.isFinite(a.maxYears) ? a.maxYears : Number.NEGATIVE_INFINITY;
+          const bv = Number.isFinite(b.maxYears) ? b.maxYears : Number.NEGATIVE_INFINITY;
+          return sgn * (av - bv);
+        }
+        // registrar key: numeric compare by price
+        const av = (typeof a.prices[key] === 'number') ? a.prices[key] : Number.POSITIVE_INFINITY;
+        const bv = (typeof b.prices[key] === 'number') ? b.prices[key] : Number.POSITIVE_INFINITY;
+        if (Number.isFinite(av) && Number.isFinite(bv)) return sgn * (av - bv);
+        if (Number.isFinite(av) && !Number.isFinite(bv)) return -1 * sgn;
+        if (!Number.isFinite(av) && Number.isFinite(bv)) return 1 * sgn;
+        // fallback to tld when both missing
+        return sgn * a.tld.localeCompare(b.tld);
+      }
+
+      function getFilteredSortedRows() {
+        const q = (state.query || '').trim().toLowerCase();
+        const filtered = q ? allRows.filter(r => r.tldKey.includes(q)) : allRows.slice();
+        filtered.sort((a, b) => compare(a, b, state.sortKey, state.sortDir));
+        return filtered;
+      }
+
+      function renderBody() {
+        const filtered = getFilteredSortedRows();
+        const total = filtered.length;
+        const start = Math.min(state.offset, Math.max(0, total - (total % state.limit || state.limit)));
+        if (start !== state.offset) state.offset = start; // clamp
+        const page = filtered.slice(state.offset, state.offset + state.limit);
         const frag = document.createDocumentFragment();
-        tlds.forEach(tld => {
+        page.forEach(row => {
           const tr = document.createElement('tr');
-          tr.dataset.tld = tld.toLowerCase();
+          tr.dataset.tld = row.tldKey;
 
           const tdTld = document.createElement('td');
-          tdTld.textContent = tld;
+          tdTld.textContent = row.tld;
           tdTld.className = 'tld';
           tr.appendChild(tdTld);
 
           const tdMax = document.createElement('td');
           tdMax.className = 'right';
-          const my = index[tld].maxYears;
-          tdMax.textContent = Number.isFinite(my) ? String(my) : '—';
+          tdMax.textContent = Number.isFinite(row.maxYears) ? String(row.maxYears) : '—';
           tr.appendChild(tdMax);
 
-          // Registrar columns in the display order
-          order.forEach(key => {
+          registrars.forEach(({ key }) => {
             const td = document.createElement('td');
             td.className = 'right';
-            td.textContent = fmtPrice(index[tld].prices[key]);
+            td.textContent = fmtPrice(row.prices[key]);
             tr.appendChild(td);
           });
 
@@ -200,29 +445,60 @@
         });
         $tbody.textContent = '';
         $tbody.appendChild(frag);
-        updateSummary();
+        updateSummaryAndPager(total, page.length);
+        updateHeaderSortIndicators();
       }
 
-      function filterRows(term) {
-        const q = (term || '').trim().toLowerCase();
-        let visible = 0;
-        for (const tr of $tbody.rows) {
-          const match = !q || tr.dataset.tld.includes(q);
-          tr.classList.toggle('hidden', !match);
-          if (match) visible++;
+      function updateSummaryAndPager(totalFiltered, pageCount) {
+        const total = allRows.length;
+        const start = totalFiltered ? state.offset + 1 : 0;
+        const end = state.offset + pageCount;
+        $summary.textContent = `Showing ${totalFiltered.toLocaleString()} of ${total.toLocaleString()} TLDs`;
+
+        // Pager
+        const showPager = totalFiltered > 0;
+        $pager.hidden = !showPager;
+        $prev.disabled = state.offset <= 0 || !showPager;
+        $next.disabled = (state.offset + state.limit) >= totalFiltered || !showPager;
+        $pageInfo.textContent = showPager ? `${start}-${end}` : '';
+      }
+
+      function updateHeaderSortIndicators() {
+        // reset all
+        for (const th of $theadRow.querySelectorAll('th.sortable')) {
+          th.setAttribute('aria-sort', 'none');
+          const ind = th.querySelector('.sort-indicator');
+          if (ind) ind.textContent = '';
         }
-        updateSummary(visible);
+        // set current
+        const th = $theadRow.querySelector(`th[data-sort-key="${state.sortKey}"]`);
+        if (th) {
+          th.setAttribute('aria-sort', state.sortDir === 'asc' ? 'ascending' : 'descending');
+          const ind = th.querySelector('.sort-indicator');
+          if (ind) ind.textContent = state.sortDir === 'asc' ? '▲' : '▼';
+        }
       }
 
-      function updateSummary(visibleCount) {
-        const total = $tbody.rows.length;
-        const visible = typeof visibleCount === 'number' ? visibleCount : total;
-        $summary.textContent = `${visible.toLocaleString()} of ${total.toLocaleString()} TLDs`;
+      function handleSortClick(e) {
+        const th = e.target.closest('th.sortable');
+        if (!th) return;
+        const key = th.dataset.sortKey;
+        if (!key) return;
+        if (state.sortKey === key) {
+          state.sortDir = state.sortDir === 'asc' ? 'desc' : 'asc';
+        } else {
+          state.sortKey = key;
+          state.sortDir = key === 'tld' ? 'asc' : 'asc';
+        }
+        state.offset = 0;
+        renderBody();
       }
 
       async function init() {
         $loading.hidden = false;
         buildHeader();
+        // Sort events for header
+        $theadRow.addEventListener('click', handleSortClick);
 
         // Load datasets either from bundled library or by fetching JSON files
         let datasets;
@@ -254,36 +530,63 @@
           return idx;
         })();
 
-        // Column display order mirrors header order
-        const order = registrars.map(r => r.key);
-        buildRows(index, order);
-        $loading.hidden = true;
-
-        // Seed filter from URL param if present
+        // Build in-memory rows and initial render
+        buildAllRows(index);
+        // Read initial state from URL (limit and offset, and q)
         const url = new URL(window.location.href);
-        const initial = (url.searchParams.get('q') || '').trim();
-        if (initial) {
-          $q.value = initial;
-          filterRows(initial);
-        }
+        const limitParam = parseInt(url.searchParams.get('limit') || '30', 10);
+        const offsetParam = parseInt(url.searchParams.get('offset') || '0', 10);
+        state.limit = Number.isFinite(limitParam) && limitParam > 0 ? limitParam : 30;
+        state.offset = Number.isFinite(offsetParam) && offsetParam >= 0 ? offsetParam : 0;
+        state.query = (url.searchParams.get('q') || '').trim();
+        if (state.query) $q.value = state.query;
+        renderBody();
+        $loading.hidden = true;
 
         // Live filtering on input (no Enter keypress needed)
         $q.addEventListener('input', (e) => {
-          const val = e.target.value || '';
-          // keep URL in sync for shareable filters
+          state.query = e.target.value || '';
+          state.offset = 0;
           const u = new URL(window.location.href);
-          if (val) u.searchParams.set('q', val); else u.searchParams.delete('q');
+          if (state.query) u.searchParams.set('q', state.query); else u.searchParams.delete('q');
+          u.searchParams.set('limit', String(state.limit));
+          u.searchParams.set('offset', String(state.offset));
           history.replaceState({}, '', u);
-          filterRows(val);
+          renderBody();
         });
 
         $clear.addEventListener('click', () => {
           $q.value = '';
+          state.query = '';
+          state.offset = 0;
           const u = new URL(window.location.href);
           u.searchParams.delete('q');
+          u.searchParams.set('limit', String(state.limit));
+          u.searchParams.delete('offset');
           history.replaceState({}, '', u);
-          filterRows('');
+          renderBody();
           $q.focus();
+        });
+
+        $prev.addEventListener('click', () => {
+          if (state.offset <= 0) return;
+          state.offset = Math.max(0, state.offset - state.limit);
+          const u = new URL(window.location.href);
+          u.searchParams.set('limit', String(state.limit));
+          if (state.offset > 0) u.searchParams.set('offset', String(state.offset)); else u.searchParams.delete('offset');
+          if (state.query) u.searchParams.set('q', state.query); else u.searchParams.delete('q');
+          history.replaceState({}, '', u);
+          renderBody();
+        });
+
+        $next.addEventListener('click', () => {
+          state.offset += state.limit;
+          const u = new URL(window.location.href);
+          u.searchParams.set('limit', String(state.limit));
+          u.searchParams.set('offset', String(state.offset));
+          if (state.query) u.searchParams.set('q', state.query); else u.searchParams.delete('q');
+          history.replaceState({}, '', u);
+          renderBody();
         });
       }
 

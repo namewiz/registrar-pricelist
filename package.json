@@ -1,6 +1,6 @@
 {
   "name": "registrar-pricelist",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generates structured JSON price lists for TLDs from different registrars like Namecheap and OpenProvider",
   "type": "module",
   "scripts": {
