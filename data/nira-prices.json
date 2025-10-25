@@ -1,28 +1,28 @@
 {
   "meta": {
     "source": "manual-nira-pricelist",
-    "generated_at": "2025-10-01T17:54:41.135Z",
+    "generated_at": "2025-10-25T06:18:29.205Z",
     "fx_source": "https://www.floatrates.com/daily/usd.json",
-    "exchange": "1 USD => N1,475.94",
+    "exchange": "1 USD => N1,460.49",
     "notes": "USD prices for 1-year create/renew derived from NGN list via FX."
   },
   "data": {
     "ng": {
       "regular-price": {
-        "create": 10.16,
-        "renew": 10.16
+        "create": 10.27,
+        "renew": 10.27
       }
     },
     "com.ng": {
       "regular-price": {
-        "create": 4.74,
-        "renew": 4.74
+        "create": 4.79,
+        "renew": 4.79
       }
     },
     "org.ng": {
       "regular-price": {
-        "create": 4.74,
-        "renew": 4.74
+        "create": 4.79,
+        "renew": 4.79
       }
     },
     "name.ng": {

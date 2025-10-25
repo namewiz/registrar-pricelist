@@ -2,7 +2,7 @@
   "meta": {
     "source": "Namecheap API",
     "endpoint": "https://api.namecheap.com/xml.response",
-    "generated_at": "2025-10-01T17:54:40.666Z",
+    "generated_at": "2025-10-25T06:18:28.882Z",
     "actions_fetched": [
       "REGISTER",
       "RENEW",
@@ -10,9 +10,9 @@
       "REACTIVATE"
     ],
     "currency": "USD",
-    "tlds_total": 1201,
-    "tlds_in_output": 1191,
-    "tld_metadata_fetched_at": "2025-10-01T17:54:01.146Z",
+    "tlds_total": 1204,
+    "tlds_in_output": 1194,
+    "tld_metadata_fetched_at": "2025-10-25T06:17:46.960Z",
     "notes": "Year=1 prices only. Output mirrors OpenProvider structure with regular-price and sale-price maps."
   },
   "data": {
@@ -161,9 +161,9 @@
         "restore": 39.98
       },
       "sale-price": {
-        "create": 33.98,
+        "create": 12.48,
         "renew": 39.98,
-        "transfer": 29.98,
+        "transfer": 33.98,
         "restore": 39.98
       }
     },
@@ -176,7 +176,7 @@
         "restore": 9.98
       },
       "sale-price": {
-        "create": 6.98,
+        "create": 3.48,
         "renew": 9.98,
         "transfer": 0,
         "restore": 9.98
@@ -229,7 +229,7 @@
       },
       "sale-price": {
         "create": 9.98,
-        "renew": 11.98,
+        "renew": 7.88,
         "transfer": 9.98,
         "restore": 11.98
       }
@@ -333,7 +333,7 @@
         "restore": 9.98
       },
       "sale-price": {
-        "create": 7.48,
+        "create": 6.98,
         "renew": 9.98,
         "transfer": 0,
         "restore": 9.98
@@ -689,16 +689,16 @@
     "bike": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 43.98,
-        "transfer": 34.98,
-        "restore": 43.98
+        "create": 39.98,
+        "renew": 48.98,
+        "transfer": 39.98,
+        "restore": 48.98
       },
       "sale-price": {
         "create": 4.98,
-        "renew": 43.98,
-        "transfer": 34.98,
-        "restore": 43.98
+        "renew": 48.98,
+        "transfer": 39.98,
+        "restore": 48.98
       }
     },
     "clothing": {
@@ -719,136 +719,136 @@
     "guru": {
       "maxYears": 10,
       "regular-price": {
-        "create": 36.98,
-        "renew": 47.98,
-        "transfer": 36.98,
-        "restore": 47.98
+        "create": 44.98,
+        "renew": 54.98,
+        "transfer": 44.98,
+        "restore": 54.98
       },
       "sale-price": {
         "create": 2.98,
-        "renew": 47.98,
-        "transfer": 36.98,
-        "restore": 47.98
+        "renew": 54.98,
+        "transfer": 44.98,
+        "restore": 54.98
       }
     },
     "plumbing": {
       "maxYears": 10,
       "regular-price": {
-        "create": 63.98,
-        "renew": 79.98,
-        "transfer": 63.98,
-        "restore": 79.98
+        "create": 76.98,
+        "renew": 89.98,
+        "transfer": 76.98,
+        "restore": 89.98
       },
       "sale-price": {
-        "create": 63.98,
-        "renew": 79.98,
-        "transfer": 63.98,
-        "restore": 79.98
+        "create": 76.98,
+        "renew": 89.98,
+        "transfer": 76.98,
+        "restore": 89.98
       }
     },
     "singles": {
       "maxYears": 10,
       "regular-price": {
-        "create": 29.98,
-        "renew": 37.98,
-        "transfer": 29.98,
-        "restore": 37.98
+        "create": 33.98,
+        "renew": 36.98,
+        "transfer": 33.98,
+        "restore": 36.98
       },
       "sale-price": {
         "create": 3.98,
-        "renew": 37.98,
-        "transfer": 29.98,
-        "restore": 37.98
+        "renew": 36.98,
+        "transfer": 33.98,
+        "restore": 36.98
       }
     },
     "holdings": {
       "maxYears": 10,
       "regular-price": {
-        "create": 56.98,
-        "renew": 72.98,
-        "transfer": 56.98,
-        "restore": 72.98
+        "create": 67.98,
+        "renew": 81.98,
+        "transfer": 67.98,
+        "restore": 81.98
       },
       "sale-price": {
-        "create": 56.98,
-        "renew": 72.98,
-        "transfer": 56.98,
-        "restore": 72.98
+        "create": 67.98,
+        "renew": 81.98,
+        "transfer": 67.98,
+        "restore": 81.98
       }
     },
     "ventures": {
       "maxYears": 10,
       "regular-price": {
-        "create": 51.98,
-        "renew": 66.98,
-        "transfer": 51.98,
-        "restore": 66.98
+        "create": 62.98,
+        "renew": 75.98,
+        "transfer": 62.98,
+        "restore": 75.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 66.98,
-        "transfer": 51.98,
-        "restore": 66.98
+        "renew": 75.98,
+        "transfer": 62.98,
+        "restore": 75.98
       }
     },
     "camera": {
       "maxYears": 10,
       "regular-price": {
-        "create": 50.98,
-        "renew": 64.98,
-        "transfer": 50.98,
-        "restore": 64.98
+        "create": 61.98,
+        "renew": 72.98,
+        "transfer": 61.98,
+        "restore": 72.98
       },
       "sale-price": {
-        "create": 50.98,
-        "renew": 64.98,
-        "transfer": 50.98,
-        "restore": 64.98
+        "create": 61.98,
+        "renew": 72.98,
+        "transfer": 61.98,
+        "restore": 72.98
       }
     },
     "equipment": {
       "maxYears": 10,
       "regular-price": {
-        "create": 21.98,
-        "renew": 25.18,
-        "transfer": 21.98,
-        "restore": 25.18
+        "create": 29.98,
+        "renew": 32.98,
+        "transfer": 29.98,
+        "restore": 32.98
       },
       "sale-price": {
-        "create": 21.98,
-        "renew": 25.18,
-        "transfer": 21.98,
-        "restore": 25.18
+        "create": 29.98,
+        "renew": 32.98,
+        "transfer": 29.98,
+        "restore": 32.98
       }
     },
     "estate": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 47.98,
-        "transfer": 34.98,
-        "restore": 47.98
+        "create": 40.98,
+        "renew": 52.98,
+        "transfer": 40.98,
+        "restore": 52.98
       },
       "sale-price": {
         "create": 12.98,
-        "renew": 47.98,
-        "transfer": 34.98,
-        "restore": 47.98
+        "renew": 52.98,
+        "transfer": 40.98,
+        "restore": 52.98
       }
     },
     "gallery": {
       "maxYears": 10,
       "regular-price": {
-        "create": 24.98,
-        "renew": 31.98,
-        "transfer": 24.98,
-        "restore": 31.98
+        "create": 29.98,
+        "renew": 36.98,
+        "transfer": 29.98,
+        "restore": 36.98
       },
       "sale-price": {
-        "create": 24.98,
-        "renew": 31.98,
-        "transfer": 24.98,
-        "restore": 31.98
+        "create": 29.98,
+        "renew": 36.98,
+        "transfer": 29.98,
+        "restore": 36.98
       }
     },
     "graphics": {
@@ -884,136 +884,136 @@
     "photography": {
       "maxYears": 10,
       "regular-price": {
-        "create": 31.98,
-        "renew": 40.98,
-        "transfer": 31.98,
-        "restore": 40.98
+        "create": 38.48,
+        "renew": 46.48,
+        "transfer": 38.48,
+        "restore": 46.48
       },
       "sale-price": {
         "create": 4.98,
-        "renew": 40.98,
-        "transfer": 31.98,
-        "restore": 40.98
+        "renew": 46.48,
+        "transfer": 38.48,
+        "restore": 46.48
       }
     },
     "construction": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 46.98,
-        "transfer": 34.98,
-        "restore": 46.98
+        "create": 40.98,
+        "renew": 50.98,
+        "transfer": 40.98,
+        "restore": 50.98
       },
       "sale-price": {
-        "create": 34.98,
-        "renew": 46.98,
-        "transfer": 34.98,
-        "restore": 46.98
+        "create": 40.98,
+        "renew": 50.98,
+        "transfer": 40.98,
+        "restore": 50.98
       }
     },
     "contractors": {
       "maxYears": 10,
       "regular-price": {
-        "create": 29.98,
-        "renew": 33.58,
-        "transfer": 29.98,
-        "restore": 33.58
+        "create": 36.98,
+        "renew": 39.98,
+        "transfer": 36.98,
+        "restore": 39.98
       },
       "sale-price": {
-        "create": 29.98,
-        "renew": 33.58,
-        "transfer": 29.98,
-        "restore": 33.58
+        "create": 36.98,
+        "renew": 39.98,
+        "transfer": 36.98,
+        "restore": 39.98
       }
     },
     "directory": {
       "maxYears": 10,
       "regular-price": {
-        "create": 22.98,
-        "renew": 31.98,
-        "transfer": 22.98,
-        "restore": 31.98
+        "create": 28.98,
+        "renew": 36.98,
+        "transfer": 28.98,
+        "restore": 36.98
       },
       "sale-price": {
         "create": 4.98,
-        "renew": 31.98,
-        "transfer": 22.98,
-        "restore": 31.98
+        "renew": 36.98,
+        "transfer": 28.98,
+        "restore": 36.98
       }
     },
     "kitchen": {
       "maxYears": 10,
       "regular-price": {
-        "create": 56.98,
-        "renew": 74.98,
-        "transfer": 65.98,
-        "restore": 74.98
+        "create": 67.98,
+        "renew": 83.98,
+        "transfer": 67.98,
+        "restore": 83.98
       },
       "sale-price": {
         "create": 8.48,
-        "renew": 74.98,
-        "transfer": 65.98,
-        "restore": 74.98
+        "renew": 83.98,
+        "transfer": 67.98,
+        "restore": 83.98
       }
     },
     "land": {
       "maxYears": 10,
       "regular-price": {
-        "create": 35.98,
-        "renew": 47.98,
-        "transfer": 35.98,
-        "restore": 47.98
+        "create": 43.98,
+        "renew": 54.98,
+        "transfer": 43.98,
+        "restore": 54.98
       },
       "sale-price": {
         "create": 8.48,
-        "renew": 47.98,
-        "transfer": 35.98,
-        "restore": 47.98
+        "renew": 54.98,
+        "transfer": 43.98,
+        "restore": 54.98
       }
     },
     "technology": {
       "maxYears": 10,
       "regular-price": {
-        "create": 25.98,
-        "renew": 33.98,
-        "transfer": 25.98,
-        "restore": 33.98
+        "create": 29.98,
+        "renew": 37.98,
+        "transfer": 29.98,
+        "restore": 37.98
       },
       "sale-price": {
         "create": 5.48,
-        "renew": 33.98,
-        "transfer": 25.98,
-        "restore": 33.98
+        "renew": 37.98,
+        "transfer": 29.98,
+        "restore": 37.98
       }
     },
     "today": {
       "maxYears": 10,
       "regular-price": {
-        "create": 25.98,
-        "renew": 34.98,
-        "transfer": 25.98,
-        "restore": 34.98
+        "create": 29.98,
+        "renew": 38.98,
+        "transfer": 29.98,
+        "restore": 38.98
       },
       "sale-price": {
         "create": 2.98,
-        "renew": 34.98,
-        "transfer": 25.98,
-        "restore": 34.98
+        "renew": 38.98,
+        "transfer": 29.98,
+        "restore": 38.98
       }
     },
     "diamonds": {
       "maxYears": 10,
       "regular-price": {
-        "create": 48.98,
-        "renew": 66.98,
-        "transfer": 48.98,
-        "restore": 66.98
+        "create": 57.98,
+        "renew": 72.98,
+        "transfer": 57.98,
+        "restore": 72.98
       },
       "sale-price": {
-        "create": 48.98,
-        "renew": 66.98,
-        "transfer": 48.98,
-        "restore": 66.98
+        "create": 57.98,
+        "renew": 72.98,
+        "transfer": 57.98,
+        "restore": 72.98
       }
     },
     "enterprises": {
@@ -1034,31 +1034,31 @@
     "tips": {
       "maxYears": 10,
       "regular-price": {
-        "create": 26.98,
-        "renew": 36.98,
-        "transfer": 26.98,
-        "restore": 36.98
+        "create": 33.48,
+        "renew": 42.48,
+        "transfer": 33.48,
+        "restore": 42.48
       },
       "sale-price": {
         "create": 12.98,
-        "renew": 36.98,
-        "transfer": 26.98,
-        "restore": 36.98
+        "renew": 42.48,
+        "transfer": 33.48,
+        "restore": 42.48
       }
     },
     "voyage": {
       "maxYears": 10,
       "regular-price": {
-        "create": 51.98,
-        "renew": 66.98,
-        "transfer": 51.98,
-        "restore": 66.98
+        "create": 61.98,
+        "renew": 73.98,
+        "transfer": 61.98,
+        "restore": 73.98
       },
       "sale-price": {
-        "create": 51.98,
-        "renew": 66.98,
-        "transfer": 51.98,
-        "restore": 66.98
+        "create": 61.98,
+        "renew": 73.98,
+        "transfer": 61.98,
+        "restore": 73.98
       }
     },
     "sexy": {
@@ -1079,196 +1079,196 @@
     "careers": {
       "maxYears": 10,
       "regular-price": {
-        "create": 63.98,
-        "renew": 80.98,
-        "transfer": 63.98,
-        "restore": 80.98
+        "create": 75.98,
+        "renew": 89.98,
+        "transfer": 75.98,
+        "restore": 89.98
       },
       "sale-price": {
         "create": 28.98,
-        "renew": 80.98,
-        "transfer": 63.98,
-        "restore": 80.98
+        "renew": 89.98,
+        "transfer": 75.98,
+        "restore": 89.98
       }
     },
     "photos": {
       "maxYears": 10,
       "regular-price": {
-        "create": 24.98,
-        "renew": 34.98,
-        "transfer": 24.98,
-        "restore": 34.98
+        "create": 31.98,
+        "renew": 40.98,
+        "transfer": 31.98,
+        "restore": 40.98
       },
       "sale-price": {
         "create": 12.98,
-        "renew": 34.98,
-        "transfer": 24.98,
-        "restore": 34.98
+        "renew": 40.98,
+        "transfer": 31.98,
+        "restore": 40.98
       }
     },
     "recipes": {
       "maxYears": 10,
       "regular-price": {
-        "create": 69.98,
-        "renew": 87.98,
-        "transfer": 69.98,
-        "restore": 87.98
+        "create": 81.98,
+        "renew": 95.98,
+        "transfer": 81.98,
+        "restore": 95.98
       },
       "sale-price": {
         "create": 5.48,
-        "renew": 87.98,
-        "transfer": 69.98,
-        "restore": 87.98
+        "renew": 95.98,
+        "transfer": 81.98,
+        "restore": 95.98
       }
     },
     "shoes": {
       "maxYears": 10,
       "regular-price": {
-        "create": 55.98,
-        "renew": 71.98,
-        "transfer": 55.98,
-        "restore": 71.98
+        "create": 67.98,
+        "renew": 81.98,
+        "transfer": 67.98,
+        "restore": 81.98
       },
       "sale-price": {
         "create": 34.98,
-        "renew": 71.98,
-        "transfer": 55.98,
-        "restore": 71.98
+        "renew": 81.98,
+        "transfer": 67.98,
+        "restore": 81.98
       }
     },
     "cab": {
       "maxYears": 10,
       "regular-price": {
-        "create": 29.98,
-        "renew": 37.98,
-        "transfer": 29.98,
-        "restore": 37.98
+        "create": 33.98,
+        "renew": 41.98,
+        "transfer": 33.98,
+        "restore": 41.98
       },
       "sale-price": {
-        "create": 29.98,
-        "renew": 37.98,
-        "transfer": 29.98,
-        "restore": 37.98
+        "create": 33.98,
+        "renew": 41.98,
+        "transfer": 33.98,
+        "restore": 41.98
       }
     },
     "domains": {
       "maxYears": 10,
       "regular-price": {
-        "create": 37.98,
-        "renew": 48.98,
-        "transfer": 37.98,
-        "restore": 48.98
+        "create": 44.98,
+        "renew": 53.98,
+        "transfer": 44.98,
+        "restore": 53.98
       },
       "sale-price": {
-        "create": 37.98,
-        "renew": 48.98,
-        "transfer": 37.98,
-        "restore": 48.98
+        "create": 44.98,
+        "renew": 53.98,
+        "transfer": 44.98,
+        "restore": 53.98
       }
     },
     "limo": {
       "maxYears": 10,
       "regular-price": {
-        "create": 47.98,
-        "renew": 61.98,
-        "transfer": 47.98,
-        "restore": 61.98
+        "create": 57.98,
+        "renew": 68.98,
+        "transfer": 57.98,
+        "restore": 68.98
       },
       "sale-price": {
-        "create": 47.98,
-        "renew": 61.98,
-        "transfer": 47.98,
-        "restore": 61.98
+        "create": 57.98,
+        "renew": 68.98,
+        "transfer": 57.98,
+        "restore": 68.98
       }
     },
     "academy": {
       "maxYears": 10,
       "regular-price": {
-        "create": 41.98,
-        "renew": 55.98,
-        "transfer": 41.98,
-        "restore": 55.98
+        "create": 48.98,
+        "renew": 59.98,
+        "transfer": 48.98,
+        "restore": 59.98
       },
       "sale-price": {
         "create": 6.98,
-        "renew": 55.98,
-        "transfer": 41.98,
-        "restore": 55.98
+        "renew": 59.98,
+        "transfer": 48.98,
+        "restore": 59.98
       }
     },
     "center": {
       "maxYears": 10,
       "regular-price": {
-        "create": 27.98,
-        "renew": 37.98,
-        "transfer": 27.98,
-        "restore": 37.98
+        "create": 34.98,
+        "renew": 42.98,
+        "transfer": 34.98,
+        "restore": 42.98
       },
       "sale-price": {
         "create": 3.98,
-        "renew": 37.98,
-        "transfer": 27.98,
-        "restore": 37.98
+        "renew": 42.98,
+        "transfer": 34.98,
+        "restore": 42.98
       }
     },
     "company": {
       "maxYears": 10,
       "regular-price": {
-        "create": 15.98,
-        "renew": 21.98,
-        "transfer": 15.98,
-        "restore": 21.98
+        "create": 21.98,
+        "renew": 27.98,
+        "transfer": 21.98,
+        "restore": 27.98
       },
       "sale-price": {
-        "create": 15.98,
-        "renew": 21.98,
-        "transfer": 15.98,
-        "restore": 21.98
+        "create": 21.98,
+        "renew": 27.98,
+        "transfer": 21.98,
+        "restore": 27.98
       }
     },
     "computer": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 43.98,
-        "transfer": 34.98,
-        "restore": 43.98
+        "create": 41.98,
+        "renew": 48.98,
+        "transfer": 41.98,
+        "restore": 48.98
       },
       "sale-price": {
         "create": 17.48,
-        "renew": 43.98,
-        "transfer": 34.98,
-        "restore": 43.98
+        "renew": 48.98,
+        "transfer": 41.98,
+        "restore": 48.98
       }
     },
     "management": {
       "maxYears": 10,
       "regular-price": {
-        "create": 22.98,
-        "renew": 31.98,
-        "transfer": 22.98,
-        "restore": 31.98
+        "create": 26.98,
+        "renew": 34.98,
+        "transfer": 26.98,
+        "restore": 34.98
       },
       "sale-price": {
-        "create": 22.98,
-        "renew": 31.98,
-        "transfer": 22.98,
-        "restore": 31.98
+        "create": 26.98,
+        "renew": 34.98,
+        "transfer": 26.98,
+        "restore": 34.98
       }
     },
     "systems": {
       "maxYears": 10,
       "regular-price": {
-        "create": 30.98,
-        "renew": 41.98,
-        "transfer": 30.98,
-        "restore": 41.98
+        "create": 37.48,
+        "renew": 47.48,
+        "transfer": 37.48,
+        "restore": 47.48
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 41.98,
-        "transfer": 30.98,
-        "restore": 41.98
+        "renew": 47.48,
+        "transfer": 37.48,
+        "restore": 47.48
       }
     },
     "menu": {
@@ -1315,61 +1315,61 @@
     "email": {
       "maxYears": 10,
       "regular-price": {
-        "create": 26.98,
-        "renew": 35.98,
-        "transfer": 26.98,
-        "restore": 35.98
+        "create": 32.98,
+        "renew": 40.98,
+        "transfer": 32.98,
+        "restore": 40.98
       },
       "sale-price": {
         "create": 2.98,
-        "renew": 35.98,
-        "transfer": 26.98,
-        "restore": 35.98
+        "renew": 40.98,
+        "transfer": 32.98,
+        "restore": 40.98
       }
     },
     "solutions": {
       "maxYears": 10,
       "regular-price": {
-        "create": 27.98,
-        "renew": 38.48,
-        "transfer": 27.98,
-        "restore": 38.48
+        "create": 32.98,
+        "renew": 41.98,
+        "transfer": 32.98,
+        "restore": 41.98
       },
       "sale-price": {
         "create": 6.98,
-        "renew": 38.48,
-        "transfer": 27.98,
-        "restore": 38.48
+        "renew": 41.98,
+        "transfer": 32.98,
+        "restore": 41.98
       }
     },
     "support": {
       "maxYears": 10,
       "regular-price": {
-        "create": 24.98,
-        "renew": 33.98,
-        "transfer": 24.98,
-        "restore": 33.98
+        "create": 28.98,
+        "renew": 37.98,
+        "transfer": 28.98,
+        "restore": 37.98
       },
       "sale-price": {
         "create": 2.98,
-        "renew": 33.98,
-        "transfer": 24.98,
-        "restore": 33.98
+        "renew": 37.98,
+        "transfer": 28.98,
+        "restore": 37.98
       }
     },
     "training": {
       "maxYears": 10,
       "regular-price": {
-        "create": 35.98,
-        "renew": 46.98,
-        "transfer": 35.98,
-        "restore": 46.98
+        "create": 43.98,
+        "renew": 53.98,
+        "transfer": 43.98,
+        "restore": 53.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 46.98,
-        "transfer": 35.98,
-        "restore": 46.98
+        "renew": 53.98,
+        "transfer": 43.98,
+        "restore": 53.98
       }
     },
     "ceo": {
@@ -1388,91 +1388,91 @@
     "camp": {
       "maxYears": 10,
       "regular-price": {
-        "create": 51.98,
-        "renew": 66.98,
-        "transfer": 51.98,
-        "restore": 66.98
+        "create": 65.98,
+        "renew": 78.98,
+        "transfer": 65.98,
+        "restore": 78.98
       },
       "sale-price": {
-        "create": 51.98,
-        "renew": 66.98,
-        "transfer": 51.98,
-        "restore": 66.98
+        "create": 65.98,
+        "renew": 78.98,
+        "transfer": 65.98,
+        "restore": 78.98
       }
     },
     "education": {
       "maxYears": 10,
       "regular-price": {
-        "create": 30.98,
-        "renew": 41.98,
-        "transfer": 32.98,
-        "restore": 41.98
+        "create": 36.98,
+        "renew": 46.98,
+        "transfer": 36.98,
+        "restore": 46.98
       },
       "sale-price": {
-        "create": 30.98,
-        "renew": 41.98,
-        "transfer": 32.98,
-        "restore": 41.98
+        "create": 36.98,
+        "renew": 46.98,
+        "transfer": 36.98,
+        "restore": 46.98
       }
     },
     "glass": {
       "maxYears": 10,
       "regular-price": {
-        "create": 55.98,
-        "renew": 79.98,
-        "transfer": 55.98,
-        "restore": 79.98
+        "create": 76.98,
+        "renew": 99.98,
+        "transfer": 76.98,
+        "restore": 99.98
       },
       "sale-price": {
-        "create": 55.98,
-        "renew": 79.98,
-        "transfer": 55.98,
-        "restore": 79.98
+        "create": 76.98,
+        "renew": 99.98,
+        "transfer": 76.98,
+        "restore": 99.98
       }
     },
     "institute": {
       "maxYears": 10,
       "regular-price": {
-        "create": 24.98,
-        "renew": 34.98,
-        "transfer": 24.98,
-        "restore": 34.98
+        "create": 28.98,
+        "renew": 37.98,
+        "transfer": 28.98,
+        "restore": 37.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 34.98,
-        "transfer": 24.98,
-        "restore": 34.98
+        "renew": 37.98,
+        "transfer": 28.98,
+        "restore": 37.98
       }
     },
     "repair": {
       "maxYears": 10,
       "regular-price": {
-        "create": 31.98,
-        "renew": 41.98,
-        "transfer": 31.98,
-        "restore": 41.98
+        "create": 38.48,
+        "renew": 47.48,
+        "transfer": 38.48,
+        "restore": 47.48
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 41.98,
-        "transfer": 31.98,
-        "restore": 41.98
+        "renew": 47.48,
+        "transfer": 38.48,
+        "restore": 47.48
       }
     },
     "coffee": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 38.98,
-        "transfer": 34.98,
-        "restore": 38.98
+        "create": 44.98,
+        "renew": 47.98,
+        "transfer": 44.98,
+        "restore": 47.98
       },
       "sale-price": {
         "create": 13.98,
-        "renew": 38.98,
-        "transfer": 34.98,
-        "restore": 38.98
+        "renew": 47.98,
+        "transfer": 44.98,
+        "restore": 47.98
       }
     },
     "florist": {
@@ -1493,76 +1493,76 @@
     "house": {
       "maxYears": 10,
       "regular-price": {
-        "create": 39.98,
-        "renew": 50.98,
-        "transfer": 39.98,
-        "restore": 50.98
+        "create": 46.98,
+        "renew": 55.98,
+        "transfer": 46.98,
+        "restore": 55.98
       },
       "sale-price": {
         "create": 12.98,
-        "renew": 50.98,
-        "transfer": 39.98,
-        "restore": 50.98
+        "renew": 55.98,
+        "transfer": 46.98,
+        "restore": 55.98
       }
     },
     "international": {
       "maxYears": 10,
       "regular-price": {
-        "create": 27.98,
-        "renew": 36.98,
-        "transfer": 27.98,
-        "restore": 36.98
+        "create": 32.48,
+        "renew": 40.48,
+        "transfer": 32.48,
+        "restore": 40.48
       },
       "sale-price": {
         "create": 4.98,
-        "renew": 36.98,
-        "transfer": 27.98,
-        "restore": 36.98
+        "renew": 40.48,
+        "transfer": 32.48,
+        "restore": 40.48
       }
     },
     "solar": {
       "maxYears": 10,
       "regular-price": {
-        "create": 55.98,
-        "renew": 71.98,
-        "transfer": 60.98,
-        "restore": 71.98
+        "create": 67.98,
+        "renew": 81.98,
+        "transfer": 67.98,
+        "restore": 81.98
       },
       "sale-price": {
-        "create": 55.98,
-        "renew": 71.98,
-        "transfer": 60.98,
-        "restore": 71.98
+        "create": 67.98,
+        "renew": 81.98,
+        "transfer": 67.98,
+        "restore": 81.98
       }
     },
     "marketing": {
       "maxYears": 10,
       "regular-price": {
-        "create": 35.98,
-        "renew": 46.98,
-        "transfer": 35.98,
-        "restore": 46.98
+        "create": 43.98,
+        "renew": 53.98,
+        "transfer": 43.98,
+        "restore": 53.98
       },
       "sale-price": {
         "create": 6.98,
-        "renew": 46.98,
-        "transfer": 35.98,
-        "restore": 46.98
+        "renew": 53.98,
+        "transfer": 43.98,
+        "restore": 53.98
       }
     },
     "holiday": {
       "maxYears": 10,
       "regular-price": {
-        "create": 55.98,
-        "renew": 71.98,
-        "transfer": 55.98,
-        "restore": 71.98
+        "create": 67.98,
+        "renew": 81.98,
+        "transfer": 67.98,
+        "restore": 81.98
       },
       "sale-price": {
-        "create": 55.98,
-        "renew": 71.98,
-        "transfer": 55.98,
-        "restore": 71.98
+        "create": 67.98,
+        "renew": 81.98,
+        "transfer": 67.98,
+        "restore": 81.98
       }
     },
     "buzz": {
@@ -1654,61 +1654,61 @@
     "shiksha": {
       "maxYears": 10,
       "regular-price": {
-        "create": 15.98,
-        "renew": 22.98,
-        "transfer": 15.98,
-        "restore": 22.98
+        "create": 54.98,
+        "renew": 69.98,
+        "transfer": 54.98,
+        "restore": 69.98
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 22.98,
-        "transfer": 15.98,
-        "restore": 22.98
+        "renew": 69.98,
+        "transfer": 54.98,
+        "restore": 69.98
       }
     },
     "kim": {
       "maxYears": 10,
       "regular-price": {
-        "create": 19.98,
-        "renew": 27.98,
-        "transfer": 19.98,
-        "restore": 27.98
+        "create": 24.48,
+        "renew": 32.98,
+        "transfer": 24.48,
+        "restore": 32.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 27.98,
-        "transfer": 19.98,
-        "restore": 27.98
+        "renew": 32.98,
+        "transfer": 24.48,
+        "restore": 32.98
       }
     },
     "pink": {
       "maxYears": 10,
       "regular-price": {
-        "create": 22.98,
-        "renew": 26.98,
-        "transfer": 22.98,
-        "restore": 26.98
+        "create": 27.48,
+        "renew": 31.48,
+        "transfer": 27.48,
+        "restore": 31.48
       },
       "sale-price": {
         "create": 6.48,
-        "renew": 26.98,
-        "transfer": 22.98,
-        "restore": 26.98
+        "renew": 31.48,
+        "transfer": 27.48,
+        "restore": 31.48
       }
     },
     "red": {
       "maxYears": 10,
       "regular-price": {
-        "create": 20.98,
-        "renew": 24.98,
-        "transfer": 20.98,
-        "restore": 24.98
+        "create": 24.48,
+        "renew": 28.48,
+        "transfer": 24.48,
+        "restore": 28.48
       },
       "sale-price": {
         "create": 8.48,
-        "renew": 24.98,
-        "transfer": 20.98,
-        "restore": 24.98
+        "renew": 28.48,
+        "transfer": 24.48,
+        "restore": 28.48
       }
     },
     "onl": {
@@ -1719,7 +1719,7 @@
         "restore": 28.98
       },
       "sale-price": {
-        "create": 3.98,
+        "create": 2.3,
         "renew": 28.98,
         "restore": 28.98
       }
@@ -1727,46 +1727,46 @@
     "blue": {
       "maxYears": 10,
       "regular-price": {
-        "create": 21.98,
-        "renew": 28.98,
-        "transfer": 21.98,
-        "restore": 28.98
+        "create": 25.98,
+        "renew": 32.98,
+        "transfer": 25.98,
+        "restore": 32.98
       },
       "sale-price": {
         "create": 12.98,
-        "renew": 28.98,
-        "transfer": 21.98,
-        "restore": 28.98
+        "renew": 32.98,
+        "transfer": 25.98,
+        "restore": 32.98
       }
     },
     "farm": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 44.98,
-        "transfer": 34.98,
-        "restore": 44.98
+        "create": 40.98,
+        "renew": 49.98,
+        "transfer": 40.98,
+        "restore": 49.98
       },
       "sale-price": {
         "create": 6.98,
-        "renew": 44.98,
-        "transfer": 34.98,
-        "restore": 44.98
+        "renew": 49.98,
+        "transfer": 40.98,
+        "restore": 49.98
       }
     },
     "codes": {
       "maxYears": 10,
       "regular-price": {
-        "create": 57.98,
-        "renew": 78.98,
-        "transfer": 57.98,
-        "restore": 78.98
+        "create": 74.98,
+        "renew": 92.98,
+        "transfer": 74.98,
+        "restore": 92.98
       },
       "sale-price": {
         "create": 3.98,
-        "renew": 78.98,
-        "transfer": 57.98,
-        "restore": 78.98
+        "renew": 92.98,
+        "transfer": 74.98,
+        "restore": 92.98
       }
     },
     "viajes": {
@@ -1802,61 +1802,61 @@
     "flights": {
       "maxYears": 10,
       "regular-price": {
-        "create": 50.98,
-        "renew": 66.98,
-        "transfer": 50.98,
-        "restore": 66.98
+        "create": 61.98,
+        "renew": 75.98,
+        "transfer": 61.98,
+        "restore": 75.98
       },
       "sale-price": {
         "create": 23.98,
-        "renew": 66.98,
-        "transfer": 50.98,
-        "restore": 66.98
+        "renew": 75.98,
+        "transfer": 61.98,
+        "restore": 75.98
       }
     },
     "rentals": {
       "maxYears": 10,
       "regular-price": {
-        "create": 39.98,
-        "renew": 51.98,
-        "transfer": 39.98,
-        "restore": 51.98
+        "create": 46.98,
+        "renew": 56.98,
+        "transfer": 46.98,
+        "restore": 56.98
       },
       "sale-price": {
         "create": 6.98,
-        "renew": 51.98,
-        "transfer": 39.98,
-        "restore": 51.98
+        "renew": 56.98,
+        "transfer": 46.98,
+        "restore": 56.98
       }
     },
     "villas": {
       "maxYears": 10,
       "regular-price": {
-        "create": 53.98,
-        "renew": 68.98,
-        "transfer": 53.98,
-        "restore": 68.98
+        "create": 62.98,
+        "renew": 74.98,
+        "transfer": 62.98,
+        "restore": 74.98
       },
       "sale-price": {
-        "create": 53.98,
-        "renew": 68.98,
-        "transfer": 53.98,
-        "restore": 68.98
+        "create": 62.98,
+        "renew": 74.98,
+        "transfer": 62.98,
+        "restore": 74.98
       }
     },
     "agency": {
       "maxYears": 10,
       "regular-price": {
-        "create": 26.98,
-        "renew": 37.98,
-        "transfer": 26.98,
-        "restore": 37.98
+        "create": 32.48,
+        "renew": 41.98,
+        "transfer": 32.48,
+        "restore": 41.98
       },
       "sale-price": {
         "create": 4.98,
-        "renew": 37.98,
-        "transfer": 26.98,
-        "restore": 37.98
+        "renew": 41.98,
+        "transfer": 32.48,
+        "restore": 41.98
       }
     },
     "bargains": {
@@ -1883,7 +1883,7 @@
         "restore": 41.98
       },
       "sale-price": {
-        "create": 2.48,
+        "create": 2.98,
         "renew": 41.98,
         "transfer": 31.98,
         "restore": 41.98
@@ -1892,61 +1892,61 @@
     "cheap": {
       "maxYears": 10,
       "regular-price": {
-        "create": 31.98,
-        "renew": 44.98,
-        "transfer": 31.98,
-        "restore": 44.98
+        "create": 38.48,
+        "renew": 49.98,
+        "transfer": 38.48,
+        "restore": 49.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 44.98,
-        "transfer": 31.98,
-        "restore": 44.98
+        "renew": 49.98,
+        "transfer": 38.48,
+        "restore": 49.98
       }
     },
     "zone": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 45.98,
-        "transfer": 34.98,
-        "restore": 45.98
+        "create": 40.98,
+        "renew": 51.98,
+        "transfer": 40.98,
+        "restore": 51.98
       },
       "sale-price": {
         "create": 8.48,
-        "renew": 45.98,
-        "transfer": 34.98,
-        "restore": 45.98
+        "renew": 51.98,
+        "transfer": 40.98,
+        "restore": 51.98
       }
     },
     "cool": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 38.98,
-        "transfer": 34.98,
-        "restore": 38.98
+        "create": 47.98,
+        "renew": 50.98,
+        "transfer": 47.98,
+        "restore": 50.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 38.98,
-        "transfer": 34.98,
-        "restore": 38.98
+        "renew": 50.98,
+        "transfer": 47.98,
+        "restore": 50.98
       }
     },
     "watch": {
       "maxYears": 10,
       "regular-price": {
-        "create": 37.98,
-        "renew": 49.98,
-        "transfer": 37.98,
-        "restore": 49.98
+        "create": 43.98,
+        "renew": 56.98,
+        "transfer": 43.98,
+        "restore": 56.98
       },
       "sale-price": {
         "create": 3.48,
-        "renew": 49.98,
-        "transfer": 37.98,
-        "restore": 49.98
+        "renew": 56.98,
+        "transfer": 43.98,
+        "restore": 56.98
       }
     },
     "build": {
@@ -1997,7 +1997,7 @@
         "restore": 20.98
       },
       "sale-price": {
-        "create": 1.98,
+        "create": 4.98,
         "renew": 20.98,
         "transfer": 16.98,
         "restore": 20.98
@@ -2006,46 +2006,46 @@
     "works": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 45.98,
-        "transfer": 34.98,
-        "restore": 45.98
+        "create": 40.98,
+        "renew": 51.98,
+        "transfer": 40.98,
+        "restore": 51.98
       },
       "sale-price": {
         "create": 3.98,
-        "renew": 45.98,
-        "transfer": 34.98,
-        "restore": 45.98
+        "renew": 51.98,
+        "transfer": 40.98,
+        "restore": 51.98
       }
     },
     "expert": {
       "maxYears": 10,
       "regular-price": {
-        "create": 52.98,
-        "renew": 71.98,
-        "transfer": 52.98,
-        "restore": 71.98
+        "create": 65.48,
+        "renew": 82.48,
+        "transfer": 65.48,
+        "restore": 82.48
       },
       "sale-price": {
         "create": 8.48,
-        "renew": 71.98,
-        "transfer": 52.98,
-        "restore": 71.98
+        "renew": 82.48,
+        "transfer": 65.48,
+        "restore": 82.48
       }
     },
     "exposed": {
       "maxYears": 10,
       "regular-price": {
-        "create": 19.98,
-        "renew": 24.98,
-        "transfer": 19.98,
-        "restore": 24.98
+        "create": 22.98,
+        "renew": 28.98,
+        "transfer": 22.98,
+        "restore": 28.98
       },
       "sale-price": {
-        "create": 19.98,
-        "renew": 24.98,
-        "transfer": 19.98,
-        "restore": 24.98
+        "create": 22.98,
+        "renew": 28.98,
+        "transfer": 22.98,
+        "restore": 28.98
       }
     },
     "foundation": {
@@ -2066,31 +2066,31 @@
     "dance": {
       "maxYears": 10,
       "regular-price": {
-        "create": 24.98,
-        "renew": 33.98,
-        "transfer": 24.98,
-        "restore": 33.98
+        "create": 28.98,
+        "renew": 36.98,
+        "transfer": 28.98,
+        "restore": 36.98
       },
       "sale-price": {
         "create": 10.48,
-        "renew": 33.98,
-        "transfer": 24.98,
-        "restore": 33.98
+        "renew": 36.98,
+        "transfer": 28.98,
+        "restore": 36.98
       }
     },
     "democrat": {
       "maxYears": 10,
       "regular-price": {
-        "create": 29.98,
-        "renew": 37.98,
-        "transfer": 29.98,
-        "restore": 37.98
+        "create": 34.48,
+        "renew": 41.48,
+        "transfer": 34.48,
+        "restore": 41.48
       },
       "sale-price": {
-        "create": 29.98,
-        "renew": 37.98,
-        "transfer": 29.98,
-        "restore": 37.98
+        "create": 34.48,
+        "renew": 41.48,
+        "transfer": 34.48,
+        "restore": 41.48
       }
     },
     "best": {
@@ -2109,16 +2109,16 @@
     "vacations": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 44.98,
-        "transfer": 34.98,
-        "restore": 44.98
+        "create": 40.98,
+        "renew": 49.98,
+        "transfer": 40.98,
+        "restore": 49.98
       },
       "sale-price": {
-        "create": 34.98,
-        "renew": 44.98,
-        "transfer": 34.98,
-        "restore": 44.98
+        "create": 40.98,
+        "renew": 49.98,
+        "transfer": 40.98,
+        "restore": 49.98
       }
     },
     "wiki": {
@@ -2139,31 +2139,31 @@
     "ninja": {
       "maxYears": 10,
       "regular-price": {
-        "create": 26.98,
-        "renew": 37.98,
-        "transfer": 26.98,
-        "restore": 37.98
+        "create": 32.98,
+        "renew": 42.98,
+        "transfer": 32.98,
+        "restore": 42.98
       },
       "sale-price": {
         "create": 6.48,
-        "renew": 37.98,
-        "transfer": 26.98,
-        "restore": 37.98
+        "renew": 42.98,
+        "transfer": 32.98,
+        "restore": 42.98
       }
     },
     "immobilien": {
       "maxYears": 10,
       "regular-price": {
-        "create": 32.98,
-        "renew": 38.98,
-        "transfer": 32.98,
-        "restore": 38.98
+        "create": 39.98,
+        "renew": 43.98,
+        "transfer": 39.98,
+        "restore": 43.98
       },
       "sale-price": {
-        "create": 32.98,
-        "renew": 38.98,
-        "transfer": 32.98,
-        "restore": 38.98
+        "create": 39.98,
+        "renew": 43.98,
+        "transfer": 39.98,
+        "restore": 43.98
       }
     },
     "xyz": {
@@ -2184,61 +2184,61 @@
     "condos": {
       "maxYears": 10,
       "regular-price": {
-        "create": 50.98,
-        "renew": 64.98,
-        "transfer": 50.98,
-        "restore": 64.98
+        "create": 61.98,
+        "renew": 72.98,
+        "transfer": 61.98,
+        "restore": 72.98
       },
       "sale-price": {
-        "create": 50.98,
-        "renew": 64.98,
-        "transfer": 50.98,
-        "restore": 64.98
+        "create": 61.98,
+        "renew": 72.98,
+        "transfer": 61.98,
+        "restore": 72.98
       }
     },
     "maison": {
       "maxYears": 10,
       "regular-price": {
-        "create": 51.98,
-        "renew": 64.98,
-        "transfer": 51.98,
-        "restore": 64.98
+        "create": 60.98,
+        "renew": 69.98,
+        "transfer": 60.98,
+        "restore": 69.98
       },
       "sale-price": {
-        "create": 51.98,
-        "renew": 64.98,
-        "transfer": 51.98,
-        "restore": 64.98
+        "create": 60.98,
+        "renew": 69.98,
+        "transfer": 60.98,
+        "restore": 69.98
       }
     },
     "properties": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 38.98,
-        "transfer": 34.98,
-        "restore": 38.98
+        "create": 40.98,
+        "renew": 43.98,
+        "transfer": 40.98,
+        "restore": 43.98
       },
       "sale-price": {
         "create": 12.98,
-        "renew": 38.98,
-        "transfer": 34.98,
-        "restore": 38.98
+        "renew": 43.98,
+        "transfer": 40.98,
+        "restore": 43.98
       }
     },
     "tienda": {
       "maxYears": 10,
       "regular-price": {
-        "create": 51.98,
-        "renew": 65.98,
-        "transfer": 51.98,
-        "restore": 65.98
+        "create": 62.98,
+        "renew": 74.98,
+        "transfer": 62.98,
+        "restore": 74.98
       },
       "sale-price": {
-        "create": 51.98,
-        "renew": 65.98,
-        "transfer": 51.98,
-        "restore": 65.98
+        "create": 62.98,
+        "renew": 74.98,
+        "transfer": 62.98,
+        "restore": 74.98
       }
     },
     "futbol": {
@@ -2259,91 +2259,91 @@
     "reviews": {
       "maxYears": 10,
       "regular-price": {
-        "create": 54.98,
-        "renew": 69.98,
-        "transfer": 54.98,
-        "restore": 69.98
+        "create": 65.98,
+        "renew": 77.98,
+        "transfer": 65.98,
+        "restore": 77.98
       },
       "sale-price": {
-        "create": 54.98,
-        "renew": 69.98,
-        "transfer": 54.98,
-        "restore": 69.98
+        "create": 65.98,
+        "renew": 77.98,
+        "transfer": 65.98,
+        "restore": 77.98
       }
     },
     "social": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 46.98,
-        "transfer": 34.98,
-        "restore": 46.98
+        "create": 43.98,
+        "renew": 55.98,
+        "transfer": 43.98,
+        "restore": 55.98
       },
       "sale-price": {
         "create": 3.98,
-        "renew": 46.98,
-        "transfer": 34.98,
-        "restore": 46.98
+        "renew": 55.98,
+        "transfer": 43.98,
+        "restore": 55.98
       }
     },
     "dating": {
       "maxYears": 10,
       "regular-price": {
-        "create": 56.98,
-        "renew": 78.98,
-        "transfer": 56.98,
-        "restore": 78.98
+        "create": 68.98,
+        "renew": 86.98,
+        "transfer": 68.98,
+        "restore": 86.98
       },
       "sale-price": {
         "create": 12.98,
-        "renew": 78.98,
-        "transfer": 56.98,
-        "restore": 78.98
+        "renew": 86.98,
+        "transfer": 68.98,
+        "restore": 86.98
       }
     },
     "events": {
       "maxYears": 10,
       "regular-price": {
-        "create": 37.98,
-        "renew": 49.98,
-        "transfer": 37.98,
-        "restore": 49.98
+        "create": 47.98,
+        "renew": 57.98,
+        "transfer": 47.98,
+        "restore": 57.98
       },
       "sale-price": {
         "create": 12.98,
-        "renew": 49.98,
-        "transfer": 37.98,
-        "restore": 49.98
+        "renew": 57.98,
+        "transfer": 47.98,
+        "restore": 57.98
       }
     },
     "partners": {
       "maxYears": 10,
       "regular-price": {
-        "create": 62.98,
-        "renew": 78.98,
-        "transfer": 62.98,
-        "restore": 78.98
+        "create": 74.98,
+        "renew": 88.98,
+        "transfer": 74.98,
+        "restore": 88.98
       },
       "sale-price": {
         "create": 7.98,
-        "renew": 78.98,
-        "transfer": 62.98,
-        "restore": 78.98
+        "renew": 88.98,
+        "transfer": 74.98,
+        "restore": 88.98
       }
     },
     "productions": {
       "maxYears": 10,
       "regular-price": {
-        "create": 35.98,
-        "renew": 45.98,
-        "transfer": 35.98,
-        "restore": 45.98
+        "create": 42.98,
+        "renew": 50.98,
+        "transfer": 42.98,
+        "restore": 50.98
       },
       "sale-price": {
         "create": 6.48,
-        "renew": 45.98,
-        "transfer": 35.98,
-        "restore": 45.98
+        "renew": 50.98,
+        "transfer": 42.98,
+        "restore": 50.98
       }
     },
     "bid": {
@@ -2409,136 +2409,136 @@
     "cards": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 43.98,
-        "transfer": 34.98,
-        "restore": 43.98
+        "create": 40.98,
+        "renew": 48.98,
+        "transfer": 40.98,
+        "restore": 48.98
       },
       "sale-price": {
-        "create": 34.98,
-        "renew": 43.98,
-        "transfer": 34.98,
-        "restore": 43.98
+        "create": 40.98,
+        "renew": 48.98,
+        "transfer": 40.98,
+        "restore": 48.98
       }
     },
     "catering": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 43.98,
-        "transfer": 34.98,
-        "restore": 43.98
+        "create": 40.98,
+        "renew": 48.98,
+        "transfer": 40.98,
+        "restore": 48.98
       },
       "sale-price": {
-        "create": 34.98,
-        "renew": 43.98,
-        "transfer": 34.98,
-        "restore": 43.98
+        "create": 40.98,
+        "renew": 48.98,
+        "transfer": 40.98,
+        "restore": 48.98
       }
     },
     "cleaning": {
       "maxYears": 10,
       "regular-price": {
-        "create": 65.98,
-        "renew": 85.98,
-        "transfer": 65.98,
-        "restore": 85.98
+        "create": 79.98,
+        "renew": 94.98,
+        "transfer": 79.98,
+        "restore": 94.98
       },
       "sale-price": {
-        "create": 65.98,
-        "renew": 85.98,
-        "transfer": 65.98,
-        "restore": 85.98
+        "create": 79.98,
+        "renew": 94.98,
+        "transfer": 79.98,
+        "restore": 94.98
       }
     },
     "community": {
       "maxYears": 10,
       "regular-price": {
-        "create": 35.98,
-        "renew": 46.98,
-        "transfer": 35.98,
-        "restore": 46.98
+        "create": 47.98,
+        "renew": 58.98,
+        "transfer": 47.98,
+        "restore": 58.98
       },
       "sale-price": {
-        "create": 35.98,
-        "renew": 46.98,
-        "transfer": 35.98,
-        "restore": 46.98
+        "create": 47.98,
+        "renew": 58.98,
+        "transfer": 47.98,
+        "restore": 58.98
       }
     },
     "industries": {
       "maxYears": 10,
       "regular-price": {
-        "create": 40.98,
-        "renew": 53.98,
-        "transfer": 40.98,
-        "restore": 53.98
+        "create": 47.98,
+        "renew": 58.98,
+        "transfer": 47.98,
+        "restore": 58.98
       },
       "sale-price": {
-        "create": 40.98,
-        "renew": 53.98,
-        "transfer": 40.98,
-        "restore": 53.98
+        "create": 47.98,
+        "renew": 58.98,
+        "transfer": 47.98,
+        "restore": 58.98
       }
     },
     "parts": {
       "maxYears": 10,
       "regular-price": {
-        "create": 35.98,
-        "renew": 39.88,
-        "transfer": 35.98,
-        "restore": 39.88
+        "create": 43.98,
+        "renew": 45.98,
+        "transfer": 43.98,
+        "restore": 45.98
       },
       "sale-price": {
         "create": 8.98,
-        "renew": 39.88,
-        "transfer": 35.98,
-        "restore": 39.88
+        "renew": 45.98,
+        "transfer": 43.98,
+        "restore": 45.98
       }
     },
     "supplies": {
       "maxYears": 10,
       "regular-price": {
-        "create": 21.98,
-        "renew": 28.98,
-        "transfer": 21.98,
-        "restore": 28.98
+        "create": 25.48,
+        "renew": 32.48,
+        "transfer": 25.48,
+        "restore": 32.48
       },
       "sale-price": {
-        "create": 21.98,
-        "renew": 28.98,
-        "transfer": 21.98,
-        "restore": 28.98
+        "create": 25.48,
+        "renew": 32.48,
+        "transfer": 25.48,
+        "restore": 32.48
       }
     },
     "supply": {
       "maxYears": 10,
       "regular-price": {
-        "create": 22.98,
-        "renew": 29.98,
-        "transfer": 22.98,
-        "restore": 29.98
+        "create": 27.48,
+        "renew": 33.48,
+        "transfer": 27.48,
+        "restore": 33.48
       },
       "sale-price": {
-        "create": 22.98,
-        "renew": 29.98,
-        "transfer": 22.98,
-        "restore": 29.98
+        "create": 27.48,
+        "renew": 33.48,
+        "transfer": 27.48,
+        "restore": 33.48
       }
     },
     "tools": {
       "maxYears": 10,
       "regular-price": {
-        "create": 31.98,
-        "renew": 41.98,
-        "transfer": 31.98,
-        "restore": 41.98
+        "create": 38.48,
+        "renew": 47.48,
+        "transfer": 38.48,
+        "restore": 47.48
       },
       "sale-price": {
         "create": 10.48,
-        "renew": 41.98,
-        "transfer": 31.98,
-        "restore": 41.98
+        "renew": 47.48,
+        "transfer": 38.48,
+        "restore": 47.48
       }
     },
     "ink": {
@@ -2572,46 +2572,46 @@
     "fish": {
       "maxYears": 10,
       "regular-price": {
-        "create": 37.98,
-        "renew": 53.98,
-        "transfer": 37.98,
-        "restore": 53.98
+        "create": 46.98,
+        "renew": 59.98,
+        "transfer": 46.98,
+        "restore": 59.98
       },
       "sale-price": {
-        "create": 37.98,
-        "renew": 53.98,
-        "transfer": 37.98,
-        "restore": 53.98
+        "create": 46.98,
+        "renew": 59.98,
+        "transfer": 46.98,
+        "restore": 59.98
       }
     },
     "report": {
       "maxYears": 10,
       "regular-price": {
-        "create": 21.98,
-        "renew": 30.98,
-        "transfer": 21.98,
-        "restore": 30.98
+        "create": 26.48,
+        "renew": 34.48,
+        "transfer": 26.48,
+        "restore": 34.48
       },
       "sale-price": {
         "create": 6.48,
-        "renew": 30.98,
-        "transfer": 21.98,
-        "restore": 30.98
+        "renew": 34.48,
+        "transfer": 26.48,
+        "restore": 34.48
       }
     },
     "vision": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 45.98,
-        "transfer": 34.98,
-        "restore": 45.98
+        "create": 47.98,
+        "renew": 59.98,
+        "transfer": 47.98,
+        "restore": 59.98
       },
       "sale-price": {
-        "create": 34.98,
-        "renew": 45.98,
-        "transfer": 34.98,
-        "restore": 45.98
+        "create": 47.98,
+        "renew": 59.98,
+        "transfer": 47.98,
+        "restore": 59.98
       }
     },
     "cooking": {
@@ -2740,16 +2740,16 @@
     "pub": {
       "maxYears": 10,
       "regular-price": {
-        "create": 35.98,
-        "renew": 46.98,
-        "transfer": 35.98,
-        "restore": 46.98
+        "create": 42.98,
+        "renew": 51.98,
+        "transfer": 42.98,
+        "restore": 51.98
       },
       "sale-price": {
-        "create": 35.98,
-        "renew": 46.98,
-        "transfer": 35.98,
-        "restore": 46.98
+        "create": 42.98,
+        "renew": 51.98,
+        "transfer": 42.98,
+        "restore": 51.98
       }
     },
     "bar": {
@@ -2785,91 +2785,91 @@
     "capital": {
       "maxYears": 10,
       "regular-price": {
-        "create": 62.98,
-        "renew": 79.98,
-        "transfer": 62.98,
-        "restore": 79.98
+        "create": 75.98,
+        "renew": 89.98,
+        "transfer": 75.98,
+        "restore": 89.98
       },
       "sale-price": {
         "create": 8.48,
-        "renew": 79.98,
-        "transfer": 62.98,
-        "restore": 79.98
+        "renew": 89.98,
+        "transfer": 75.98,
+        "restore": 89.98
       }
     },
     "engineering": {
       "maxYears": 10,
       "regular-price": {
-        "create": 57.98,
-        "renew": 78.98,
-        "transfer": 57.98,
-        "restore": 78.98
+        "create": 68.98,
+        "renew": 85.98,
+        "transfer": 68.98,
+        "restore": 85.98
       },
       "sale-price": {
         "create": 6.98,
-        "renew": 78.98,
-        "transfer": 57.98,
-        "restore": 78.98
+        "renew": 85.98,
+        "transfer": 68.98,
+        "restore": 85.98
       }
     },
     "exchange": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 44.98,
-        "transfer": 34.98,
-        "restore": 44.98
+        "create": 40.98,
+        "renew": 49.98,
+        "transfer": 40.98,
+        "restore": 49.98
       },
       "sale-price": {
         "create": 10.48,
-        "renew": 44.98,
-        "transfer": 34.98,
-        "restore": 44.98
+        "renew": 49.98,
+        "transfer": 40.98,
+        "restore": 49.98
       }
     },
     "gripe": {
       "maxYears": 10,
       "regular-price": {
-        "create": 29.98,
-        "renew": 33.58,
-        "transfer": 29.98,
-        "restore": 33.58
+        "create": 6.98,
+        "renew": 8.98,
+        "transfer": 6.98,
+        "restore": 8.98
       },
       "sale-price": {
-        "create": 29.98,
-        "renew": 33.58,
-        "transfer": 29.98,
-        "restore": 33.58
+        "create": 6.98,
+        "renew": 8.98,
+        "transfer": 6.98,
+        "restore": 8.98
       }
     },
     "moda": {
       "maxYears": 10,
       "regular-price": {
-        "create": 35.98,
-        "renew": 39.88,
-        "transfer": 35.98,
-        "restore": 39.88
+        "create": 43.98,
+        "renew": 45.98,
+        "transfer": 43.98,
+        "restore": 45.98
       },
       "sale-price": {
-        "create": 35.98,
-        "renew": 39.88,
-        "transfer": 35.98,
-        "restore": 39.88
+        "create": 43.98,
+        "renew": 45.98,
+        "transfer": 43.98,
+        "restore": 45.98
       }
     },
     "services": {
       "maxYears": 10,
       "regular-price": {
-        "create": 35.98,
-        "renew": 47.98,
-        "transfer": 35.98,
-        "restore": 47.98
+        "create": 40.98,
+        "renew": 51.98,
+        "transfer": 40.98,
+        "restore": 51.98
       },
       "sale-price": {
         "create": 3.98,
-        "renew": 47.98,
-        "transfer": 35.98,
-        "restore": 47.98
+        "renew": 51.98,
+        "transfer": 40.98,
+        "restore": 51.98
       }
     },
     "tokyo": {
@@ -2888,16 +2888,16 @@
     "consulting": {
       "maxYears": 10,
       "regular-price": {
-        "create": 45.98,
-        "renew": 56.98,
-        "transfer": 45.98,
-        "restore": 56.98
+        "create": 57.98,
+        "renew": 67.98,
+        "transfer": 57.98,
+        "restore": 67.98
       },
       "sale-price": {
         "create": 10.48,
-        "renew": 56.98,
-        "transfer": 45.98,
-        "restore": 56.98
+        "renew": 67.98,
+        "transfer": 57.98,
+        "restore": 67.98
       }
     },
     "kaufen": {
@@ -2918,211 +2918,211 @@
     "associates": {
       "maxYears": 10,
       "regular-price": {
-        "create": 35.98,
-        "renew": 45.98,
-        "transfer": 35.98,
-        "restore": 45.98
+        "create": 41.98,
+        "renew": 49.98,
+        "transfer": 41.98,
+        "restore": 49.98
       },
       "sale-price": {
         "create": 12.98,
-        "renew": 45.98,
-        "transfer": 35.98,
-        "restore": 45.98
+        "renew": 49.98,
+        "transfer": 41.98,
+        "restore": 49.98
       }
     },
     "lease": {
       "maxYears": 10,
       "regular-price": {
-        "create": 47.98,
-        "renew": 64.98,
-        "transfer": 47.98,
-        "restore": 64.98
+        "create": 58.98,
+        "renew": 73.98,
+        "transfer": 58.98,
+        "restore": 73.98
       },
       "sale-price": {
-        "create": 47.98,
-        "renew": 64.98,
-        "transfer": 47.98,
-        "restore": 64.98
+        "create": 58.98,
+        "renew": 73.98,
+        "transfer": 58.98,
+        "restore": 73.98
       }
     },
     "media": {
       "maxYears": 10,
       "regular-price": {
-        "create": 40.98,
-        "renew": 53.98,
-        "transfer": 40.98,
-        "restore": 53.98
+        "create": 47.98,
+        "renew": 58.98,
+        "transfer": 47.98,
+        "restore": 58.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 53.98,
-        "transfer": 40.98,
-        "restore": 53.98
+        "renew": 58.98,
+        "transfer": 47.98,
+        "restore": 58.98
       }
     },
     "pictures": {
       "maxYears": 10,
       "regular-price": {
-        "create": 12.98,
-        "renew": 17.98,
-        "transfer": 12.98,
-        "restore": 17.98
+        "create": 16.48,
+        "renew": 20.98,
+        "transfer": 16.48,
+        "restore": 20.98
       },
       "sale-price": {
-        "create": 12.98,
-        "renew": 17.98,
-        "transfer": 12.98,
-        "restore": 17.98
+        "create": 16.48,
+        "renew": 20.98,
+        "transfer": 16.48,
+        "restore": 20.98
       }
     },
     "reisen": {
       "maxYears": 10,
       "regular-price": {
-        "create": 18.98,
-        "renew": 24.98,
-        "transfer": 17.98,
-        "restore": 24.98
+        "create": 21.98,
+        "renew": 28.98,
+        "transfer": 21.98,
+        "restore": 28.98
       },
       "sale-price": {
-        "create": 18.98,
-        "renew": 24.98,
-        "transfer": 17.98,
-        "restore": 24.98
+        "create": 21.98,
+        "renew": 28.98,
+        "transfer": 21.98,
+        "restore": 28.98
       }
     },
     "town": {
       "maxYears": 10,
       "regular-price": {
-        "create": 32.98,
-        "renew": 43.98,
-        "transfer": 32.98,
-        "restore": 43.98
+        "create": 38.48,
+        "renew": 47.48,
+        "transfer": 38.48,
+        "restore": 47.48
       },
       "sale-price": {
         "create": 6.98,
-        "renew": 43.98,
-        "transfer": 32.98,
-        "restore": 43.98
+        "renew": 47.48,
+        "transfer": 38.48,
+        "restore": 47.48
       }
     },
     "toys": {
       "maxYears": 10,
       "regular-price": {
-        "create": 56.98,
-        "renew": 73.98,
-        "transfer": 56.98,
-        "restore": 73.98
+        "create": 68.48,
+        "renew": 82.48,
+        "transfer": 68.48,
+        "restore": 82.48
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 73.98,
-        "transfer": 56.98,
-        "restore": 73.98
+        "renew": 82.48,
+        "transfer": 68.48,
+        "restore": 82.48
       }
     },
     "university": {
       "maxYears": 10,
       "regular-price": {
-        "create": 54.98,
-        "renew": 69.98,
-        "transfer": 54.98,
-        "restore": 69.98
+        "create": 65.98,
+        "renew": 77.98,
+        "transfer": 65.98,
+        "restore": 77.98
       },
       "sale-price": {
-        "create": 54.98,
-        "renew": 69.98,
-        "transfer": 54.98,
-        "restore": 69.98
+        "create": 65.98,
+        "renew": 77.98,
+        "transfer": 65.98,
+        "restore": 77.98
       }
     },
     "fail": {
       "maxYears": 10,
       "regular-price": {
-        "create": 31.98,
-        "renew": 41.98,
-        "transfer": 31.98,
-        "restore": 41.98
+        "create": 40.98,
+        "renew": 50.98,
+        "transfer": 40.98,
+        "restore": 50.98
       },
       "sale-price": {
-        "create": 31.98,
-        "renew": 41.98,
-        "transfer": 31.98,
-        "restore": 41.98
+        "create": 40.98,
+        "renew": 50.98,
+        "transfer": 40.98,
+        "restore": 50.98
       }
     },
     "financial": {
       "maxYears": 10,
       "regular-price": {
-        "create": 50.98,
-        "renew": 58.98,
-        "transfer": 50.98,
-        "restore": 58.98
+        "create": 61.98,
+        "renew": 66.98,
+        "transfer": 61.98,
+        "restore": 66.98
       },
       "sale-price": {
         "create": 17.48,
-        "renew": 58.98,
-        "transfer": 50.98,
-        "restore": 58.98
+        "renew": 66.98,
+        "transfer": 61.98,
+        "restore": 66.98
       }
     },
     "limited": {
       "maxYears": 10,
       "regular-price": {
-        "create": 31.98,
-        "renew": 35.68,
-        "transfer": 31.98,
-        "restore": 35.68
+        "create": 37.98,
+        "renew": 39.98,
+        "transfer": 37.98,
+        "restore": 39.98
       },
       "sale-price": {
-        "create": 31.98,
-        "renew": 35.68,
-        "transfer": 31.98,
-        "restore": 35.68
+        "create": 37.98,
+        "renew": 39.98,
+        "transfer": 37.98,
+        "restore": 39.98
       }
     },
     "wtf": {
       "maxYears": 10,
       "regular-price": {
-        "create": 31.98,
-        "renew": 43.98,
-        "transfer": 31.98,
-        "restore": 43.98
+        "create": 38.48,
+        "renew": 49.48,
+        "transfer": 38.48,
+        "restore": 49.48
       },
       "sale-price": {
         "create": 2.98,
-        "renew": 43.98,
-        "transfer": 31.98,
-        "restore": 43.98
+        "renew": 49.48,
+        "transfer": 38.48,
+        "restore": 49.48
       }
     },
     "actor": {
       "maxYears": 10,
       "regular-price": {
-        "create": 39.98,
-        "renew": 49.98,
-        "transfer": 39.98,
-        "restore": 49.98
+        "create": 46.98,
+        "renew": 54.98,
+        "transfer": 46.98,
+        "restore": 54.98
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 49.98,
-        "transfer": 39.98,
-        "restore": 49.98
+        "renew": 54.98,
+        "transfer": 46.98,
+        "restore": 54.98
       }
     },
     "rocks": {
       "maxYears": 10,
       "regular-price": {
-        "create": 19.98,
-        "renew": 26.98,
-        "transfer": 19.98,
-        "restore": 26.98
+        "create": 22.98,
+        "renew": 29.98,
+        "transfer": 22.98,
+        "restore": 29.98
       },
       "sale-price": {
         "create": 7.48,
-        "renew": 26.98,
-        "transfer": 19.98,
-        "restore": 26.98
+        "renew": 29.98,
+        "transfer": 22.98,
+        "restore": 29.98
       }
     },
     "voting": {
@@ -3141,16 +3141,16 @@
     "jetzt": {
       "maxYears": 10,
       "regular-price": {
-        "create": 20.98,
-        "renew": 26.98,
-        "transfer": 20.98,
-        "restore": 26.98
+        "create": 24.48,
+        "renew": 30.48,
+        "transfer": 24.48,
+        "restore": 30.48
       },
       "sale-price": {
-        "create": 20.98,
-        "renew": 26.98,
-        "transfer": 20.98,
-        "restore": 26.98
+        "create": 24.48,
+        "renew": 30.48,
+        "transfer": 24.48,
+        "restore": 30.48
       }
     },
     "berlin": {
@@ -3169,241 +3169,241 @@
     "care": {
       "maxYears": 10,
       "regular-price": {
-        "create": 37.98,
-        "renew": 53.98,
-        "transfer": 37.98,
-        "restore": 53.98
+        "create": 46.98,
+        "renew": 59.98,
+        "transfer": 46.98,
+        "restore": 59.98
       },
       "sale-price": {
         "create": 10.98,
-        "renew": 53.98,
-        "transfer": 37.98,
-        "restore": 53.98
+        "renew": 59.98,
+        "transfer": 46.98,
+        "restore": 59.98
       }
     },
     "clinic": {
       "maxYears": 10,
       "regular-price": {
-        "create": 56.98,
-        "renew": 73.98,
-        "transfer": 56.98,
-        "restore": 73.98
+        "create": 68.98,
+        "renew": 82.98,
+        "transfer": 68.98,
+        "restore": 82.98
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 73.98,
-        "transfer": 56.98,
-        "restore": 73.98
+        "renew": 82.98,
+        "transfer": 68.98,
+        "restore": 82.98
       }
     },
     "surgery": {
       "maxYears": 10,
       "regular-price": {
-        "create": 48.98,
-        "renew": 61.98,
-        "transfer": 48.98,
-        "restore": 61.98
+        "create": 57.98,
+        "renew": 68.98,
+        "transfer": 57.98,
+        "restore": 68.98
       },
       "sale-price": {
-        "create": 48.98,
-        "renew": 61.98,
-        "transfer": 48.98,
-        "restore": 61.98
+        "create": 57.98,
+        "renew": 68.98,
+        "transfer": 57.98,
+        "restore": 68.98
       }
     },
     "dental": {
       "maxYears": 10,
       "regular-price": {
-        "create": 63.98,
-        "renew": 84.98,
-        "transfer": 63.98,
-        "restore": 84.98
+        "create": 81.98,
+        "renew": 100.98,
+        "transfer": 81.98,
+        "restore": 59.98
       },
       "sale-price": {
-        "create": 63.98,
-        "renew": 84.98,
-        "transfer": 63.98,
-        "restore": 84.98
+        "create": 81.98,
+        "renew": 100.98,
+        "transfer": 81.98,
+        "restore": 59.98
       }
     },
     "cash": {
       "maxYears": 10,
       "regular-price": {
-        "create": 31.98,
-        "renew": 41.98,
-        "transfer": 31.98,
-        "restore": 41.98
+        "create": 40.98,
+        "renew": 50.98,
+        "transfer": 40.98,
+        "restore": 50.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 41.98,
-        "transfer": 31.98,
-        "restore": 41.98
+        "renew": 50.98,
+        "transfer": 40.98,
+        "restore": 50.98
       }
     },
     "fund": {
       "maxYears": 10,
       "regular-price": {
-        "create": 62.98,
-        "renew": 81.98,
-        "transfer": 62.98,
-        "restore": 81.98
+        "create": 74.98,
+        "renew": 92.98,
+        "transfer": 74.98,
+        "restore": 92.98
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 81.98,
-        "transfer": 62.98,
-        "restore": 81.98
+        "renew": 92.98,
+        "transfer": 74.98,
+        "restore": 92.98
       }
     },
     "tax": {
       "maxYears": 10,
       "regular-price": {
-        "create": 62.98,
-        "renew": 79.98,
-        "transfer": 62.98,
-        "restore": 79.98
+        "create": 71.98,
+        "renew": 85.98,
+        "transfer": 71.98,
+        "restore": 85.98
       },
       "sale-price": {
         "create": 8.48,
-        "renew": 79.98,
-        "transfer": 62.98,
-        "restore": 79.98
+        "renew": 85.98,
+        "transfer": 71.98,
+        "restore": 85.98
       }
     },
     "investments": {
       "maxYears": 10,
       "regular-price": {
-        "create": 112.98,
-        "renew": 148.98,
-        "transfer": 112.98,
-        "restore": 148.98
+        "create": 136.98,
+        "renew": 166.98,
+        "transfer": 136.98,
+        "restore": 166.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 148.98,
-        "transfer": 112.98,
-        "restore": 148.98
+        "renew": 166.98,
+        "transfer": 136.98,
+        "restore": 166.98
       }
     },
     "digital": {
       "maxYears": 10,
       "regular-price": {
-        "create": 36.98,
-        "renew": 48.98,
-        "transfer": 36.98,
-        "restore": 48.98
+        "create": 43.98,
+        "renew": 53.98,
+        "transfer": 43.98,
+        "restore": 53.98
       },
       "sale-price": {
-        "create": 1.98,
-        "renew": 48.98,
-        "transfer": 36.98,
-        "restore": 48.98
+        "create": 2.98,
+        "renew": 53.98,
+        "transfer": 43.98,
+        "restore": 53.98
       }
     },
     "accountants": {
       "maxYears": 10,
       "regular-price": {
-        "create": 100.98,
-        "renew": 130.98,
-        "transfer": 100.98,
-        "restore": 130.98
+        "create": 122.98,
+        "renew": 145.98,
+        "transfer": 122.98,
+        "restore": 145.98
       },
       "sale-price": {
-        "create": 100.98,
-        "renew": 130.98,
-        "transfer": 100.98,
-        "restore": 130.98
+        "create": 122.98,
+        "renew": 145.98,
+        "transfer": 122.98,
+        "restore": 145.98
       }
     },
     "finance": {
       "maxYears": 10,
       "regular-price": {
-        "create": 56.98,
-        "renew": 73.98,
-        "transfer": 56.98,
-        "restore": 73.98
+        "create": 68.98,
+        "renew": 82.98,
+        "transfer": 68.98,
+        "restore": 82.98
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 73.98,
-        "transfer": 56.98,
-        "restore": 73.98
+        "renew": 82.98,
+        "transfer": 68.98,
+        "restore": 82.98
       }
     },
     "insure": {
       "maxYears": 10,
       "regular-price": {
-        "create": 63.98,
-        "renew": 81.98,
-        "transfer": 63.98,
-        "restore": 81.98
+        "create": 76.98,
+        "renew": 91.98,
+        "transfer": 76.98,
+        "restore": 91.98
       },
       "sale-price": {
-        "create": 63.98,
-        "renew": 81.98,
-        "transfer": 63.98,
-        "restore": 81.98
+        "create": 76.98,
+        "renew": 91.98,
+        "transfer": 76.98,
+        "restore": 91.98
       }
     },
     "loans": {
       "maxYears": 10,
       "regular-price": {
-        "create": 99.98,
-        "renew": 128.98,
-        "transfer": 99.98,
-        "restore": 128.98
+        "create": 122.98,
+        "renew": 144.98,
+        "transfer": 122.98,
+        "restore": 144.98
       },
       "sale-price": {
         "create": 17.48,
-        "renew": 128.98,
-        "transfer": 99.98,
-        "restore": 128.98
+        "renew": 144.98,
+        "transfer": 122.98,
+        "restore": 144.98
       }
     },
     "church": {
       "maxYears": 10,
       "regular-price": {
-        "create": 39.98,
-        "renew": 53.98,
-        "transfer": 39.98,
-        "restore": 53.98
+        "create": 61.98,
+        "renew": 78.98,
+        "transfer": 61.98,
+        "restore": 78.98
       },
       "sale-price": {
         "create": 8.48,
-        "renew": 53.98,
-        "transfer": 39.98,
-        "restore": 53.98
+        "renew": 78.98,
+        "transfer": 61.98,
+        "restore": 78.98
       }
     },
     "life": {
       "maxYears": 10,
       "regular-price": {
-        "create": 32.98,
-        "renew": 42.98,
-        "transfer": 32.98,
-        "restore": 42.98
+        "create": 38.48,
+        "renew": 46.48,
+        "transfer": 38.48,
+        "restore": 46.48
       },
       "sale-price": {
-        "create": 2.48,
-        "renew": 42.98,
-        "transfer": 32.98,
-        "restore": 42.98
+        "create": 2.98,
+        "renew": 46.48,
+        "transfer": 38.48,
+        "restore": 46.48
       }
     },
     "guide": {
       "maxYears": 10,
       "regular-price": {
-        "create": 36.98,
-        "renew": 48.98,
-        "transfer": 36.98,
-        "restore": 48.98
+        "create": 43.48,
+        "renew": 54.48,
+        "transfer": 43.48,
+        "restore": 54.48
       },
       "sale-price": {
-        "create": 36.98,
-        "renew": 48.98,
-        "transfer": 36.98,
-        "restore": 48.98
+        "create": 43.48,
+        "renew": 54.48,
+        "transfer": 43.48,
+        "restore": 54.48
       }
     },
     "republican": {
@@ -3424,106 +3424,106 @@
     "direct": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 45.98,
-        "transfer": 34.98,
-        "restore": 45.98
+        "create": 43.98,
+        "renew": 53.98,
+        "transfer": 43.98,
+        "restore": 53.98
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 45.98,
-        "transfer": 34.98,
-        "restore": 45.98
+        "renew": 53.98,
+        "transfer": 43.98,
+        "restore": 53.98
       }
     },
     "place": {
       "maxYears": 10,
       "regular-price": {
-        "create": 19.98,
-        "renew": 28.98,
-        "transfer": 19.98,
-        "restore": 28.98
+        "create": 22.98,
+        "renew": 30.98,
+        "transfer": 22.98,
+        "restore": 30.98
       },
       "sale-price": {
-        "create": 19.98,
-        "renew": 28.98,
-        "transfer": 19.98,
-        "restore": 28.98
+        "create": 22.98,
+        "renew": 30.98,
+        "transfer": 22.98,
+        "restore": 30.98
       }
     },
     "deals": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 46.98,
-        "transfer": 34.98,
-        "restore": 46.98
+        "create": 40.98,
+        "renew": 51.98,
+        "transfer": 40.98,
+        "restore": 51.98
       },
       "sale-price": {
-        "create": 34.98,
-        "renew": 46.98,
-        "transfer": 34.98,
-        "restore": 46.98
+        "create": 40.98,
+        "renew": 51.98,
+        "transfer": 40.98,
+        "restore": 51.98
       }
     },
     "attorney": {
       "maxYears": 10,
       "regular-price": {
-        "create": 54.98,
-        "renew": 68.98,
-        "transfer": 54.98,
-        "restore": 68.98
+        "create": 65.98,
+        "renew": 76.98,
+        "transfer": 65.98,
+        "restore": 76.98
       },
       "sale-price": {
-        "create": 54.98,
-        "renew": 68.98,
-        "transfer": 54.98,
-        "restore": 68.98
+        "create": 65.98,
+        "renew": 76.98,
+        "transfer": 65.98,
+        "restore": 76.98
       }
     },
     "lawyer": {
       "maxYears": 10,
       "regular-price": {
-        "create": 54.98,
-        "renew": 59.83,
-        "transfer": 54.98,
-        "restore": 59.83
+        "create": 65.98,
+        "renew": 66.98,
+        "transfer": 65.98,
+        "restore": 66.98
       },
       "sale-price": {
-        "create": 54.98,
-        "renew": 59.83,
-        "transfer": 54.98,
-        "restore": 59.83
+        "create": 65.98,
+        "renew": 66.98,
+        "transfer": 65.98,
+        "restore": 66.98
       }
     },
     "city": {
       "maxYears": 10,
       "regular-price": {
-        "create": 22.98,
-        "renew": 31.98,
-        "transfer": 22.98,
-        "restore": 31.98
+        "create": 29.98,
+        "renew": 37.98,
+        "transfer": 29.98,
+        "restore": 37.98
       },
       "sale-price": {
         "create": 4.98,
-        "renew": 31.98,
-        "transfer": 22.98,
-        "restore": 31.98
+        "renew": 37.98,
+        "transfer": 29.98,
+        "restore": 37.98
       }
     },
     "healthcare": {
       "maxYears": 10,
       "regular-price": {
-        "create": 75.98,
-        "renew": 98.98,
-        "transfer": 75.98,
-        "restore": 98.98
+        "create": 93.98,
+        "renew": 111.98,
+        "transfer": 93.98,
+        "restore": 111.98
       },
       "sale-price": {
-        "create": 75.98,
-        "renew": 98.98,
-        "transfer": 75.98,
-        "restore": 98.98
+        "create": 93.98,
+        "renew": 111.98,
+        "transfer": 93.98,
+        "restore": 111.98
       }
     },
     "furniture": {
@@ -3559,106 +3559,106 @@
     "fitness": {
       "maxYears": 10,
       "regular-price": {
-        "create": 35.98,
-        "renew": 47.98,
-        "transfer": 35.98,
-        "restore": 47.98
+        "create": 43.98,
+        "renew": 54.98,
+        "transfer": 43.98,
+        "restore": 54.98
       },
       "sale-price": {
         "create": 3.48,
-        "renew": 47.98,
-        "transfer": 35.98,
-        "restore": 47.98
+        "renew": 54.98,
+        "transfer": 43.98,
+        "restore": 54.98
       }
     },
     "schule": {
       "maxYears": 10,
       "regular-price": {
-        "create": 25.98,
-        "renew": 29.38,
-        "transfer": 25.98,
-        "restore": 29.38
+        "create": 29.98,
+        "renew": 32.98,
+        "transfer": 29.98,
+        "restore": 32.98
       },
       "sale-price": {
-        "create": 25.98,
-        "renew": 29.38,
-        "transfer": 25.98,
-        "restore": 29.38
+        "create": 29.98,
+        "renew": 32.98,
+        "transfer": 29.98,
+        "restore": 32.98
       }
     },
     "haus": {
       "maxYears": 10,
       "regular-price": {
-        "create": 29.98,
-        "renew": 33.58,
-        "transfer": 29.98,
-        "restore": 33.58
+        "create": 35.98,
+        "renew": 37.98,
+        "transfer": 35.98,
+        "restore": 37.98
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 33.58,
-        "transfer": 29.98,
-        "restore": 33.58
+        "renew": 37.98,
+        "transfer": 35.98,
+        "restore": 37.98
       }
     },
     "bio": {
       "maxYears": 10,
       "regular-price": {
-        "create": 67.98,
-        "renew": 78.98,
-        "transfer": 67.98,
-        "restore": 78.98
+        "create": 76.98,
+        "renew": 84.98,
+        "transfer": 76.98,
+        "restore": 84.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 78.98,
-        "transfer": 67.98,
-        "restore": 78.98
+        "renew": 84.98,
+        "transfer": 76.98,
+        "restore": 84.98
       }
     },
     "gratis": {
       "maxYears": 10,
       "regular-price": {
-        "create": 20.98,
-        "renew": 28.98,
-        "transfer": 20.98,
-        "restore": 28.98
+        "create": 24.98,
+        "renew": 31.98,
+        "transfer": 24.98,
+        "restore": 31.98
       },
       "sale-price": {
-        "create": 20.98,
-        "renew": 28.98,
-        "transfer": 20.98,
-        "restore": 28.98
+        "create": 24.98,
+        "renew": 31.98,
+        "transfer": 24.98,
+        "restore": 31.98
       }
     },
     "claims": {
       "maxYears": 10,
       "regular-price": {
-        "create": 57.98,
-        "renew": 74.98,
-        "transfer": 57.98,
-        "restore": 74.98
+        "create": 68.98,
+        "renew": 82.98,
+        "transfer": 68.98,
+        "restore": 82.98
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 74.98,
-        "transfer": 57.98,
-        "restore": 74.98
+        "renew": 82.98,
+        "transfer": 68.98,
+        "restore": 82.98
       }
     },
     "credit": {
       "maxYears": 10,
       "regular-price": {
-        "create": 93.98,
-        "renew": 122.98,
-        "transfer": 93.98,
-        "restore": 122.98
+        "create": 109.98,
+        "renew": 131.98,
+        "transfer": 109.98,
+        "restore": 131.98
       },
       "sale-price": {
         "create": 8.98,
-        "renew": 122.98,
-        "transfer": 93.98,
-        "restore": 122.98
+        "renew": 131.98,
+        "transfer": 109.98,
+        "restore": 131.98
       }
     },
     "creditcard": {
@@ -3739,16 +3739,16 @@
     "global": {
       "maxYears": 10,
       "regular-price": {
-        "create": 79.98,
-        "renew": 108.98,
-        "transfer": 79.98,
-        "restore": 108.98
+        "create": 102.98,
+        "renew": 127.98,
+        "transfer": 102.98,
+        "restore": 127.98
       },
       "sale-price": {
         "create": 34.98,
-        "renew": 108.98,
-        "transfer": 79.98,
-        "restore": 108.98
+        "renew": 127.98,
+        "transfer": 102.98,
+        "restore": 127.98
       }
     },
     "vegas": {
@@ -3832,7 +3832,7 @@
         "restore": 41.98
       },
       "sale-price": {
-        "create": 4.98,
+        "create": 30.98,
         "renew": 41.98,
         "restore": 41.98
       }
@@ -3894,151 +3894,151 @@
     "airforce": {
       "maxYears": 10,
       "regular-price": {
-        "create": 31.98,
-        "renew": 41.98,
-        "transfer": 31.98,
-        "restore": 41.98
+        "create": 109.98,
+        "renew": 134.98,
+        "transfer": 109.98,
+        "restore": 134.98
       },
       "sale-price": {
-        "create": 31.98,
-        "renew": 41.98,
-        "transfer": 31.98,
-        "restore": 41.98
+        "create": 109.98,
+        "renew": 134.98,
+        "transfer": 109.98,
+        "restore": 134.98
       }
     },
     "army": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 43.98,
-        "transfer": 34.98,
-        "restore": 43.98
+        "create": 41.98,
+        "renew": 48.98,
+        "transfer": 41.98,
+        "restore": 48.98
       },
       "sale-price": {
         "create": 13.48,
-        "renew": 43.98,
-        "transfer": 34.98,
-        "restore": 43.98
+        "renew": 48.98,
+        "transfer": 41.98,
+        "restore": 48.98
       }
     },
     "navy": {
       "maxYears": 10,
       "regular-price": {
-        "create": 35.98,
-        "renew": 39.88,
-        "transfer": 35.98,
-        "restore": 39.88
+        "create": 43.98,
+        "renew": 45.98,
+        "transfer": 43.98,
+        "restore": 45.98
       },
       "sale-price": {
-        "create": 35.98,
-        "renew": 39.88,
-        "transfer": 35.98,
-        "restore": 39.88
+        "create": 43.98,
+        "renew": 45.98,
+        "transfer": 43.98,
+        "restore": 45.98
       }
     },
     "vet": {
       "maxYears": 10,
       "regular-price": {
-        "create": 36.98,
-        "renew": 47.98,
-        "transfer": 36.98,
-        "restore": 47.98
+        "create": 43.98,
+        "renew": 52.98,
+        "transfer": 43.98,
+        "restore": 52.98
       },
       "sale-price": {
-        "create": 36.98,
-        "renew": 47.98,
-        "transfer": 36.98,
-        "restore": 47.98
+        "create": 43.98,
+        "renew": 52.98,
+        "transfer": 43.98,
+        "restore": 52.98
       }
     },
     "market": {
       "maxYears": 10,
       "regular-price": {
-        "create": 40.98,
-        "renew": 51.98,
-        "transfer": 40.98,
-        "restore": 51.98
+        "create": 46.98,
+        "renew": 55.98,
+        "transfer": 46.98,
+        "restore": 55.98
       },
       "sale-price": {
-        "create": 40.98,
-        "renew": 51.98,
-        "transfer": 40.98,
-        "restore": 51.98
+        "create": 46.98,
+        "renew": 55.98,
+        "transfer": 46.98,
+        "restore": 55.98
       }
     },
     "mortgage": {
       "maxYears": 10,
       "regular-price": {
-        "create": 54.98,
-        "renew": 68.98,
-        "transfer": 54.98,
-        "restore": 68.98
+        "create": 65.98,
+        "renew": 76.98,
+        "transfer": 65.98,
+        "restore": 76.98
       },
       "sale-price": {
-        "create": 54.98,
-        "renew": 68.98,
-        "transfer": 54.98,
-        "restore": 68.98
+        "create": 65.98,
+        "renew": 76.98,
+        "transfer": 65.98,
+        "restore": 76.98
       }
     },
     "restaurant": {
       "maxYears": 10,
       "regular-price": {
-        "create": 55.98,
-        "renew": 71.98,
-        "transfer": 55.98,
-        "restore": 71.98
+        "create": 67.98,
+        "renew": 81.98,
+        "transfer": 67.98,
+        "restore": 81.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 71.98,
-        "transfer": 55.98,
-        "restore": 71.98
+        "renew": 81.98,
+        "transfer": 67.98,
+        "restore": 81.98
       }
     },
     "gifts": {
       "maxYears": 10,
       "regular-price": {
-        "create": 31.98,
-        "renew": 41.98,
-        "transfer": 31.98,
-        "restore": 41.98
+        "create": 38.48,
+        "renew": 47.48,
+        "transfer": 38.48,
+        "restore": 47.48
       },
       "sale-price": {
-        "create": 31.98,
-        "renew": 41.98,
-        "transfer": 31.98,
-        "restore": 41.98
+        "create": 38.48,
+        "renew": 47.48,
+        "transfer": 38.48,
+        "restore": 47.48
       }
     },
     "sarl": {
       "maxYears": 10,
       "regular-price": {
-        "create": 29.98,
-        "renew": 33.58,
-        "transfer": 29.98,
-        "restore": 33.58
+        "create": 6.98,
+        "renew": 8.98,
+        "transfer": 6.98,
+        "restore": 8.98
       },
       "sale-price": {
-        "create": 29.98,
-        "renew": 33.58,
-        "transfer": 29.98,
-        "restore": 33.58
+        "create": 6.98,
+        "renew": 8.98,
+        "transfer": 6.98,
+        "restore": 8.98
       }
     },
     "engineer": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 47.98,
-        "transfer": 34.98,
-        "restore": 47.98
+        "create": 40.98,
+        "renew": 52.98,
+        "transfer": 40.98,
+        "restore": 52.98
       },
       "sale-price": {
-        "create": 34.98,
-        "renew": 47.98,
-        "transfer": 34.98,
-        "restore": 47.98
+        "create": 40.98,
+        "renew": 52.98,
+        "transfer": 40.98,
+        "restore": 52.98
       }
     },
     "click": {
@@ -4132,106 +4132,106 @@
     "auction": {
       "maxYears": 10,
       "regular-price": {
-        "create": 31.98,
-        "renew": 42.98,
-        "transfer": 31.98,
-        "restore": 42.98
+        "create": 38.98,
+        "renew": 46.98,
+        "transfer": 38.98,
+        "restore": 46.98
       },
       "sale-price": {
-        "create": 31.98,
-        "renew": 42.98,
-        "transfer": 31.98,
-        "restore": 42.98
+        "create": 38.98,
+        "renew": 46.98,
+        "transfer": 38.98,
+        "restore": 46.98
       }
     },
     "business": {
       "maxYears": 10,
       "regular-price": {
-        "create": 15.98,
-        "renew": 21.98,
-        "transfer": 15.98,
-        "restore": 21.98
+        "create": 19.98,
+        "renew": 25.98,
+        "transfer": 19.98,
+        "restore": 25.98
       },
       "sale-price": {
-        "create": 15.98,
-        "renew": 21.98,
-        "transfer": 15.98,
-        "restore": 21.98
+        "create": 19.98,
+        "renew": 25.98,
+        "transfer": 19.98,
+        "restore": 25.98
       }
     },
     "network": {
       "maxYears": 10,
       "regular-price": {
-        "create": 30.98,
-        "renew": 40.98,
-        "transfer": 30.98,
-        "restore": 40.98
+        "create": 36.98,
+        "renew": 46.98,
+        "transfer": 36.98,
+        "restore": 46.98
       },
       "sale-price": {
         "create": 5.48,
-        "renew": 40.98,
-        "transfer": 30.98,
-        "restore": 40.98
+        "renew": 46.98,
+        "transfer": 36.98,
+        "restore": 46.98
       }
     },
     "immo": {
       "maxYears": 10,
       "regular-price": {
-        "create": 30.98,
-        "renew": 38.98,
-        "transfer": 30.98,
-        "restore": 38.98
+        "create": 36.98,
+        "renew": 43.98,
+        "transfer": 36.98,
+        "restore": 43.98
       },
       "sale-price": {
-        "create": 30.98,
-        "renew": 38.98,
-        "transfer": 30.98,
-        "restore": 38.98
+        "create": 36.98,
+        "renew": 43.98,
+        "transfer": 36.98,
+        "restore": 43.98
       }
     },
     "pizza": {
       "maxYears": 10,
       "regular-price": {
-        "create": 56.98,
-        "renew": 74.98,
-        "transfer": 56.98,
-        "restore": 74.98
+        "create": 67.98,
+        "renew": 83.98,
+        "transfer": 67.98,
+        "restore": 83.98
       },
       "sale-price": {
         "create": 6.98,
-        "renew": 74.98,
-        "transfer": 56.98,
-        "restore": 74.98
+        "renew": 83.98,
+        "transfer": 67.98,
+        "restore": 83.98
       }
     },
     "software": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 47.98,
-        "transfer": 34.98,
-        "restore": 47.98
+        "create": 43.98,
+        "renew": 56.98,
+        "transfer": 43.98,
+        "restore": 56.98
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 47.98,
-        "transfer": 34.98,
-        "restore": 47.98
+        "renew": 56.98,
+        "transfer": 43.98,
+        "restore": 56.98
       }
     },
     "rehab": {
       "maxYears": 10,
       "regular-price": {
-        "create": 31.98,
-        "renew": 41.98,
-        "transfer": 31.98,
-        "restore": 41.98
+        "create": 38.48,
+        "renew": 47.48,
+        "transfer": 38.48,
+        "restore": 47.48
       },
       "sale-price": {
-        "create": 31.98,
-        "renew": 41.98,
-        "transfer": 31.98,
-        "restore": 41.98
+        "create": 38.48,
+        "renew": 47.48,
+        "transfer": 38.48,
+        "restore": 47.48
       }
     },
     "dentist": {
@@ -4252,31 +4252,31 @@
     "forsale": {
       "maxYears": 10,
       "regular-price": {
-        "create": 31.98,
-        "renew": 41.98,
-        "transfer": 31.98,
-        "restore": 41.98
+        "create": 38.48,
+        "renew": 47.48,
+        "transfer": 38.48,
+        "restore": 47.48
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 41.98,
-        "transfer": 31.98,
-        "restore": 41.98
+        "renew": 47.48,
+        "transfer": 38.48,
+        "restore": 47.48
       }
     },
     "world": {
       "maxYears": 10,
       "regular-price": {
-        "create": 36.98,
-        "renew": 47.98,
-        "transfer": 36.98,
-        "restore": 47.98
+        "create": 43.98,
+        "renew": 52.98,
+        "transfer": 43.98,
+        "restore": 52.98
       },
       "sale-price": {
-        "create": 1.98,
-        "renew": 47.98,
-        "transfer": 36.98,
-        "restore": 47.98
+        "create": 2.98,
+        "renew": 52.98,
+        "transfer": 43.98,
+        "restore": 52.98
       }
     },
     "gives": {
@@ -4297,46 +4297,46 @@
     "degree": {
       "maxYears": 10,
       "regular-price": {
-        "create": 42.98,
-        "renew": 56.98,
-        "transfer": 42.98,
-        "restore": 56.98
+        "create": 54.98,
+        "renew": 66.98,
+        "transfer": 54.98,
+        "restore": 66.98
       },
       "sale-price": {
-        "create": 42.98,
-        "renew": 56.98,
-        "transfer": 42.98,
-        "restore": 56.98
+        "create": 54.98,
+        "renew": 66.98,
+        "transfer": 54.98,
+        "restore": 66.98
       }
     },
     "rip": {
       "maxYears": 10,
       "regular-price": {
-        "create": 20.98,
-        "renew": 29.98,
-        "transfer": 20.98,
-        "restore": 29.98
+        "create": 24.98,
+        "renew": 32.98,
+        "transfer": 24.98,
+        "restore": 32.98
       },
       "sale-price": {
-        "create": 20.98,
-        "renew": 29.98,
-        "transfer": 20.98,
-        "restore": 29.98
+        "create": 24.98,
+        "renew": 32.98,
+        "transfer": 24.98,
+        "restore": 32.98
       }
     },
     "band": {
       "maxYears": 10,
       "regular-price": {
-        "create": 27.98,
-        "renew": 35.98,
-        "transfer": 27.98,
-        "restore": 35.98
+        "create": 32.98,
+        "renew": 39.98,
+        "transfer": 32.98,
+        "restore": 39.98
       },
       "sale-price": {
         "create": 17.48,
-        "renew": 35.98,
-        "transfer": 27.98,
-        "restore": 35.98
+        "renew": 39.98,
+        "transfer": 32.98,
+        "restore": 39.98
       }
     },
     "how": {
@@ -4396,31 +4396,31 @@
     "delivery": {
       "maxYears": 10,
       "regular-price": {
-        "create": 51.98,
-        "renew": 67.98,
-        "transfer": 51.98,
-        "restore": 67.98
+        "create": 65.98,
+        "renew": 79.98,
+        "transfer": 65.98,
+        "restore": 79.98
       },
       "sale-price": {
         "create": 2.98,
-        "renew": 67.98,
-        "transfer": 51.98,
-        "restore": 67.98
+        "renew": 79.98,
+        "transfer": 65.98,
+        "restore": 79.98
       }
     },
     "energy": {
       "maxYears": 10,
       "regular-price": {
-        "create": 100.98,
-        "renew": 139.98,
-        "transfer": 100.98,
-        "restore": 139.98
+        "create": 122.98,
+        "renew": 155.98,
+        "transfer": 122.98,
+        "restore": 155.98
       },
       "sale-price": {
         "create": 10.98,
-        "renew": 139.98,
-        "transfer": 100.98,
-        "restore": 139.98
+        "renew": 155.98,
+        "transfer": 122.98,
+        "restore": 155.98
       }
     },
     "cricket": {
@@ -4471,46 +4471,46 @@
     "coach": {
       "maxYears": 10,
       "regular-price": {
-        "create": 62.98,
-        "renew": 77.98,
-        "transfer": 62.98,
-        "restore": 77.98
+        "create": 81.98,
+        "renew": 95.98,
+        "transfer": 81.98,
+        "restore": 95.98
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 77.98,
-        "transfer": 62.98,
-        "restore": 77.98
+        "renew": 95.98,
+        "transfer": 81.98,
+        "restore": 95.98
       }
     },
     "legal": {
       "maxYears": 10,
       "regular-price": {
-        "create": 62.98,
-        "renew": 78.98,
-        "transfer": 62.98,
-        "restore": 78.98
+        "create": 74.98,
+        "renew": 88.98,
+        "transfer": 74.98,
+        "restore": 88.98
       },
       "sale-price": {
-        "create": 62.98,
-        "renew": 78.98,
-        "transfer": 62.98,
-        "restore": 78.98
+        "create": 74.98,
+        "renew": 88.98,
+        "transfer": 74.98,
+        "restore": 88.98
       }
     },
     "memorial": {
       "maxYears": 10,
       "regular-price": {
-        "create": 43.98,
-        "renew": 56.98,
-        "transfer": 43.98,
-        "restore": 56.98
+        "create": 54.98,
+        "renew": 64.98,
+        "transfer": 54.98,
+        "restore": 64.98
       },
       "sale-price": {
-        "create": 43.98,
-        "renew": 56.98,
-        "transfer": 43.98,
-        "restore": 56.98
+        "create": 54.98,
+        "renew": 64.98,
+        "transfer": 54.98,
+        "restore": 64.98
       }
     },
     "money": {
@@ -4631,7 +4631,7 @@
         "restore": 39.98
       },
       "sale-price": {
-        "create": 4.98,
+        "create": 30.98,
         "renew": 39.98,
         "restore": 39.98
       }
@@ -4639,16 +4639,16 @@
     "poker": {
       "maxYears": 10,
       "regular-price": {
-        "create": 57.98,
-        "renew": 74.98,
-        "transfer": 57.98,
-        "restore": 74.98
+        "create": 71.98,
+        "renew": 85.98,
+        "transfer": 71.98,
+        "restore": 85.98
       },
       "sale-price": {
         "create": 4.98,
-        "renew": 74.98,
-        "transfer": 57.98,
-        "restore": 74.98
+        "renew": 85.98,
+        "transfer": 71.98,
+        "restore": 85.98
       }
     },
     "ltda": {
@@ -4680,31 +4680,31 @@
     "sale": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 43.98,
-        "transfer": 34.98,
-        "restore": 43.98
+        "create": 40.98,
+        "renew": 48.98,
+        "transfer": 40.98,
+        "restore": 48.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 43.98,
-        "transfer": 34.98,
-        "restore": 43.98
+        "renew": 48.98,
+        "transfer": 40.98,
+        "restore": 48.98
       }
     },
     "video": {
       "maxYears": 10,
       "regular-price": {
-        "create": 31.98,
-        "renew": 43.98,
-        "transfer": 31.98,
-        "restore": 43.98
+        "create": 38.48,
+        "renew": 49.48,
+        "transfer": 38.48,
+        "restore": 49.48
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 43.98,
-        "transfer": 31.98,
-        "restore": 43.98
+        "renew": 49.48,
+        "transfer": 38.48,
+        "restore": 49.48
       }
     },
     "design": {
@@ -4725,16 +4725,16 @@
     "tennis": {
       "maxYears": 10,
       "regular-price": {
-        "create": 57.98,
-        "renew": 74.98,
-        "transfer": 57.98,
-        "restore": 74.98
+        "create": 67.98,
+        "renew": 81.98,
+        "transfer": 67.98,
+        "restore": 81.98
       },
       "sale-price": {
-        "create": 57.98,
-        "renew": 74.98,
-        "transfer": 57.98,
-        "restore": 74.98
+        "create": 67.98,
+        "renew": 81.98,
+        "transfer": 67.98,
+        "restore": 81.98
       }
     },
     "bingo": {
@@ -4755,91 +4755,91 @@
     "chat": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 44.98,
-        "transfer": 34.98,
-        "restore": 44.98
+        "create": 47.98,
+        "renew": 58.98,
+        "transfer": 47.98,
+        "restore": 58.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 44.98,
-        "transfer": 34.98,
-        "restore": 44.98
+        "renew": 58.98,
+        "transfer": 47.98,
+        "restore": 58.98
       }
     },
     "style": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 44.98,
-        "transfer": 34.98,
-        "restore": 44.98
+        "create": 40.98,
+        "renew": 49.98,
+        "transfer": 40.98,
+        "restore": 49.98
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 44.98,
-        "transfer": 34.98,
-        "restore": 44.98
+        "renew": 49.98,
+        "transfer": 40.98,
+        "restore": 49.98
       }
     },
     "apartments": {
       "maxYears": 10,
       "regular-price": {
-        "create": 50.98,
-        "renew": 64.98,
-        "transfer": 50.98,
-        "restore": 64.98
+        "create": 60.98,
+        "renew": 72.98,
+        "transfer": 60.98,
+        "restore": 72.98
       },
       "sale-price": {
-        "create": 50.98,
-        "renew": 64.98,
-        "transfer": 50.98,
-        "restore": 64.98
+        "create": 60.98,
+        "renew": 72.98,
+        "transfer": 60.98,
+        "restore": 72.98
       }
     },
     "school": {
       "maxYears": 10,
       "regular-price": {
-        "create": 31.98,
-        "renew": 44.98,
-        "transfer": 31.98,
-        "restore": 44.98
+        "create": 38.48,
+        "renew": 49.98,
+        "transfer": 38.48,
+        "restore": 49.98
       },
       "sale-price": {
-        "create": 31.98,
-        "renew": 44.98,
-        "transfer": 31.98,
-        "restore": 44.98
+        "create": 38.48,
+        "renew": 49.98,
+        "transfer": 38.48,
+        "restore": 49.98
       }
     },
     "casino": {
       "maxYears": 10,
       "regular-price": {
-        "create": 147.98,
-        "renew": 180.98,
-        "transfer": 147.98,
-        "restore": 180.98
+        "create": 171.98,
+        "renew": 191.98,
+        "transfer": 171.98,
+        "restore": 191.98
       },
       "sale-price": {
         "create": 6.98,
-        "renew": 180.98,
-        "transfer": 147.98,
-        "restore": 180.98
+        "renew": 191.98,
+        "transfer": 171.98,
+        "restore": 191.98
       }
     },
     "football": {
       "maxYears": 10,
       "regular-price": {
-        "create": 22.98,
-        "renew": 33.98,
-        "transfer": 22.98,
-        "restore": 33.98
+        "create": 26.98,
+        "renew": 36.98,
+        "transfer": 26.98,
+        "restore": 36.98
       },
       "sale-price": {
-        "create": 22.98,
-        "renew": 33.98,
-        "transfer": 22.98,
-        "restore": 33.98
+        "create": 26.98,
+        "renew": 36.98,
+        "transfer": 26.98,
+        "restore": 36.98
       }
     },
     "adult": {
@@ -4888,61 +4888,61 @@
     "gold": {
       "maxYears": 10,
       "regular-price": {
-        "create": 93.98,
-        "renew": 122.98,
-        "transfer": 93.98,
-        "restore": 122.98
+        "create": 108.98,
+        "renew": 130.98,
+        "transfer": 108.98,
+        "restore": 130.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 122.98,
-        "transfer": 93.98,
-        "restore": 122.98
+        "renew": 130.98,
+        "transfer": 108.98,
+        "restore": 130.98
       }
     },
     "golf": {
       "maxYears": 10,
       "regular-price": {
-        "create": 56.98,
-        "renew": 74.98,
-        "transfer": 56.98,
-        "restore": 74.98
+        "create": 67.98,
+        "renew": 83.98,
+        "transfer": 67.98,
+        "restore": 83.98
       },
       "sale-price": {
         "create": 4.98,
-        "renew": 74.98,
-        "transfer": 56.98,
-        "restore": 74.98
+        "renew": 83.98,
+        "transfer": 67.98,
+        "restore": 83.98
       }
     },
     "plus": {
       "maxYears": 10,
       "regular-price": {
-        "create": 40.98,
-        "renew": 54.98,
-        "transfer": 40.98,
-        "restore": 54.98
+        "create": 57.98,
+        "renew": 72.98,
+        "transfer": 57.98,
+        "restore": 72.98
       },
       "sale-price": {
         "create": 4.98,
-        "renew": 54.98,
-        "transfer": 40.98,
-        "restore": 54.98
+        "renew": 72.98,
+        "transfer": 57.98,
+        "restore": 72.98
       }
     },
     "tours": {
       "maxYears": 10,
       "regular-price": {
-        "create": 55.98,
-        "renew": 74.98,
-        "transfer": 55.98,
-        "restore": 74.98
+        "create": 65.98,
+        "renew": 81.98,
+        "transfer": 65.98,
+        "restore": 81.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 74.98,
-        "transfer": 55.98,
-        "restore": 74.98
+        "renew": 81.98,
+        "transfer": 65.98,
+        "restore": 81.98
       }
     },
     "site": {
@@ -4963,136 +4963,136 @@
     "cafe": {
       "maxYears": 10,
       "regular-price": {
-        "create": 40.98,
-        "renew": 51.98,
-        "transfer": 40.98,
-        "restore": 51.98
+        "create": 54.98,
+        "renew": 64.98,
+        "transfer": 54.98,
+        "restore": 64.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 51.98,
-        "transfer": 40.98,
-        "restore": 51.98
+        "renew": 64.98,
+        "transfer": 54.98,
+        "restore": 64.98
       }
     },
     "express": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 44.98,
-        "transfer": 34.98,
-        "restore": 44.98
+        "create": 40.98,
+        "renew": 49.98,
+        "transfer": 40.98,
+        "restore": 49.98
       },
       "sale-price": {
         "create": 9.98,
-        "renew": 44.98,
-        "transfer": 34.98,
-        "restore": 44.98
+        "renew": 49.98,
+        "transfer": 40.98,
+        "restore": 49.98
       }
     },
     "news": {
       "maxYears": 10,
       "regular-price": {
-        "create": 29.98,
-        "renew": 37.98,
-        "transfer": 29.98,
-        "restore": 37.98
+        "create": 34.48,
+        "renew": 41.48,
+        "transfer": 34.48,
+        "restore": 41.48
       },
       "sale-price": {
         "create": 8.48,
-        "renew": 37.98,
-        "transfer": 29.98,
-        "restore": 37.98
+        "renew": 41.48,
+        "transfer": 34.48,
+        "restore": 41.48
       }
     },
     "team": {
       "maxYears": 10,
       "regular-price": {
-        "create": 32.98,
-        "renew": 42.98,
-        "transfer": 32.98,
-        "restore": 42.98
+        "create": 38.48,
+        "renew": 46.48,
+        "transfer": 38.48,
+        "restore": 46.48
       },
       "sale-price": {
         "create": 4.98,
-        "renew": 42.98,
-        "transfer": 32.98,
-        "restore": 42.98
+        "renew": 46.48,
+        "transfer": 38.48,
+        "restore": 46.48
       }
     },
     "jewelry": {
       "maxYears": 10,
       "regular-price": {
-        "create": 56.98,
-        "renew": 61.98,
-        "transfer": 56.98,
-        "restore": 61.98
+        "create": 67.98,
+        "renew": 69.98,
+        "transfer": 67.98,
+        "restore": 69.98
       },
       "sale-price": {
-        "create": 56.98,
-        "renew": 61.98,
-        "transfer": 56.98,
-        "restore": 61.98
+        "create": 67.98,
+        "renew": 69.98,
+        "transfer": 67.98,
+        "restore": 69.98
       }
     },
     "show": {
       "maxYears": 10,
       "regular-price": {
-        "create": 37.98,
-        "renew": 48.98,
-        "transfer": 37.98,
-        "restore": 48.98
+        "create": 43.98,
+        "renew": 47.98,
+        "transfer": 43.98,
+        "restore": 47.98
       },
       "sale-price": {
         "create": 15.98,
-        "renew": 48.98,
-        "transfer": 37.98,
-        "restore": 48.98
+        "renew": 47.98,
+        "transfer": 43.98,
+        "restore": 47.98
       }
     },
     "reise": {
       "maxYears": 10,
       "regular-price": {
-        "create": 78.98,
-        "renew": 111.98,
-        "transfer": 78.98,
-        "restore": 111.98
+        "create": 102.98,
+        "renew": 127.98,
+        "transfer": 102.98,
+        "restore": 127.98
       },
       "sale-price": {
-        "create": 78.98,
-        "renew": 111.98,
-        "transfer": 78.98,
-        "restore": 111.98
+        "create": 102.98,
+        "renew": 127.98,
+        "transfer": 102.98,
+        "restore": 127.98
       }
     },
     "green": {
       "maxYears": 10,
       "regular-price": {
-        "create": 71.98,
-        "renew": 92.98,
-        "transfer": 71.98,
-        "restore": 92.98
+        "create": 84.98,
+        "renew": 102.98,
+        "transfer": 84.98,
+        "restore": 102.98
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 92.98,
-        "transfer": 71.98,
-        "restore": 92.98
+        "renew": 102.98,
+        "transfer": 84.98,
+        "restore": 102.98
       }
     },
     "lgbt": {
       "maxYears": 10,
       "regular-price": {
-        "create": 70.98,
-        "renew": 84.98,
-        "transfer": 70.98,
-        "restore": 84.98
+        "create": 84.98,
+        "renew": 93.98,
+        "transfer": 84.98,
+        "restore": 93.98
       },
       "sale-price": {
         "create": 7.98,
-        "renew": 84.98,
-        "transfer": 70.98,
-        "restore": 84.98
+        "renew": 93.98,
+        "transfer": 84.98,
+        "restore": 93.98
       }
     },
     "love": {
@@ -5113,16 +5113,16 @@
     "black": {
       "maxYears": 10,
       "regular-price": {
-        "create": 57.98,
-        "renew": 75.98,
-        "transfer": 57.98,
-        "restore": 75.98
+        "create": 68.98,
+        "renew": 82.98,
+        "transfer": 68.98,
+        "restore": 82.98
       },
       "sale-price": {
         "create": 17.48,
-        "renew": 75.98,
-        "transfer": 57.98,
-        "restore": 75.98
+        "renew": 82.98,
+        "transfer": 68.98,
+        "restore": 82.98
       }
     },
     "date": {
@@ -5263,121 +5263,121 @@
     "theater": {
       "maxYears": 10,
       "regular-price": {
-        "create": 55.98,
-        "renew": 70.98,
-        "transfer": 55.98,
-        "restore": 70.98
+        "create": 67.98,
+        "renew": 80.98,
+        "transfer": 67.98,
+        "restore": 80.98
       },
       "sale-price": {
-        "create": 55.98,
-        "renew": 70.98,
-        "transfer": 55.98,
-        "restore": 70.98
+        "create": 67.98,
+        "renew": 80.98,
+        "transfer": 67.98,
+        "restore": 80.98
       }
     },
     "hockey": {
       "maxYears": 10,
       "regular-price": {
-        "create": 51.98,
-        "renew": 64.98,
-        "transfer": 51.98,
-        "restore": 64.98
+        "create": 62.98,
+        "renew": 72.98,
+        "transfer": 62.98,
+        "restore": 72.98
       },
       "sale-price": {
-        "create": 51.98,
-        "renew": 64.98,
-        "transfer": 51.98,
-        "restore": 64.98
+        "create": 62.98,
+        "renew": 72.98,
+        "transfer": 62.98,
+        "restore": 72.98
       }
     },
     "taxi": {
       "maxYears": 10,
       "regular-price": {
-        "create": 56.98,
-        "renew": 64.98,
-        "transfer": 56.98,
-        "restore": 64.98
+        "create": 65.98,
+        "renew": 69.98,
+        "transfer": 65.98,
+        "restore": 69.98
       },
       "sale-price": {
         "create": 6.48,
-        "renew": 64.98,
-        "transfer": 56.98,
-        "restore": 64.98
+        "renew": 69.98,
+        "transfer": 65.98,
+        "restore": 69.98
       }
     },
     "dog": {
       "maxYears": 10,
       "regular-price": {
-        "create": 55.98,
-        "renew": 76.98,
-        "transfer": 55.98,
-        "restore": 76.98
+        "create": 68.98,
+        "renew": 86.98,
+        "transfer": 68.98,
+        "restore": 86.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 76.98,
-        "transfer": 55.98,
-        "restore": 76.98
+        "renew": 86.98,
+        "transfer": 68.98,
+        "restore": 86.98
       }
     },
     "run": {
       "maxYears": 10,
       "regular-price": {
-        "create": 22.98,
-        "renew": 30.98,
-        "transfer": 22.98,
-        "restore": 30.98
+        "create": 28.98,
+        "renew": 35.98,
+        "transfer": 28.98,
+        "restore": 35.98
       },
       "sale-price": {
         "create": 3.48,
-        "renew": 30.98,
-        "transfer": 22.98,
-        "restore": 30.98
+        "renew": 35.98,
+        "transfer": 28.98,
+        "restore": 35.98
       }
     },
     "movie": {
       "maxYears": 10,
       "regular-price": {
-        "create": 288.98,
-        "renew": 378.98,
-        "transfer": 288.98,
-        "restore": 378.98
+        "create": 369.98,
+        "renew": 446.98,
+        "transfer": 369.98,
+        "restore": 446.98
       },
       "sale-price": {
         "create": 40.98,
-        "renew": 378.98,
-        "transfer": 288.98,
-        "restore": 378.98
+        "renew": 446.98,
+        "transfer": 369.98,
+        "restore": 446.98
       }
     },
     "soccer": {
       "maxYears": 10,
       "regular-price": {
-        "create": 21.98,
-        "renew": 25.18,
-        "transfer": 21.98,
-        "restore": 25.18
+        "create": 27.48,
+        "renew": 29.48,
+        "transfer": 27.48,
+        "restore": 29.48
       },
       "sale-price": {
-        "create": 21.98,
-        "renew": 25.18,
-        "transfer": 21.98,
-        "restore": 25.18
+        "create": 27.48,
+        "renew": 29.48,
+        "transfer": 27.48,
+        "restore": 29.48
       }
     },
     "coupons": {
       "maxYears": 10,
       "regular-price": {
-        "create": 48.98,
-        "renew": 53.53,
-        "transfer": 48.98,
-        "restore": 53.53
+        "create": 57.98,
+        "renew": 59.98,
+        "transfer": 57.98,
+        "restore": 59.98
       },
       "sale-price": {
         "create": 2.98,
-        "renew": 53.53,
-        "transfer": 48.98,
-        "restore": 53.53
+        "renew": 59.98,
+        "transfer": 57.98,
+        "restore": 59.98
       }
     },
     "online": {
@@ -5398,16 +5398,16 @@
     "mba": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 44.98,
-        "transfer": 34.98,
-        "restore": 44.98
+        "create": 40.98,
+        "renew": 49.98,
+        "transfer": 40.98,
+        "restore": 49.98
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 44.98,
-        "transfer": 34.98,
-        "restore": 44.98
+        "renew": 49.98,
+        "transfer": 40.98,
+        "restore": 49.98
       }
     },
     "fyi": {
@@ -5479,7 +5479,7 @@
         "restore": 44.98
       },
       "sale-price": {
-        "create": 4.98,
+        "create": 35.98,
         "renew": 44.98,
         "transfer": 35.98,
         "restore": 44.98
@@ -5494,7 +5494,7 @@
         "restore": 44.98
       },
       "sale-price": {
-        "create": 4.98,
+        "create": 35.98,
         "renew": 44.98,
         "transfer": 35.98,
         "restore": 44.98
@@ -5503,16 +5503,16 @@
     "live": {
       "maxYears": 10,
       "regular-price": {
-        "create": 29.98,
-        "renew": 35.98,
-        "transfer": 29.98,
-        "restore": 35.98
+        "create": 34.48,
+        "renew": 39.48,
+        "transfer": 34.48,
+        "restore": 39.48
       },
       "sale-price": {
-        "create": 2.48,
-        "renew": 35.98,
-        "transfer": 29.98,
-        "restore": 35.98
+        "create": 2.98,
+        "renew": 39.48,
+        "transfer": 34.48,
+        "restore": 39.48
       }
     },
     "studio": {
@@ -5533,14 +5533,14 @@
     "ski": {
       "maxYears": 10,
       "regular-price": {
-        "create": 70.98,
-        "renew": 76.63,
-        "restore": 76.63
+        "create": 76.98,
+        "renew": 82.98,
+        "restore": 82.98
       },
       "sale-price": {
-        "create": 70.98,
-        "renew": 76.63,
-        "restore": 76.63
+        "create": 76.98,
+        "renew": 82.98,
+        "restore": 82.98
       }
     },
     "hamburg": {
@@ -5988,16 +5988,16 @@
     "family": {
       "maxYears": 10,
       "regular-price": {
-        "create": 34.98,
-        "renew": 44.98,
-        "transfer": 34.98,
-        "restore": 44.98
+        "create": 40.98,
+        "renew": 49.98,
+        "transfer": 40.98,
+        "restore": 49.98
       },
       "sale-price": {
-        "create": 34.98,
-        "renew": 44.98,
-        "transfer": 34.98,
-        "restore": 44.98
+        "create": 40.98,
+        "renew": 49.98,
+        "transfer": 40.98,
+        "restore": 49.98
       }
     },
     "cloud": {
@@ -6063,16 +6063,16 @@
     "vote": {
       "maxYears": 10,
       "regular-price": {
-        "create": 79.98,
-        "renew": 108.98,
-        "transfer": 79.98,
-        "restore": 108.98
+        "create": 95.98,
+        "renew": 119.98,
+        "transfer": 95.98,
+        "restore": 119.98
       },
       "sale-price": {
         "create": 23.98,
-        "renew": 108.98,
-        "transfer": 79.98,
-        "restore": 108.98
+        "renew": 119.98,
+        "transfer": 95.98,
+        "restore": 119.98
       }
     },
     "voto": {
@@ -6121,16 +6121,16 @@
     "irish": {
       "maxYears": 10,
       "regular-price": {
-        "create": 19.98,
-        "renew": 28.98,
-        "transfer": 19.98,
-        "restore": 28.98
+        "create": 22.98,
+        "renew": 31.98,
+        "transfer": 22.98,
+        "restore": 31.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 28.98,
-        "transfer": 19.98,
-        "restore": 28.98
+        "renew": 31.98,
+        "transfer": 22.98,
+        "restore": 31.98
       }
     },
     "game": {
@@ -6181,16 +6181,16 @@
     "group": {
       "maxYears": 10,
       "regular-price": {
-        "create": 22.98,
-        "renew": 32.98,
-        "transfer": 22.98,
-        "restore": 32.98
+        "create": 26.98,
+        "renew": 35.98,
+        "transfer": 26.98,
+        "restore": 35.98
       },
       "sale-price": {
-        "create": 22.98,
-        "renew": 32.98,
-        "transfer": 22.98,
-        "restore": 32.98
+        "create": 26.98,
+        "renew": 35.98,
+        "transfer": 26.98,
+        "restore": 35.98
       }
     },
     "store": {
@@ -6211,16 +6211,16 @@
     "ltd": {
       "maxYears": 10,
       "regular-price": {
-        "create": 26.98,
-        "renew": 38.98,
-        "transfer": 26.98,
-        "restore": 38.98
+        "create": 32.98,
+        "renew": 42.98,
+        "transfer": 32.98,
+        "restore": 42.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 38.98,
-        "transfer": 26.98,
-        "restore": 38.98
+        "renew": 42.98,
+        "transfer": 32.98,
+        "restore": 42.98
       }
     },
     "stream": {
@@ -6241,16 +6241,16 @@
     "gmbh": {
       "maxYears": 10,
       "regular-price": {
-        "create": 35.98,
-        "renew": 44.98,
-        "transfer": 35.98,
-        "restore": 44.98
+        "create": 47.98,
+        "renew": 56.98,
+        "transfer": 47.98,
+        "restore": 56.98
       },
       "sale-price": {
-        "create": 35.98,
-        "renew": 44.98,
-        "transfer": 35.98,
-        "restore": 44.98
+        "create": 47.98,
+        "renew": 56.98,
+        "transfer": 47.98,
+        "restore": 56.98
       }
     },
     "co.bz": {
@@ -6376,16 +6376,16 @@
     "games": {
       "maxYears": 10,
       "regular-price": {
-        "create": 29.98,
-        "renew": 37.98,
-        "transfer": 29.98,
-        "restore": 37.98
+        "create": 35.98,
+        "renew": 42.98,
+        "transfer": 35.98,
+        "restore": 42.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 37.98,
-        "transfer": 29.98,
-        "restore": 37.98
+        "renew": 42.98,
+        "transfer": 35.98,
+        "restore": 42.98
       }
     },
     "shop": {
@@ -6436,16 +6436,16 @@
     "doctor": {
       "maxYears": 10,
       "regular-price": {
-        "create": 100.98,
-        "renew": 137.98,
-        "transfer": 100.98,
-        "restore": 137.98
+        "create": 122.98,
+        "renew": 154.98,
+        "transfer": 122.98,
+        "restore": 154.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 137.98,
-        "transfer": 100.98,
-        "restore": 137.98
+        "renew": 154.98,
+        "transfer": 122.98,
+        "restore": 154.98
       }
     },
     "osaka": {
@@ -6520,31 +6520,31 @@
     "vin": {
       "maxYears": 10,
       "regular-price": {
-        "create": 51.98,
-        "renew": 66.98,
-        "transfer": 51.98,
-        "restore": 66.98
+        "create": 62.98,
+        "renew": 75.98,
+        "transfer": 62.98,
+        "restore": 75.98
       },
       "sale-price": {
         "create": 6.98,
-        "renew": 66.98,
-        "transfer": 51.98,
-        "restore": 66.98
+        "renew": 75.98,
+        "transfer": 62.98,
+        "restore": 75.98
       }
     },
     "wine": {
       "maxYears": 10,
       "regular-price": {
-        "create": 51.98,
-        "renew": 66.98,
-        "transfer": 51.98,
-        "restore": 66.98
+        "create": 62.98,
+        "renew": 75.98,
+        "transfer": 62.98,
+        "restore": 75.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 66.98,
-        "transfer": 51.98,
-        "restore": 66.98
+        "renew": 75.98,
+        "transfer": 62.98,
+        "restore": 75.98
       }
     },
     "lol": {
@@ -6556,7 +6556,7 @@
         "restore": 40.98
       },
       "sale-price": {
-        "create": 1.8,
+        "create": 1.3,
         "renew": 40.98,
         "transfer": 32.98,
         "restore": 40.98
@@ -6715,7 +6715,7 @@
         "restore": 40.98
       },
       "sale-price": {
-        "create": 1.8,
+        "create": 1.3,
         "renew": 40.98,
         "transfer": 32.98,
         "restore": 40.98
@@ -6730,7 +6730,7 @@
         "restore": 58.98
       },
       "sale-price": {
-        "create": 41.98,
+        "create": 19.98,
         "renew": 58.98,
         "transfer": 46.98,
         "restore": 58.98
@@ -6745,7 +6745,7 @@
         "restore": 34.98
       },
       "sale-price": {
-        "create": 13.98,
+        "create": 10.98,
         "renew": 34.98,
         "transfer": 26.98,
         "restore": 34.98
@@ -6904,16 +6904,16 @@
     "llc": {
       "maxYears": 10,
       "regular-price": {
-        "create": 36.98,
-        "renew": 47.98,
-        "transfer": 36.98,
-        "restore": 47.98
+        "create": 44.98,
+        "renew": 54.98,
+        "transfer": 44.98,
+        "restore": 54.98
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 47.98,
-        "transfer": 36.98,
-        "restore": 47.98
+        "renew": 54.98,
+        "transfer": 44.98,
+        "restore": 54.98
       }
     },
     "page": {
@@ -6949,16 +6949,16 @@
     "travel": {
       "maxYears": 10,
       "regular-price": {
-        "create": 125.98,
-        "renew": 161.98,
-        "transfer": 125.98,
-        "restore": 161.98
+        "create": 157.98,
+        "renew": 186.98,
+        "transfer": 157.98,
+        "restore": 186.98
       },
       "sale-price": {
         "create": 23.98,
-        "renew": 161.98,
-        "transfer": 125.98,
-        "restore": 161.98
+        "renew": 186.98,
+        "transfer": 157.98,
+        "restore": 186.98
       }
     },
     "dev": {
@@ -7013,7 +7013,7 @@
         "restore": 19.98
       },
       "sale-price": {
-        "create": 1.8,
+        "create": 1.3,
         "renew": 19.98,
         "transfer": 15.98,
         "restore": 19.98
@@ -7192,7 +7192,7 @@
       },
       "sale-price": {
         "create": 7.98,
-        "renew": 9.48,
+        "renew": 6.28,
         "transfer": 9.48,
         "restore": 9.48
       }
@@ -8830,12 +8830,12 @@
     "myurl": {
       "maxYears": 10,
       "regular-price": {
-        "create": 40,
+        "create": 329,
         "renew": 20,
         "transfer": 20
       },
       "sale-price": {
-        "create": 40,
+        "create": 329,
         "renew": 20,
         "transfer": 20
       }
@@ -9843,8 +9843,8 @@
         "transfer": 148.98
       },
       "sale-price": {
-        "create": 14.98,
-        "renew": 148.98,
+        "create": 7.98,
+        "renew": 44.98,
         "transfer": 148.98
       }
     },
@@ -10090,7 +10090,7 @@
         "transfer": 30.98
       },
       "sale-price": {
-        "create": 7.98,
+        "create": 15.98,
         "renew": 30.98,
         "transfer": 30.98
       }
@@ -11208,7 +11208,7 @@
         "transfer": 30.98
       },
       "sale-price": {
-        "create": 30.98,
+        "create": 7.98,
         "renew": 30.98,
         "transfer": 30.98
       }
@@ -12196,7 +12196,7 @@
         "transfer": 30.98
       },
       "sale-price": {
-        "create": 15.98,
+        "create": 7.98,
         "renew": 30.98,
         "transfer": 30.98
       }
@@ -14671,7 +14671,7 @@
         "transfer": 9.98
       },
       "sale-price": {
-        "create": 7.98,
+        "create": 2.98,
         "renew": 9.98,
         "transfer": 9.98
       }
@@ -15280,7 +15280,7 @@
         "transfer": 6.98
       },
       "sale-price": {
-        "create": 6.98,
+        "create": 2.98,
         "renew": 6.98,
         "transfer": 6.98
       }
@@ -15892,76 +15892,76 @@
     "bet": {
       "maxYears": 10,
       "regular-price": {
-        "create": 22.98,
-        "renew": 32.98,
-        "transfer": 22.98,
-        "restore": 32.98
+        "create": 26.98,
+        "renew": 35.98,
+        "transfer": 26.98,
+        "restore": 35.98
       },
       "sale-price": {
         "create": 8.48,
-        "renew": 32.98,
-        "transfer": 22.98,
-        "restore": 32.98
+        "renew": 35.98,
+        "transfer": 26.98,
+        "restore": 35.98
       }
     },
     "archi": {
       "maxYears": 10,
       "regular-price": {
-        "create": 89.98,
-        "renew": 118.98,
-        "transfer": 89.98,
-        "restore": 118.98
+        "create": 109.98,
+        "renew": 132.98,
+        "transfer": 109.98,
+        "restore": 132.98
       },
       "sale-price": {
         "create": 14.48,
-        "renew": 118.98,
-        "transfer": 89.98,
-        "restore": 118.98
+        "renew": 132.98,
+        "transfer": 109.98,
+        "restore": 132.98
       }
     },
     "broker": {
       "maxYears": 10,
       "regular-price": {
-        "create": 30.98,
-        "renew": 41.98,
-        "transfer": 30.98,
-        "restore": 41.98
+        "create": 38.98,
+        "renew": 47.98,
+        "transfer": 38.98,
+        "restore": 47.98
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 41.98,
-        "transfer": 30.98,
-        "restore": 41.98
+        "renew": 47.98,
+        "transfer": 38.98,
+        "restore": 47.98
       }
     },
     "fan": {
       "maxYears": 10,
       "regular-price": {
-        "create": 48.98,
-        "renew": 61.98,
-        "transfer": 48.98,
-        "restore": 61.98
+        "create": 57.98,
+        "renew": 68.98,
+        "transfer": 57.98,
+        "restore": 68.98
       },
       "sale-price": {
-        "create": 48.98,
-        "renew": 61.98,
-        "transfer": 48.98,
-        "restore": 61.98
+        "create": 57.98,
+        "renew": 68.98,
+        "transfer": 57.98,
+        "restore": 68.98
       }
     },
     "forex": {
       "maxYears": 10,
       "regular-price": {
-        "create": 38.98,
-        "renew": 49.98,
-        "transfer": 38.98,
-        "restore": 49.98
+        "create": 109.98,
+        "renew": 133.98,
+        "transfer": 109.98,
+        "restore": 133.98
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 49.98,
-        "transfer": 38.98,
-        "restore": 49.98
+        "renew": 133.98,
+        "transfer": 109.98,
+        "restore": 133.98
       }
     },
     "hospital": {
@@ -15982,46 +15982,46 @@
     "markets": {
       "maxYears": 10,
       "regular-price": {
-        "create": 15.98,
-        "renew": 21.98,
-        "transfer": 15.98,
-        "restore": 21.98
+        "create": 20.98,
+        "renew": 26.98,
+        "transfer": 20.98,
+        "restore": 26.98
       },
       "sale-price": {
         "create": 5.98,
-        "renew": 21.98,
-        "transfer": 15.98,
-        "restore": 21.98
+        "renew": 26.98,
+        "transfer": 20.98,
+        "restore": 26.98
       }
     },
     "pet": {
       "maxYears": 10,
       "regular-price": {
-        "create": 22.98,
-        "renew": 31.98,
-        "transfer": 22.98,
-        "restore": 31.98
+        "create": 27.98,
+        "renew": 35.98,
+        "transfer": 27.98,
+        "restore": 35.98
       },
       "sale-price": {
         "create": 6.98,
-        "renew": 31.98,
-        "transfer": 22.98,
-        "restore": 31.98
+        "renew": 35.98,
+        "transfer": 27.98,
+        "restore": 35.98
       }
     },
     "promo": {
       "maxYears": 10,
       "regular-price": {
-        "create": 21.98,
-        "renew": 29.98,
-        "transfer": 21.98,
-        "restore": 29.98
+        "create": 26.48,
+        "renew": 33.48,
+        "transfer": 26.48,
+        "restore": 33.48
       },
       "sale-price": {
         "create": 11.98,
-        "renew": 29.98,
-        "transfer": 21.98,
-        "restore": 29.98
+        "renew": 33.48,
+        "transfer": 26.48,
+        "restore": 33.48
       }
     },
     "salon": {
@@ -16042,16 +16042,16 @@
     "trading": {
       "maxYears": 10,
       "regular-price": {
-        "create": 17.98,
-        "renew": 24.98,
-        "transfer": 17.98,
-        "restore": 24.98
+        "create": 21.98,
+        "renew": 27.98,
+        "transfer": 21.98,
+        "restore": 27.98
       },
       "sale-price": {
-        "create": 17.98,
-        "renew": 24.98,
-        "transfer": 17.98,
-        "restore": 24.98
+        "create": 21.98,
+        "renew": 27.98,
+        "transfer": 21.98,
+        "restore": 27.98
       }
     },
     "bot": {
@@ -16423,10 +16423,55 @@
         "restore": 14.98
       },
       "sale-price": {
-        "create": 9.98,
+        "create": 2.98,
         "renew": 14.98,
         "transfer": 19.98,
         "restore": 14.98
+      }
+    },
+    "fast": {
+      "maxYears": 10,
+      "regular-price": {
+        "create": 35.98,
+        "renew": 35.98,
+        "transfer": 35.98,
+        "restore": 35.98
+      },
+      "sale-price": {
+        "create": 30.98,
+        "renew": 35.98,
+        "transfer": 35.98,
+        "restore": 35.98
+      }
+    },
+    "talk": {
+      "maxYears": 10,
+      "regular-price": {
+        "create": 46.98,
+        "renew": 46.98,
+        "transfer": 46.98,
+        "restore": 46.98
+      },
+      "sale-price": {
+        "create": 41.98,
+        "renew": 46.98,
+        "transfer": 46.98,
+        "restore": 46.98
+      }
+    },
+    "you": {
+      "maxYears": 10,
+      "regular-price": {
+        "create": 27.98,
+        "renew": 27.98,
+        "transfer": 27.98,
+        "restore": 27.98
+      },
+      "sale-price": {
+        "create": 23.98,
+        "renew": 27.98,
+        "transfer": 27.98,
+        "restore": 27.98
       }
     }
   }

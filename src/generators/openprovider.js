@@ -57,6 +57,16 @@ function toInt(value) {
   return Number.isFinite(n) ? Math.trunc(n) : null;
 }
 
+function sortObjectKeys(obj) {
+  if (obj === null || typeof obj !== 'object') return obj;
+  if (Array.isArray(obj)) return obj.map(sortObjectKeys);
+  const out = {};
+  for (const key of Object.keys(obj).sort()) {
+    out[key] = sortObjectKeys(obj[key]);
+  }
+  return out;
+}
+
 function inferColumns(headerRow) {
   for (const required of REQUIRED_HEADERS) {
     if (!headerRow.includes(required)) {
@@ -123,6 +133,21 @@ export const openproviderGenerator = createRegistrarPriceGenerator({
       }
     }
 
+    // Ensure deterministic key ordering for stable JSON output:
+    // - Sort TLD keys under `data`
+    // - Sort operation keys under each price map
+    const sortedData = {};
+    for (const tld of Object.keys(data).sort()) {
+      const entry = data[tld] || {};
+      const regular = sortObjectKeys(entry['regular-price'] || {});
+      const member = sortObjectKeys(entry['member-price'] || {});
+      sortedData[tld] = {
+        maxYears: entry.maxYears ?? 0,
+        'member-price': member,
+        'regular-price': regular,
+      };
+    }
+
     return {
       meta: {
         source: csvUrl,
@@ -134,7 +159,7 @@ export const openproviderGenerator = createRegistrarPriceGenerator({
         headers_original: records[headerIndex] || [],
         required_headers: REQUIRED_HEADERS,
       },
-      data,
+      data: sortedData,
     };
   },
 });
