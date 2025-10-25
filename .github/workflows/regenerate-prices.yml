@@ -1,0 +1,61 @@
+name: Regenerate Prices
+
+on:
+  schedule:
+    # 10:00 PM PST daily == 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: America/Los_Angeles
+      # Namecheap credentials pulled from repository secrets
+      NAMECHEAP_API_USER: ${{ secrets.NAMECHEAP_API_USER }}
+      NAMECHEAP_API_KEY: ${{ secrets.NAMECHEAP_API_KEY }}
+      NAMECHEAP_USERNAME: ${{ secrets.NAMECHEAP_USERNAME }}
+      NAMECHEAP_CLIENT_IP: ${{ secrets.NAMECHEAP_CLIENT_IP }}
+      # Optional overrides (leave unset if not needed)
+      OPENPROVIDER_SHEET_URL: ${{ secrets.OPENPROVIDER_SHEET_URL }}
+      NIRA_FX_URL: ${{ secrets.NIRA_FX_URL }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate with Namecheap + others
+        if: ${{ secrets.NAMECHEAP_API_USER && secrets.NAMECHEAP_API_KEY && secrets.NAMECHEAP_USERNAME && secrets.NAMECHEAP_CLIENT_IP }}
+        run: node src/cli/index.js --master --masterOut=master-prices.json --outDir=./data
+
+      - name: Generate (Openprovider + NIRA only)
+        if: ${{ !(secrets.NAMECHEAP_API_USER && secrets.NAMECHEAP_API_KEY && secrets.NAMECHEAP_USERNAME && secrets.NAMECHEAP_CLIENT_IP) }}
+        run: node src/cli/index.js --registrars=openprovider,nira --master --masterOut=master-prices.json --outDir=./data
+
+      - name: Commit and push changes (if any)
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Stage only data outputs
+          git add -A data
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          COMMIT_DATE=$(date '+%Y-%m-%d %H:%M %Z')
+          git commit -m "chore(data): auto-update registrar prices and master - ${COMMIT_DATE}"
+          git push
