@@ -90,7 +90,13 @@ Each generator accepts configuration through environment variables. The CLI load
 
 **NIRA**
 
-- `NIRA_FX_URL` – override the FX feed URL (defaults to the FloatRates USD feed).
+- Reads FX from `data/exchange-rates.json`. To override the read path set `NIRA_EXCHANGE_RATES_PATH` (or global `EXCHANGE_RATES_PATH`).
+
+**Exchange Rates**
+
+- `COUNTRY_API_URL` – override the countries + currency metadata endpoint (defaults to the Rest Countries filtered fields endpoint).
+- `EXCHANGE_RATES_URL` – override the USD FX rates feed (defaults to FloatRates USD JSON).
+- `EXCHANGE_RATES_PATH` – where the generated rates JSON is written/read (default: `data/exchange-rates.json`).
 
 ## Programmatic Usage
 
@@ -151,7 +157,7 @@ NIRA (`data/nira-prices.json`):
 
 ```json
 {
-  "meta": { /* fx source and rate */ },
+  "meta": { /* fx rate */ },
   "data": {
     "ng":     { "regular-price": { "create": 10.08, "renew": 10.08 } },
     "com.ng": { "regular-price": { "create":  4.70, "renew":  4.70 } }

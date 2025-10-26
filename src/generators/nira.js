@@ -1,7 +1,6 @@
+import { promises as fs } from 'node:fs';
+import path from 'node:path';
 import { createRegistrarPriceGenerator } from '../core/registrar-generator.js';
-import { fetchWithRetry } from '../core/http.js';
-
-const FX_URL_DEFAULT = 'https://www.floatrates.com/daily/usd.json';
 
 const NGN_PRICES = {
   'ng': 15000,
@@ -23,14 +22,27 @@ export const niraGenerator = createRegistrarPriceGenerator({
   label: 'NIRA',
   defaultOutput: 'nira-prices.json',
   async generate({ env = {}, options = {}, logger, signal } = {}) {
-    const fxUrl = options.fxUrl || env.NIRA_FX_URL || FX_URL_DEFAULT;
-    logger({ level: 'info', message: `Fetching FX rate from ${fxUrl}` });
-    const fxRes = await fetchWithRetry(fxUrl, { retries: 4, backoffMs: 700, signal, logger });
-    const fxJson = await fxRes.json();
-    const ngnEntry = fxJson?.ngn || fxJson?.NGN || fxJson?.['ngn'] || fxJson?.['NGN'];
-    const ngnPerUsd = ngnEntry?.rate;
+    const ratesPath = options.exchangeRatesPath || env.EXCHANGE_RATES_PATH || 'data/exchange-rates.json';
+    const resolvedRatesPath = path.resolve(process.cwd(), ratesPath);
+    logger({ level: 'info', message: `Reading exchange rates from ${resolvedRatesPath}` });
+    let ngnPerUsd;
+    try {
+      const raw = await fs.readFile(resolvedRatesPath, 'utf8');
+      const entries = JSON.parse(raw);
+      // entries is an array of { countryCode, currencyName, currencySymbol, currencyCode, exchangeRate, inverseRate }
+      for (const entry of entries) {
+        if ((entry.currencyCode || '').toUpperCase() === 'NGN') {
+          ngnPerUsd = entry.exchangeRate;
+          break;
+        }
+      }
+    } catch (err) {
+      const e = new Error(`Failed to read exchange rates at ${resolvedRatesPath}: ${err.message}`);
+      e.cause = err;
+      throw e;
+    }
     if (!ngnPerUsd || !Number.isFinite(ngnPerUsd)) {
-      throw new Error('Could not determine NGN per USD from FloatRates response.');
+      throw new Error('Could not determine NGN per USD from exchange-rates.json.');
     }
 
     const data = {};
@@ -43,7 +55,6 @@ export const niraGenerator = createRegistrarPriceGenerator({
       meta: {
         source: 'manual-nira-pricelist',
         generated_at: new Date().toISOString(),
-        fx_source: fxUrl,
         exchange: `1 USD => ${formatNaira(ngnPerUsd)}`,
         notes: 'USD prices for 1-year create/renew derived from NGN list via FX.',
       },

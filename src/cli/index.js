@@ -3,6 +3,7 @@ import 'dotenv/config';
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { getRegistrarGenerator, listRegistrarIds, generateMasterList, generateCheapestOpRows, rowsToCsv } from '../generators/index.js';
+import exchangeRatesGenerator from '../generators/exchange-rates.js';
 
 function printHelp() {
   console.log(`Usage: npx registrar-pricelist [options]\n\n` +
@@ -94,6 +95,13 @@ async function run() {
     : () => {};
 
   await fs.mkdir(outDir, { recursive: true });
+
+  // Always generate exchange rates first
+  console.log(`Generating ${exchangeRatesGenerator.label}...`);
+  const exchangeRates = await exchangeRatesGenerator.generate({ env: process.env, logger: verboseLogger });
+  const exchangeOutPath = path.join(outDir, exchangeRatesGenerator.defaultOutput || `${exchangeRatesGenerator.id}.json`);
+  await fs.writeFile(exchangeOutPath, JSON.stringify(exchangeRates, null, 2));
+  console.log(`  ✔ Saved ${exchangeRatesGenerator.label} to ${path.relative(process.cwd(), exchangeOutPath)}`);
 
   const resultsById = {};
 
