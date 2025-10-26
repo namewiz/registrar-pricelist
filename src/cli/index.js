@@ -2,7 +2,7 @@
 import 'dotenv/config';
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
-import { getRegistrarGenerator, listRegistrarIds, generateMasterList, generateCheapestOpRows, rowsToCsv } from '../generators/index.js';
+import { getRegistrarGenerator, listRegistrarIds, generateUnifiedList, generateCheapestOpRows, rowsToCsv } from '../generators/index.js';
 import exchangeRatesGenerator from '../generators/exchange-rates.js';
 
 function printHelp() {
@@ -10,15 +10,16 @@ function printHelp() {
     `Options:\n` +
     `  --registrars=<list>   Comma separated registrar ids (default: all)\n` +
     `  --outDir=<path>       Directory where JSON files will be written (default: ./data)\n` +
-    `  --master              Also write combined TLD master list\n` +
-    `  --masterOut=<file>    Filename for master list (default: master-prices.json)\n` +
+    `  --unified             Also write combined TLD unified list\n` +
+    `  --unifiedOut=<file>   Filename for unified list (default: unified-prices.json)\n` +
     `  --list                Print available registrar ids\n` +
     `  --verbose             Enable verbose logging\n` +
     `  -h, --help            Show this message\n`);
 }
 
 function parseArgs(argv) {
-  const args = { registrars: null, outDir: './data', master: false, masterOut: 'master-prices.json', verbose: false, list: false };
+  const args = { registrars: null, outDir: './data', unified: false, unifiedOut: 'unified-prices.json', verbose: false, list: false };
+  let deprecatedMasterFlag = false;
   for (const raw of argv.slice(2)) {
     if (raw === '--help' || raw === '-h') {
       args.help = true;
@@ -40,15 +41,27 @@ function parseArgs(argv) {
       args.outDir = raw.split('=')[1];
       continue;
     }
+    if (raw === '--unified') {
+      args.unified = true;
+      continue;
+    }
+    if (raw.startsWith('--unifiedOut=')) {
+      args.unifiedOut = raw.split('=')[1];
+      continue;
+    }
+    // Backwards compatibility: deprecated flags
     if (raw === '--master') {
-      args.master = true;
+      args.unified = true;
+      deprecatedMasterFlag = true;
       continue;
     }
     if (raw.startsWith('--masterOut=')) {
-      args.masterOut = raw.split('=')[1];
+      args.unifiedOut = raw.split('=')[1];
+      deprecatedMasterFlag = true;
       continue;
     }
   }
+  if (deprecatedMasterFlag) args._deprecatedMaster = true;
   return args;
 }
 
@@ -96,6 +109,10 @@ async function run() {
 
   await fs.mkdir(outDir, { recursive: true });
 
+  if (args._deprecatedMaster) {
+    console.warn('[deprecation] --master/--masterOut are deprecated. Use --unified/--unifiedOut instead.');
+  }
+
   // Always generate exchange rates first
   console.log(`Generating ${exchangeRatesGenerator.label}...`);
   const exchangeRates = await exchangeRatesGenerator.generate({ env: process.env, logger: verboseLogger });
@@ -114,24 +131,24 @@ async function run() {
     resultsById[generator.id] = result;
   }
 
-  if (args.master) {
-    console.log('Building master TLD list...');
-    const master = generateMasterList(resultsById, { providers: normalizedIds });
-    const masterPath = path.join(outDir, args.masterOut || 'master-prices.json');
-    await fs.writeFile(masterPath, JSON.stringify(master, null, 2));
-    console.log(`  ✔ Saved master list to ${path.relative(process.cwd(), masterPath)}`);
+  if (args.unified) {
+    console.log('Building unified TLD list...');
+    const unified = generateUnifiedList(resultsById, { providers: normalizedIds });
+    const unifiedPath = path.join(outDir, args.unifiedOut || 'unified-prices.json');
+    await fs.writeFile(unifiedPath, JSON.stringify(unified, null, 2));
+    console.log(`  ✔ Saved unified list to ${path.relative(process.cwd(), unifiedPath)}`);
 
-    console.log('Building master CSVs (create, renew)...');
+    console.log('Building unified CSVs (create, renew)...');
     const createRows = generateCheapestOpRows(resultsById, 'create', normalizedIds);
     const renewRows = generateCheapestOpRows(resultsById, 'renew', normalizedIds);
     const createCsv = rowsToCsv(createRows);
     const renewCsv = rowsToCsv(renewRows);
-    const createPath = path.join(outDir, 'master-create-prices.csv');
-    const renewPath = path.join(outDir, 'master-renew-prices.csv');
+    const createPath = path.join(outDir, 'unified-create-prices.csv');
+    const renewPath = path.join(outDir, 'unified-renew-prices.csv');
     await fs.writeFile(createPath, createCsv);
     await fs.writeFile(renewPath, renewCsv);
-    console.log(`  ✔ Saved master create CSV to ${path.relative(process.cwd(), createPath)}`);
-    console.log(`  ✔ Saved master renew CSV to ${path.relative(process.cwd(), renewPath)}`);
+    console.log(`  ✔ Saved unified create CSV to ${path.relative(process.cwd(), createPath)}`);
+    console.log(`  ✔ Saved unified renew CSV to ${path.relative(process.cwd(), renewPath)}`);
   }
 }
 

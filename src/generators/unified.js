@@ -1,5 +1,5 @@
 /**
- * Master list generator: combines outputs of registrar generators into
+ * Unified list generator: combines outputs of registrar generators into
  * a single JSON array of TLD entries. Each entry contains:
  * - provider: registrar id
  * - tld: TLD string
@@ -47,16 +47,16 @@ function cheapestMetric(regularMap) {
 }
 
 /**
- * Build the master list array from registrar results.
+ * Build the unified list array from registrar results.
  *
  * @param {Object<string, { meta?: any, data?: Record<string, any> }>} resultsByRegistrar
  *   Map of registrar id -> generator result ({ meta, data }).
  * @param {Object} [options]
  * @param {string[]} [options.providers]
  *   Optional subset of registrar ids to include; defaults to all in results.
- * @returns {Array<{ provider: string, tld: string, 'regular-price': Record<string, number> }>} master list
+ * @returns {Array<{ provider: string, tld: string, 'regular-price': Record<string, number> }>} unified list
  */
-export function generateMasterList(resultsByRegistrar, options = {}) {
+export function generateUnifiedList(resultsByRegistrar, options = {}) {
   const include = (options.providers && options.providers.length)
     ? options.providers
     : Object.keys(resultsByRegistrar || {});
@@ -101,7 +101,7 @@ export function generateMasterList(resultsByRegistrar, options = {}) {
   return selected;
 }
 
-export default generateMasterList;
+export default generateUnifiedList;
 
 // --- Optimized CSV helpers ---
 

@@ -41,12 +41,12 @@ Useful flags:
 - `--verbose` – emit detailed progress logs.
 - `--help` – display usage information.
 
-### Master list (combined)
+### Unified list (combined)
 
-You can also produce a combined master list that picks the cheapest regular prices across selected providers. The output is a flat JSON array of TLD entries with deterministic key ordering:
+You can also produce a combined unified list that picks the cheapest regular prices across selected providers. The output is a flat JSON array of TLD entries with deterministic key ordering:
 
 ```bash
-npx registrar-pricelist --registrars=namecheap,openprovider,nira --master --masterOut=master-prices.json
+npx registrar-pricelist --registrars=namecheap,openprovider,nira --unified --unifiedOut=unified-prices.json
 ```
 
 Each entry has the shape:
@@ -64,10 +64,10 @@ Notes:
 - Only `regular-price` is considered; `sale-price`/`member-price` are ignored.
 - If a TLD is present in multiple sources, the provider with the lowest create price is chosen; if create is absent, the minimum among available operations is used.
 
-Additionally, when `--master` is used, two CSVs are produced for quick lookups:
+Additionally, when `--unified` is used, two CSVs are produced for quick lookups:
 
-- `master-create-prices.csv` – rows of `tld,provider,amount` for cheapest regular create prices.
-- `master-renew-prices.csv` – rows of `tld,provider,amount` for cheapest regular renew prices.
+- `unified-create-prices.csv` – rows of `tld,provider,amount` for cheapest regular create prices.
+- `unified-renew-prices.csv` – rows of `tld,provider,amount` for cheapest regular renew prices.
 
 Rows are sorted by `tld` and include a header line: `tld,provider,amount`.
 

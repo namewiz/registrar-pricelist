@@ -30,7 +30,7 @@ jobs:
         run: npm ci
 
       - name: Generate (Openprovider + NIRA only)
-        run: node src/cli/index.js --registrars=openprovider,nira --master --masterOut=master-prices.json --outDir=./data
+        run: node src/cli/index.js --registrars=openprovider,nira --unified --unifiedOut=unified-prices.json --outDir=./data
 
       - name: Commit and push changes (if any)
         run: |
@@ -44,5 +44,5 @@ jobs:
             exit 0
           fi
           COMMIT_DATE=$(date '+%Y-%m-%d %H:%M %Z')
-          git commit -m "chore(data): auto-update registrar prices and master - ${COMMIT_DATE}"
+          git commit -m "chore(data): auto-update prices ${COMMIT_DATE}"
           git push

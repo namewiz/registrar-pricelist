@@ -1,7 +1,7 @@
 import namecheapGenerator from './namecheap.js';
 import niraGenerator from './nira.js';
 import openproviderGenerator from './openprovider.js';
-export { generateMasterList, generateCheapestOpRows, rowsToCsv } from './master.js';
+export { generateUnifiedList, generateCheapestOpRows, rowsToCsv } from './unified.js';
 
 export const registrarGenerators = [namecheapGenerator, niraGenerator, openproviderGenerator];
 
