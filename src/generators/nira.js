@@ -1,6 +1,6 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
-import { createRegistrarPriceGenerator } from '../core/registrar-generator.js';
+import { createRegistrarPriceGenerator } from '../registrar-generator.js';
 
 const NGN_PRICES = {
   'ng': 15000,

@@ -1,5 +1,5 @@
-import { createRegistrarPriceGenerator } from '../core/registrar-generator.js';
-import { fetchWithRetry } from '../core/http.js';
+import { createRegistrarPriceGenerator } from '../registrar-generator.js';
+import { fetchWithRetry } from '../http.js';
 
 const REQUIRED_CREDENTIALS = [
   'NAMECHEAP_API_USER',

@@ -30,7 +30,7 @@ jobs:
         run: npm ci
 
       - name: Generate (Openprovider + NIRA only)
-        run: node src/cli/index.js --registrars=openprovider,nira --unified --unifiedOut=unified-prices.json --outDir=./data
+        run: node src/cli.js --registrars=openprovider,nira --unified --unifiedOut=unified-prices.json --outDir=./data
 
       - name: Commit and push changes (if any)
         run: |

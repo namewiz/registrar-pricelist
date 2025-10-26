@@ -1,5 +1,5 @@
-import { createRegistrarPriceGenerator } from '../core/registrar-generator.js';
-import { fetchWithRetry } from '../core/http.js';
+import { createRegistrarPriceGenerator } from '../registrar-generator.js';
+import { fetchWithRetry } from '../http.js';
 
 const COUNTRY_API_URL_DEFAULT = 'https://restcountries.com/v3.1/all?fields=cca2,currencies';
 const EXCHANGE_RATES_URL_DEFAULT = 'https://www.floatrates.com/daily/usd.json';
@@ -58,4 +58,3 @@ export const exchangeRatesGenerator = createRegistrarPriceGenerator({
 });
 
 export default exchangeRatesGenerator;
-

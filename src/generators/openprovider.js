@@ -1,6 +1,6 @@
 import { parse } from 'csv-parse/sync';
-import { createRegistrarPriceGenerator } from '../core/registrar-generator.js';
-import { fetchWithRetry } from '../core/http.js';
+import { createRegistrarPriceGenerator } from '../registrar-generator.js';
+import { fetchWithRetry } from '../http.js';
 
 const DEFAULT_SHEET_URL = 'https://docs.google.com/spreadsheets/d/1fHBHaxICLF7yhyEI5ir4jvY4H5h4nSa-aIgSMaP0500/edit?gid=1726709886#gid=1726709886';
 const REQUIRED_HEADERS = [

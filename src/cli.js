@@ -2,8 +2,8 @@
 import 'dotenv/config';
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
-import { getRegistrarGenerator, listRegistrarIds, generateUnifiedList, generateCheapestOpRows, rowsToCsv } from '../generators/index.js';
-import exchangeRatesGenerator from '../generators/exchange-rates.js';
+import { getRegistrarGenerator, listRegistrarIds, generateUnifiedList, generateCheapestOpRows, rowsToCsv } from './generators/index.js';
+import exchangeRatesGenerator from './generators/exchange-rates.js';
 
 function printHelp() {
   console.log(`Usage: npx registrar-pricelist [options]\n\n` +

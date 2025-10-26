@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { RegistrarPriceGenerator } from '../src/core/registrar-generator.js';
+import { RegistrarPriceGenerator } from '../src/registrar-generator.js';
 
 test('RegistrarPriceGenerator runs generate handler', async () => {
   const generator = new RegistrarPriceGenerator({
@@ -19,4 +19,3 @@ test('RegistrarPriceGenerator sets sensible defaults', () => {
   const generator = new RegistrarPriceGenerator({ id: 'demo', label: 'Demo', generate: async () => ({}) });
   assert.equal(generator.defaultOutput, 'demo-prices.json');
 });
-

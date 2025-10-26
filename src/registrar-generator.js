@@ -63,3 +63,4 @@ export class RegistrarPriceGenerator {
 export function createRegistrarPriceGenerator(config) {
   return new RegistrarPriceGenerator(config);
 }
+

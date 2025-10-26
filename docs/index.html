@@ -273,10 +273,7 @@
           <tr id="thead-row">
             <th data-sort-key="tld" style="min-width: 160px;" class="sortable" aria-sort="none">TLD <span
                 class="sort-indicator" aria-hidden="true"></span></th>
-            <th data-sort-key="maxYears" class="right sortable" style="min-width: 90px;" aria-sort="none">Max Years
-              <span class="sort-indicator" aria-hidden="true"></span>
-            </th>
-            <!-- Registrar columns will be injected here -->
+            <!-- Provider columns will be injected here -->
           </tr>
         </thead>
         <tbody id="tbody"></tbody>
@@ -296,27 +293,7 @@
 
   <script type="module">
     (async function () {
-      // Try local browser bundle first; fallback to CDN latest; then JSON as last resort
-      let RegLib = null;
-      let source = 'local';
-      try {
-        RegLib = await import('./registrar-pricelist.js');
-      } catch (_) {
-        try {
-          source = 'cdn';
-          RegLib = await import('https://cdn.jsdelivr.net/npm/registrar-pricelist@latest/dist/registrar-pricelist.js');
-        } catch (err) {
-          source = 'json';
-          RegLib = null; // will fallback to JSON fetch below
-        }
-      }
-
-      const registrars = RegLib?.registrars || [
-        { key: 'namecheap', label: 'Namecheap', paths: ['../data/namecheap-prices.json', './data/namecheap-prices.json', '/data/namecheap-prices.json'] },
-        { key: 'openprovider', label: 'OpenProvider', paths: ['../data/openprovider-prices.json', './data/openprovider-prices.json', '/data/openprovider-prices.json'] },
-        { key: 'nira', label: 'NIRA', paths: ['../data/nira-prices.json', './data/nira-prices.json', '/data/nira-prices.json'] },
-      ];
-
+      // Simplified: load unified CSV and render
       const $q = document.getElementById('q');
       const $clear = document.getElementById('clear');
       const $theadRow = document.getElementById('thead-row');
@@ -328,32 +305,60 @@
       const $next = document.getElementById('next');
       const $pageInfo = document.getElementById('pageInfo');
       const $devChip = document.getElementById('dev-chip');
-      if ($devChip) $devChip.hidden = (source !== 'local');
+      if ($devChip) $devChip.hidden = true;
 
       // Try multiple base paths so this works when served from repo root or docs/ root
-      async function fetchFirst(paths) {
+      async function fetchCsv(paths) {
         for (const url of paths) {
           try {
             const res = await fetch(url, { cache: 'no-store' });
             if (!res.ok) throw new Error(String(res.status));
-            return await res.json();
+            return await res.text();
           } catch (_) { /* try next */ }
         }
         return null;
       }
 
-      const getCreatePrice = RegLib?.getCreatePrice || function getCreatePrice(entry) {
-        if (!entry) return undefined;
-        const rp = entry['regular-price'] || {};
-        if (typeof rp.create === 'number') return rp.create;
-        if (typeof rp.renew === 'number') return rp.renew;
-        return undefined;
-      };
-
       const usd = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 2 });
       function fmtPrice(v) {
         return typeof v === 'number' && Number.isFinite(v) ? usd.format(v) : '—';
       }
+
+      function labelForProvider(key) {
+        if (!key) return '';
+        if (key === 'nira') return 'NIRA';
+        if (key === 'openprovider') return 'OpenProvider';
+        if (key === 'namecheap') return 'Namecheap';
+        return key.charAt(0).toUpperCase() + key.slice(1);
+      }
+
+      // Parse CSV with expected headers: tld,provider,amount
+      function parseUnifiedCsv(text) {
+        const lines = (text || '').split(/\r?\n/).filter(Boolean);
+        if (!lines.length) return { providers: [], index: {} };
+        // Skip header if present
+        const hasHeader = /^\s*tld\s*,\s*provider\s*,\s*amount\s*$/i.test(lines[0]);
+        const start = hasHeader ? 1 : 0;
+        const providersSet = new Set();
+        const index = {};
+        for (let i = start; i < lines.length; i++) {
+          const line = lines[i];
+          // simple CSV: values don't contain commas
+          const parts = line.split(',');
+          if (parts.length < 3) continue;
+          const tld = parts[0].trim();
+          const provider = parts[1].trim();
+          const amount = parseFloat(parts[2].trim());
+          if (!tld || !provider || !Number.isFinite(amount)) continue;
+          providersSet.add(provider);
+          if (!index[tld]) index[tld] = { prices: {} };
+          index[tld].prices[provider] = amount;
+        }
+        return { providers: Array.from(providersSet).sort(), index };
+      }
+
+      // Will be filled after loading CSV
+      let registrars = [];
 
       function buildHeader() {
         registrars.forEach(r => {
@@ -371,7 +376,7 @@
       let allRows = [];
       const state = {
         query: '',
-        sortKey: 'tld', // 'tld' | 'maxYears' | registrarKey
+        sortKey: 'tld', // 'tld' | providerKey
         sortDir: 'asc', // 'asc' | 'desc'
         limit: 30,
         offset: 0,
@@ -381,7 +386,6 @@
         allRows = Object.keys(index).map(tld => ({
           tld,
           tldKey: tld.toLowerCase(),
-          maxYears: index[tld].maxYears,
           prices: { ...index[tld].prices },
         }));
       }
@@ -391,12 +395,7 @@
         if (key === 'tld') {
           return sgn * a.tld.localeCompare(b.tld);
         }
-        if (key === 'maxYears') {
-          const av = Number.isFinite(a.maxYears) ? a.maxYears : Number.NEGATIVE_INFINITY;
-          const bv = Number.isFinite(b.maxYears) ? b.maxYears : Number.NEGATIVE_INFINITY;
-          return sgn * (av - bv);
-        }
-        // registrar key: numeric compare by price
+        // provider key: numeric compare by price
         const av = (typeof a.prices[key] === 'number') ? a.prices[key] : Number.POSITIVE_INFINITY;
         const bv = (typeof b.prices[key] === 'number') ? b.prices[key] : Number.POSITIVE_INFINITY;
         if (Number.isFinite(av) && Number.isFinite(bv)) return sgn * (av - bv);
@@ -428,11 +427,6 @@
           tdTld.textContent = row.tld;
           tdTld.className = 'tld';
           tr.appendChild(tdTld);
-
-          const tdMax = document.createElement('td');
-          tdMax.className = 'right';
-          tdMax.textContent = Number.isFinite(row.maxYears) ? String(row.maxYears) : '—';
-          tr.appendChild(tdMax);
 
           registrars.forEach(({ key }) => {
             const td = document.createElement('td');
@@ -496,42 +490,21 @@
 
       async function init() {
         $loading.hidden = false;
+        // Load unified CSV (create prices)
+        const csvText = await fetchCsv([
+          './unified-create-prices.csv',
+        ]);
+
+        const { providers, index } = parseUnifiedCsv(csvText || '');
+        registrars = providers.map(p => ({ key: p, label: labelForProvider(p) }));
+
+        // Build header after knowing providers
         buildHeader();
-        // Sort events for header
         $theadRow.addEventListener('click', handleSortClick);
-
-        // Load datasets either from bundled library or by fetching JSON files
-        let datasets;
-        if (RegLib?.datasets) {
-          datasets = RegLib.datasets;
-        } else {
-          const results = await Promise.all(
-            registrars.map(r => fetchFirst(r.paths).then(json => ({ key: r.key, data: json })))
-          );
-          datasets = Object.fromEntries(results.filter(r => r.data).map(r => [r.key, r.data]));
-        }
-
-        // Build unified index (prefer library helper if available)
-        const index = RegLib?.buildPriceIndex ? RegLib.buildPriceIndex(datasets) : (() => {
-          const idx = {};
-          const addFrom = (key, data) => {
-            if (!data || !data.data) return;
-            for (const [tld, entry] of Object.entries(data.data)) {
-              if (!idx[tld]) idx[tld] = { maxYears: undefined, prices: {} };
-              const my = typeof entry.maxYears === 'number' ? entry.maxYears : undefined;
-              if (Number.isFinite(my)) idx[tld].maxYears = Math.max(idx[tld].maxYears || 0, my);
-              const p = getCreatePrice(entry);
-              if (typeof p === 'number' && Number.isFinite(p)) idx[tld].prices[key] = p;
-            }
-          };
-          addFrom('namecheap', datasets.namecheap);
-          addFrom('openprovider', datasets.openprovider);
-          addFrom('nira', datasets.nira);
-          return idx;
-        })();
 
         // Build in-memory rows and initial render
         buildAllRows(index);
+
         // Read initial state from URL (limit and offset, and q)
         const url = new URL(window.location.href);
         const limitParam = parseInt(url.searchParams.get('limit') || '30', 10);
@@ -540,6 +513,7 @@
         state.offset = Number.isFinite(offsetParam) && offsetParam >= 0 ? offsetParam : 0;
         state.query = (url.searchParams.get('q') || '').trim();
         if (state.query) $q.value = state.query;
+
         renderBody();
         $loading.hidden = true;
 
