@@ -1,8 +1,7 @@
 {
   "meta": {
     "source": "manual-nira-pricelist",
-    "generated_at": "2025-10-25T17:26:41.624Z",
-    "fx_source": "https://www.floatrates.com/daily/usd.json",
+    "generated_at": "2025-10-26T04:25:07.497Z",
     "exchange": "1 USD => N1,460.49",
     "notes": "USD prices for 1-year create/renew derived from NGN list via FX."
   },
