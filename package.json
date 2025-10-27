@@ -4,7 +4,7 @@
   "description": "Generates structured JSON price lists for TLDs from different registrars like Namecheap and OpenProvider",
   "type": "module",
   "scripts": {
-    "cli": "node src/cli.js",
+    "cli": "node src/cli.js --registrars=nira,openprovider",
     "test": "node --test",
     "build": "mkdir -p docs && cp data/unified-create-prices.csv docs/",
     "preview": "npx serve docs"

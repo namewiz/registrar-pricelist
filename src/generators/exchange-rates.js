@@ -53,6 +53,13 @@ export const exchangeRatesGenerator = createRegistrarPriceGenerator({
       }
     }
 
+    // Ensure stable ordering for cleaner diffs: sort by country code, then currency code
+    results.sort((a, b) => {
+      const cc = String(a.countryCode).localeCompare(String(b.countryCode));
+      if (cc !== 0) return cc;
+      return String(a.currencyCode).localeCompare(String(b.currencyCode));
+    });
+
     return results;
   },
 });
