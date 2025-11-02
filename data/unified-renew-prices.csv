@@ -3,7 +3,7 @@ tld,provider,amount
 6g.in,openprovider,11.82
 aaa.pro,openprovider,222
 abc.br,openprovider,40.78
-abogado,openprovider,34
+abogado,openprovider,29.98
 abr.it,openprovider,19.35
 abruzzo.it,openprovider,19.35
 ac,openprovider,79.8
@@ -23,9 +23,9 @@ acct.pro,openprovider,222
 actor,openprovider,49
 ad,openprovider,234.14
 adm.ec,openprovider,39.95
-adult,openprovider,160.36
+adult,openprovider,170.98
 adult.ht,openprovider,57
-ae,openprovider,82.9
+ae,openprovider,82.91
 ae.org,openprovider,30
 aero,openprovider,134.66
 af,openprovider,167
@@ -246,7 +246,7 @@ careers,openprovider,69.9
 carrara-massa.it,openprovider,19.35
 carraramassa.it,openprovider,19.35
 cars,openprovider,4000.36
-casa,openprovider,10.2
+casa,openprovider,14.98
 case,openprovider,2600
 caserta.it,openprovider,19.35
 cash,openprovider,51.98
@@ -427,7 +427,7 @@ com.ky,openprovider,96.76
 com.kz,openprovider,120
 com.lb,openprovider,218.37
 com.lc,openprovider,29
-com.lk,openprovider,51.68
+com.lk,openprovider,51.88
 com.lr,openprovider,388.21
 com.lv,openprovider,27.84
 com.ly,openprovider,139.51
@@ -445,7 +445,7 @@ com.mx,openprovider,37.98
 com.my,openprovider,120
 com.na,openprovider,774
 com.nf,openprovider,123.5
-com.ng,nira,4.87
+com.ng,nira,3.48
 com.ni,openprovider,241.42
 com.np,openprovider,388.21
 com.nr,openprovider,388.21
@@ -593,7 +593,7 @@ edu.gh,openprovider,1055.46
 edu.gl,openprovider,90.98
 edu.gr,openprovider,15.15
 edu.hn,openprovider,167.42
-edu.lk,openprovider,51.68
+edu.lk,openprovider,51.88
 edu.lv,openprovider,27.84
 edu.mk,openprovider,51
 edu.mx,openprovider,35.99
@@ -977,7 +977,7 @@ link,openprovider,18
 live,openprovider,38
 living,openprovider,45
 livorno.it,openprovider,19.35
-lk,openprovider,58.57
+lk,openprovider,58.79
 llc,openprovider,49
 ln.cn,openprovider,33.26
 lo.it,openprovider,19.35
@@ -1007,7 +1007,7 @@ lubin.pl,openprovider,34.21
 lucania.it,openprovider,19.35
 lucca.it,openprovider,19.35
 lukow.pl,openprovider,34.21
-luxe,openprovider,20.4
+luxe,openprovider,25.98
 luxury,openprovider,50.36
 lv,openprovider,16.26
 ly,openprovider,396
@@ -1121,7 +1121,7 @@ nagoya,openprovider,20.43
 naklo.pl,openprovider,34.21
 name,openprovider,20
 name.fj,openprovider,294
-name.ng,nira,0.28
+name.ng,nira,0.56
 name.pr,openprovider,129
 name.tr,openprovider,33
 name.tt,openprovider,155.29
@@ -1224,7 +1224,7 @@ new,openprovider,800.36
 news,openprovider,38
 nexus,openprovider,17
 nf,openprovider,240
-ng,nira,10.44
+ng,nira,6.61
 ngo,openprovider,30
 ni,openprovider,1091.85
 nieruchomosci.pl,openprovider,42.75
@@ -1329,7 +1329,7 @@ org.ky,openprovider,96.76
 org.kz,openprovider,120
 org.lb,openprovider,218.37
 org.lc,openprovider,29
-org.lk,openprovider,51.68
+org.lk,openprovider,51.88
 org.ls,openprovider,164.99
 org.lv,openprovider,27.84
 org.ma,openprovider,180
@@ -1344,7 +1344,7 @@ org.my,openprovider,120
 org.mz,openprovider,300.87
 org.na,openprovider,749.74
 org.nf,openprovider,91
-org.ng,nira,4.87
+org.ng,nira,3.48
 org.ni,openprovider,241.42
 org.nz,openprovider,26.32
 org.om,openprovider,179.55
@@ -1449,7 +1449,7 @@ polkowice.pl,openprovider,34.21
 pomorskie.pl,openprovider,34.21
 pomorze.pl,openprovider,34.21
 pordenone.it,openprovider,19.35
-porn,openprovider,160.36
+porn,openprovider,170.98
 post.in,openprovider,11.82
 potenza.it,openprovider,19.35
 powiat.pl,openprovider,42.75
@@ -1603,7 +1603,7 @@ sejny.pl,openprovider,34.21
 select,openprovider,45
 seoul.kr,openprovider,72
 services,openprovider,44
-sex,openprovider,160.36
+sex,openprovider,170.98
 sex.pl,openprovider,42.75
 sexy,openprovider,2600
 sg,openprovider,80
@@ -2035,7 +2035,7 @@ xn--wgbl6a,openprovider,1273.83
 xn--xhq521b,openprovider,27.27
 xn--xkc2dl3a5ee0h,openprovider,11.82
 xn--ygbi2ammx,openprovider,143.15
-xxx,openprovider,160.36
+xxx,openprovider,170.98
 xyz,openprovider,20.98
 xz.cn,openprovider,33.26
 yachts,openprovider,20.98
