@@ -3,10 +3,10 @@ import path from 'node:path';
 import { createRegistrarPriceGenerator } from '../registrar-generator.js';
 
 const NGN_PRICES = {
-  'ng': 15000,
-  'com.ng': 7000,
-  'org.ng': 7000,
-  'name.ng': 400,
+  'ng': 9500,
+  'com.ng': 5000,
+  'org.ng': 5000,
+  'name.ng': 800,
 };
 
 function round2(n) {

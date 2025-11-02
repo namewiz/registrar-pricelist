@@ -784,6 +784,14 @@
     "inverseRate": 0.00076335877862595
   },
   {
+    "countryCode": "IR",
+    "currencyName": "Iranian rial",
+    "currencySymbol": "﷼",
+    "currencyCode": "IRR",
+    "exchangeRate": 41837.931034483,
+    "inverseRate": 0.000023901755542735
+  },
+  {
     "countryCode": "IS",
     "currencyName": "Icelandic króna",
     "currencySymbol": "kr",
@@ -902,6 +910,14 @@
     "currencyCode": "KZT",
     "exchangeRate": 530.29737441784,
     "inverseRate": 0.0018857343977948
+  },
+  {
+    "countryCode": "LA",
+    "currencyName": "Lao kip",
+    "currencySymbol": "₭",
+    "currencyCode": "LAK",
+    "exchangeRate": 21666.071428572,
+    "inverseRate": 0.000046155114151487
   },
   {
     "countryCode": "LB",
@@ -1558,6 +1574,14 @@
     "currencyCode": "STN",
     "exchangeRate": 21.204777566211,
     "inverseRate": 0.047159183673469
+  },
+  {
+    "countryCode": "SY",
+    "currencyName": "Syrian pound",
+    "currencySymbol": "£",
+    "currencyCode": "SYP",
+    "exchangeRate": 11030,
+    "inverseRate": 0.000090661831368993
   },
   {
     "countryCode": "SZ",
