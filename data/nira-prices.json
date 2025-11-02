@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "manual-nira-pricelist",
-    "generated_at": "2025-11-02T05:35:34.592Z",
+    "generated_at": "2025-11-02T06:33:40.083Z",
     "exchange": "1 USD => N1,436.97",
     "notes": "USD prices for 1-year create/renew derived from NGN list via FX."
   },
