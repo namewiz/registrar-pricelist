@@ -1,27 +1,27 @@
 {
   "meta": {
     "source": "manual-nira-pricelist",
-    "generated_at": "2025-11-03T06:37:06.223Z",
-    "exchange": "1 USD => N1,436.97",
+    "generated_at": "2025-11-04T06:36:14.694Z",
+    "exchange": "1 USD => N1,421.73",
     "notes": "USD prices for 1-year create/renew derived from NGN list via FX."
   },
   "data": {
     "ng": {
       "regular-price": {
-        "create": 6.61,
-        "renew": 6.61
+        "create": 6.68,
+        "renew": 6.68
       }
     },
     "com.ng": {
       "regular-price": {
-        "create": 3.48,
-        "renew": 3.48
+        "create": 3.52,
+        "renew": 3.52
       }
     },
     "org.ng": {
       "regular-price": {
-        "create": 3.48,
-        "renew": 3.48
+        "create": 3.52,
+        "renew": 3.52
       }
     },
     "name.ng": {
