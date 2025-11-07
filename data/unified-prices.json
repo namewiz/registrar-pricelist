@@ -5360,6 +5360,14 @@
     "tld": "com.nf"
   },
   {
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 5000,
+          "renew": 5000
+        }
+      }
+    },
     "provider": "nira",
     "regular-price": {
       "create": 3.48,
@@ -13467,6 +13475,14 @@
     "tld": "name.fj"
   },
   {
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 800,
+          "renew": 800
+        }
+      }
+    },
     "provider": "nira",
     "regular-price": {
       "create": 0.56,
@@ -14698,10 +14714,18 @@
     "tld": "nf"
   },
   {
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 9500,
+          "renew": 9500
+        }
+      }
+    },
     "provider": "nira",
     "regular-price": {
-      "create": 6.6,
-      "renew": 6.6
+      "create": 6.61,
+      "renew": 6.61
     },
     "tld": "ng"
   },
@@ -16131,6 +16155,14 @@
     "tld": "org.nf"
   },
   {
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 5000,
+          "renew": 5000
+        }
+      }
+    },
     "provider": "nira",
     "regular-price": {
       "create": 3.48,
