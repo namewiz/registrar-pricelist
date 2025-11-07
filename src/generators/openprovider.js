@@ -110,6 +110,7 @@ export const openproviderGenerator = createRegistrarPriceGenerator({
     const columns = inferColumns(headerRow);
     const data = {};
     const flat = [];
+    const excludedTlds = new Set();
 
     for (const rawRow of dataRows) {
       if (!rawRow || rawRow.length === 0) continue;
@@ -131,7 +132,22 @@ export const openproviderGenerator = createRegistrarPriceGenerator({
         if (member !== null) data[tld]['member-price'][op] = member;
         flat.push({ tld, years, operation: op, 'regular-price': nonMember, 'member-price': member });
       }
+
+      if (years === 1 && op === 'update') {
+        const hasPositiveUpdatePrice =
+          (typeof nonMember === 'number' && nonMember > 0) ||
+          (typeof member === 'number' && member > 0);
+        if (hasPositiveUpdatePrice) {
+          excludedTlds.add(tld);
+        }
+      }
     }
+
+    for (const tld of excludedTlds) {
+      delete data[tld];
+    }
+
+    const filteredFlat = flat.filter((entry) => !excludedTlds.has(entry.tld));
 
     // Ensure deterministic key ordering for stable JSON output:
     // - Sort TLD keys under `data`
@@ -155,9 +171,10 @@ export const openproviderGenerator = createRegistrarPriceGenerator({
         header_row_index: headerIndex,
         data_start_index: headerIndex + 1,
         rows_processed: dataRows.length,
-        rows_emitted_year1: flat.length,
+        rows_emitted_year1: filteredFlat.length,
         headers_original: records[headerIndex] || [],
         required_headers: REQUIRED_HEADERS,
+        tlds_excluded_update_price_gt_zero: Array.from(excludedTlds).sort(),
       },
       data: sortedData,
     };
