@@ -45,20 +45,27 @@ export const niraGenerator = createRegistrarPriceGenerator({
       throw new Error('Could not determine NGN per USD from exchange-rates.json.');
     }
 
+    const exchangeRate = Number(Number(ngnPerUsd).toFixed(6));
     const data = {};
+    const ngnData = {};
     for (const [tld, ngnPrice] of Object.entries(NGN_PRICES)) {
       const usd = round2(ngnPrice / ngnPerUsd);
-      data[tld] = { 'regular-price': { create: usd, renew: usd } };
+      const regularUsd = { create: usd, renew: usd };
+      data[tld] = { 'regular-price': regularUsd };
+      const naira = round2(ngnPrice);
+      ngnData[tld] = { 'regular-price': { create: naira, renew: naira } };
     }
 
     return {
       meta: {
         source: 'manual-nira-pricelist',
         generated_at: new Date().toISOString(),
-        exchange: `1 USD => ${formatNaira(ngnPerUsd)}`,
-        notes: 'USD prices for 1-year create/renew derived from NGN list via FX.',
+        data_currency: 'USD',
+        exchange_rate: exchangeRate,
+        orig_currency: 'NGN',
       },
       data,
+      NGN: ngnData,
     };
   },
 });

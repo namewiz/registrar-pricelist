@@ -34,6 +34,27 @@ function normalizeRegularPriceMap(map) {
   return sortObjectKeys(out);
 }
 
+function deriveBaseCurrency(result) {
+  const raw = result?.meta?.currency;
+  if (typeof raw === 'string' && raw.trim()) return raw.trim().toUpperCase();
+  return null;
+}
+
+function collectCurrencyRegularPriceMaps(result, tld) {
+  const extras = {};
+  if (!result || typeof result !== 'object') return extras;
+  for (const [maybeCurrency, currencyMap] of Object.entries(result)) {
+    if (!/^[A-Z]{3}$/.test(maybeCurrency)) continue;
+    const entry = currencyMap && typeof currencyMap === 'object' ? currencyMap[tld] : null;
+    if (!entry || typeof entry !== 'object') continue;
+    const regular = normalizeRegularPriceMap(entry['regular-price']);
+    if (regular && Object.keys(regular).length > 0) {
+      extras[maybeCurrency] = { 'regular-price': regular };
+    }
+  }
+  return extras;
+}
+
 function cheapestMetric(regularMap) {
   // Prefer create price when present; else use the minimum among values
   if (!regularMap || typeof regularMap !== 'object') return Number.POSITIVE_INFINITY;
@@ -67,12 +88,19 @@ export function generateUnifiedList(resultsByRegistrar, options = {}) {
   for (const provider of include) {
     const result = resultsByRegistrar[provider];
     if (!result || !result.data || typeof result.data !== 'object') continue;
+    const baseCurrency = deriveBaseCurrency(result) || undefined;
     for (const [tld, entry] of Object.entries(result.data)) {
       const regular = normalizeRegularPriceMap(entry?.['regular-price']);
       if (!regular || Object.keys(regular).length === 0) continue;
       if (!candidatesByTld[tld]) candidatesByTld[tld] = [];
       // Construct entry with predictable key order via sortObjectKeys later
-      candidatesByTld[tld].push({ provider, tld, 'regular-price': regular });
+      const candidate = { provider, tld, 'regular-price': regular };
+      if (baseCurrency) candidate.currency = baseCurrency;
+      const currencyExtras = collectCurrencyRegularPriceMaps(result, tld);
+      if (currencyExtras && Object.keys(currencyExtras).length > 0) {
+        candidate.currencies = currencyExtras;
+      }
+      candidatesByTld[tld].push(candidate);
     }
   }
 
@@ -111,11 +139,18 @@ function collectCandidatesByTld(resultsByRegistrar, providers) {
   for (const provider of include) {
     const result = resultsByRegistrar[provider];
     if (!result || !result.data || typeof result.data !== 'object') continue;
+    const baseCurrency = deriveBaseCurrency(result) || undefined;
     for (const [tld, entry] of Object.entries(result.data)) {
       const regular = normalizeRegularPriceMap(entry?.['regular-price']);
       if (!regular || Object.keys(regular).length === 0) continue;
       if (!candidatesByTld[tld]) candidatesByTld[tld] = [];
-      candidatesByTld[tld].push({ provider, tld, 'regular-price': regular });
+      const candidate = { provider, tld, 'regular-price': regular };
+      if (baseCurrency) candidate.currency = baseCurrency;
+      const currencyExtras = collectCurrencyRegularPriceMaps(result, tld);
+      if (currencyExtras && Object.keys(currencyExtras).length > 0) {
+        candidate.currencies = currencyExtras;
+      }
+      candidatesByTld[tld].push(candidate);
     }
   }
   return candidatesByTld;
@@ -123,7 +158,8 @@ function collectCandidatesByTld(resultsByRegistrar, providers) {
 
 /**
  * Build cheapest rows for a specific operation (e.g., 'create' or 'renew').
- * Rows are [tld, provider, amount]
+ * Rows are objects with tld, provider, currency, amount so additional
+ * currencies can be appended without changing the shape.
  */
 export function generateCheapestOpRows(resultsByRegistrar, op, providers) {
   const candidatesByTld = collectCandidatesByTld(resultsByRegistrar, providers);
@@ -140,14 +176,51 @@ export function generateCheapestOpRows(resultsByRegistrar, op, providers) {
         bestPrice = price;
       }
     }
-    if (best) rows.push([tld, best.provider, bestPrice]);
+    const baseCurrency = best?.currency || 'USD';
+    if (best) {
+      rows.push({
+        tld,
+        provider: best.provider,
+        currency: baseCurrency,
+        amount: bestPrice,
+      });
+    }
+    const byCurrency = new Map();
+    for (const cand of list) {
+      const currencies = cand.currencies || {};
+      for (const [code, entry] of Object.entries(currencies)) {
+        const price = Number(entry?.['regular-price']?.[op]);
+        if (!Number.isFinite(price)) continue;
+        const existing = byCurrency.get(code);
+        if (!existing || price < existing.price || (price === existing.price && String(cand.provider) < String(existing.candidate.provider))) {
+          byCurrency.set(code, { candidate: cand, price });
+        }
+      }
+    }
+    const baseCodeUpper = typeof baseCurrency === 'string' ? baseCurrency.toUpperCase() : '';
+    for (const code of Array.from(byCurrency.keys()).sort()) {
+      if (code === baseCodeUpper) continue;
+      const entry = byCurrency.get(code);
+      if (!entry) continue;
+      rows.push({
+        tld,
+        provider: entry.candidate.provider,
+        currency: code,
+        amount: entry.price,
+      });
+    }
   }
-  rows.sort((a, b) => (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0));
+  rows.sort((a, b) => {
+    if (a.tld !== b.tld) return a.tld < b.tld ? -1 : 1;
+    if (a.currency !== b.currency) return a.currency < b.currency ? -1 : 1;
+    if (a.provider !== b.provider) return a.provider < b.provider ? -1 : 1;
+    return 0;
+  });
   return rows;
 }
 
 export function rowsToCsv(rows) {
-  const header = 'tld,provider,amount';
-  const body = rows.map(([tld, provider, amount]) => `${tld},${provider},${amount}`);
+  const header = 'tld,provider,currency,amount';
+  const body = rows.map((row) => `${row.tld},${row.provider},${row.currency},${row.amount}`);
   return [header, ...body].join('\n');
 }
