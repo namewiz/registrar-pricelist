@@ -359,7 +359,7 @@ com.ki,openprovider,USD,154.6
 com.ky,openprovider,USD,98.09
 com.kz,openprovider,USD,120
 com.lc,openprovider,USD,29
-com.lk,openprovider,USD,50.87
+com.lk,openprovider,USD,50.9
 com.lv,openprovider,USD,28.22
 com.ly,openprovider,USD,141.42
 com.mg,openprovider,USD,154.95
@@ -371,7 +371,7 @@ com.mw,openprovider,USD,209.06
 com.mx,openprovider,USD,15.98
 com.nf,openprovider,USD,123.5
 com.ng,nira,NGN,5000
-com.ng,nira,USD,3.43
+com.ng,nira,USD,3.41
 com.om,openprovider,USD,226.28
 com.pa,openprovider,USD,150
 com.pe,openprovider,USD,110
@@ -491,7 +491,7 @@ edu.gh,openprovider,USD,1069.89
 edu.gl,openprovider,USD,88.88
 edu.gr,openprovider,USD,14.13
 edu.hn,openprovider,USD,116.83
-edu.lk,openprovider,USD,50.87
+edu.lk,openprovider,USD,50.9
 edu.lv,openprovider,USD,28.22
 edu.mk,openprovider,USD,51
 edu.mu,openprovider,USD,109
@@ -852,7 +852,7 @@ link,openprovider,USD,18
 live,openprovider,USD,38
 living,openprovider,USD,45
 livorno.it,openprovider,USD,19.61
-lk,openprovider,USD,57.65
+lk,openprovider,USD,57.68
 llc,openprovider,USD,49
 ln.cn,openprovider,USD,33.26
 lo.it,openprovider,USD,19.61
@@ -1061,7 +1061,7 @@ news,openprovider,USD,38
 nexus,openprovider,USD,12
 nf,openprovider,USD,240
 ng,nira,NGN,9500
-ng,nira,USD,6.52
+ng,nira,USD,6.49
 ngo,openprovider,USD,30
 nieruchomosci.pl,openprovider,USD,35.05
 ninja,openprovider,USD,31
@@ -1148,7 +1148,7 @@ org.ki,openprovider,USD,237.09
 org.ky,openprovider,USD,98.09
 org.kz,openprovider,USD,120
 org.lc,openprovider,USD,29
-org.lk,openprovider,USD,50.87
+org.lk,openprovider,USD,50.9
 org.lv,openprovider,USD,28.22
 org.ma,openprovider,USD,116
 org.mg,openprovider,USD,245.34
@@ -1160,7 +1160,7 @@ org.mx,openprovider,USD,15.98
 org.mz,openprovider,USD,356.63
 org.nf,openprovider,USD,91
 org.ng,nira,NGN,5000
-org.ng,nira,USD,3.43
+org.ng,nira,USD,3.41
 org.nz,openprovider,USD,26.42
 org.om,openprovider,USD,226.28
 org.pe,openprovider,USD,110
@@ -1359,7 +1359,7 @@ rome.it,openprovider,USD,19.61
 rovigo.it,openprovider,USD,19.61
 rrpp.ec,openprovider,USD,39.95
 rsvp,openprovider,USD,14.98
-ru,openprovider,USD,2.98
+ru,openprovider,USD,2.96
 ru.com,openprovider,USD,161.39
 rugby,openprovider,USD,80
 ruhr,openprovider,USD,49.56
@@ -1490,7 +1490,7 @@ taipei,openprovider,USD,28.36
 taranto.it,openprovider,USD,19.61
 targi.pl,openprovider,USD,35.05
 tarnobrzeg.pl,openprovider,USD,14.6
-tatar,openprovider,USD,11.09
+tatar,openprovider,USD,11.03
 tattoo,openprovider,USD,43
 tax,openprovider,USD,68
 taxi,openprovider,USD,65
@@ -1742,7 +1742,7 @@ xn--cesenaforl-i8a.it,openprovider,USD,19.61
 xn--czr694b,openprovider,USD,1133.95
 xn--czrs0t,openprovider,USD,70.36
 xn--czru2d,openprovider,USD,400.36
-xn--d1acj3b,openprovider,USD,13.73
+xn--d1acj3b,openprovider,USD,13.65
 xn--d1alf,openprovider,USD,51
 xn--d9b2bf3g1k.xn--s9brj9c,openprovider,USD,8.18
 xn--e1a4c,openprovider,USD,16.23
@@ -1780,7 +1780,7 @@ xn--node,openprovider,USD,147.57
 xn--nqv7f,openprovider,USD,19.5
 xn--nyqy26a,openprovider,USD,3600.36
 xn--p1acf,openprovider,USD,21.98
-xn--p1ai,openprovider,USD,2.98
+xn--p1ai,openprovider,USD,2.96
 xn--p5b2bfp5fh3fra.xn--45brj9c,openprovider,USD,8.18
 xn--p5b2bfp5fn6er.xn--45br5cyl,openprovider,USD,8.18
 xn--q9jyb4c,openprovider,USD,15.36
