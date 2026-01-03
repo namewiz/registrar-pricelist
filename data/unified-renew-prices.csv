@@ -371,7 +371,7 @@ com.mw,openprovider,USD,209.74
 com.mx,openprovider,USD,37.98
 com.nf,openprovider,USD,123.5
 com.ng,nira,NGN,5000
-com.ng,nira,USD,3.46
+com.ng,nira,USD,3.48
 com.om,openprovider,USD,182.59
 com.pa,openprovider,USD,150
 com.pe,openprovider,USD,110
@@ -986,7 +986,7 @@ nagoya,openprovider,USD,20.11
 naklo.pl,openprovider,USD,35.07
 name,openprovider,USD,20
 name.ng,nira,NGN,800
-name.ng,nira,USD,0.55
+name.ng,nira,USD,0.56
 name.vn,openprovider,USD,145
 naples.it,openprovider,USD,19.68
 napoli.it,openprovider,USD,19.68
@@ -1061,7 +1061,7 @@ news,openprovider,USD,38
 nexus,openprovider,USD,17
 nf,openprovider,USD,240
 ng,nira,NGN,9500
-ng,nira,USD,6.57
+ng,nira,USD,6.62
 ngo,openprovider,USD,30
 nieruchomosci.pl,openprovider,USD,43.84
 ninja,openprovider,USD,31
@@ -1160,7 +1160,7 @@ org.mx,openprovider,USD,37.98
 org.mz,openprovider,USD,296.1
 org.nf,openprovider,USD,130
 org.ng,nira,NGN,5000
-org.ng,nira,USD,3.46
+org.ng,nira,USD,3.48
 org.nz,openprovider,USD,26.55
 org.om,openprovider,USD,182.59
 org.pe,openprovider,USD,110
