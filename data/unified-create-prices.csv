@@ -371,7 +371,7 @@ com.mw,openprovider,USD,209.74
 com.mx,openprovider,USD,15.98
 com.nf,openprovider,USD,123.5
 com.ng,nira,NGN,5000
-com.ng,nira,USD,3.49
+com.ng,nira,USD,3.52
 com.om,openprovider,USD,227.01
 com.pa,openprovider,USD,150
 com.pe,openprovider,USD,110
@@ -1061,7 +1061,7 @@ news,openprovider,USD,38
 nexus,openprovider,USD,12
 nf,openprovider,USD,240
 ng,nira,NGN,9500
-ng,nira,USD,6.64
+ng,nira,USD,6.69
 ngo,openprovider,USD,30
 nieruchomosci.pl,openprovider,USD,35.07
 ninja,openprovider,USD,31
@@ -1160,7 +1160,7 @@ org.mx,openprovider,USD,15.98
 org.mz,openprovider,USD,357.79
 org.nf,openprovider,USD,91
 org.ng,nira,NGN,5000
-org.ng,nira,USD,3.49
+org.ng,nira,USD,3.52
 org.nz,openprovider,USD,26.55
 org.om,openprovider,USD,227.01
 org.pe,openprovider,USD,110
