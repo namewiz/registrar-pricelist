@@ -4470,8 +4470,8 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 3.52,
-      "renew": 3.52
+      "create": 3.53,
+      "renew": 3.53
     },
     "tld": "com.ng"
   },
@@ -12732,8 +12732,8 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 6.69,
-      "renew": 6.69
+      "create": 6.7,
+      "renew": 6.7
     },
     "tld": "ng"
   },
@@ -13909,8 +13909,8 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 3.52,
-      "renew": 3.52
+      "create": 3.53,
+      "renew": 3.53
     },
     "tld": "org.ng"
   },
