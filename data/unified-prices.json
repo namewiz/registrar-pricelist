@@ -4488,14 +4488,16 @@
       "NGN": {
         "regular-price": {
           "create": 6000,
-          "renew": 6000
+          "renew": 6000,
+          "transfer": 6000
         }
       }
     },
     "provider": "nira",
     "regular-price": {
       "create": 4.22,
-      "renew": 4.22
+      "renew": 4.22,
+      "transfer": 4.22
     },
     "tld": "com.ng"
   },
@@ -6004,14 +6006,16 @@
       "NGN": {
         "regular-price": {
           "create": 6000,
-          "renew": 6000
+          "renew": 6000,
+          "transfer": 6000
         }
       }
     },
     "provider": "nira",
     "regular-price": {
       "create": 4.22,
-      "renew": 4.22
+      "renew": 4.22,
+      "transfer": 4.22
     },
     "tld": "edu.ng"
   },
@@ -8540,14 +8544,16 @@
       "NGN": {
         "regular-price": {
           "create": 6000,
-          "renew": 6000
+          "renew": 6000,
+          "transfer": 6000
         }
       }
     },
     "provider": "nira",
     "regular-price": {
       "create": 4.22,
-      "renew": 4.22
+      "renew": 4.22,
+      "transfer": 4.22
     },
     "tld": "i.ng"
   },
@@ -11471,14 +11477,16 @@
       "NGN": {
         "regular-price": {
           "create": 6000,
-          "renew": 6000
+          "renew": 6000,
+          "transfer": 6000
         }
       }
     },
     "provider": "nira",
     "regular-price": {
       "create": 4.22,
-      "renew": 4.22
+      "renew": 4.22,
+      "transfer": 4.22
     },
     "tld": "mobi.ng"
   },
@@ -11919,14 +11927,16 @@
       "NGN": {
         "regular-price": {
           "create": 400,
-          "renew": 400
+          "renew": 400,
+          "transfer": 400
         }
       }
     },
     "provider": "nira",
     "regular-price": {
       "create": 0.28,
-      "renew": 0.28
+      "renew": 0.28,
+      "transfer": 0.28
     },
     "tld": "name.ng"
   },
@@ -12522,14 +12532,16 @@
       "NGN": {
         "regular-price": {
           "create": 6000,
-          "renew": 6000
+          "renew": 6000,
+          "transfer": 6000
         }
       }
     },
     "provider": "nira",
     "regular-price": {
       "create": 4.22,
-      "renew": 4.22
+      "renew": 4.22,
+      "transfer": 4.22
     },
     "tld": "net.ng"
   },
@@ -12838,14 +12850,16 @@
       "NGN": {
         "regular-price": {
           "create": 13000,
-          "renew": 13000
+          "renew": 13000,
+          "transfer": 13000
         }
       }
     },
     "provider": "nira",
     "regular-price": {
       "create": 9.15,
-      "renew": 9.15
+      "renew": 9.15,
+      "transfer": 9.15
     },
     "tld": "ng"
   },
@@ -14027,14 +14041,16 @@
       "NGN": {
         "regular-price": {
           "create": 6000,
-          "renew": 6000
+          "renew": 6000,
+          "transfer": 6000
         }
       }
     },
     "provider": "nira",
     "regular-price": {
       "create": 4.22,
-      "renew": 4.22
+      "renew": 4.22,
+      "transfer": 4.22
     },
     "tld": "org.ng"
   },
@@ -16743,14 +16759,16 @@
       "NGN": {
         "regular-price": {
           "create": 6000,
-          "renew": 6000
+          "renew": 6000,
+          "transfer": 6000
         }
       }
     },
     "provider": "nira",
     "regular-price": {
       "create": 4.22,
-      "renew": 4.22
+      "renew": 4.22,
+      "transfer": 4.22
     },
     "tld": "sch.ng"
   },

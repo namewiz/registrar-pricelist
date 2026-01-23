@@ -138,17 +138,22 @@ async function run() {
     await fs.writeFile(unifiedPath, JSON.stringify(unified, null, 2));
     console.log(`  ✔ Saved unified list to ${path.relative(process.cwd(), unifiedPath)}`);
 
-    console.log('Building unified CSVs (create, renew)...');
+    console.log('Building unified CSVs (create, renew, transfer)...');
     const createRows = generateCheapestOpRows(resultsById, 'create', normalizedIds);
     const renewRows = generateCheapestOpRows(resultsById, 'renew', normalizedIds);
+    const transferRows = generateCheapestOpRows(resultsById, 'transfer', normalizedIds);
     const createCsv = rowsToCsv(createRows);
     const renewCsv = rowsToCsv(renewRows);
+    const transferCsv = rowsToCsv(transferRows);
     const createPath = path.join(outDir, 'unified-create-prices.csv');
     const renewPath = path.join(outDir, 'unified-renew-prices.csv');
+    const transferPath = path.join(outDir, 'unified-transfer-prices.csv');
     await fs.writeFile(createPath, createCsv);
     await fs.writeFile(renewPath, renewCsv);
+    await fs.writeFile(transferPath, transferCsv);
     console.log(`  ✔ Saved unified create CSV to ${path.relative(process.cwd(), createPath)}`);
     console.log(`  ✔ Saved unified renew CSV to ${path.relative(process.cwd(), renewPath)}`);
+    console.log(`  ✔ Saved unified transfer CSV to ${path.relative(process.cwd(), transferPath)}`);
   }
 }
 

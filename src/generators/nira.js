@@ -55,10 +55,10 @@ export const niraGenerator = createRegistrarPriceGenerator({
     const ngnData = {};
     for (const [tld, ngnPrice] of Object.entries(NGN_PRICES)) {
       const usd = round2(ngnPrice / ngnPerUsd);
-      const regularUsd = { create: usd, renew: usd };
+      const regularUsd = { create: usd, renew: usd, transfer: usd };
       data[tld] = { 'regular-price': regularUsd };
       const naira = round2(ngnPrice);
-      ngnData[tld] = { 'regular-price': { create: naira, renew: naira } };
+      ngnData[tld] = { 'regular-price': { create: naira, renew: naira, transfer: naira } };
     }
 
     return {
