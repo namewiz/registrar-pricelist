@@ -372,8 +372,8 @@ com.mu,openprovider,USD,109
 com.mw,openprovider,USD,208.95
 com.mx,openprovider,USD,15.98
 com.nf,openprovider,USD,123.5
-com.ng,nira,NGN,5000
-com.ng,nira,USD,3.52
+com.ng,nira,NGN,6000
+com.ng,nira,USD,4.22
 com.om,openprovider,USD,226.16
 com.pa,openprovider,USD,150
 com.pe,openprovider,USD,110
@@ -499,7 +499,8 @@ edu.lv,openprovider,USD,28.21
 edu.mk,openprovider,USD,51
 edu.mu,openprovider,USD,109
 edu.mx,openprovider,USD,11.8
-edu.ng,openprovider,USD,184.37
+edu.ng,nira,NGN,6000
+edu.ng,nira,USD,4.22
 edu.pl,openprovider,USD,35.07
 edu.vn,openprovider,USD,145
 edu.vu,openprovider,USD,142
@@ -710,7 +711,8 @@ ht,openprovider,USD,180.5
 hu,openprovider,USD,24.58
 hu.com,openprovider,USD,56.54
 hu.net,openprovider,USD,56.54
-i.ng,openprovider,USD,184.37
+i.ng,nira,NGN,6000
+i.ng,nira,USD,4.22
 icu,openprovider,USD,25
 id.au,openprovider,USD,14.28
 id.lv,openprovider,USD,28.21
@@ -954,7 +956,8 @@ mo.cn,openprovider,USD,33.26
 mo.it,openprovider,USD,19.6
 mobi,openprovider,USD,59.98
 mobi.ke,openprovider,USD,64
-mobi.ng,openprovider,USD,17
+mobi.ng,nira,NGN,6000
+mobi.ng,nira,USD,4.22
 mobi.tz,openprovider,USD,73.75
 moda,openprovider,USD,47
 modena.it,openprovider,USD,19.6
@@ -991,8 +994,8 @@ nagoya,openprovider,USD,19.84
 naklo.pl,openprovider,USD,14.61
 name,openprovider,USD,20
 name.bh,openprovider,USD,330
-name.ng,nira,NGN,800
-name.ng,nira,USD,0.56
+name.ng,nira,NGN,400
+name.ng,nira,USD,0.28
 name.vn,openprovider,USD,145
 naples.it,openprovider,USD,19.6
 napoli.it,openprovider,USD,19.6
@@ -1042,6 +1045,8 @@ net.mu,openprovider,USD,109
 net.mx,openprovider,USD,15.98
 net.mz,openprovider,USD,356.45
 net.nf,openprovider,USD,88
+net.ng,nira,NGN,6000
+net.ng,nira,USD,4.22
 net.nz,openprovider,USD,27.07
 net.om,openprovider,USD,226.16
 net.pe,openprovider,USD,110
@@ -1067,8 +1072,8 @@ new,openprovider,USD,800.36
 news,openprovider,USD,38
 nexus,openprovider,USD,12
 nf,openprovider,USD,240
-ng,nira,NGN,9500
-ng,nira,USD,6.69
+ng,nira,NGN,13000
+ng,nira,USD,9.15
 ngo,openprovider,USD,30
 nieruchomosci.pl,openprovider,USD,35.07
 ninja,openprovider,USD,31
@@ -1167,8 +1172,8 @@ org.mu,openprovider,USD,109
 org.mx,openprovider,USD,15.98
 org.mz,openprovider,USD,356.45
 org.nf,openprovider,USD,91
-org.ng,nira,NGN,5000
-org.ng,nira,USD,3.52
+org.ng,nira,NGN,6000
+org.ng,nira,USD,4.22
 org.nz,openprovider,USD,27.07
 org.om,openprovider,USD,226.16
 org.pe,openprovider,USD,110
@@ -1394,7 +1399,8 @@ sc,openprovider,USD,99.98
 sc.cn,openprovider,USD,33.26
 sc.ke,openprovider,USD,174.54
 sc.tz,openprovider,USD,73.75
-sch.ng,openprovider,USD,184.37
+sch.ng,nira,NGN,6000
+sch.ng,nira,USD,4.22
 school,openprovider,USD,33
 school.nz,openprovider,USD,27.07
 schule,openprovider,USD,32

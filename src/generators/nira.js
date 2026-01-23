@@ -3,10 +3,15 @@ import path from 'node:path';
 import { createRegistrarPriceGenerator } from '../registrar-generator.js';
 
 const NGN_PRICES = {
-  'ng': 9500,
-  'com.ng': 5000,
-  'org.ng': 5000,
-  'name.ng': 800,
+  'ng': 13000,
+  'com.ng': 6000,
+  'org.ng': 6000,
+  'net.ng': 6000,
+  'mobi.ng': 6000,
+  'i.ng': 6000,
+  "sch.ng": 6000,
+  "edu.ng": 6000,
+  'name.ng': 400,
 };
 
 function round2(n) {
@@ -14,7 +19,7 @@ function round2(n) {
 }
 
 function formatNaira(n) {
-  return `N${Number(n).toLocaleString('en-NG', { maximumFractionDigits: 2 })}`;
+  return `₦${Number(n).toLocaleString('en-NG', { maximumFractionDigits: 2 })}`;
 }
 
 export const niraGenerator = createRegistrarPriceGenerator({

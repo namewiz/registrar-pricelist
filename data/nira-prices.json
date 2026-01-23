@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "manual-nira-pricelist",
-    "generated_at": "2026-01-23T06:41:52.933Z",
+    "generated_at": "2026-01-23T12:08:02.790Z",
     "data_currency": "USD",
     "exchange_rate": 1420.689988,
     "orig_currency": "NGN"
@@ -9,52 +9,112 @@
   "data": {
     "ng": {
       "regular-price": {
-        "create": 6.69,
-        "renew": 6.69
+        "create": 9.15,
+        "renew": 9.15
       }
     },
     "com.ng": {
       "regular-price": {
-        "create": 3.52,
-        "renew": 3.52
+        "create": 4.22,
+        "renew": 4.22
       }
     },
     "org.ng": {
       "regular-price": {
-        "create": 3.52,
-        "renew": 3.52
+        "create": 4.22,
+        "renew": 4.22
+      }
+    },
+    "net.ng": {
+      "regular-price": {
+        "create": 4.22,
+        "renew": 4.22
+      }
+    },
+    "mobi.ng": {
+      "regular-price": {
+        "create": 4.22,
+        "renew": 4.22
+      }
+    },
+    "i.ng": {
+      "regular-price": {
+        "create": 4.22,
+        "renew": 4.22
+      }
+    },
+    "sch.ng": {
+      "regular-price": {
+        "create": 4.22,
+        "renew": 4.22
+      }
+    },
+    "edu.ng": {
+      "regular-price": {
+        "create": 4.22,
+        "renew": 4.22
       }
     },
     "name.ng": {
       "regular-price": {
-        "create": 0.56,
-        "renew": 0.56
+        "create": 0.28,
+        "renew": 0.28
       }
     }
   },
   "NGN": {
     "ng": {
       "regular-price": {
-        "create": 9500,
-        "renew": 9500
+        "create": 13000,
+        "renew": 13000
       }
     },
     "com.ng": {
       "regular-price": {
-        "create": 5000,
-        "renew": 5000
+        "create": 6000,
+        "renew": 6000
       }
     },
     "org.ng": {
       "regular-price": {
-        "create": 5000,
-        "renew": 5000
+        "create": 6000,
+        "renew": 6000
+      }
+    },
+    "net.ng": {
+      "regular-price": {
+        "create": 6000,
+        "renew": 6000
+      }
+    },
+    "mobi.ng": {
+      "regular-price": {
+        "create": 6000,
+        "renew": 6000
+      }
+    },
+    "i.ng": {
+      "regular-price": {
+        "create": 6000,
+        "renew": 6000
+      }
+    },
+    "sch.ng": {
+      "regular-price": {
+        "create": 6000,
+        "renew": 6000
+      }
+    },
+    "edu.ng": {
+      "regular-price": {
+        "create": 6000,
+        "renew": 6000
       }
     },
     "name.ng": {
       "regular-price": {
-        "create": 800,
-        "renew": 800
+        "create": 400,
+        "renew": 400
       }
     }
   }

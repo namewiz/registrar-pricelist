@@ -4487,15 +4487,15 @@
     "currencies": {
       "NGN": {
         "regular-price": {
-          "create": 5000,
-          "renew": 5000
+          "create": 6000,
+          "renew": 6000
         }
       }
     },
     "provider": "nira",
     "regular-price": {
-      "create": 3.52,
-      "renew": 3.52
+      "create": 4.22,
+      "renew": 4.22
     },
     "tld": "com.ng"
   },
@@ -6000,14 +6000,18 @@
     "tld": "edu.mx"
   },
   {
-    "provider": "openprovider",
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 6000,
+          "renew": 6000
+        }
+      }
+    },
+    "provider": "nira",
     "regular-price": {
-      "create": 184.37,
-      "renew": 184.37,
-      "restore": 0,
-      "trade": 0,
-      "transfer": 0,
-      "update": 0
+      "create": 4.22,
+      "renew": 4.22
     },
     "tld": "edu.ng"
   },
@@ -8532,14 +8536,18 @@
     "tld": "hu.net"
   },
   {
-    "provider": "openprovider",
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 6000,
+          "renew": 6000
+        }
+      }
+    },
+    "provider": "nira",
     "regular-price": {
-      "create": 184.37,
-      "renew": 184.37,
-      "restore": 0,
-      "trade": 0,
-      "transfer": 0,
-      "update": 0
+      "create": 4.22,
+      "renew": 4.22
     },
     "tld": "i.ng"
   },
@@ -11459,14 +11467,18 @@
     "tld": "mobi.ke"
   },
   {
-    "provider": "openprovider",
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 6000,
+          "renew": 6000
+        }
+      }
+    },
+    "provider": "nira",
     "regular-price": {
-      "create": 17,
-      "renew": 17,
-      "restore": 25,
-      "trade": 0,
-      "transfer": 17,
-      "update": 0
+      "create": 4.22,
+      "renew": 4.22
     },
     "tld": "mobi.ng"
   },
@@ -11906,15 +11918,15 @@
     "currencies": {
       "NGN": {
         "regular-price": {
-          "create": 800,
-          "renew": 800
+          "create": 400,
+          "renew": 400
         }
       }
     },
     "provider": "nira",
     "regular-price": {
-      "create": 0.56,
-      "renew": 0.56
+      "create": 0.28,
+      "renew": 0.28
     },
     "tld": "name.ng"
   },
@@ -12506,6 +12518,22 @@
     "tld": "net.nf"
   },
   {
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 6000,
+          "renew": 6000
+        }
+      }
+    },
+    "provider": "nira",
+    "regular-price": {
+      "create": 4.22,
+      "renew": 4.22
+    },
+    "tld": "net.ng"
+  },
+  {
     "provider": "openprovider",
     "regular-price": {
       "create": 27.07,
@@ -12809,15 +12837,15 @@
     "currencies": {
       "NGN": {
         "regular-price": {
-          "create": 9500,
-          "renew": 9500
+          "create": 13000,
+          "renew": 13000
         }
       }
     },
     "provider": "nira",
     "regular-price": {
-      "create": 6.69,
-      "renew": 6.69
+      "create": 9.15,
+      "renew": 9.15
     },
     "tld": "ng"
   },
@@ -13998,15 +14026,15 @@
     "currencies": {
       "NGN": {
         "regular-price": {
-          "create": 5000,
-          "renew": 5000
+          "create": 6000,
+          "renew": 6000
         }
       }
     },
     "provider": "nira",
     "regular-price": {
-      "create": 3.52,
-      "renew": 3.52
+      "create": 4.22,
+      "renew": 4.22
     },
     "tld": "org.ng"
   },
@@ -16711,14 +16739,18 @@
     "tld": "sc.tz"
   },
   {
-    "provider": "openprovider",
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 6000,
+          "renew": 6000
+        }
+      }
+    },
+    "provider": "nira",
     "regular-price": {
-      "create": 184.37,
-      "renew": 184.37,
-      "restore": 0,
-      "trade": 0,
-      "transfer": 0,
-      "update": 0
+      "create": 4.22,
+      "renew": 4.22
     },
     "tld": "sch.ng"
   },
