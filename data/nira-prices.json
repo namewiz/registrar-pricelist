@@ -1,73 +1,73 @@
 {
   "meta": {
     "source": "manual-nira-pricelist",
-    "generated_at": "2026-01-28T06:43:56.100Z",
+    "generated_at": "2026-01-29T06:55:45.461Z",
     "data_currency": "USD",
-    "exchange_rate": 1418.950038,
+    "exchange_rate": 1401.374737,
     "orig_currency": "NGN"
   },
   "data": {
     "ng": {
       "regular-price": {
-        "create": 9.16,
-        "renew": 9.16,
-        "transfer": 9.16
+        "create": 9.28,
+        "renew": 9.28,
+        "transfer": 9.28
       }
     },
     "com.ng": {
       "regular-price": {
-        "create": 4.23,
-        "renew": 4.23,
-        "transfer": 4.23
+        "create": 4.28,
+        "renew": 4.28,
+        "transfer": 4.28
       }
     },
     "org.ng": {
       "regular-price": {
-        "create": 4.23,
-        "renew": 4.23,
-        "transfer": 4.23
+        "create": 4.28,
+        "renew": 4.28,
+        "transfer": 4.28
       }
     },
     "net.ng": {
       "regular-price": {
-        "create": 4.23,
-        "renew": 4.23,
-        "transfer": 4.23
+        "create": 4.28,
+        "renew": 4.28,
+        "transfer": 4.28
       }
     },
     "mobi.ng": {
       "regular-price": {
-        "create": 4.23,
-        "renew": 4.23,
-        "transfer": 4.23
+        "create": 4.28,
+        "renew": 4.28,
+        "transfer": 4.28
       }
     },
     "i.ng": {
       "regular-price": {
-        "create": 4.23,
-        "renew": 4.23,
-        "transfer": 4.23
+        "create": 4.28,
+        "renew": 4.28,
+        "transfer": 4.28
       }
     },
     "sch.ng": {
       "regular-price": {
-        "create": 4.23,
-        "renew": 4.23,
-        "transfer": 4.23
+        "create": 4.28,
+        "renew": 4.28,
+        "transfer": 4.28
       }
     },
     "edu.ng": {
       "regular-price": {
-        "create": 4.23,
-        "renew": 4.23,
-        "transfer": 4.23
+        "create": 4.28,
+        "renew": 4.28,
+        "transfer": 4.28
       }
     },
     "name.ng": {
       "regular-price": {
-        "create": 0.28,
-        "renew": 0.28,
-        "transfer": 0.28
+        "create": 0.29,
+        "renew": 0.29,
+        "transfer": 0.29
       }
     }
   },
