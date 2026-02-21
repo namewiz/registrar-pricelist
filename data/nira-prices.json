@@ -1,66 +1,66 @@
 {
   "meta": {
     "source": "manual-nira-pricelist",
-    "generated_at": "2026-02-20T07:03:25.196Z",
+    "generated_at": "2026-02-21T06:50:55.565Z",
     "data_currency": "USD",
-    "exchange_rate": 1338.110014,
+    "exchange_rate": 1341.349962,
     "orig_currency": "NGN"
   },
   "data": {
     "ng": {
       "regular-price": {
-        "create": 9.72,
-        "renew": 9.72,
-        "transfer": 9.72
+        "create": 9.69,
+        "renew": 9.69,
+        "transfer": 9.69
       }
     },
     "com.ng": {
       "regular-price": {
-        "create": 4.48,
-        "renew": 4.48,
-        "transfer": 4.48
+        "create": 4.47,
+        "renew": 4.47,
+        "transfer": 4.47
       }
     },
     "org.ng": {
       "regular-price": {
-        "create": 4.48,
-        "renew": 4.48,
-        "transfer": 4.48
+        "create": 4.47,
+        "renew": 4.47,
+        "transfer": 4.47
       }
     },
     "net.ng": {
       "regular-price": {
-        "create": 4.48,
-        "renew": 4.48,
-        "transfer": 4.48
+        "create": 4.47,
+        "renew": 4.47,
+        "transfer": 4.47
       }
     },
     "mobi.ng": {
       "regular-price": {
-        "create": 4.48,
-        "renew": 4.48,
-        "transfer": 4.48
+        "create": 4.47,
+        "renew": 4.47,
+        "transfer": 4.47
       }
     },
     "i.ng": {
       "regular-price": {
-        "create": 4.48,
-        "renew": 4.48,
-        "transfer": 4.48
+        "create": 4.47,
+        "renew": 4.47,
+        "transfer": 4.47
       }
     },
     "sch.ng": {
       "regular-price": {
-        "create": 4.48,
-        "renew": 4.48,
-        "transfer": 4.48
+        "create": 4.47,
+        "renew": 4.47,
+        "transfer": 4.47
       }
     },
     "edu.ng": {
       "regular-price": {
-        "create": 4.48,
-        "renew": 4.48,
-        "transfer": 4.48
+        "create": 4.47,
+        "renew": 4.47,
+        "transfer": 4.47
       }
     },
     "name.ng": {
