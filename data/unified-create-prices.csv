@@ -24,7 +24,7 @@ actor,openprovider,USD,49
 adm.ec,openprovider,USD,39.95
 adult,openprovider,USD,170.98
 adult.ht,openprovider,USD,57
-ae,openprovider,USD,82.9
+ae,openprovider,USD,82.91
 ae.org,openprovider,USD,30
 aero,openprovider,USD,137.59
 af,openprovider,USD,167
@@ -362,7 +362,7 @@ com.kw,openprovider,USD,340.25
 com.ky,openprovider,USD,98.86
 com.kz,openprovider,USD,120
 com.lc,openprovider,USD,29
-com.lk,openprovider,USD,50.95
+com.lk,openprovider,USD,51.01
 com.lv,openprovider,USD,28.45
 com.ly,openprovider,USD,142.55
 com.mg,openprovider,USD,156.18
@@ -382,7 +382,7 @@ com.ph,openprovider,USD,99.98
 com.pk,openprovider,USD,85.5
 com.pl,openprovider,USD,35.21
 com.ps,openprovider,USD,70
-com.pt,openprovider,USD,14.85
+com.pt,openprovider,USD,16.09
 com.py,openprovider,USD,180
 com.ro,openprovider,USD,18.57
 com.sb,openprovider,USD,120.31
@@ -495,7 +495,7 @@ edu.gh,openprovider,USD,1078.39
 edu.gl,openprovider,USD,89.58
 edu.gr,openprovider,USD,14.24
 edu.hn,openprovider,USD,117.75
-edu.lk,openprovider,USD,50.95
+edu.lk,openprovider,USD,51.01
 edu.lv,openprovider,USD,28.45
 edu.mk,openprovider,USD,51
 edu.mu,openprovider,USD,109
@@ -859,7 +859,7 @@ link,openprovider,USD,18
 live,openprovider,USD,38
 living,openprovider,USD,45
 livorno.it,openprovider,USD,19.77
-lk,openprovider,USD,57.75
+lk,openprovider,USD,57.81
 llc,openprovider,USD,49
 ln.cn,openprovider,USD,33.26
 lo.it,openprovider,USD,19.77
@@ -1162,7 +1162,7 @@ org.ki,openprovider,USD,255.19
 org.ky,openprovider,USD,98.86
 org.kz,openprovider,USD,120
 org.lc,openprovider,USD,29
-org.lk,openprovider,USD,50.95
+org.lk,openprovider,USD,51.01
 org.lv,openprovider,USD,28.45
 org.ma,openprovider,USD,116
 org.mg,openprovider,USD,247.29
@@ -1183,7 +1183,7 @@ org.pk,openprovider,USD,56
 org.pl,openprovider,USD,35.21
 org.pn,openprovider,USD,154.94
 org.ps,openprovider,USD,70
-org.pt,openprovider,USD,14.85
+org.pt,openprovider,USD,16.09
 org.ro,openprovider,USD,18.57
 org.rs,openprovider,USD,106
 org.rw,openprovider,USD,607.37
@@ -1297,7 +1297,7 @@ protection,openprovider,USD,4000.36
 pruszkow.pl,openprovider,USD,14.67
 przeworsk.pl,openprovider,USD,14.67
 ps,openprovider,USD,100
-pt,openprovider,USD,14.85
+pt,openprovider,USD,16.09
 pt.it,openprovider,USD,19.77
 pu.it,openprovider,USD,19.77
 pub,openprovider,USD,45
