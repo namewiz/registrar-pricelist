@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://docs.google.com/spreadsheets/d/1fHBHaxICLF7yhyEI5ir4jvY4H5h4nSa-aIgSMaP0500/export?format=csv&gid=1726709886",
-    "generated_at": "2026-03-05T06:59:52.013Z",
+    "generated_at": "2026-03-06T06:57:39.885Z",
     "header_row_index": 1,
     "data_start_index": 2,
     "rows_processed": 31979,
@@ -988,16 +988,16 @@
     "ai": {
       "maxYears": 10,
       "member-price": {
-        "create": 70,
-        "renew": 70,
+        "create": 80,
+        "renew": 80,
         "restore": 270,
         "trade": 0,
-        "transfer": 70,
+        "transfer": 80,
         "update": 0
       },
       "regular-price": {
         "create": 109,
-        "renew": 124,
+        "renew": 134,
         "restore": 270,
         "trade": 0,
         "transfer": 109,
@@ -6439,16 +6439,16 @@
     "com.ai": {
       "maxYears": 10,
       "member-price": {
-        "create": 70,
-        "renew": 70,
+        "create": 80,
+        "renew": 80,
         "restore": 270,
         "trade": 0,
-        "transfer": 70,
+        "transfer": 80,
         "update": 0
       },
       "regular-price": {
         "create": 109,
-        "renew": 124,
+        "renew": 134,
         "restore": 270,
         "trade": 0,
         "transfer": 109,
@@ -19296,16 +19296,16 @@
     "net.ai": {
       "maxYears": 10,
       "member-price": {
-        "create": 70,
-        "renew": 70,
+        "create": 80,
+        "renew": 80,
         "restore": 270,
         "trade": 0,
-        "transfer": 70,
+        "transfer": 80,
         "update": 0
       },
       "regular-price": {
         "create": 109,
-        "renew": 124,
+        "renew": 134,
         "restore": 270,
         "trade": 0,
         "transfer": 109,
@@ -21095,16 +21095,16 @@
     "off.ai": {
       "maxYears": 10,
       "member-price": {
-        "create": 70,
-        "renew": 70,
+        "create": 80,
+        "renew": 80,
         "restore": 270,
         "trade": 0,
-        "transfer": 70,
+        "transfer": 80,
         "update": 0
       },
       "regular-price": {
         "create": 109,
-        "renew": 124,
+        "renew": 134,
         "restore": 270,
         "trade": 0,
         "transfer": 109,
@@ -21608,16 +21608,16 @@
     "org.ai": {
       "maxYears": 10,
       "member-price": {
-        "create": 70,
-        "renew": 70,
+        "create": 80,
+        "renew": 80,
         "restore": 270,
         "trade": 0,
-        "transfer": 70,
+        "transfer": 80,
         "update": 0
       },
       "regular-price": {
         "create": 109,
-        "renew": 124,
+        "renew": 134,
         "restore": 270,
         "trade": 0,
         "transfer": 109,

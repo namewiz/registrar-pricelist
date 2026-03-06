@@ -37,7 +37,7 @@ agrigento.it,openprovider,USD,19.44
 agro.pl,openprovider,USD,42.64
 ah.cn,openprovider,USD,33.26
 ahmdabad.in,openprovider,USD,11.38
-ai,openprovider,USD,124
+ai,openprovider,USD,134
 ai.in,openprovider,USD,11.38
 aid.pl,openprovider,USD,42.64
 airforce,openprovider,USD,105
@@ -324,7 +324,7 @@ cologne,openprovider,USD,30.47
 com,openprovider,USD,16.98
 com.af,openprovider,USD,66.8
 com.ag,openprovider,USD,100
-com.ai,openprovider,USD,124
+com.ai,openprovider,USD,134
 com.al,openprovider,USD,75
 com.au,openprovider,USD,14.73
 com.bd,openprovider,USD,85
@@ -374,7 +374,7 @@ com.mw,openprovider,USD,207.17
 com.mx,openprovider,USD,37.98
 com.nf,openprovider,USD,123.5
 com.ng,nira,NGN,6000
-com.ng,nira,USD,4.34
+com.ng,nira,USD,4.33
 com.om,openprovider,USD,180.36
 com.pa,openprovider,USD,150
 com.pe,openprovider,USD,110
@@ -501,7 +501,7 @@ edu.mk,openprovider,USD,51
 edu.mu,openprovider,USD,109
 edu.mx,openprovider,USD,35.99
 edu.ng,nira,NGN,6000
-edu.ng,nira,USD,4.34
+edu.ng,nira,USD,4.33
 edu.pl,openprovider,USD,42.64
 edu.vn,openprovider,USD,145
 edu.vu,openprovider,USD,120
@@ -713,7 +713,7 @@ hu,openprovider,USD,29.25
 hu.com,openprovider,USD,56.06
 hu.net,openprovider,USD,56.06
 i.ng,nira,NGN,6000
-i.ng,nira,USD,4.34
+i.ng,nira,USD,4.33
 icu,openprovider,USD,25
 id.au,openprovider,USD,14.73
 id.lv,openprovider,USD,27.97
@@ -958,7 +958,7 @@ mo.it,openprovider,USD,19.44
 mobi,openprovider,USD,69.98
 mobi.ke,openprovider,USD,64
 mobi.ng,nira,NGN,6000
-mobi.ng,nira,USD,4.34
+mobi.ng,nira,USD,4.33
 mobi.tz,openprovider,USD,91.4
 moda,openprovider,USD,47
 modena.it,openprovider,USD,19.44
@@ -1007,7 +1007,7 @@ ne.tz,openprovider,USD,91.4
 net,openprovider,USD,19.99
 net.af,openprovider,USD,66.8
 net.ag,openprovider,USD,100
-net.ai,openprovider,USD,124
+net.ai,openprovider,USD,134
 net.al,openprovider,USD,75
 net.ar,openprovider,USD,84
 net.au,openprovider,USD,14.73
@@ -1047,7 +1047,7 @@ net.mx,openprovider,USD,37.98
 net.mz,openprovider,USD,302.22
 net.nf,openprovider,USD,123.5
 net.ng,nira,NGN,6000
-net.ng,nira,USD,4.34
+net.ng,nira,USD,4.33
 net.nz,openprovider,USD,27.14
 net.om,openprovider,USD,180.36
 net.pe,openprovider,USD,110
@@ -1074,7 +1074,7 @@ news,openprovider,USD,38
 nexus,openprovider,USD,17
 nf,openprovider,USD,240
 ng,nira,NGN,13000
-ng,nira,USD,9.39
+ng,nira,USD,9.37
 ngo,openprovider,USD,30
 nieruchomosci.pl,openprovider,USD,42.64
 ninja,openprovider,USD,31
@@ -1106,7 +1106,7 @@ nyc,openprovider,USD,45.98
 nysa.pl,openprovider,USD,34.12
 nz,openprovider,USD,27.14
 observer,openprovider,USD,23
-off.ai,openprovider,USD,124
+off.ai,openprovider,USD,134
 og.it,openprovider,USD,19.44
 ogliastra.it,openprovider,USD,19.44
 okinawa,openprovider,USD,13.51
@@ -1133,7 +1133,7 @@ or.tz,openprovider,USD,91.4
 org,openprovider,USD,19.99
 org.af,openprovider,USD,66.8
 org.ag,openprovider,USD,100
-org.ai,openprovider,USD,124
+org.ai,openprovider,USD,134
 org.al,openprovider,USD,75
 org.au,openprovider,USD,22.1
 org.bh,openprovider,USD,330
@@ -1174,7 +1174,7 @@ org.mx,openprovider,USD,37.98
 org.mz,openprovider,USD,292.47
 org.nf,openprovider,USD,130
 org.ng,nira,NGN,6000
-org.ng,nira,USD,4.34
+org.ng,nira,USD,4.33
 org.nz,openprovider,USD,27.14
 org.om,openprovider,USD,180.36
 org.pe,openprovider,USD,110
@@ -1401,7 +1401,7 @@ sc.cn,openprovider,USD,33.26
 sc.ke,openprovider,USD,173.05
 sc.tz,openprovider,USD,91.4
 sch.ng,nira,NGN,6000
-sch.ng,nira,USD,4.34
+sch.ng,nira,USD,4.33
 school,openprovider,USD,33
 school.nz,openprovider,USD,27.14
 schule,openprovider,USD,32
