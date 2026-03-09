@@ -24,7 +24,7 @@ actor,openprovider,USD,49
 adm.ec,openprovider,USD,39.95
 adult,openprovider,USD,170.98
 adult.ht,openprovider,USD,57
-ae,openprovider,USD,82.9
+ae,openprovider,USD,82.91
 ae.org,openprovider,USD,30
 aero,openprovider,USD,134.74
 af,openprovider,USD,167
@@ -362,7 +362,7 @@ com.kw,openprovider,USD,333.22
 com.ky,openprovider,USD,96.82
 com.kz,openprovider,USD,120
 com.lc,openprovider,USD,29
-com.lk,openprovider,USD,50.62
+com.lk,openprovider,USD,50.9
 com.lv,openprovider,USD,27.86
 com.ly,openprovider,USD,139.6
 com.mg,openprovider,USD,152.95
@@ -495,7 +495,7 @@ edu.gh,openprovider,USD,1056.1
 edu.gl,openprovider,USD,87.74
 edu.gr,openprovider,USD,13.95
 edu.hn,openprovider,USD,115.32
-edu.lk,openprovider,USD,50.62
+edu.lk,openprovider,USD,50.9
 edu.lv,openprovider,USD,27.86
 edu.mk,openprovider,USD,51
 edu.mu,openprovider,USD,109
@@ -859,7 +859,7 @@ link,openprovider,USD,18
 live,openprovider,USD,38
 living,openprovider,USD,45
 livorno.it,openprovider,USD,19.36
-lk,openprovider,USD,57.37
+lk,openprovider,USD,57.68
 llc,openprovider,USD,49
 ln.cn,openprovider,USD,33.26
 lo.it,openprovider,USD,19.36
@@ -1162,7 +1162,7 @@ org.ki,openprovider,USD,251.59
 org.ky,openprovider,USD,96.82
 org.kz,openprovider,USD,120
 org.lc,openprovider,USD,29
-org.lk,openprovider,USD,50.62
+org.lk,openprovider,USD,50.9
 org.lv,openprovider,USD,27.86
 org.ma,openprovider,USD,116
 org.mg,openprovider,USD,242.17
