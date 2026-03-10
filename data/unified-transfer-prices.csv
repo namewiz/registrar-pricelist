@@ -373,7 +373,7 @@ com.mw,openprovider,USD,206.36
 com.mx,openprovider,USD,35.98
 com.nf,openprovider,USD,0
 com.ng,nira,NGN,6000
-com.ng,nira,USD,4.32
+com.ng,nira,USD,4.31
 com.om,openprovider,USD,179.66
 com.pa,openprovider,USD,150
 com.pe,openprovider,USD,110
@@ -957,7 +957,7 @@ mo.it,openprovider,USD,19.36
 mobi,openprovider,USD,59.98
 mobi.ke,openprovider,USD,59
 mobi.ng,nira,NGN,6000
-mobi.ng,nira,USD,4.32
+mobi.ng,nira,USD,4.31
 mobi.tz,openprovider,USD,0
 moda,openprovider,USD,47
 modena.it,openprovider,USD,19.36
@@ -1046,7 +1046,7 @@ net.mx,openprovider,USD,35.98
 net.mz,openprovider,USD,0
 net.nf,openprovider,USD,0
 net.ng,nira,NGN,6000
-net.ng,nira,USD,4.32
+net.ng,nira,USD,4.31
 net.nz,openprovider,USD,0
 net.om,openprovider,USD,179.66
 net.pe,openprovider,USD,110
@@ -1073,7 +1073,7 @@ news,openprovider,USD,38
 nexus,openprovider,USD,12
 nf,openprovider,USD,137
 ng,nira,NGN,13000
-ng,nira,USD,9.37
+ng,nira,USD,9.33
 ngo,openprovider,USD,30
 nieruchomosci.pl,openprovider,USD,0
 ninja,openprovider,USD,31
@@ -1173,7 +1173,7 @@ org.mx,openprovider,USD,35.98
 org.mz,openprovider,USD,0
 org.nf,openprovider,USD,0
 org.ng,nira,NGN,6000
-org.ng,nira,USD,4.32
+org.ng,nira,USD,4.31
 org.nz,openprovider,USD,0
 org.om,openprovider,USD,179.66
 org.pe,openprovider,USD,110
