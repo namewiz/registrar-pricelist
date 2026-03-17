@@ -374,7 +374,7 @@ com.mw,openprovider,USD,204.85
 com.mx,openprovider,USD,15.98
 com.nf,openprovider,USD,123.5
 com.ng,nira,NGN,6000
-com.ng,nira,USD,4.37
+com.ng,nira,USD,4.39
 com.om,openprovider,USD,221.72
 com.pa,openprovider,USD,150
 com.pe,openprovider,USD,110
@@ -501,7 +501,7 @@ edu.mk,openprovider,USD,51
 edu.mu,openprovider,USD,109
 edu.mx,openprovider,USD,11.8
 edu.ng,nira,NGN,6000
-edu.ng,nira,USD,4.37
+edu.ng,nira,USD,4.39
 edu.pl,openprovider,USD,33.88
 edu.vn,openprovider,USD,145
 edu.vu,openprovider,USD,142
@@ -713,7 +713,7 @@ hu,openprovider,USD,24.1
 hu.com,openprovider,USD,55.43
 hu.net,openprovider,USD,55.43
 i.ng,nira,NGN,6000
-i.ng,nira,USD,4.37
+i.ng,nira,USD,4.39
 icu,openprovider,USD,25
 id.au,openprovider,USD,14.78
 id.lv,openprovider,USD,27.65
@@ -958,7 +958,7 @@ mo.it,openprovider,USD,19.22
 mobi,openprovider,USD,59.98
 mobi.ke,openprovider,USD,64
 mobi.ng,nira,NGN,6000
-mobi.ng,nira,USD,4.37
+mobi.ng,nira,USD,4.39
 mobi.tz,openprovider,USD,72.3
 moda,openprovider,USD,47
 modena.it,openprovider,USD,19.22
@@ -1047,7 +1047,7 @@ net.mx,openprovider,USD,15.98
 net.mz,openprovider,USD,349.44
 net.nf,openprovider,USD,88
 net.ng,nira,NGN,6000
-net.ng,nira,USD,4.37
+net.ng,nira,USD,4.39
 net.nz,openprovider,USD,26.83
 net.om,openprovider,USD,221.72
 net.pe,openprovider,USD,110
@@ -1074,7 +1074,7 @@ news,openprovider,USD,38
 nexus,openprovider,USD,12
 nf,openprovider,USD,240
 ng,nira,NGN,13000
-ng,nira,USD,9.48
+ng,nira,USD,9.52
 ngo,openprovider,USD,30
 nieruchomosci.pl,openprovider,USD,33.88
 ninja,openprovider,USD,31
@@ -1174,7 +1174,7 @@ org.mx,openprovider,USD,15.98
 org.mz,openprovider,USD,349.44
 org.nf,openprovider,USD,91
 org.ng,nira,NGN,6000
-org.ng,nira,USD,4.37
+org.ng,nira,USD,4.39
 org.nz,openprovider,USD,26.83
 org.om,openprovider,USD,221.72
 org.pe,openprovider,USD,110
@@ -1401,7 +1401,7 @@ sc.cn,openprovider,USD,33.26
 sc.ke,openprovider,USD,171.11
 sc.tz,openprovider,USD,72.3
 sch.ng,nira,NGN,6000
-sch.ng,nira,USD,4.37
+sch.ng,nira,USD,4.39
 school,openprovider,USD,33
 school.nz,openprovider,USD,26.83
 schule,openprovider,USD,32
