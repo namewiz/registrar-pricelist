@@ -12859,9 +12859,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 9.43,
-      "renew": 9.43,
-      "transfer": 9.43
+      "create": 9.41,
+      "renew": 9.41,
+      "transfer": 9.41
     },
     "tld": "ng"
   },
