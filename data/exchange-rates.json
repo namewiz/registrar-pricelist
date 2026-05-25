@@ -4,16 +4,16 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "AE",
     "currencyName": "United Arab Emirates dirham",
     "currencySymbol": "د.إ",
     "currencyCode": "AED",
-    "exchangeRate": 3.6726075043744,
-    "inverseRate": 0.27228610702584
+    "exchangeRate": 3.6735691688237,
+    "inverseRate": 0.27221482815313
   },
   {
     "countryCode": "AF",
@@ -76,16 +76,16 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "AU",
     "currencyName": "Australian dollar",
     "currencySymbol": "$",
     "currencyCode": "AUD",
-    "exchangeRate": 1.4024912485187,
-    "inverseRate": 0.71301692688362
+    "exchangeRate": 1.3955084128593,
+    "inverseRate": 0.71658471621185
   },
   {
     "countryCode": "AW",
@@ -100,8 +100,8 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "AZ",
@@ -140,8 +140,8 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "BF",
@@ -180,8 +180,8 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "BN",
@@ -196,8 +196,8 @@
     "currencyName": "Singapore dollar",
     "currencySymbol": "$",
     "currencyCode": "SGD",
-    "exchangeRate": 1.2797378662018,
-    "inverseRate": 0.7814100265455
+    "exchangeRate": 1.2772756488635,
+    "inverseRate": 0.78291635864956
   },
   {
     "countryCode": "BO",
@@ -212,8 +212,8 @@
     "currencyName": "Brazilian real",
     "currencySymbol": "R$",
     "currencyCode": "BRL",
-    "exchangeRate": 5.0173466529174,
-    "inverseRate": 0.19930853281157
+    "exchangeRate": 5.0400443397533,
+    "inverseRate": 0.19841095287843
   },
   {
     "countryCode": "BS",
@@ -228,8 +228,8 @@
     "currencyName": "Indian rupee",
     "currencySymbol": "₹",
     "currencyCode": "INR",
-    "exchangeRate": 95.772375651899,
-    "inverseRate": 0.010441424191404
+    "exchangeRate": 95.212484733878,
+    "inverseRate": 0.010502824317578
   },
   {
     "countryCode": "BW",
@@ -260,16 +260,16 @@
     "currencyName": "Canadian dollar",
     "currencySymbol": "$",
     "currencyCode": "CAD",
-    "exchangeRate": 1.3800431973622,
-    "inverseRate": 0.72461499894453
+    "exchangeRate": 1.3809810799513,
+    "inverseRate": 0.72412288228836
   },
   {
     "countryCode": "CC",
     "currencyName": "Australian dollar",
     "currencySymbol": "$",
     "currencyCode": "AUD",
-    "exchangeRate": 1.4024912485187,
-    "inverseRate": 0.71301692688362
+    "exchangeRate": 1.3955084128593,
+    "inverseRate": 0.71658471621185
   },
   {
     "countryCode": "CD",
@@ -300,8 +300,8 @@
     "currencyName": "Swiss franc",
     "currencySymbol": "Fr.",
     "currencyCode": "CHF",
-    "exchangeRate": 0.78624047036505,
-    "inverseRate": 1.2718755109816
+    "exchangeRate": 0.78215107810087,
+    "inverseRate": 1.2785253744431
   },
   {
     "countryCode": "CI",
@@ -316,16 +316,16 @@
     "currencyName": "New Zealand dollar",
     "currencySymbol": "$",
     "currencyCode": "NZD",
-    "exchangeRate": 1.7068010449273,
-    "inverseRate": 0.58589136851776
+    "exchangeRate": 1.7025646161774,
+    "inverseRate": 0.58734922040446
   },
   {
     "countryCode": "CL",
     "currencyName": "Chilean peso",
     "currencySymbol": "$",
     "currencyCode": "CLP",
-    "exchangeRate": 899.34521896368,
-    "inverseRate": 0.0011119200713073
+    "exchangeRate": 901.46220570011,
+    "inverseRate": 0.0011093088469786
   },
   {
     "countryCode": "CM",
@@ -340,8 +340,8 @@
     "currencyName": "Chinese yuan",
     "currencySymbol": "¥",
     "currencyCode": "CNY",
-    "exchangeRate": 6.7963850406935,
-    "inverseRate": 0.14713704329765
+    "exchangeRate": 6.7825402212027,
+    "inverseRate": 0.14743738590358
   },
   {
     "countryCode": "CO",
@@ -380,32 +380,32 @@
     "currencyName": "Australian dollar",
     "currencySymbol": "$",
     "currencyCode": "AUD",
-    "exchangeRate": 1.4024912485187,
-    "inverseRate": 0.71301692688362
+    "exchangeRate": 1.3955084128593,
+    "inverseRate": 0.71658471621185
   },
   {
     "countryCode": "CY",
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "CZ",
     "currencyName": "Czech koruna",
     "currencySymbol": "Kč",
     "currencyCode": "CZK",
-    "exchangeRate": 20.945628379474,
-    "inverseRate": 0.047742659321692
+    "exchangeRate": 20.844699140401,
+    "inverseRate": 0.047973827459174
   },
   {
     "countryCode": "DE",
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "DJ",
@@ -420,8 +420,8 @@
     "currencyName": "Danish krone",
     "currencySymbol": "kr",
     "currencyCode": "DKK",
-    "exchangeRate": 6.4445020025975,
-    "inverseRate": 0.15517102789276
+    "exchangeRate": 6.4174311926604,
+    "inverseRate": 0.15582558970694
   },
   {
     "countryCode": "DM",
@@ -452,8 +452,8 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "EG",
@@ -500,8 +500,8 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "ET",
@@ -516,8 +516,8 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "FJ",
@@ -532,16 +532,16 @@
     "currencyName": "Danish krone",
     "currencySymbol": "kr",
     "currencyCode": "DKK",
-    "exchangeRate": 6.4445020025975,
-    "inverseRate": 0.15517102789276
+    "exchangeRate": 6.4174311926604,
+    "inverseRate": 0.15582558970694
   },
   {
     "countryCode": "FR",
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "GA",
@@ -556,8 +556,8 @@
     "currencyName": "British pound",
     "currencySymbol": "£",
     "currencyCode": "GBP",
-    "exchangeRate": 0.7447922543843,
-    "inverseRate": 1.3426562831627
+    "exchangeRate": 0.74169015102951,
+    "inverseRate": 1.3482719146424
   },
   {
     "countryCode": "GD",
@@ -580,16 +580,16 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "GG",
     "currencyName": "British pound",
     "currencySymbol": "£",
     "currencyCode": "GBP",
-    "exchangeRate": 0.7447922543843,
-    "inverseRate": 1.3426562831627
+    "exchangeRate": 0.74169015102951,
+    "inverseRate": 1.3482719146424
   },
   {
     "countryCode": "GH",
@@ -612,8 +612,8 @@
     "currencyName": "krone",
     "currencySymbol": "kr.",
     "currencyCode": "DKK",
-    "exchangeRate": 6.4445020025975,
-    "inverseRate": 0.15517102789276
+    "exchangeRate": 6.4174311926604,
+    "inverseRate": 0.15582558970694
   },
   {
     "countryCode": "GM",
@@ -636,8 +636,8 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "GQ",
@@ -652,16 +652,16 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "GS",
     "currencyName": "British pound",
     "currencySymbol": "£",
     "currencyCode": "GBP",
-    "exchangeRate": 0.7447922543843,
-    "inverseRate": 1.3426562831627
+    "exchangeRate": 0.74169015102951,
+    "inverseRate": 1.3482719146424
   },
   {
     "countryCode": "GT",
@@ -692,8 +692,8 @@
     "currencyName": "Hong Kong dollar",
     "currencySymbol": "$",
     "currencyCode": "HKD",
-    "exchangeRate": 7.8364512743724,
-    "inverseRate": 0.12760878170331
+    "exchangeRate": 7.8350656246055,
+    "inverseRate": 0.12763134961621
   },
   {
     "countryCode": "HN",
@@ -708,8 +708,8 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "HT",
@@ -724,48 +724,48 @@
     "currencyName": "Hungarian forint",
     "currencySymbol": "Ft",
     "currencyCode": "HUF",
-    "exchangeRate": 309.67390721524,
-    "inverseRate": 0.0032292032899787
+    "exchangeRate": 306.85000843597,
+    "inverseRate": 0.0032589212074559
   },
   {
     "countryCode": "ID",
     "currencyName": "Indonesian rupiah",
     "currencySymbol": "Rp",
     "currencyCode": "IDR",
-    "exchangeRate": 17703.556068779,
-    "inverseRate": 0.000056485826695776
+    "exchangeRate": 17738.116032983,
+    "inverseRate": 0.000056375772835208
   },
   {
     "countryCode": "IE",
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "IL",
     "currencyName": "Israeli new shekel",
     "currencySymbol": "₪",
     "currencyCode": "ILS",
-    "exchangeRate": 2.8964019454531,
-    "inverseRate": 0.34525594818422
+    "exchangeRate": 2.8888888888889,
+    "inverseRate": 0.34615384615385
   },
   {
     "countryCode": "IM",
     "currencyName": "British pound",
     "currencySymbol": "£",
     "currencyCode": "GBP",
-    "exchangeRate": 0.7447922543843,
-    "inverseRate": 1.3426562831627
+    "exchangeRate": 0.74169015102951,
+    "inverseRate": 1.3482719146424
   },
   {
     "countryCode": "IN",
     "currencyName": "Indian rupee",
     "currencySymbol": "₹",
     "currencyCode": "INR",
-    "exchangeRate": 95.772375651899,
-    "inverseRate": 0.010441424191404
+    "exchangeRate": 95.212484733878,
+    "inverseRate": 0.010502824317578
   },
   {
     "countryCode": "IQ",
@@ -788,24 +788,24 @@
     "currencyName": "Icelandic króna",
     "currencySymbol": "kr",
     "currencyCode": "ISK",
-    "exchangeRate": 123.84512451097,
-    "inverseRate": 0.0080746012727484
+    "exchangeRate": 123.33095988879,
+    "inverseRate": 0.0081082641447186
   },
   {
     "countryCode": "IT",
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "JE",
     "currencyName": "British pound",
     "currencySymbol": "£",
     "currencyCode": "GBP",
-    "exchangeRate": 0.7447922543843,
-    "inverseRate": 1.3426562831627
+    "exchangeRate": 0.74169015102951,
+    "inverseRate": 1.3482719146424
   },
   {
     "countryCode": "JM",
@@ -828,8 +828,8 @@
     "currencyName": "Japanese yen",
     "currencySymbol": "¥",
     "currencyCode": "JPY",
-    "exchangeRate": 159.11496962692,
-    "inverseRate": 0.0062847637927767
+    "exchangeRate": 158.94199445548,
+    "inverseRate": 0.00629160344581
   },
   {
     "countryCode": "KE",
@@ -860,8 +860,8 @@
     "currencyName": "Australian dollar",
     "currencySymbol": "$",
     "currencyCode": "AUD",
-    "exchangeRate": 1.4024912485187,
-    "inverseRate": 0.71301692688362
+    "exchangeRate": 1.3955084128593,
+    "inverseRate": 0.71658471621185
   },
   {
     "countryCode": "KM",
@@ -884,8 +884,8 @@
     "currencyName": "South Korean won",
     "currencySymbol": "₩",
     "currencyCode": "KRW",
-    "exchangeRate": 1517.6797054334,
-    "inverseRate": 0.00065890055485354
+    "exchangeRate": 1517.0274782794,
+    "inverseRate": 0.00065918384097709
   },
   {
     "countryCode": "KW",
@@ -932,8 +932,8 @@
     "currencyName": "Swiss franc",
     "currencySymbol": "Fr",
     "currencyCode": "CHF",
-    "exchangeRate": 0.78624047036505,
-    "inverseRate": 1.2718755109816
+    "exchangeRate": 0.78215107810087,
+    "inverseRate": 1.2785253744431
   },
   {
     "countryCode": "LK",
@@ -964,32 +964,32 @@
     "currencyName": "South African rand",
     "currencySymbol": "R",
     "currencyCode": "ZAR",
-    "exchangeRate": 16.460619604093,
-    "inverseRate": 0.060751054580676
+    "exchangeRate": 16.325852782765,
+    "inverseRate": 0.061252543025238
   },
   {
     "countryCode": "LT",
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "LU",
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "LV",
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "LY",
@@ -1012,8 +1012,8 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "MD",
@@ -1028,16 +1028,16 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "MF",
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "MG",
@@ -1092,8 +1092,8 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "MR",
@@ -1116,8 +1116,8 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "MU",
@@ -1148,16 +1148,16 @@
     "currencyName": "Mexican peso",
     "currencySymbol": "$",
     "currencyCode": "MXN",
-    "exchangeRate": 17.330334481347,
-    "inverseRate": 0.057702290805543
+    "exchangeRate": 17.288022813688,
+    "inverseRate": 0.05784351459834
   },
   {
     "countryCode": "MY",
     "currencyName": "Malaysian ringgit",
     "currencySymbol": "RM",
     "currencyCode": "MYR",
-    "exchangeRate": 3.9665073617505,
-    "inverseRate": 0.25211096534022
+    "exchangeRate": 3.9553547858628,
+    "inverseRate": 0.25282182108523
   },
   {
     "countryCode": "MZ",
@@ -1180,8 +1180,8 @@
     "currencyName": "South African rand",
     "currencySymbol": "R",
     "currencyCode": "ZAR",
-    "exchangeRate": 16.460619604093,
-    "inverseRate": 0.060751054580676
+    "exchangeRate": 16.325852782765,
+    "inverseRate": 0.061252543025238
   },
   {
     "countryCode": "NC",
@@ -1204,8 +1204,8 @@
     "currencyName": "Australian dollar",
     "currencySymbol": "$",
     "currencyCode": "AUD",
-    "exchangeRate": 1.4024912485187,
-    "inverseRate": 0.71301692688362
+    "exchangeRate": 1.3955084128593,
+    "inverseRate": 0.71658471621185
   },
   {
     "countryCode": "NG",
@@ -1228,16 +1228,16 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "NO",
     "currencyName": "Norwegian krone",
     "currencySymbol": "kr",
     "currencyCode": "NOK",
-    "exchangeRate": 9.2589629810987,
-    "inverseRate": 0.10800345589905
+    "exchangeRate": 9.241361788618,
+    "inverseRate": 0.10820916038929
   },
   {
     "countryCode": "NP",
@@ -1252,24 +1252,24 @@
     "currencyName": "Australian dollar",
     "currencySymbol": "$",
     "currencyCode": "AUD",
-    "exchangeRate": 1.4024912485187,
-    "inverseRate": 0.71301692688362
+    "exchangeRate": 1.3955084128593,
+    "inverseRate": 0.71658471621185
   },
   {
     "countryCode": "NU",
     "currencyName": "New Zealand dollar",
     "currencySymbol": "$",
     "currencyCode": "NZD",
-    "exchangeRate": 1.7068010449273,
-    "inverseRate": 0.58589136851776
+    "exchangeRate": 1.7025646161774,
+    "inverseRate": 0.58734922040446
   },
   {
     "countryCode": "NZ",
     "currencyName": "New Zealand dollar",
     "currencySymbol": "$",
     "currencyCode": "NZD",
-    "exchangeRate": 1.7068010449273,
-    "inverseRate": 0.58589136851776
+    "exchangeRate": 1.7025646161774,
+    "inverseRate": 0.58734922040446
   },
   {
     "countryCode": "OM",
@@ -1308,16 +1308,16 @@
     "currencyName": "Papua New Guinean kina",
     "currencySymbol": "K",
     "currencyCode": "PGK",
-    "exchangeRate": 4.3560601218261,
-    "inverseRate": 0.22956524291055
+    "exchangeRate": 4.3591962042981,
+    "inverseRate": 0.22940008963442
   },
   {
     "countryCode": "PH",
     "currencyName": "Philippine peso",
     "currencySymbol": "₱",
     "currencyCode": "PHP",
-    "exchangeRate": 61.630040210201,
-    "inverseRate": 0.016225853440778
+    "exchangeRate": 61.405172421628,
+    "inverseRate": 0.016285273057026
   },
   {
     "countryCode": "PK",
@@ -1332,24 +1332,24 @@
     "currencyName": "Polish złoty",
     "currencySymbol": "zł",
     "currencyCode": "PLN",
-    "exchangeRate": 3.6556980878385,
-    "inverseRate": 0.27354556529893
+    "exchangeRate": 3.6374,
+    "inverseRate": 0.27492164733051
   },
   {
     "countryCode": "PM",
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "PN",
     "currencyName": "New Zealand dollar",
     "currencySymbol": "$",
     "currencyCode": "NZD",
-    "exchangeRate": 1.7068010449273,
-    "inverseRate": 0.58589136851776
+    "exchangeRate": 1.7025646161774,
+    "inverseRate": 0.58734922040446
   },
   {
     "countryCode": "PS",
@@ -1364,8 +1364,8 @@
     "currencyName": "Israeli new shekel",
     "currencySymbol": "₪",
     "currencyCode": "ILS",
-    "exchangeRate": 2.8964019454531,
-    "inverseRate": 0.34525594818422
+    "exchangeRate": 2.8888888888889,
+    "inverseRate": 0.34615384615385
   },
   {
     "countryCode": "PS",
@@ -1380,8 +1380,8 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "PY",
@@ -1396,24 +1396,24 @@
     "currencyName": "Qatari riyal",
     "currencySymbol": "ر.ق",
     "currencyCode": "QAR",
-    "exchangeRate": 3.6403161210406,
-    "inverseRate": 0.27470141788515
+    "exchangeRate": 3.6452625570776,
+    "inverseRate": 0.27432866202145
   },
   {
     "countryCode": "RE",
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "RO",
     "currencyName": "Romanian leu",
     "currencySymbol": "lei",
     "currencyCode": "RON",
-    "exchangeRate": 4.526584166719,
-    "inverseRate": 0.22091713379646
+    "exchangeRate": 4.5056360708535,
+    "inverseRate": 0.22194424588992
   },
   {
     "countryCode": "RS",
@@ -1444,8 +1444,8 @@
     "currencyName": "Saudi riyal",
     "currencySymbol": "ر.س",
     "currencyCode": "SAR",
-    "exchangeRate": 3.7504187184666,
-    "inverseRate": 0.26663689445557
+    "exchangeRate": 3.7523501762633,
+    "inverseRate": 0.26649964769435
   },
   {
     "countryCode": "SB",
@@ -1476,56 +1476,56 @@
     "currencyName": "Swedish krona",
     "currencySymbol": "kr",
     "currencyCode": "SEK",
-    "exchangeRate": 9.3650963267848,
-    "inverseRate": 0.1067794676217
+    "exchangeRate": 9.2719857252103,
+    "inverseRate": 0.10785176224776
   },
   {
     "countryCode": "SG",
     "currencyName": "Singapore dollar",
     "currencySymbol": "$",
     "currencyCode": "SGD",
-    "exchangeRate": 1.2797378662018,
-    "inverseRate": 0.7814100265455
+    "exchangeRate": 1.2772756488635,
+    "inverseRate": 0.78291635864956
   },
   {
     "countryCode": "SH",
     "currencyName": "Pound sterling",
     "currencySymbol": "£",
     "currencyCode": "GBP",
-    "exchangeRate": 0.7447922543843,
-    "inverseRate": 1.3426562831627
+    "exchangeRate": 0.74169015102951,
+    "inverseRate": 1.3482719146424
   },
   {
     "countryCode": "SI",
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "SJ",
     "currencyName": "krone",
     "currencySymbol": "kr",
     "currencyCode": "NOK",
-    "exchangeRate": 9.2589629810987,
-    "inverseRate": 0.10800345589905
+    "exchangeRate": 9.241361788618,
+    "inverseRate": 0.10820916038929
   },
   {
     "countryCode": "SK",
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "SM",
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "SN",
@@ -1588,8 +1588,8 @@
     "currencyName": "South African rand",
     "currencySymbol": "R",
     "currencyCode": "ZAR",
-    "exchangeRate": 16.460619604093,
-    "inverseRate": 0.060751054580676
+    "exchangeRate": 16.325852782765,
+    "inverseRate": 0.061252543025238
   },
   {
     "countryCode": "TD",
@@ -1604,8 +1604,8 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "TG",
@@ -1620,8 +1620,8 @@
     "currencyName": "Thai baht",
     "currencySymbol": "฿",
     "currencyCode": "THB",
-    "exchangeRate": 32.667896189785,
-    "inverseRate": 0.030611092743483
+    "exchangeRate": 32.459551300794,
+    "inverseRate": 0.030807573115638
   },
   {
     "countryCode": "TJ",
@@ -1636,8 +1636,8 @@
     "currencyName": "New Zealand dollar",
     "currencySymbol": "$",
     "currencyCode": "NZD",
-    "exchangeRate": 1.7068010449273,
-    "inverseRate": 0.58589136851776
+    "exchangeRate": 1.7025646161774,
+    "inverseRate": 0.58734922040446
   },
   {
     "countryCode": "TM",
@@ -1668,8 +1668,8 @@
     "currencyName": "Turkish lira",
     "currencySymbol": "₺",
     "currencyCode": "TRY",
-    "exchangeRate": 45.720571559966,
-    "inverseRate": 0.02187199253816
+    "exchangeRate": 45.926767676769,
+    "inverseRate": 0.021773794468576
   },
   {
     "countryCode": "TT",
@@ -1684,16 +1684,16 @@
     "currencyName": "Australian dollar",
     "currencySymbol": "$",
     "currencyCode": "AUD",
-    "exchangeRate": 1.4024912485187,
-    "inverseRate": 0.71301692688362
+    "exchangeRate": 1.3955084128593,
+    "inverseRate": 0.71658471621185
   },
   {
     "countryCode": "TW",
     "currencyName": "New Taiwan dollar",
     "currencySymbol": "$",
     "currencyCode": "TWD",
-    "exchangeRate": 31.510531688145,
-    "inverseRate": 0.031735421347277
+    "exchangeRate": 31.411691680983,
+    "inverseRate": 0.031835280001981
   },
   {
     "countryCode": "TZ",
@@ -1708,8 +1708,8 @@
     "currencyName": "Ukrainian hryvnia",
     "currencySymbol": "₴",
     "currencyCode": "UAH",
-    "exchangeRate": 44.27173317033,
-    "inverseRate": 0.022587776181082
+    "exchangeRate": 44.250608272508,
+    "inverseRate": 0.022598559410567
   },
   {
     "countryCode": "UG",
@@ -1740,8 +1740,8 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "VC",
@@ -1764,8 +1764,8 @@
     "currencyName": "Vietnamese đồng",
     "currencySymbol": "₫",
     "currencyCode": "VND",
-    "exchangeRate": 26354.98661193,
-    "inverseRate": 0.000037943483513186
+    "exchangeRate": 26360.718797755,
+    "inverseRate": 0.000037935232634292
   },
   {
     "countryCode": "VU",
@@ -1796,8 +1796,8 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "YE",
@@ -1812,16 +1812,16 @@
     "currencyName": "euro",
     "currencySymbol": "€",
     "currencyCode": "EUR",
-    "exchangeRate": 0.86175748964617,
-    "inverseRate": 1.1604192734206
+    "exchangeRate": 0.85918628498107,
+    "inverseRate": 1.1638919492553
   },
   {
     "countryCode": "ZA",
     "currencyName": "South African rand",
     "currencySymbol": "R",
     "currencyCode": "ZAR",
-    "exchangeRate": 16.460619604093,
-    "inverseRate": 0.060751054580676
+    "exchangeRate": 16.325852782765,
+    "inverseRate": 0.061252543025238
   },
   {
     "countryCode": "ZM",
