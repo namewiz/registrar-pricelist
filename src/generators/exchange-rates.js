@@ -1,8 +1,89 @@
 import { createRegistrarPriceGenerator } from '../registrar-generator.js';
 import { fetchWithRetry } from '../http.js';
 
-const COUNTRY_API_URL_DEFAULT = 'https://restcountries.com/v3.1/all?fields=cca2,currencies';
+const COUNTRY_API_URL_DEFAULT = 'https://api.restcountries.com/countries/v5';
 const EXCHANGE_RATES_URL_DEFAULT = 'https://www.floatrates.com/daily/usd.json';
+
+/**
+ * Fetch all pages from REST Countries v5 API.
+ */
+async function fetchAllV5Countries(baseUrl, apiKey, { signal, logger } = {}) {
+  let offset = 0;
+  const limit = 100;
+  const allObjects = [];
+  const headers = {};
+  if (apiKey) {
+    headers['Authorization'] = `Bearer ${apiKey}`;
+  }
+
+  while (true) {
+    const url = new URL(baseUrl);
+    url.searchParams.set('limit', String(limit));
+    url.searchParams.set('offset', String(offset));
+    url.searchParams.set('response_fields', 'codes.alpha_2,currencies');
+
+    if (logger) {
+      logger({ level: 'info', message: `Fetching v5 countries page: limit=${limit}, offset=${offset}` });
+    }
+
+    const res = await fetchWithRetry(url.toString(), {
+      retries: 4,
+      backoffMs: 700,
+      headers,
+      signal,
+      logger,
+    });
+    const body = await res.json();
+    const objects = body?.data?.objects;
+
+    if (!Array.isArray(objects) || objects.length === 0) {
+      break;
+    }
+
+    allObjects.push(...objects);
+    if (objects.length < limit) {
+      break;
+    }
+    offset += limit;
+  }
+
+  return { data: { objects: allObjects } };
+}
+
+/**
+ * Normalize country metadata response to a uniform format.
+ */
+function parseCountryData(body) {
+  if (body && typeof body === 'object' && body.data && Array.isArray(body.data.objects)) {
+    const list = [];
+    for (const country of body.data.objects) {
+      const countryCode = country?.codes?.alpha_2;
+      const currencies = country?.currencies;
+      if (!countryCode || !Array.isArray(currencies)) continue;
+
+      const mappedCurrencies = {};
+      for (const cur of currencies) {
+        if (cur && cur.code) {
+          mappedCurrencies[cur.code] = {
+            name: cur.name || '',
+            symbol: cur.symbol || '',
+          };
+        }
+      }
+      list.push({
+        cca2: countryCode,
+        currencies: mappedCurrencies,
+      });
+    }
+    return list;
+  }
+
+  if (Array.isArray(body)) {
+    return body;
+  }
+
+  return [];
+}
 
 /**
  * Exchange rates generator
@@ -21,12 +102,39 @@ export const exchangeRatesGenerator = createRegistrarPriceGenerator({
     logger({ level: 'info', message: `Fetching country metadata from ${countryApiUrl}` });
     logger({ level: 'info', message: `Fetching FX rates from ${ratesUrl}` });
 
-    const [countriesRes, ratesRes] = await Promise.all([
-      fetchWithRetry(countryApiUrl, { retries: 4, backoffMs: 700, signal, logger }),
+    const isV5 = countryApiUrl.includes('/v5') || countryApiUrl.includes('api.restcountries.com');
+    const apiKey = env.REST_COUNTRIES_API_KEY || env.RESTCOUNTRIES_API_KEY || options.restCountriesApiKey;
+
+    let countriesPromise;
+    if (isV5) {
+      if (!apiKey) {
+        if (logger) {
+          logger({
+            level: 'warn',
+            message: 'No REST Countries API key found in environment (REST_COUNTRIES_API_KEY). ' +
+                     'Falling back to keyless public clone of the country dataset.',
+          });
+        }
+        const fallbackUrl = 'https://raw.githubusercontent.com/mledoze/countries/master/dist/countries.json';
+        countriesPromise = fetchWithRetry(fallbackUrl, { retries: 4, backoffMs: 700, signal, logger })
+          .then((res) => res.json());
+      } else {
+        countriesPromise = fetchAllV5Countries(countryApiUrl, apiKey, { signal, logger });
+      }
+    } else {
+      countriesPromise = fetchWithRetry(countryApiUrl, { retries: 4, backoffMs: 700, signal, logger })
+        .then((res) => res.json());
+    }
+
+    const [countriesData, ratesRes] = await Promise.all([
+      countriesPromise,
       fetchWithRetry(ratesUrl, { retries: 4, backoffMs: 700, signal, logger }),
     ]);
 
-    const [countries, rates] = await Promise.all([countriesRes.json(), ratesRes.json()]);
+    const [countries, rates] = await Promise.all([
+      parseCountryData(countriesData),
+      ratesRes.json(),
+    ]);
 
     const results = [];
 
@@ -47,8 +155,8 @@ export const exchangeRatesGenerator = createRegistrarPriceGenerator({
           currencyName: details.name,
           currencySymbol: details.symbol,
           currencyCode,
-          exchangeRate: rateInfo.rate,
-          inverseRate: rateInfo.inverseRate,
+          exchangeRate: Number(rateInfo.rate),
+          inverseRate: Number(rateInfo.inverseRate),
         });
       }
     }
@@ -65,3 +173,4 @@ export const exchangeRatesGenerator = createRegistrarPriceGenerator({
 });
 
 export default exchangeRatesGenerator;
+
