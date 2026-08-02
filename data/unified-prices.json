@@ -4734,11 +4734,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 40,
-      "renew": 40,
-      "restore": 80,
+      "create": 24.06,
+      "renew": 41.59,
+      "restore": 89.83,
       "trade": 0,
-      "transfer": 40,
+      "transfer": 41.59,
       "update": 0
     },
     "tld": "com.ua"
@@ -9605,11 +9605,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 95,
-      "renew": 95,
-      "restore": 139,
+      "create": 14.46,
+      "renew": 18.08,
+      "restore": 72.34,
       "trade": 0,
-      "transfer": 95,
+      "transfer": 14.46,
       "update": 0
     },
     "tld": "kiev.ua"
@@ -9809,11 +9809,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 95,
-      "renew": 95,
-      "restore": 139,
+      "create": 14.46,
+      "renew": 18.08,
+      "restore": 72.34,
       "trade": 0,
-      "transfer": 95,
+      "transfer": 14.46,
       "update": 0
     },
     "tld": "kyiv.ua"
@@ -19333,11 +19333,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 188,
-      "renew": 188,
-      "restore": 158,
+      "create": 95.14,
+      "renew": 113.9,
+      "restore": 179.55,
       "trade": 0,
-      "transfer": 188,
+      "transfer": 113.9,
       "update": 0
     },
     "tld": "ua"
