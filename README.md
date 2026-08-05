@@ -64,12 +64,19 @@ Notes:
 - Only `regular-price` is considered; `sale-price`/`member-price` are ignored.
 - If a TLD is present in multiple sources, the provider with the lowest create price is chosen; if create is absent, the minimum among available operations is used.
 
-Additionally, when `--unified` is used, two CSVs are produced for quick lookups:
+Additionally, when `--unified` is used, several CSVs are produced for quick lookups:
 
-- `unified-create-prices.csv` – rows of `tld,provider,amount` for cheapest regular create prices.
-- `unified-renew-prices.csv` – rows of `tld,provider,amount` for cheapest regular renew prices.
+- `unified-create-prices.csv` – rows of `tld,provider,currency,amount` for cheapest regular create prices.
+- `unified-renew-prices.csv` – rows of `tld,provider,currency,amount` for cheapest regular renew prices.
+- `unified-transfer-prices.csv` – rows of `tld,provider,currency,amount` for cheapest regular transfer prices.
+- `unified-catalog.csv` – all of the above combined into a single catalog, in the column format
+  expected by the [`price-quotes`](https://github.com/namewiz/price-quotes) library:
+  `product_sku,product_category,product_variant,currency,price_amount,product_features`. Each row
+  is one TLD/operation/currency price (`product_sku` = TLD, `product_variant` = `create`/`renew`/`transfer`);
+  the winning provider is recorded as `provider=<id>` in `product_features`. This file can be passed
+  directly to `price-quotes`' `loadCatalog()`.
 
-Rows are sorted by `tld` and include a header line: `tld,provider,amount`.
+Rows are sorted by `tld` and include a header line matching the columns above.
 
 ### Registrar specific configuration
 

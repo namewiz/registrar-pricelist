@@ -2,7 +2,7 @@
 import 'dotenv/config';
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
-import { getRegistrarGenerator, listRegistrarIds, generateUnifiedList, generateCheapestOpRows, rowsToCsv } from './generators/index.js';
+import { getRegistrarGenerator, listRegistrarIds, generateUnifiedList, generateCheapestOpRows, rowsToCsv, generateCatalogRows, catalogRowsToCsv } from './generators/index.js';
 import exchangeRatesGenerator from './generators/exchange-rates.js';
 
 function printHelp() {
@@ -154,6 +154,13 @@ async function run() {
     console.log(`  ✔ Saved unified create CSV to ${path.relative(process.cwd(), createPath)}`);
     console.log(`  ✔ Saved unified renew CSV to ${path.relative(process.cwd(), renewPath)}`);
     console.log(`  ✔ Saved unified transfer CSV to ${path.relative(process.cwd(), transferPath)}`);
+
+    console.log('Building unified catalog CSV (price-quotes format)...');
+    const catalogRows = generateCatalogRows(resultsById, normalizedIds);
+    const catalogCsv = catalogRowsToCsv(catalogRows);
+    const catalogPath = path.join(outDir, 'unified-catalog.csv');
+    await fs.writeFile(catalogPath, catalogCsv);
+    console.log(`  ✔ Saved unified catalog CSV to ${path.relative(process.cwd(), catalogPath)}`);
   }
 }
 

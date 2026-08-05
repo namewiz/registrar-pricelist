@@ -224,3 +224,53 @@ export function rowsToCsv(rows) {
   const body = rows.map((row) => `${row.tld},${row.provider},${row.currency},${row.amount}`);
   return [header, ...body].join('\n');
 }
+
+const CATALOG_OPS = ['create', 'renew', 'transfer'];
+
+/**
+ * Build catalog rows for the `price-quotes` library's CSV contract: one row per
+ * (tld, operation, currency), using the same cheapest-price selection as
+ * generateCheapestOpRows. Provider attribution rides in `product_features`
+ * (a descriptive, non-price-axis column) since price-quotes rejects any header
+ * it doesn't recognize.
+ */
+export function generateCatalogRows(resultsByRegistrar, providers) {
+  const rows = [];
+  for (const op of CATALOG_OPS) {
+    const opRows = generateCheapestOpRows(resultsByRegistrar, op, providers);
+    for (const row of opRows) {
+      rows.push({
+        product_sku: row.tld,
+        product_category: 'domain',
+        product_variant: op,
+        currency: row.currency,
+        price_amount: row.amount,
+        product_features: `provider=${row.provider}`,
+      });
+    }
+  }
+  rows.sort((a, b) => {
+    if (a.product_sku !== b.product_sku) return a.product_sku < b.product_sku ? -1 : 1;
+    if (a.product_variant !== b.product_variant) return a.product_variant < b.product_variant ? -1 : 1;
+    if (a.currency !== b.currency) return a.currency < b.currency ? -1 : 1;
+    return 0;
+  });
+  return rows;
+}
+
+const CATALOG_CSV_COLUMNS = ['product_sku', 'product_category', 'product_variant', 'currency', 'price_amount', 'product_features'];
+
+function escapeCsvField(value) {
+  const str = String(value ?? '');
+  if (/[",\n]/.test(str)) {
+    return `"${str.replace(/"/g, '""')}"`;
+  }
+  return str;
+}
+
+/** Serializes catalog rows into CSV text matching price-quotes' known-column contract. */
+export function catalogRowsToCsv(rows) {
+  const header = CATALOG_CSV_COLUMNS.join(',');
+  const body = rows.map((row) => CATALOG_CSV_COLUMNS.map((col) => escapeCsvField(row[col])).join(','));
+  return [header, ...body].join('\n');
+}
