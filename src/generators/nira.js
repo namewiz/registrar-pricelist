@@ -15,7 +15,7 @@ const NGN_PRICES = {
   'name.ng': 400,
   // Synthetic SKU for NIRA's premium .ng pool (domainstat's isPremiumNgDomain) -
   // not a real public suffix, priced separately from regular .ng registration.
-  'premium.ng': 75000,
+  'premium.ng': 150000,
 };
 
 function round2(n) {
