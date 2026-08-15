@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "manual-nira-pricelist",
-    "generated_at": "2026-08-15T06:44:30.153Z",
+    "generated_at": "2026-08-15T09:05:48.020Z",
     "data_currency": "USD",
     "exchange_rate": 1357.650039,
     "orig_currency": "NGN"
@@ -69,6 +69,13 @@
         "renew": 0.29,
         "transfer": 0.29
       }
+    },
+    "premium.ng": {
+      "regular-price": {
+        "create": 55.24,
+        "renew": 55.24,
+        "transfer": 55.24
+      }
     }
   },
   "NGN": {
@@ -133,6 +140,13 @@
         "create": 400,
         "renew": 400,
         "transfer": 400
+      }
+    },
+    "premium.ng": {
+      "regular-price": {
+        "create": 75000,
+        "renew": 75000,
+        "transfer": 75000
       }
     }
   }

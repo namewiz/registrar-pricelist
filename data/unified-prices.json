@@ -15293,6 +15293,24 @@
     "tld": "prd.fr"
   },
   {
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 75000,
+          "renew": 75000,
+          "transfer": 75000
+        }
+      }
+    },
+    "provider": "nira",
+    "regular-price": {
+      "create": 55.24,
+      "renew": 55.24,
+      "transfer": 55.24
+    },
+    "tld": "premium.ng"
+  },
+  {
     "provider": "openprovider",
     "regular-price": {
       "create": 79.98,

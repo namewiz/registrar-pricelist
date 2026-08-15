@@ -2,6 +2,7 @@ import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { createRegistrarPriceGenerator } from '../registrar-generator.js';
 
+// Flat NGN price applied to create/renew/transfer alike.
 const NGN_PRICES = {
   'ng': 13000,
   'com.ng': 6000,
@@ -12,6 +13,9 @@ const NGN_PRICES = {
   "sch.ng": 6000,
   "edu.ng": 6000,
   'name.ng': 400,
+  // Synthetic SKU for NIRA's premium .ng pool (domainstat's isPremiumNgDomain) -
+  // not a real public suffix, priced separately from regular .ng registration.
+  'premium.ng': 75000,
 };
 
 function round2(n) {
