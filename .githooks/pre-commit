@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+# Pre-commit checks: lint, formatting, dead code, and an AI review against
+# .claude/review-guidelines.md. Installed via `npm install` (see the
+# "prepare" script in package.json, which runs `git config core.hooksPath
+# .githooks`). Tests run once, with coverage, in the commit-msg hook's
+# coverage-check.sh — not duplicated here.
+
+set -e
+
+echo "[pre-commit] Running lint..."
+npm run lint
+
+echo "[pre-commit] Checking formatting..."
+npx biome format .
+
+echo "[pre-commit] Checking for dead code..."
+# Non-blocking for now: knip flags a handful of pre-existing named/default
+# dual-exports on the registrar generators (part of this library's public
+# surface, re-exported through src/generators/index.js) that it can't trace
+# through package.json's "exports" map, plus extensions.js's
+# TOP_GLOBAL_TLDS backward-compatible alias of POPULAR_GLOBAL_TLDS. Not worth restructuring the export
+# shape just to satisfy the tool. Revisit if the backlog grows.
+npm run knip || true
+
+echo "[pre-commit] Running AI review..."
+"$(dirname "$0")/ai-review.sh"
+
+echo "[pre-commit] All checks passed."

@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Two independent steps after every commit:
+#  1. Folds a freshly-updated coverage-baseline.txt (written by
+#     coverage-check.sh during commit-msg) into the commit that was just
+#     created. commit-msg can't stage it into that same commit — git has
+#     already resolved the tree by the time commit-msg runs — so this
+#     amends it in immediately after, using --no-verify to avoid
+#     re-running pre-commit/commit-msg (which would re-trigger
+#     coverage-check.sh and recurse). Only runs when coverage-check.sh
+#     left its pending marker.
+#  2. Checks for outdated/vulnerable dependencies and, if any are found,
+#     prints a reminder to consider fixing them.
+set -euo pipefail
+
+repo_root="$(git rev-parse --show-toplevel)"
+marker="$repo_root/.git/COVERAGE_BASELINE_PENDING"
+
+if [ -f "$marker" ]; then
+  rm -f "$marker"
+  git add "$repo_root/coverage-baseline.txt"
+  git commit --amend --no-edit --no-verify --quiet
+fi
+
+"$(dirname "$0")/dependency-check.sh"
