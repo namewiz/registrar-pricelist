@@ -22,10 +22,6 @@ function round2(n) {
   return Math.round(n * 100) / 100;
 }
 
-function _formatNaira(n) {
-  return `₦${Number(n).toLocaleString('en-NG', { maximumFractionDigits: 2 })}`;
-}
-
 export const niraGenerator = createRegistrarPriceGenerator({
   id: 'nira',
   label: 'NIRA',
