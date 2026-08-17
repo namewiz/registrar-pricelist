@@ -2,7 +2,14 @@ import namecheapGenerator from './namecheap.js';
 import namesiloGenerator from './namesilo.js';
 import niraGenerator from './nira.js';
 import openproviderGenerator from './openprovider.js';
-export { generateUnifiedList, generateCheapestOpRows, rowsToCsv, generateCatalogRows, catalogRowsToCsv } from './unified.js';
+
+export {
+  catalogRowsToCsv,
+  generateCatalogRows,
+  generateCheapestOpRows,
+  generateUnifiedList,
+  rowsToCsv,
+} from './unified.js';
 
 export const registrarGenerators = [namecheapGenerator, namesiloGenerator, niraGenerator, openproviderGenerator];
 

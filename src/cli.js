@@ -2,25 +2,49 @@
 import 'dotenv/config';
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
-import { getRegistrarGenerator, listRegistrarIds, generateUnifiedList, generateCheapestOpRows, rowsToCsv, generateCatalogRows, catalogRowsToCsv } from './generators/index.js';
+import {
+  extensionsToCsv,
+  filterResultsByTld,
+  generateExtensionList,
+  isAbridgedTld,
+  isExcludedTld,
+} from './extensions.js';
 import exchangeRatesGenerator from './generators/exchange-rates.js';
-import { extensionsToCsv, filterResultsByTld, generateExtensionList, isAbridgedTld, isExcludedTld } from './extensions.js';
+import {
+  catalogRowsToCsv,
+  generateCatalogRows,
+  generateCheapestOpRows,
+  generateUnifiedList,
+  getRegistrarGenerator,
+  listRegistrarIds,
+  rowsToCsv,
+} from './generators/index.js';
 
 function printHelp() {
-  console.log(`Usage: npx registrar-pricelist [options]\n\n` +
-    `Options:\n` +
-    `  --registrars=<list>   Comma separated registrar ids (default: all)\n` +
-    `  --outDir=<path>       Directory where JSON files will be written (default: ./data)\n` +
-    `  --unified             Also write combined TLD unified list\n` +
-    `  --unifiedOut=<file>   Filename for unified list (default: unified-prices.json)\n` +
-    `  --fromData            Skip fetching; rebuild unified outputs from existing JSON in --outDir\n` +
-    `  --list                Print available registrar ids\n` +
-    `  --verbose             Enable verbose logging\n` +
-    `  -h, --help            Show this message\n`);
+  console.log(
+    `Usage: npx registrar-pricelist [options]\n\n` +
+      `Options:\n` +
+      `  --registrars=<list>   Comma separated registrar ids (default: all)\n` +
+      `  --outDir=<path>       Directory where JSON files will be written (default: ./data)\n` +
+      `  --unified             Also write combined TLD unified list\n` +
+      `  --unifiedOut=<file>   Filename for unified list (default: unified-prices.json)\n` +
+      `  --fromData            Skip fetching; rebuild unified outputs from existing JSON in --outDir\n` +
+      `  --list                Print available registrar ids\n` +
+      `  --verbose             Enable verbose logging\n` +
+      `  -h, --help            Show this message\n`,
+  );
 }
 
 function parseArgs(argv) {
-  const args = { registrars: null, outDir: './data', unified: false, unifiedOut: 'unified-prices.json', verbose: false, list: false, fromData: false };
+  const args = {
+    registrars: null,
+    outDir: './data',
+    unified: false,
+    unifiedOut: 'unified-prices.json',
+    verbose: false,
+    list: false,
+    fromData: false,
+  };
   let deprecatedMasterFlag = false;
   for (const raw of argv.slice(2)) {
     if (raw === '--help' || raw === '-h') {
@@ -67,7 +91,9 @@ function parseArgs(argv) {
       continue;
     }
   }
-  if (deprecatedMasterFlag) args._deprecatedMaster = true;
+  if (deprecatedMasterFlag) {
+    args._deprecatedMaster = true;
+  }
   return args;
 }
 
@@ -88,7 +114,10 @@ async function run() {
 
   const outDir = path.resolve(process.cwd(), args.outDir || './data');
   const selectedIds = args.registrars
-    ? args.registrars.split(',').map((id) => id.trim()).filter(Boolean)
+    ? args.registrars
+        .split(',')
+        .map((id) => id.trim())
+        .filter(Boolean)
     : listRegistrarIds();
 
   const normalizedIds = selectedIds.map((id) => aliasMap[id] || id);
@@ -131,7 +160,10 @@ async function run() {
     // Always generate exchange rates first
     console.log(`Generating ${exchangeRatesGenerator.label}...`);
     const exchangeRates = await exchangeRatesGenerator.generate({ env: process.env, logger: verboseLogger });
-    const exchangeOutPath = path.join(outDir, exchangeRatesGenerator.defaultOutput || `${exchangeRatesGenerator.id}.json`);
+    const exchangeOutPath = path.join(
+      outDir,
+      exchangeRatesGenerator.defaultOutput || `${exchangeRatesGenerator.id}.json`,
+    );
     await fs.writeFile(exchangeOutPath, JSON.stringify(exchangeRates, null, 2));
     console.log(`  ✔ Saved ${exchangeRatesGenerator.label} to ${path.relative(process.cwd(), exchangeOutPath)}`);
 
@@ -177,7 +209,11 @@ async function run() {
     await writeOut('abridged-catalog.csv', catalogRowsToCsv(abridgedCatalogRows), 'abridged catalog CSV');
 
     console.log('Building abridged extension metadata CSV...');
-    await writeOut('abridged-extensions.csv', extensionsToCsv(generateExtensionList(abridged)), 'abridged extension CSV');
+    await writeOut(
+      'abridged-extensions.csv',
+      extensionsToCsv(generateExtensionList(abridged)),
+      'abridged extension CSV',
+    );
   }
 }
 

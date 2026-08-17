@@ -4,14 +4,14 @@ import { createRegistrarPriceGenerator } from '../registrar-generator.js';
 
 // Flat NGN price applied to create/renew/transfer alike.
 const NGN_PRICES = {
-  'ng': 13000,
+  ng: 13000,
   'com.ng': 6000,
   'org.ng': 6000,
   'net.ng': 6000,
   'mobi.ng': 6000,
   'i.ng': 6000,
-  "sch.ng": 6000,
-  "edu.ng": 6000,
+  'sch.ng': 6000,
+  'edu.ng': 6000,
   'name.ng': 400,
   // Synthetic SKU for NIRA's premium .ng pool (domainstat's isPremiumNgDomain) -
   // not a real public suffix, priced separately from regular .ng registration.
@@ -22,7 +22,7 @@ function round2(n) {
   return Math.round(n * 100) / 100;
 }
 
-function formatNaira(n) {
+function _formatNaira(n) {
   return `₦${Number(n).toLocaleString('en-NG', { maximumFractionDigits: 2 })}`;
 }
 

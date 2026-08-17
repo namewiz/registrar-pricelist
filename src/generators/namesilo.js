@@ -1,5 +1,5 @@
-import { createRegistrarPriceGenerator } from '../registrar-generator.js';
 import { fetchWithRetry } from '../http.js';
+import { createRegistrarPriceGenerator } from '../registrar-generator.js';
 
 const DEFAULT_BASE_URL = 'https://www.namesilo.com/api';
 const OPERATIONS = { registration: 'create', renew: 'renew', transfer: 'transfer' };
@@ -20,13 +20,19 @@ export function mapNamesiloPrices(reply) {
   }
   const data = {};
   for (const [key, prices] of Object.entries(reply)) {
-    if (key === 'code' || key === 'detail' || !prices || typeof prices !== 'object') continue;
+    if (key === 'code' || key === 'detail' || !prices || typeof prices !== 'object') {
+      continue;
+    }
     const regular = {};
     for (const [field, op] of Object.entries(OPERATIONS)) {
       const amount = toPrice(prices[field]);
-      if (amount !== undefined) regular[op] = amount;
+      if (amount !== undefined) {
+        regular[op] = amount;
+      }
     }
-    if (regular.create === undefined) continue;
+    if (regular.create === undefined) {
+      continue;
+    }
     data[key.toLowerCase().replace(/^\./, '')] = { 'regular-price': regular };
   }
   return data;

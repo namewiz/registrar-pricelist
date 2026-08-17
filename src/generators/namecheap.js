@@ -1,19 +1,18 @@
-import { createRegistrarPriceGenerator } from '../registrar-generator.js';
 import { fetchWithRetry } from '../http.js';
+import { createRegistrarPriceGenerator } from '../registrar-generator.js';
 
-const REQUIRED_CREDENTIALS = [
-  'NAMECHEAP_API_USER',
-  'NAMECHEAP_API_KEY',
-  'NAMECHEAP_USERNAME',
-  'NAMECHEAP_CLIENT_IP',
-];
+const REQUIRED_CREDENTIALS = ['NAMECHEAP_API_USER', 'NAMECHEAP_API_KEY', 'NAMECHEAP_USERNAME', 'NAMECHEAP_CLIENT_IP'];
 
 const ACTIONS = ['REGISTER', 'RENEW', 'TRANSFER', 'REACTIVATE'];
 
 function mask(value, keepStart = 2, keepEnd = 2) {
-  if (!value) return '';
+  if (!value) {
+    return '';
+  }
   const str = String(value);
-  if (str.length <= keepStart + keepEnd) return '*'.repeat(str.length);
+  if (str.length <= keepStart + keepEnd) {
+    return '*'.repeat(str.length);
+  }
   return `${str.slice(0, keepStart)}***${str.slice(-keepEnd)}`;
 }
 
@@ -21,10 +20,18 @@ function sanitizeUrl(url) {
   try {
     const parsed = new URL(url);
     const p = parsed.searchParams;
-    if (p.has('ApiKey')) p.set('ApiKey', mask(p.get('ApiKey'), 3, 2));
-    if (p.has('ApiUser')) p.set('ApiUser', mask(p.get('ApiUser'), 1, 0));
-    if (p.has('UserName')) p.set('UserName', mask(p.get('UserName'), 1, 0));
-    if (p.has('ClientIp')) p.set('ClientIp', 'x.x.x.x');
+    if (p.has('ApiKey')) {
+      p.set('ApiKey', mask(p.get('ApiKey'), 3, 2));
+    }
+    if (p.has('ApiUser')) {
+      p.set('ApiUser', mask(p.get('ApiUser'), 1, 0));
+    }
+    if (p.has('UserName')) {
+      p.set('UserName', mask(p.get('UserName'), 1, 0));
+    }
+    if (p.has('ClientIp')) {
+      p.set('ClientIp', 'x.x.x.x');
+    }
     return parsed.toString();
   } catch (_) {
     return url;
@@ -32,7 +39,9 @@ function sanitizeUrl(url) {
 }
 
 function valBool(value) {
-  if (value === undefined || value === null) return false;
+  if (value === undefined || value === null) {
+    return false;
+  }
   const str = String(value).trim().toLowerCase();
   return str === 'true' || str === 'yes' || str === '1';
 }
@@ -53,17 +62,23 @@ function getCredentials(context) {
 }
 
 function getBaseUrl(context) {
-  if (context.options?.baseUrl) return context.options.baseUrl.replace(/\/$/, '');
-  const sandbox = context.options?.sandbox ?? (context.env?.NAMECHEAP_SANDBOX === '1' || /true/i.test(context.env?.NAMECHEAP_SANDBOX || ''));
+  if (context.options?.baseUrl) {
+    return context.options.baseUrl.replace(/\/$/, '');
+  }
+  const sandbox =
+    context.options?.sandbox ??
+    (context.env?.NAMECHEAP_SANDBOX === '1' || /true/i.test(context.env?.NAMECHEAP_SANDBOX || ''));
   const override = context.env?.NAMECHEAP_BASE_URL;
-  if (override) return override.replace(/\/$/, '');
+  if (override) {
+    return override.replace(/\/$/, '');
+  }
   return sandbox ? 'https://api.sandbox.namecheap.com' : 'https://api.namecheap.com';
 }
 
 function buildUrl(context, command, extraParams = {}) {
   const creds = getCredentials(context);
   const base = getBaseUrl(context);
-  const url = new URL(base + '/xml.response');
+  const url = new URL(`${base}/xml.response`);
   const params = {
     ApiUser: creds.NAMECHEAP_API_USER,
     ApiKey: creds.NAMECHEAP_API_KEY,
@@ -108,7 +123,9 @@ async function getTldMetadata(context) {
     const attrStr = match[1] || '';
     const parsed = parseAttributes(attrStr);
     const name = parsed.Name;
-    if (!name) continue;
+    if (!name) {
+      continue;
+    }
     tlds.push(name);
     attrs[name] = {
       NonRealTime: valBool(parsed.NonRealTime),
@@ -132,25 +149,43 @@ async function getTldMetadata(context) {
 
 function actionToKey(action) {
   const a = String(action || '').toUpperCase();
-  if (a === 'REGISTER') return 'create';
-  if (a === 'RENEW') return 'renew';
-  if (a === 'TRANSFER') return 'transfer';
-  if (a === 'REACTIVATE' || a === 'RESTORE') return 'restore';
+  if (a === 'REGISTER') {
+    return 'create';
+  }
+  if (a === 'RENEW') {
+    return 'renew';
+  }
+  if (a === 'TRANSFER') {
+    return 'transfer';
+  }
+  if (a === 'REACTIVATE' || a === 'RESTORE') {
+    return 'restore';
+  }
   return null;
 }
 
 function categoryToKey(name) {
   const a = String(name || '').toUpperCase();
-  if (a === 'REGISTER') return 'create';
-  if (a === 'RENEW') return 'renew';
-  if (a === 'TRANSFER') return 'transfer';
-  if (a === 'REACTIVATE') return 'restore';
+  if (a === 'REGISTER') {
+    return 'create';
+  }
+  if (a === 'RENEW') {
+    return 'renew';
+  }
+  if (a === 'TRANSFER') {
+    return 'transfer';
+  }
+  if (a === 'REACTIVATE') {
+    return 'restore';
+  }
   return null;
 }
 
 function mergeMaps(target, source) {
   for (const [tld, map] of Object.entries(source)) {
-    if (!target[tld]) target[tld] = {};
+    if (!target[tld]) {
+      target[tld] = {};
+    }
     for (const [k, v] of Object.entries(map)) {
       target[tld][k] = v;
     }
@@ -179,34 +214,50 @@ async function getPricingForAction(context, action) {
     const body = ptMatch[2] || '';
     const attrs = parseAttributes(attrsStr);
     const ptName = String(attrs.Name || '').toUpperCase();
-    if (ptName !== 'DOMAIN' && ptName !== 'DOMAINS') continue;
+    if (ptName !== 'DOMAIN' && ptName !== 'DOMAINS') {
+      continue;
+    }
     const categoryRe = /<ProductCategory\b([^>]*)>([\s\S]*?)<\/ProductCategory>/gi;
     let catMatch;
     while ((catMatch = categoryRe.exec(body)) !== null) {
       const catAttrs = parseAttributes(catMatch[1] || '');
       const catBody = catMatch[2] || '';
       const opKey = categoryToKey(catAttrs.Name) || actionToKey(action);
-      if (!opKey) continue;
+      if (!opKey) {
+        continue;
+      }
       const productRe = /<Product\b([^>]*)>([\s\S]*?)<\/Product>/gi;
       let prodMatch;
       while ((prodMatch = productRe.exec(catBody)) !== null) {
         const prodAttrs = parseAttributes(prodMatch[1] || '');
         const tld = prodAttrs.Name;
-        if (!tld) continue;
+        if (!tld) {
+          continue;
+        }
         const priceRe = /<Price\b([^>]*)\/>/gi;
         let priceMatch;
         while ((priceMatch = priceRe.exec(prodMatch[2] || '')) !== null) {
           const priceAttrs = parseAttributes(priceMatch[1] || '');
           const duration = Number(priceAttrs.Duration ?? priceAttrs.DurationRangeStart ?? 0);
           const durationType = String(priceAttrs.DurationType || '').toUpperCase();
-          if (duration !== 1 || (durationType && durationType !== 'YEAR')) continue;
+          if (duration !== 1 || (durationType && durationType !== 'YEAR')) {
+            continue;
+          }
           const userPrice = Number(priceAttrs.YourPrice);
           const retail = Number(priceAttrs.RegularPrice ?? priceAttrs.RetailPrice ?? priceAttrs.Price);
           currency = priceAttrs.Currency || currency;
-          if (!sale[tld]) sale[tld] = {};
-          if (!regular[tld]) regular[tld] = {};
-          if (Number.isFinite(userPrice)) sale[tld][opKey] = userPrice;
-          if (Number.isFinite(retail)) regular[tld][opKey] = retail;
+          if (!sale[tld]) {
+            sale[tld] = {};
+          }
+          if (!regular[tld]) {
+            regular[tld] = {};
+          }
+          if (Number.isFinite(userPrice)) {
+            sale[tld][opKey] = userPrice;
+          }
+          if (Number.isFinite(retail)) {
+            regular[tld][opKey] = retail;
+          }
         }
       }
     }
@@ -239,10 +290,14 @@ export const namecheapGenerator = createRegistrarPriceGenerator({
     const data = {};
     for (const tld of allTlds) {
       const info = attrs[tld] || {};
-      if (Object.prototype.hasOwnProperty.call(info, 'IsApiRegisterable') && !info.IsApiRegisterable) continue;
+      if (Object.hasOwn(info, 'IsApiRegisterable') && !info.IsApiRegisterable) {
+        continue;
+      }
       const saleMap = combinedSale[tld] || {};
       const regularMap = combinedRegular[tld] || {};
-      if (!Object.keys(saleMap).length && !Object.keys(regularMap).length) continue;
+      if (!Object.keys(saleMap).length && !Object.keys(regularMap).length) {
+        continue;
+      }
       const maxYears = Math.max(info.MaxRegisterYears || 0, info.MaxRenewYears || 0, info.MaxTransferYears || 0);
       data[tld] = {
         maxYears: maxYears || 0,

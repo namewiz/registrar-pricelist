@@ -1,5 +1,5 @@
-import { createRegistrarPriceGenerator } from '../registrar-generator.js';
 import { fetchWithRetry } from '../http.js';
+import { createRegistrarPriceGenerator } from '../registrar-generator.js';
 
 const COUNTRY_API_URL_DEFAULT = 'https://api.restcountries.com/countries/v5';
 const EXCHANGE_RATES_URL_DEFAULT = 'https://www.floatrates.com/daily/usd.json';
@@ -59,7 +59,9 @@ function parseCountryData(body) {
     for (const country of body.data.objects) {
       const countryCode = country?.codes?.alpha_2;
       const currencies = country?.currencies;
-      if (!countryCode || !Array.isArray(currencies)) continue;
+      if (!countryCode || !Array.isArray(currencies)) {
+        continue;
+      }
 
       const mappedCurrencies = {};
       for (const cur of currencies) {
@@ -111,19 +113,22 @@ export const exchangeRatesGenerator = createRegistrarPriceGenerator({
         if (logger) {
           logger({
             level: 'warn',
-            message: 'No REST Countries API key found in environment (REST_COUNTRIES_API_KEY). ' +
-                     'Falling back to keyless public clone of the country dataset.',
+            message:
+              'No REST Countries API key found in environment (REST_COUNTRIES_API_KEY). ' +
+              'Falling back to keyless public clone of the country dataset.',
           });
         }
         const fallbackUrl = 'https://raw.githubusercontent.com/mledoze/countries/master/dist/countries.json';
-        countriesPromise = fetchWithRetry(fallbackUrl, { retries: 4, backoffMs: 700, signal, logger })
-          .then((res) => res.json());
+        countriesPromise = fetchWithRetry(fallbackUrl, { retries: 4, backoffMs: 700, signal, logger }).then((res) =>
+          res.json(),
+        );
       } else {
         countriesPromise = fetchAllV5Countries(countryApiUrl, apiKey, { signal, logger });
       }
     } else {
-      countriesPromise = fetchWithRetry(countryApiUrl, { retries: 4, backoffMs: 700, signal, logger })
-        .then((res) => res.json());
+      countriesPromise = fetchWithRetry(countryApiUrl, { retries: 4, backoffMs: 700, signal, logger }).then((res) =>
+        res.json(),
+      );
     }
 
     const [countriesData, ratesRes] = await Promise.all([
@@ -131,23 +136,26 @@ export const exchangeRatesGenerator = createRegistrarPriceGenerator({
       fetchWithRetry(ratesUrl, { retries: 4, backoffMs: 700, signal, logger }),
     ]);
 
-    const [countries, rates] = await Promise.all([
-      parseCountryData(countriesData),
-      ratesRes.json(),
-    ]);
+    const [countries, rates] = await Promise.all([parseCountryData(countriesData), ratesRes.json()]);
 
     const results = [];
 
     for (const country of countries) {
       const countryCode = country?.cca2;
       const currencies = country?.currencies;
-      if (!countryCode || !currencies || typeof currencies !== 'object') continue;
+      if (!countryCode || !currencies || typeof currencies !== 'object') {
+        continue;
+      }
 
       for (const [currencyCode, details] of Object.entries(currencies)) {
-        if (!currencyCode || !details) continue;
+        if (!currencyCode || !details) {
+          continue;
+        }
         const rateInfo = rates[currencyCode.toLowerCase()];
         if (!rateInfo) {
-          if (logger) logger({ level: 'warn', message: `No rate found for ${currencyCode}` });
+          if (logger) {
+            logger({ level: 'warn', message: `No rate found for ${currencyCode}` });
+          }
           continue;
         }
         results.push({
@@ -164,7 +172,9 @@ export const exchangeRatesGenerator = createRegistrarPriceGenerator({
     // Ensure stable ordering for cleaner diffs: sort by country code, then currency code
     results.sort((a, b) => {
       const cc = String(a.countryCode).localeCompare(String(b.countryCode));
-      if (cc !== 0) return cc;
+      if (cc !== 0) {
+        return cc;
+      }
       return String(a.currencyCode).localeCompare(String(b.currencyCode));
     });
 
@@ -173,4 +183,3 @@ export const exchangeRatesGenerator = createRegistrarPriceGenerator({
 });
 
 export default exchangeRatesGenerator;
-

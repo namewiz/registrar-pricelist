@@ -1,5 +1,5 @@
-import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import { test } from 'node:test';
 import { mapNamesiloPrices } from '../src/generators/namesilo.js';
 
 // Hand-written in the shape NameSilo documents for getPrices; replace with a recorded reply once we have a key.

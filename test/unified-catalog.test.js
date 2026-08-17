@@ -1,13 +1,13 @@
-import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { generateCatalogRows, catalogRowsToCsv } from '../src/generators/unified.js';
+import { test } from 'node:test';
+import { catalogRowsToCsv, generateCatalogRows } from '../src/generators/unified.js';
 
 function fakeResults() {
   return {
     alpha: {
       meta: { currency: 'USD' },
       data: {
-        'ng': {
+        ng: {
           'regular-price': { create: 10, renew: 12, transfer: 8 },
         },
       },
@@ -15,10 +15,10 @@ function fakeResults() {
     beta: {
       meta: { currency: 'USD' },
       data: {
-        'ng': {
+        ng: {
           'regular-price': { create: 20, renew: 5, transfer: 8 },
         },
-        'com': {
+        com: {
           'regular-price': { create: 9, renew: 11, transfer: 9 },
         },
       },

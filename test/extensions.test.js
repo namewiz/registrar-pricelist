@@ -1,6 +1,6 @@
-import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
+import { test } from 'node:test';
 import { parse } from 'csv-parse/sync';
 import {
   describeExtension,
@@ -20,7 +20,9 @@ test('POPULAR_GLOBAL_TLDS holds unique non-.ng extensions', () => {
 });
 
 test('gov.ng, biz.ng and mobi.ng are excluded', () => {
-  for (const tld of ['gov.ng', 'biz.ng', 'mobi.ng']) assert.ok(isExcludedTld(tld), tld);
+  for (const tld of ['gov.ng', 'biz.ng', 'mobi.ng']) {
+    assert.ok(isExcludedTld(tld), tld);
+  }
   assert.equal(EXCLUDED_TLDS.size, 3);
   assert.ok(!isExcludedTld('com.ng'));
 });
@@ -37,8 +39,8 @@ test('filterResultsByTld filters data and per-currency maps, leaving meta intact
   const results = {
     nira: {
       meta: { currency: 'USD' },
-      data: { 'ng': { 'regular-price': { create: 1 } }, 'mobi.ng': { 'regular-price': { create: 1 } } },
-      NGN: { 'ng': { 'regular-price': { create: 100 } }, 'mobi.ng': { 'regular-price': { create: 100 } } },
+      data: { ng: { 'regular-price': { create: 1 } }, 'mobi.ng': { 'regular-price': { create: 1 } } },
+      NGN: { ng: { 'regular-price': { create: 100 } }, 'mobi.ng': { 'regular-price': { create: 100 } } },
     },
   };
   const filtered = filterResultsByTld(results, (tld) => !isExcludedTld(tld));
@@ -52,7 +54,7 @@ test('describeExtension classifies generic, country-code, second-level and IDN e
   assert.deepEqual(describeExtension('com'), {
     tld: 'com',
     type: 'generic',
-    description: "Businesses, brands, shops and personal websites",
+    description: 'Businesses, brands, shops and personal websites',
     tags: ['business', 'popular', 'short'],
   });
   assert.equal(describeExtension('ng').type, 'country-code');
@@ -75,20 +77,39 @@ test('generateExtensionList skips synthetic SKUs and carries no prices', () => {
     { tld: 'premium.ng', 'regular-price': { create: 1 } },
     { tld: 'com', 'regular-price': { create: 1 } },
   ]);
-  assert.deepEqual(list.map((e) => e.tld), ['com', 'ng']);
+  assert.deepEqual(
+    list.map((e) => e.tld),
+    ['com', 'ng'],
+  );
   assert.ok(list.every((e) => !('regular-price' in e)));
 });
 
 test('every abridged extension has a hand-written description', () => {
   const generated = /^(Generic top-level domain|Second-level domain under)|'s country-code domain\.$/;
-  for (const tld of ['ng', 'com.ng', 'org.ng', 'net.ng', 'edu.ng', 'sch.ng', 'name.ng', 'i.ng', ...POPULAR_GLOBAL_TLDS]) {
+  for (const tld of [
+    'ng',
+    'com.ng',
+    'org.ng',
+    'net.ng',
+    'edu.ng',
+    'sch.ng',
+    'name.ng',
+    'i.ng',
+    ...POPULAR_GLOBAL_TLDS,
+  ]) {
     assert.doesNotMatch(describeExtension(tld).description, generated, tld);
   }
 });
 
 test('extensionsToCsv writes pipe-separated tags and quotes CSV fields', () => {
   const csv = extensionsToCsv([
-    { tld: 'com.ng', type: 'second-level', country: 'NG', description: 'Trusted, local.', tags: ['business', 'geographic'] },
+    {
+      tld: 'com.ng',
+      type: 'second-level',
+      country: 'NG',
+      description: 'Trusted, local.',
+      tags: ['business', 'geographic'],
+    },
     { tld: 'xn--p1ai', unicode: 'рф', type: 'generic', description: 'Say "hi"' },
     { tld: 'art', type: 'generic', description: 'Art', tags: ['arts & media', 'short'] },
   ]);
@@ -123,8 +144,10 @@ test('tags support overlapping topics, geography and suffix properties', () => {
     social: ['social & lifestyle'],
     marketing: ['business'],
   })) {
-    const tags = describeExtension(tld).tags;
-    for (const tag of expected) assert.ok(tags.includes(tag), `${tld}: ${tag}`);
+    const { tags } = describeExtension(tld);
+    for (const tag of expected) {
+      assert.ok(tags.includes(tag), `${tld}: ${tag}`);
+    }
   }
   assert.ok(!describeExtension('com.ng').tags.includes('short'));
   assert.ok(!describeExtension('church').tags.includes('popular'));
@@ -155,8 +178,18 @@ test('cheap uses only finite nonnegative regular USD create prices, including th
 });
 
 test('abridged tags are populated, sorted, unique and returned as independent arrays', () => {
-  for (const tld of ['ng', 'com.ng', 'org.ng', 'net.ng', 'edu.ng', 'sch.ng', 'name.ng', 'i.ng', ...POPULAR_GLOBAL_TLDS]) {
-    const tags = describeExtension(tld).tags;
+  for (const tld of [
+    'ng',
+    'com.ng',
+    'org.ng',
+    'net.ng',
+    'edu.ng',
+    'sch.ng',
+    'name.ng',
+    'i.ng',
+    ...POPULAR_GLOBAL_TLDS,
+  ]) {
+    const { tags } = describeExtension(tld);
     assert.ok(tags.length > 0, tld);
     assert.deepEqual(tags, [...new Set(tags)].sort(), tld);
     tags.push('test');
@@ -172,7 +205,17 @@ test('published abridged extension CSV matches the generator and uses exactly 12
   assert.ok(rows.every((row) => row.tags.length > 0));
   const tags = new Set(rows.flatMap((row) => row.tags.split('|')));
   assert.deepEqual([...tags].sort(), [
-    'academic', 'arts & media', 'business', 'cheap', 'finance', 'fun & sports',
-    'geographic', 'health', 'popular', 'short', 'social & lifestyle', 'technology',
+    'academic',
+    'arts & media',
+    'business',
+    'cheap',
+    'finance',
+    'fun & sports',
+    'geographic',
+    'health',
+    'popular',
+    'short',
+    'social & lifestyle',
+    'technology',
   ]);
 });

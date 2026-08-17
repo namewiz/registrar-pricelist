@@ -27,9 +27,10 @@ function delay(ms, signal) {
   });
 }
 
-const defaultHeaders = typeof window === 'undefined'
-  ? { 'user-agent': 'registrar-pricelist/1.0 (+https://github.com/namewiz/registrar-pricelist)' }
-  : {};
+const defaultHeaders =
+  typeof window === 'undefined'
+    ? { 'user-agent': 'registrar-pricelist/1.0 (+https://github.com/namewiz/registrar-pricelist)' }
+    : {};
 
 /**
  * @param {RequestInfo | URL} url
@@ -41,14 +42,10 @@ const defaultHeaders = typeof window === 'undefined'
  * @param {'info'|'warn'|'error'} [options.logLevel]
  * @param {(entry: { level?: string, message: string }) => void} [options.logger]
  */
-export async function fetchWithRetry(url, {
-  retries = 3,
-  backoffMs = 500,
-  headers,
-  signal,
-  logLevel = 'info',
-  logger,
-} = {}) {
+export async function fetchWithRetry(
+  url,
+  { retries = 3, backoffMs = 500, headers, signal, logLevel = 'info', logger } = {},
+) {
   let lastErr;
   const log = logger || (() => {});
   for (let attempt = 0; attempt <= retries; attempt++) {
@@ -66,11 +63,14 @@ export async function fetchWithRetry(url, {
       return res;
     } catch (err) {
       lastErr = err;
-      if (attempt >= retries) break;
+      if (attempt >= retries) {
+        break;
+      }
       log({ level: logLevel, message: `Retrying ${url} after error: ${err.message}` });
-      await delay(backoffMs * Math.pow(2, attempt), signal).catch(() => { throw err; });
+      await delay(backoffMs * Math.pow(2, attempt), signal).catch(() => {
+        throw err;
+      });
     }
   }
   throw lastErr;
 }
-

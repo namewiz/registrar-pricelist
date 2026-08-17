@@ -32,8 +32,12 @@ export class RegistrarPriceGenerator {
    * @param {GeneratorHandler<any>} config.generate
    */
   constructor({ id, label, description = '', defaultOutput, generate }) {
-    if (!id) throw new TypeError('RegistrarPriceGenerator requires an "id".');
-    if (!label) throw new TypeError('RegistrarPriceGenerator requires a "label".');
+    if (!id) {
+      throw new TypeError('RegistrarPriceGenerator requires an "id".');
+    }
+    if (!label) {
+      throw new TypeError('RegistrarPriceGenerator requires a "label".');
+    }
     if (typeof generate !== 'function') {
       throw new TypeError('RegistrarPriceGenerator requires a generate() function.');
     }
@@ -63,4 +67,3 @@ export class RegistrarPriceGenerator {
 export function createRegistrarPriceGenerator(config) {
   return new RegistrarPriceGenerator(config);
 }
-
