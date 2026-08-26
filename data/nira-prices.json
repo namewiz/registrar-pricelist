@@ -1,9 +1,9 @@
 {
   "meta": {
     "source": "manual-nira-pricelist",
-    "generated_at": "2026-08-25T06:54:39.499Z",
+    "generated_at": "2026-08-26T06:55:31.637Z",
     "data_currency": "USD",
-    "exchange_rate": 1346.489969,
+    "exchange_rate": 1346.980021,
     "orig_currency": "NGN"
   },
   "data": {
@@ -16,51 +16,51 @@
     },
     "com.ng": {
       "regular-price": {
-        "create": 4.46,
-        "renew": 4.46,
-        "transfer": 4.46
+        "create": 4.45,
+        "renew": 4.45,
+        "transfer": 4.45
       }
     },
     "org.ng": {
       "regular-price": {
-        "create": 4.46,
-        "renew": 4.46,
-        "transfer": 4.46
+        "create": 4.45,
+        "renew": 4.45,
+        "transfer": 4.45
       }
     },
     "net.ng": {
       "regular-price": {
-        "create": 4.46,
-        "renew": 4.46,
-        "transfer": 4.46
+        "create": 4.45,
+        "renew": 4.45,
+        "transfer": 4.45
       }
     },
     "mobi.ng": {
       "regular-price": {
-        "create": 4.46,
-        "renew": 4.46,
-        "transfer": 4.46
+        "create": 4.45,
+        "renew": 4.45,
+        "transfer": 4.45
       }
     },
     "i.ng": {
       "regular-price": {
-        "create": 4.46,
-        "renew": 4.46,
-        "transfer": 4.46
+        "create": 4.45,
+        "renew": 4.45,
+        "transfer": 4.45
       }
     },
     "sch.ng": {
       "regular-price": {
-        "create": 4.46,
-        "renew": 4.46,
-        "transfer": 4.46
+        "create": 4.45,
+        "renew": 4.45,
+        "transfer": 4.45
       }
     },
     "edu.ng": {
       "regular-price": {
-        "create": 4.46,
-        "renew": 4.46,
-        "transfer": 4.46
+        "create": 4.45,
+        "renew": 4.45,
+        "transfer": 4.45
       }
     },
     "name.ng": {
@@ -72,9 +72,9 @@
     },
     "premium.ng": {
       "regular-price": {
-        "create": 111.4,
-        "renew": 111.4,
-        "transfer": 111.4
+        "create": 111.36,
+        "renew": 111.36,
+        "transfer": 111.36
       }
     }
   },
