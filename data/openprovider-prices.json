@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://docs.google.com/spreadsheets/d/1fHBHaxICLF7yhyEI5ir4jvY4H5h4nSa-aIgSMaP0500/export?format=csv&gid=1726709886",
-    "generated_at": "2026-09-07T12:02:34.320Z",
+    "generated_at": "2026-09-08T10:56:20.293Z",
     "header_row_index": 1,
     "data_start_index": 2,
     "rows_processed": 31995,
@@ -323,17 +323,17 @@
     "abc.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.93,
-        "renew": 36.26,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 36.16,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.93,
-        "renew": 36.26,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 36.16,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -494,17 +494,17 @@
     "ac.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.59,
-        "renew": 13.59,
-        "restore": 12.35,
+        "create": 13.57,
+        "renew": 13.57,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 27.09,
-        "renew": 27.09,
-        "restore": 12.35,
+        "create": 27.05,
+        "renew": 27.05,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -931,16 +931,16 @@
     "agro.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -1026,16 +1026,16 @@
     "aid.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -1767,18 +1767,18 @@
     "asn.au": {
       "maxYears": 5,
       "member-price": {
-        "create": 15.11,
-        "renew": 15.11,
-        "restore": 22.69,
-        "trade": 15.11,
+        "create": 15.14,
+        "renew": 15.14,
+        "restore": 22.73,
+        "trade": 15.14,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 15.11,
-        "renew": 15.11,
-        "restore": 22.69,
-        "trade": 15.11,
+        "create": 15.14,
+        "renew": 15.14,
+        "restore": 22.73,
+        "trade": 15.14,
         "transfer": 0,
         "update": 0
       }
@@ -1919,16 +1919,16 @@
     "atm.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -1957,18 +1957,18 @@
     "au": {
       "maxYears": 5,
       "member-price": {
-        "create": 15.11,
-        "renew": 15.11,
-        "restore": 22.69,
-        "trade": 15.11,
+        "create": 15.14,
+        "renew": 15.14,
+        "restore": 22.73,
+        "trade": 15.14,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 15.11,
-        "renew": 15.11,
-        "restore": 22.69,
-        "trade": 15.11,
+        "create": 15.14,
+        "renew": 15.14,
+        "restore": 22.73,
+        "trade": 15.14,
         "transfer": 0,
         "update": 0
       }
@@ -2014,16 +2014,16 @@
     "augustow.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -2052,16 +2052,16 @@
     "auto.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -2185,16 +2185,16 @@
     "babia-gora.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -2584,16 +2584,16 @@
     "bedzin.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -2622,17 +2622,17 @@
     "belem.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.93,
-        "renew": 36.26,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 36.16,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.93,
-        "renew": 36.26,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 36.16,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -2717,16 +2717,16 @@
     "beskidy.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -2831,16 +2831,16 @@
     "bialowieza.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -2850,16 +2850,16 @@
     "bialystok.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -2907,16 +2907,16 @@
     "bielawa.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -2945,16 +2945,16 @@
     "bieszczady.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -3097,16 +3097,16 @@
     "biz.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -3268,17 +3268,17 @@
     "blog.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 36.26,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 36.16,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 36.26,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 36.16,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -3382,16 +3382,16 @@
     "boleslawiec.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -3914,16 +3914,16 @@
     "bydgoszcz.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -3933,16 +3933,16 @@
     "bytom.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -4009,19 +4009,19 @@
     "ca": {
       "maxYears": 10,
       "member-price": {
-        "create": 7.99,
-        "renew": 7.99,
-        "restore": 30.44,
+        "create": 7.98,
+        "renew": 7.98,
+        "restore": 30.39,
         "trade": 0,
-        "transfer": 7.99,
+        "transfer": 7.98,
         "update": 0
       },
       "regular-price": {
-        "create": 12.17,
-        "renew": 19.78,
-        "restore": 30.44,
+        "create": 12.15,
+        "renew": 19.75,
+        "restore": 30.39,
         "trade": 0,
-        "transfer": 19.78,
+        "transfer": 19.75,
         "update": 0
       }
     },
@@ -4332,19 +4332,19 @@
     "capetown": {
       "maxYears": 10,
       "member-price": {
-        "create": 17.26,
-        "renew": 17.26,
-        "restore": 32.88,
+        "create": 17.23,
+        "renew": 17.23,
+        "restore": 32.83,
         "trade": 0,
-        "transfer": 17.26,
+        "transfer": 17.23,
         "update": 0
       },
       "regular-price": {
-        "create": 21.7,
-        "renew": 21.7,
-        "restore": 32.88,
+        "create": 21.67,
+        "renew": 21.67,
+        "restore": 32.83,
         "trade": 0,
-        "transfer": 21.7,
+        "transfer": 21.67,
         "update": 0
       }
     },
@@ -5166,16 +5166,16 @@
     "cieszyn.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -5736,19 +5736,19 @@
     "co.gl": {
       "maxYears": 2,
       "member-price": {
-        "create": 91.42,
-        "renew": 91.42,
+        "create": 91.43,
+        "renew": 91.43,
         "restore": 106.12,
         "trade": 0,
-        "transfer": 91.42,
+        "transfer": 91.43,
         "update": 0
       },
       "regular-price": {
-        "create": 91.42,
-        "renew": 91.42,
+        "create": 91.43,
+        "renew": 91.43,
         "restore": 106.12,
         "trade": 0,
-        "transfer": 91.42,
+        "transfer": 91.43,
         "update": 0
       }
     },
@@ -5812,16 +5812,16 @@
     "co.im": {
       "maxYears": 10,
       "member-price": {
-        "create": 65.35,
-        "renew": 65.35,
+        "create": 65.36,
+        "renew": 65.36,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 65.35,
-        "renew": 65.35,
+        "create": 65.36,
+        "renew": 65.36,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -6097,17 +6097,17 @@
     "co.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.59,
-        "renew": 13.59,
-        "restore": 12.35,
+        "create": 13.57,
+        "renew": 13.57,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 27.09,
-        "renew": 27.09,
-        "restore": 12.35,
+        "create": 27.05,
+        "renew": 27.05,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -6211,8 +6211,8 @@
     "co.uk": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.55,
-        "renew": 5.55,
+        "create": 5.56,
+        "renew": 5.56,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -6249,17 +6249,17 @@
     "co.za": {
       "maxYears": 5,
       "member-price": {
-        "create": 4.92,
-        "renew": 4.92,
-        "restore": 20.8,
+        "create": 4.91,
+        "renew": 4.91,
+        "restore": 20.76,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 7.23,
-        "renew": 13.81,
-        "restore": 20.8,
+        "create": 7.22,
+        "renew": 13.79,
+        "restore": 20.76,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -6477,18 +6477,18 @@
     "com.au": {
       "maxYears": 5,
       "member-price": {
-        "create": 15.11,
-        "renew": 15.11,
-        "restore": 22.69,
-        "trade": 15.11,
+        "create": 15.14,
+        "renew": 15.14,
+        "restore": 22.73,
+        "trade": 15.14,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 15.11,
-        "renew": 15.11,
-        "restore": 22.69,
-        "trade": 15.11,
+        "create": 15.14,
+        "renew": 15.14,
+        "restore": 22.73,
+        "trade": 15.14,
         "transfer": 0,
         "update": 0
       }
@@ -6591,17 +6591,17 @@
     "com.br": {
       "maxYears": 10,
       "member-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -6895,19 +6895,19 @@
     "com.gl": {
       "maxYears": 2,
       "member-price": {
-        "create": 91.42,
-        "renew": 91.42,
+        "create": 91.43,
+        "renew": 91.43,
         "restore": 106.12,
         "trade": 0,
-        "transfer": 91.42,
+        "transfer": 91.43,
         "update": 0
       },
       "regular-price": {
-        "create": 91.42,
-        "renew": 91.42,
+        "create": 91.43,
+        "renew": 91.43,
         "restore": 106.12,
         "trade": 0,
-        "transfer": 91.42,
+        "transfer": 91.43,
         "update": 0
       }
     },
@@ -7066,19 +7066,19 @@
     "com.ki": {
       "maxYears": 1,
       "member-price": {
-        "create": 168.67,
-        "renew": 168.67,
-        "restore": 68.07,
+        "create": 168.93,
+        "renew": 168.93,
+        "restore": 68.18,
         "trade": 0,
-        "transfer": 90.76,
+        "transfer": 90.9,
         "update": 0
       },
       "regular-price": {
-        "create": 168.67,
-        "renew": 168.67,
-        "restore": 68.07,
+        "create": 168.93,
+        "renew": 168.93,
+        "restore": 68.18,
         "trade": 0,
-        "transfer": 90.76,
+        "transfer": 90.9,
         "update": 0
       }
     },
@@ -7159,18 +7159,18 @@
     "com.lk": {
       "maxYears": 1,
       "member-price": {
-        "create": 48,
-        "renew": 48,
+        "create": 48.02,
+        "renew": 48.02,
         "restore": 0,
-        "trade": 48,
+        "trade": 48.02,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 48,
-        "renew": 48,
+        "create": 48.02,
+        "renew": 48.02,
         "restore": 0,
-        "trade": 48,
+        "trade": 48.02,
         "transfer": 0,
         "update": 0
       }
@@ -7463,16 +7463,16 @@
     "com.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -8603,16 +8603,16 @@
     "cz": {
       "maxYears": 10,
       "member-price": {
-        "create": 8.59,
-        "renew": 8.59,
+        "create": 8.58,
+        "renew": 8.58,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 11.69,
-        "renew": 11.69,
+        "create": 11.68,
+        "renew": 11.68,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -8641,16 +8641,16 @@
     "czeladz.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -8660,16 +8660,16 @@
     "czest.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -9268,16 +9268,16 @@
     "dlugoleka.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -9401,19 +9401,19 @@
     "durban": {
       "maxYears": 10,
       "member-price": {
-        "create": 17.26,
-        "renew": 17.26,
-        "restore": 32.88,
+        "create": 17.23,
+        "renew": 17.23,
+        "restore": 32.83,
         "trade": 0,
-        "transfer": 17.26,
+        "transfer": 17.23,
         "update": 0
       },
       "regular-price": {
-        "create": 21.7,
-        "renew": 21.7,
-        "restore": 32.88,
+        "create": 21.67,
+        "renew": 21.67,
+        "restore": 32.83,
         "trade": 0,
-        "transfer": 21.7,
+        "transfer": 21.67,
         "update": 0
       }
     },
@@ -9592,18 +9592,18 @@
       "maxYears": 2,
       "member-price": {
         "create": 88.16,
-        "renew": 91.42,
+        "renew": 91.43,
         "restore": 106.12,
         "trade": 0,
-        "transfer": 91.42,
+        "transfer": 91.43,
         "update": 0
       },
       "regular-price": {
         "create": 88.16,
-        "renew": 91.42,
+        "renew": 91.43,
         "restore": 106.12,
         "trade": 0,
-        "transfer": 91.42,
+        "transfer": 91.43,
         "update": 0
       }
     },
@@ -9648,18 +9648,18 @@
     "edu.lk": {
       "maxYears": 1,
       "member-price": {
-        "create": 48,
-        "renew": 48,
+        "create": 48.02,
+        "renew": 48.02,
         "restore": 0,
-        "trade": 48,
+        "trade": 48.02,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 48,
-        "renew": 48,
+        "create": 48.02,
+        "renew": 48.02,
         "restore": 0,
-        "trade": 48,
+        "trade": 48.02,
         "transfer": 0,
         "update": 0
       }
@@ -9762,16 +9762,16 @@
     "edu.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -9838,16 +9838,16 @@
     "elblag.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -9857,16 +9857,16 @@
     "elk.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -9933,17 +9933,17 @@
     "emp.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 69.84,
-        "renew": 69.84,
-        "restore": 12.33,
+        "create": 69.64,
+        "renew": 69.64,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 69.84,
-        "renew": 69.84,
-        "restore": 12.33,
+        "create": 69.64,
+        "renew": 69.64,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -10161,17 +10161,17 @@
     "esp.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -10503,17 +10503,17 @@
     "far.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -10997,17 +10997,17 @@
     "floripa.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -11928,7 +11928,7 @@
     "gb.com": {
       "maxYears": 10,
       "member-price": {
-        "create": 46.17,
+        "create": 46.18,
         "renew": 28.34,
         "restore": 0,
         "trade": 0,
@@ -11936,11 +11936,11 @@
         "update": 0
       },
       "regular-price": {
-        "create": 92.34,
-        "renew": 56.68,
+        "create": 92.35,
+        "renew": 56.69,
         "restore": 0,
         "trade": 0,
-        "transfer": 56.68,
+        "transfer": 56.69,
         "update": 0
       }
     },
@@ -11949,7 +11949,7 @@
       "member-price": {
         "create": 24.86,
         "renew": 24.86,
-        "restore": 78.13,
+        "restore": 78.14,
         "trade": 0,
         "transfer": 24.86,
         "update": 0
@@ -11957,7 +11957,7 @@
       "regular-price": {
         "create": 33.94,
         "renew": 33.94,
-        "restore": 78.13,
+        "restore": 78.14,
         "trade": 0,
         "transfer": 33.94,
         "update": 0
@@ -12061,17 +12061,17 @@
     "geek.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.59,
-        "renew": 13.59,
-        "restore": 12.35,
+        "create": 13.57,
+        "renew": 13.57,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 27.09,
-        "renew": 27.09,
-        "restore": 12.35,
+        "create": 27.05,
+        "renew": 27.05,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -12099,17 +12099,17 @@
     "gen.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.59,
-        "renew": 13.59,
-        "restore": 12.35,
+        "create": 13.57,
+        "renew": 13.57,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 27.09,
-        "renew": 27.09,
-        "restore": 12.35,
+        "create": 27.05,
+        "renew": 27.05,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -12308,19 +12308,19 @@
     "gl": {
       "maxYears": 2,
       "member-price": {
-        "create": 91.42,
-        "renew": 91.42,
+        "create": 91.43,
+        "renew": 91.43,
         "restore": 106.12,
         "trade": 0,
-        "transfer": 91.42,
+        "transfer": 91.43,
         "update": 0
       },
       "regular-price": {
-        "create": 91.42,
-        "renew": 91.42,
+        "create": 91.43,
+        "renew": 91.43,
         "restore": 106.12,
         "trade": 0,
-        "transfer": 91.42,
+        "transfer": 91.43,
         "update": 0
       }
     },
@@ -12365,16 +12365,16 @@
     "glogow.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -12403,16 +12403,16 @@
     "gmina.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -12422,16 +12422,16 @@
     "gniezno.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -12593,16 +12593,16 @@
     "gorlice.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -12745,16 +12745,16 @@
     "grajewo.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -12916,16 +12916,16 @@
     "gsm.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -13790,18 +13790,18 @@
     "id.au": {
       "maxYears": 5,
       "member-price": {
-        "create": 15.11,
-        "renew": 15.11,
-        "restore": 22.69,
-        "trade": 15.11,
+        "create": 15.14,
+        "renew": 15.14,
+        "restore": 22.73,
+        "trade": 15.14,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 15.11,
-        "renew": 15.11,
-        "restore": 22.69,
-        "trade": 15.11,
+        "create": 15.14,
+        "renew": 15.14,
+        "restore": 22.73,
+        "trade": 15.14,
         "transfer": 0,
         "update": 0
       }
@@ -13923,16 +13923,16 @@
     "ilawa.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -13942,16 +13942,16 @@
     "im": {
       "maxYears": 10,
       "member-price": {
-        "create": 65.35,
-        "renew": 65.35,
+        "create": 65.36,
+        "renew": 65.36,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 65.35,
-        "renew": 65.35,
+        "create": 65.36,
+        "renew": 65.36,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -14094,17 +14094,17 @@
     "ind.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.93,
-        "renew": 36.26,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 36.16,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.93,
-        "renew": 36.26,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 36.16,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -14208,18 +14208,18 @@
     "info.au": {
       "maxYears": 5,
       "member-price": {
-        "create": 15.11,
-        "renew": 15.11,
-        "restore": 22.69,
-        "trade": 15.11,
+        "create": 15.14,
+        "renew": 15.14,
+        "restore": 22.73,
+        "trade": 15.14,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 15.11,
-        "renew": 15.11,
-        "restore": 22.69,
-        "trade": 15.11,
+        "create": 15.14,
+        "renew": 15.14,
+        "restore": 22.73,
+        "trade": 15.14,
         "transfer": 0,
         "update": 0
       }
@@ -14358,16 +14358,16 @@
     "info.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -14852,17 +14852,17 @@
     "jampa.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -14871,16 +14871,16 @@
     "jaworzno.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -14909,16 +14909,16 @@
     "jelenia-gora.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -14966,16 +14966,16 @@
     "jgora.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15023,19 +15023,19 @@
     "joburg": {
       "maxYears": 10,
       "member-price": {
-        "create": 17.26,
-        "renew": 17.26,
-        "restore": 32.88,
+        "create": 17.23,
+        "renew": 17.23,
+        "restore": 32.83,
         "trade": 0,
-        "transfer": 17.26,
+        "transfer": 17.23,
         "update": 0
       },
       "regular-price": {
-        "create": 21.7,
-        "renew": 21.7,
-        "restore": 32.88,
+        "create": 21.67,
+        "renew": 21.67,
+        "restore": 32.83,
         "trade": 0,
-        "transfer": 21.7,
+        "transfer": 21.67,
         "update": 0
       }
     },
@@ -15194,16 +15194,16 @@
     "kalisz.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15213,16 +15213,16 @@
     "karpacz.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15232,16 +15232,16 @@
     "kartuzy.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15251,16 +15251,16 @@
     "kaszuby.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15270,16 +15270,16 @@
     "katowice.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15308,16 +15308,16 @@
     "kazimierz-dolny.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15346,16 +15346,16 @@
     "kepno.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15365,16 +15365,16 @@
     "ketrzyn.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15384,19 +15384,19 @@
     "ki": {
       "maxYears": 5,
       "member-price": {
-        "create": 1724.5,
-        "renew": 1724.5,
-        "restore": 234.47,
+        "create": 1727.18,
+        "renew": 1727.18,
+        "restore": 234.84,
         "trade": 0,
-        "transfer": 151.27,
+        "transfer": 151.51,
         "update": 0
       },
       "regular-price": {
-        "create": 1724.5,
-        "renew": 1724.5,
-        "restore": 234.47,
+        "create": 1727.18,
+        "renew": 1727.18,
+        "restore": 234.84,
         "trade": 0,
-        "transfer": 151.27,
+        "transfer": 151.51,
         "update": 0
       }
     },
@@ -15479,36 +15479,36 @@
     "kiwi": {
       "maxYears": 10,
       "member-price": {
-        "create": 15.66,
-        "renew": 15.66,
-        "restore": 49.42,
+        "create": 15.64,
+        "renew": 15.64,
+        "restore": 49.36,
         "trade": 0,
-        "transfer": 15.66,
+        "transfer": 15.64,
         "update": 0
       },
       "regular-price": {
-        "create": 31.11,
-        "renew": 31.11,
-        "restore": 49.42,
+        "create": 31.07,
+        "renew": 31.07,
+        "restore": 49.36,
         "trade": 0,
-        "transfer": 31.11,
+        "transfer": 31.07,
         "update": 0
       }
     },
     "kiwi.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.59,
-        "renew": 13.59,
-        "restore": 12.35,
+        "create": 13.57,
+        "renew": 13.57,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 27.09,
-        "renew": 27.09,
-        "restore": 12.35,
+        "create": 27.05,
+        "renew": 27.05,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -15517,16 +15517,16 @@
     "klodzko.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15536,16 +15536,16 @@
     "kobierzyce.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15574,16 +15574,16 @@
     "kolobrzeg.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15593,16 +15593,16 @@
     "konin.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15612,16 +15612,16 @@
     "konskowola.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15707,16 +15707,16 @@
     "kutno.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15764,19 +15764,19 @@
     "kyoto": {
       "maxYears": 10,
       "member-price": {
-        "create": 33.8,
-        "renew": 33.8,
-        "restore": 141.12,
+        "create": 34.13,
+        "renew": 34.13,
+        "restore": 142.49,
         "trade": 0,
-        "transfer": 33.8,
+        "transfer": 34.13,
         "update": 0
       },
       "regular-price": {
-        "create": 73.92,
-        "renew": 73.92,
-        "restore": 141.12,
+        "create": 74.64,
+        "renew": 74.64,
+        "restore": 142.49,
         "trade": 0,
-        "transfer": 73.92,
+        "transfer": 74.64,
         "update": 0
       }
     },
@@ -15859,16 +15859,16 @@
     "lapy.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -16125,16 +16125,16 @@
     "lebork.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -16201,16 +16201,16 @@
     "legnica.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -16220,16 +16220,16 @@
     "lezajsk.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -16391,16 +16391,16 @@
     "limanowa.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -16524,18 +16524,18 @@
     "lk": {
       "maxYears": 1,
       "member-price": {
-        "create": 54.4,
-        "renew": 54.4,
+        "create": 54.43,
+        "renew": 54.43,
         "restore": 0,
-        "trade": 54.4,
+        "trade": 54.43,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 54.4,
-        "renew": 54.4,
+        "create": 54.43,
+        "renew": 54.43,
         "restore": 0,
-        "trade": 54.4,
+        "trade": 54.43,
         "transfer": 0,
         "update": 0
       }
@@ -16752,16 +16752,16 @@
     "lomza.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -16773,17 +16773,17 @@
       "member-price": {
         "create": 28.64,
         "renew": 28.64,
-        "restore": 78.13,
+        "restore": 78.14,
         "trade": 0,
         "transfer": 28.64,
         "update": 0
       },
       "regular-price": {
-        "create": 57.25,
-        "renew": 57.25,
-        "restore": 78.13,
+        "create": 57.26,
+        "renew": 57.26,
+        "restore": 78.14,
         "trade": 0,
-        "transfer": 57.25,
+        "transfer": 57.26,
         "update": 0
       }
     },
@@ -16828,16 +16828,16 @@
     "lowicz.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -16847,19 +16847,19 @@
     "ls": {
       "maxYears": 1,
       "member-price": {
-        "create": 217.35,
-        "renew": 181.84,
+        "create": 217.38,
+        "renew": 181.86,
         "restore": 0,
-        "trade": 126.43,
-        "transfer": 126.43,
+        "trade": 126.45,
+        "transfer": 126.45,
         "update": 0
       },
       "regular-price": {
-        "create": 217.35,
-        "renew": 181.84,
+        "create": 217.38,
+        "renew": 181.86,
         "restore": 0,
-        "trade": 126.43,
-        "transfer": 126.43,
+        "trade": 126.45,
+        "transfer": 126.45,
         "update": 0
       }
     },
@@ -16942,8 +16942,8 @@
     "ltd.uk": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.55,
-        "renew": 5.55,
+        "create": 5.56,
+        "renew": 5.56,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17018,16 +17018,16 @@
     "lubin.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17075,16 +17075,16 @@
     "lukow.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17170,17 +17170,17 @@
     "macapa.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 36.26,
-        "renew": 36.26,
-        "restore": 12.33,
+        "create": 36.16,
+        "renew": 36.16,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 36.26,
-        "renew": 36.26,
-        "restore": 12.33,
+        "create": 36.16,
+        "renew": 36.16,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -17227,16 +17227,16 @@
     "mail.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17284,16 +17284,16 @@
     "malbork.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17303,16 +17303,16 @@
     "malopolska.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17360,17 +17360,17 @@
     "maori.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.59,
-        "renew": 13.59,
-        "restore": 12.35,
+        "create": 13.57,
+        "renew": 13.57,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 27.09,
-        "renew": 27.09,
-        "restore": 12.35,
+        "create": 27.05,
+        "renew": 27.05,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -17531,16 +17531,16 @@
     "mazowsze.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17550,16 +17550,16 @@
     "mazury.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17759,8 +17759,8 @@
     "me.uk": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.55,
-        "renew": 5.55,
+        "create": 5.56,
+        "renew": 5.56,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17854,16 +17854,16 @@
     "media.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17911,19 +17911,19 @@
     "melbourne": {
       "maxYears": 10,
       "member-price": {
-        "create": 38.07,
-        "renew": 38.07,
-        "restore": 79.42,
+        "create": 38.13,
+        "renew": 38.13,
+        "restore": 79.54,
         "trade": 0,
-        "transfer": 38.07,
+        "transfer": 38.13,
         "update": 0
       },
       "regular-price": {
-        "create": 75.64,
-        "renew": 75.64,
-        "restore": 79.42,
+        "create": 75.75,
+        "renew": 75.75,
+        "restore": 79.54,
         "trade": 0,
-        "transfer": 75.64,
+        "transfer": 75.75,
         "update": 0
       }
     },
@@ -18101,16 +18101,16 @@
     "miasta.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -18120,16 +18120,16 @@
     "mielec.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -18139,16 +18139,16 @@
     "mielno.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -18158,16 +18158,16 @@
     "mil.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -18823,16 +18823,16 @@
     "mragowo.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -19013,35 +19013,35 @@
     "nagoya": {
       "maxYears": 10,
       "member-price": {
-        "create": 12.3,
-        "renew": 12.3,
-        "restore": 33.6,
+        "create": 12.42,
+        "renew": 12.42,
+        "restore": 33.93,
         "trade": 0,
-        "transfer": 12.3,
+        "transfer": 12.42,
         "update": 0
       },
       "regular-price": {
-        "create": 20.16,
-        "renew": 20.16,
-        "restore": 33.6,
+        "create": 20.36,
+        "renew": 20.36,
+        "restore": 33.93,
         "trade": 0,
-        "transfer": 13.63,
+        "transfer": 13.77,
         "update": 0
       }
     },
     "naklo.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -19353,18 +19353,18 @@
     "net.au": {
       "maxYears": 5,
       "member-price": {
-        "create": 15.11,
-        "renew": 15.11,
-        "restore": 22.69,
-        "trade": 15.11,
+        "create": 15.14,
+        "renew": 15.14,
+        "restore": 22.73,
+        "trade": 15.14,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 15.11,
-        "renew": 15.11,
-        "restore": 22.69,
-        "trade": 15.11,
+        "create": 15.14,
+        "renew": 15.14,
+        "restore": 22.73,
+        "trade": 15.14,
         "transfer": 0,
         "update": 0
       }
@@ -19448,17 +19448,17 @@
     "net.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -19619,19 +19619,19 @@
     "net.gl": {
       "maxYears": 2,
       "member-price": {
-        "create": 91.42,
-        "renew": 91.42,
+        "create": 91.43,
+        "renew": 91.43,
         "restore": 106.12,
         "trade": 0,
-        "transfer": 91.42,
+        "transfer": 91.43,
         "update": 0
       },
       "regular-price": {
-        "create": 91.42,
-        "renew": 91.42,
+        "create": 91.43,
+        "renew": 91.43,
         "restore": 106.12,
         "trade": 0,
-        "transfer": 91.42,
+        "transfer": 91.43,
         "update": 0
       }
     },
@@ -19753,7 +19753,7 @@
       "maxYears": 10,
       "member-price": {
         "create": 42.62,
-        "renew": 53.98,
+        "renew": 53.99,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -19761,7 +19761,7 @@
       },
       "regular-price": {
         "create": 42.62,
-        "renew": 53.98,
+        "renew": 53.99,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -19809,19 +19809,19 @@
     "net.ki": {
       "maxYears": 1,
       "member-price": {
-        "create": 168.67,
-        "renew": 258.67,
-        "restore": 68.07,
+        "create": 168.93,
+        "renew": 259.08,
+        "restore": 68.18,
         "trade": 0,
-        "transfer": 84.71,
+        "transfer": 84.84,
         "update": 0
       },
       "regular-price": {
-        "create": 168.67,
-        "renew": 258.67,
-        "restore": 68.07,
+        "create": 168.93,
+        "renew": 259.08,
+        "restore": 68.18,
         "trade": 0,
-        "transfer": 84.71,
+        "transfer": 84.84,
         "update": 0
       }
     },
@@ -20037,17 +20037,17 @@
     "net.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.59,
-        "renew": 13.59,
-        "restore": 12.35,
+        "create": 13.57,
+        "renew": 13.57,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 27.09,
-        "renew": 27.09,
-        "restore": 12.35,
+        "create": 27.05,
+        "renew": 27.05,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -20132,16 +20132,16 @@
     "net.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -20398,17 +20398,17 @@
     "net.za": {
       "maxYears": 5,
       "member-price": {
-        "create": 4.92,
-        "renew": 4.92,
-        "restore": 20.8,
+        "create": 4.91,
+        "renew": 4.91,
+        "restore": 20.76,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 7.23,
-        "renew": 13.81,
-        "restore": 20.8,
+        "create": 7.22,
+        "renew": 13.79,
+        "restore": 20.76,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -20531,16 +20531,16 @@
     "nieruchomosci.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -20641,19 +20641,19 @@
     "no": {
       "maxYears": 1,
       "member-price": {
-        "create": 30.5,
-        "renew": 30.5,
-        "restore": 45.18,
-        "trade": 21.8,
-        "transfer": 28.13,
+        "create": 30.58,
+        "renew": 30.58,
+        "restore": 45.31,
+        "trade": 21.86,
+        "transfer": 28.2,
         "update": 0
       },
       "regular-price": {
-        "create": 30.5,
-        "renew": 30.5,
-        "restore": 45.18,
-        "trade": 21.8,
-        "transfer": 28.13,
+        "create": 30.58,
+        "renew": 30.58,
+        "restore": 45.31,
+        "trade": 21.86,
+        "transfer": 28.2,
         "update": 0
       }
     },
@@ -20812,16 +20812,16 @@
     "nom.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -20869,16 +20869,16 @@
     "nowaruda.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -20943,16 +20943,16 @@
     "nu": {
       "maxYears": 10,
       "member-price": {
-        "create": 19.24,
-        "renew": 14.84,
+        "create": 19.13,
+        "renew": 14.76,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 23.13,
-        "renew": 37.2,
+        "create": 23,
+        "renew": 37,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -21038,16 +21038,16 @@
     "nysa.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -21057,17 +21057,17 @@
     "nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.59,
-        "renew": 13.59,
-        "restore": 12.35,
+        "create": 13.57,
+        "renew": 13.57,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 27.09,
-        "renew": 27.09,
-        "restore": 12.35,
+        "create": 27.05,
+        "renew": 27.05,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -21152,35 +21152,35 @@
     "okinawa": {
       "maxYears": 10,
       "member-price": {
-        "create": 12.3,
-        "renew": 12.3,
-        "restore": 33.6,
+        "create": 12.42,
+        "renew": 12.42,
+        "restore": 33.93,
         "trade": 0,
-        "transfer": 12.3,
+        "transfer": 12.42,
         "update": 0
       },
       "regular-price": {
-        "create": 13.63,
-        "renew": 13.63,
-        "restore": 33.6,
+        "create": 13.77,
+        "renew": 13.77,
+        "restore": 33.93,
         "trade": 0,
-        "transfer": 13.63,
+        "transfer": 13.77,
         "update": 0
       }
     },
     "olawa.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -21228,16 +21228,16 @@
     "olecko.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -21247,16 +21247,16 @@
     "olkusz.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -21266,16 +21266,16 @@
     "olsztyn.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -21380,16 +21380,16 @@
     "opoczno.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -21399,16 +21399,16 @@
     "opole.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -21646,18 +21646,18 @@
     "org.au": {
       "maxYears": 5,
       "member-price": {
-        "create": 15.11,
-        "renew": 22.68,
-        "restore": 22.69,
-        "trade": 15.11,
+        "create": 15.14,
+        "renew": 22.71,
+        "restore": 22.73,
+        "trade": 15.14,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 15.11,
-        "renew": 22.68,
-        "restore": 22.69,
-        "trade": 15.11,
+        "create": 15.14,
+        "renew": 22.71,
+        "restore": 22.73,
+        "trade": 15.14,
         "transfer": 0,
         "update": 0
       }
@@ -21741,17 +21741,17 @@
     "org.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 76.01,
-        "renew": 76.01,
-        "restore": 12.33,
+        "create": 75.79,
+        "renew": 75.79,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 76.01,
-        "renew": 76.01,
-        "restore": 12.33,
+        "create": 75.79,
+        "renew": 75.79,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -21893,19 +21893,19 @@
     "org.gl": {
       "maxYears": 2,
       "member-price": {
-        "create": 91.42,
-        "renew": 91.42,
+        "create": 91.43,
+        "renew": 91.43,
         "restore": 106.12,
         "trade": 0,
-        "transfer": 91.42,
+        "transfer": 91.43,
         "update": 0
       },
       "regular-price": {
-        "create": 91.42,
-        "renew": 91.42,
+        "create": 91.43,
+        "renew": 91.43,
         "restore": 106.12,
         "trade": 0,
-        "transfer": 91.42,
+        "transfer": 91.43,
         "update": 0
       }
     },
@@ -22026,16 +22026,16 @@
     "org.im": {
       "maxYears": 10,
       "member-price": {
-        "create": 53.98,
-        "renew": 65.35,
+        "create": 53.99,
+        "renew": 65.36,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 53.98,
-        "renew": 65.35,
+        "create": 53.99,
+        "renew": 65.36,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -22083,19 +22083,19 @@
     "org.ki": {
       "maxYears": 1,
       "member-price": {
-        "create": 258.67,
-        "renew": 258.67,
-        "restore": 68.07,
+        "create": 259.08,
+        "renew": 259.08,
+        "restore": 68.18,
         "trade": 0,
-        "transfer": 84.71,
+        "transfer": 84.84,
         "update": 0
       },
       "regular-price": {
-        "create": 258.67,
-        "renew": 258.67,
-        "restore": 68.07,
+        "create": 259.08,
+        "renew": 259.08,
+        "restore": 68.18,
         "trade": 0,
-        "transfer": 84.71,
+        "transfer": 84.84,
         "update": 0
       }
     },
@@ -22159,18 +22159,18 @@
     "org.lk": {
       "maxYears": 1,
       "member-price": {
-        "create": 48,
-        "renew": 48,
+        "create": 48.02,
+        "renew": 48.02,
         "restore": 0,
-        "trade": 48,
+        "trade": 48.02,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 48,
-        "renew": 48,
+        "create": 48.02,
+        "renew": 48.02,
         "restore": 0,
-        "trade": 48,
+        "trade": 48.02,
         "transfer": 0,
         "update": 0
       }
@@ -22368,17 +22368,17 @@
     "org.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.59,
-        "renew": 13.59,
-        "restore": 12.35,
+        "create": 13.57,
+        "renew": 13.57,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 27.09,
-        "renew": 27.09,
-        "restore": 12.35,
+        "create": 27.05,
+        "renew": 27.05,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -22463,16 +22463,16 @@
     "org.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -22729,8 +22729,8 @@
     "org.uk": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.55,
-        "renew": 5.55,
+        "create": 5.56,
+        "renew": 5.56,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -22824,17 +22824,17 @@
     "org.za": {
       "maxYears": 5,
       "member-price": {
-        "create": 4.92,
-        "renew": 4.92,
-        "restore": 20.8,
+        "create": 4.91,
+        "renew": 4.91,
+        "restore": 20.76,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 7.23,
-        "renew": 13.81,
-        "restore": 20.8,
+        "create": 7.22,
+        "renew": 13.79,
+        "restore": 20.76,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -22919,16 +22919,16 @@
     "ostroda.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -22938,16 +22938,16 @@
     "ostroleka.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -22957,16 +22957,16 @@
     "ostrowiec.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -22976,16 +22976,16 @@
     "ostrowwlkp.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -23280,16 +23280,16 @@
     "pc.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -23736,16 +23736,16 @@
     "pila.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -23812,16 +23812,16 @@
     "pisz.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -23869,16 +23869,16 @@
     "pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 14.14,
+        "create": 4.22,
+        "renew": 14.16,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 13.15,
-        "renew": 33.6,
+        "create": 13.16,
+        "renew": 33.63,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24040,17 +24040,17 @@
     "poa.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -24059,16 +24059,16 @@
     "podhale.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24078,16 +24078,16 @@
     "podlasie.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24116,16 +24116,16 @@
     "polkowice.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24135,16 +24135,16 @@
     "pomorskie.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24154,16 +24154,16 @@
     "pomorze.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24249,16 +24249,16 @@
     "powiat.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24382,18 +24382,18 @@
     "priv.no": {
       "maxYears": 1,
       "member-price": {
-        "create": 40.66,
-        "renew": 40.66,
+        "create": 40.78,
+        "renew": 40.78,
         "restore": 0,
-        "trade": 40.66,
+        "trade": 40.78,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 40.66,
-        "renew": 40.66,
+        "create": 40.78,
+        "renew": 40.78,
         "restore": 0,
-        "trade": 40.66,
+        "trade": 40.78,
         "transfer": 0,
         "update": 0
       }
@@ -24401,16 +24401,16 @@
     "priv.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24496,16 +24496,16 @@
     "prochowice.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24629,16 +24629,16 @@
     "pruszkow.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24648,16 +24648,16 @@
     "przeworsk.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24819,16 +24819,16 @@
     "pulawy.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -25085,16 +25085,16 @@
     "radom.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -25142,16 +25142,16 @@
     "rawa-maz.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -25256,16 +25256,16 @@
     "realestate.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -25332,17 +25332,17 @@
     "recife.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -25541,16 +25541,16 @@
     "rel.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -25845,36 +25845,36 @@
     "rio": {
       "maxYears": 10,
       "member-price": {
-        "create": 10.71,
-        "renew": 10.71,
+        "create": 10.68,
+        "renew": 10.68,
         "restore": 0,
         "trade": 0,
-        "transfer": 10.71,
+        "transfer": 10.68,
         "update": 0
       },
       "regular-price": {
-        "create": 21.99,
-        "renew": 21.99,
+        "create": 21.92,
+        "renew": 21.92,
         "restore": 0,
         "trade": 0,
-        "transfer": 21.99,
+        "transfer": 21.92,
         "update": 0
       }
     },
     "rio.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -26130,19 +26130,19 @@
     "ru": {
       "maxYears": 1,
       "member-price": {
-        "create": 2.23,
-        "renew": 2.23,
+        "create": 2.25,
+        "renew": 2.25,
         "restore": 0,
         "trade": 0,
-        "transfer": 2.23,
+        "transfer": 2.25,
         "update": 0
       },
       "regular-price": {
-        "create": 2.74,
-        "renew": 5.87,
+        "create": 2.77,
+        "renew": 5.93,
         "restore": 0,
         "trade": 0,
-        "transfer": 2.74,
+        "transfer": 2.77,
         "update": 0
       }
     },
@@ -26225,16 +26225,16 @@
     "rybnik.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -26244,35 +26244,35 @@
     "ryukyu": {
       "maxYears": 10,
       "member-price": {
-        "create": 12.3,
-        "renew": 12.3,
-        "restore": 33.6,
+        "create": 12.42,
+        "renew": 12.42,
+        "restore": 33.93,
         "trade": 0,
-        "transfer": 6.39,
+        "transfer": 6.45,
         "update": 0
       },
       "regular-price": {
-        "create": 13.63,
-        "renew": 13.63,
-        "restore": 33.6,
+        "create": 13.77,
+        "renew": 13.77,
+        "restore": 33.93,
         "trade": 0,
-        "transfer": 13.63,
+        "transfer": 13.77,
         "update": 0
       }
     },
     "rzeszow.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -26396,16 +26396,16 @@
     "sanok.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -26529,19 +26529,19 @@
     "sb": {
       "maxYears": 1,
       "member-price": {
-        "create": 93.79,
-        "renew": 93.79,
-        "restore": 27.23,
+        "create": 93.93,
+        "renew": 93.93,
+        "restore": 27.27,
         "trade": 0,
-        "transfer": 37.82,
+        "transfer": 37.88,
         "update": 0
       },
       "regular-price": {
-        "create": 93.79,
-        "renew": 93.79,
-        "restore": 27.23,
+        "create": 93.93,
+        "renew": 93.93,
+        "restore": 27.27,
         "trade": 0,
-        "transfer": 37.82,
+        "transfer": 37.88,
         "update": 0
       }
     },
@@ -26681,17 +26681,17 @@
     "school.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.59,
-        "renew": 13.59,
-        "restore": 12.35,
+        "create": 13.57,
+        "renew": 13.57,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 27.09,
-        "renew": 27.09,
-        "restore": 12.35,
+        "create": 27.05,
+        "renew": 27.05,
+        "restore": 12.34,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -26776,16 +26776,16 @@
     "se": {
       "maxYears": 10,
       "member-price": {
-        "create": 19.24,
-        "renew": 14.84,
+        "create": 19.13,
+        "renew": 14.76,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 23.13,
-        "renew": 37.2,
+        "create": 23,
+        "renew": 37,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -26852,16 +26852,16 @@
     "sejny.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -26947,16 +26947,16 @@
     "sex.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27099,16 +27099,16 @@
     "shop.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27327,17 +27327,17 @@
     "sjc.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -27403,16 +27403,16 @@
     "sklep.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27422,16 +27422,16 @@
     "skoczow.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27441,16 +27441,16 @@
     "slask.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27460,16 +27460,16 @@
     "slupsk.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27688,16 +27688,16 @@
     "sos.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27707,16 +27707,16 @@
     "sosnowiec.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27916,16 +27916,16 @@
     "stalowa-wola.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27935,16 +27935,16 @@
     "starachowice.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27954,16 +27954,16 @@
     "stargard.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28258,16 +28258,16 @@
     "suwalki.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28296,16 +28296,16 @@
     "swidnica.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28315,16 +28315,16 @@
     "swiebodzin.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28334,16 +28334,16 @@
     "swinoujscie.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28410,19 +28410,19 @@
     "sydney": {
       "maxYears": 10,
       "member-price": {
-        "create": 38.07,
-        "renew": 38.07,
-        "restore": 83.2,
+        "create": 38.13,
+        "renew": 38.13,
+        "restore": 83.33,
         "trade": 0,
-        "transfer": 38.07,
+        "transfer": 38.13,
         "update": 0
       },
       "regular-price": {
-        "create": 75.64,
-        "renew": 75.64,
-        "restore": 83.2,
+        "create": 75.75,
+        "renew": 75.75,
+        "restore": 83.33,
         "trade": 0,
-        "transfer": 75.64,
+        "transfer": 75.75,
         "update": 0
       }
     },
@@ -28448,16 +28448,16 @@
     "szczecin.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28467,16 +28467,16 @@
     "szczytno.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28486,16 +28486,16 @@
     "szkola.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28581,16 +28581,16 @@
     "targi.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28600,16 +28600,16 @@
     "tarnobrzeg.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28619,19 +28619,19 @@
     "tatar": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.51,
-        "renew": 4.51,
-        "restore": 11.49,
+        "create": 4.56,
+        "renew": 4.56,
+        "restore": 11.6,
         "trade": 0,
-        "transfer": 4.32,
+        "transfer": 4.36,
         "update": 0
       },
       "regular-price": {
-        "create": 10.2,
-        "renew": 10.2,
-        "restore": 11.49,
+        "create": 10.3,
+        "renew": 10.3,
+        "restore": 11.6,
         "trade": 0,
-        "transfer": 10.2,
+        "transfer": 10.3,
         "update": 0
       }
     },
@@ -28961,16 +28961,16 @@
     "tgory.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -29151,19 +29151,19 @@
     "tl": {
       "maxYears": 5,
       "member-price": {
-        "create": 96.57,
-        "renew": 96.57,
-        "restore": 26.47,
+        "create": 96.72,
+        "renew": 96.72,
+        "restore": 26.51,
         "trade": 0,
-        "transfer": 39.25,
+        "transfer": 39.31,
         "update": 0
       },
       "regular-price": {
-        "create": 96.57,
-        "renew": 96.57,
-        "restore": 26.47,
+        "create": 96.72,
+        "renew": 96.72,
+        "restore": 26.51,
         "trade": 0,
-        "transfer": 39.25,
+        "transfer": 39.31,
         "update": 0
       }
     },
@@ -29227,16 +29227,16 @@
     "tm.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -29341,19 +29341,19 @@
     "tokyo": {
       "maxYears": 10,
       "member-price": {
-        "create": 12.3,
-        "renew": 12.3,
-        "restore": 33.6,
+        "create": 12.42,
+        "renew": 12.42,
+        "restore": 33.93,
         "trade": 0,
-        "transfer": 12.3,
+        "transfer": 12.42,
         "update": 0
       },
       "regular-price": {
-        "create": 20.16,
-        "renew": 20.16,
-        "restore": 33.6,
+        "create": 20.36,
+        "renew": 20.36,
+        "restore": 33.93,
         "trade": 0,
-        "transfer": 13.63,
+        "transfer": 13.77,
         "update": 0
       }
     },
@@ -29455,16 +29455,16 @@
     "tourism.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -29759,16 +29759,16 @@
     "travel.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -30424,19 +30424,19 @@
     "tur.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
-        "transfer": 36.26,
+        "transfer": 36.16,
         "update": 0
       },
       "regular-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
-        "transfer": 36.26,
+        "transfer": 36.16,
         "update": 0
       }
     },
@@ -30462,16 +30462,16 @@
     "turek.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -30500,16 +30500,16 @@
     "turystyka.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 33.94,
-        "renew": 42.42,
+        "create": 33.97,
+        "renew": 42.46,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -30557,17 +30557,17 @@
     "tv.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -30671,16 +30671,16 @@
     "tychy.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -30785,8 +30785,8 @@
     "uk": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.55,
-        "renew": 5.55,
+        "create": 5.56,
+        "renew": 5.56,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -30806,17 +30806,17 @@
       "member-price": {
         "create": 24.86,
         "renew": 24.86,
-        "restore": 78.13,
+        "restore": 78.14,
         "trade": 0,
         "transfer": 24.86,
         "update": 0
       },
       "regular-price": {
-        "create": 48.14,
-        "renew": 48.14,
-        "restore": 78.13,
+        "create": 48.15,
+        "renew": 48.15,
+        "restore": 78.14,
         "trade": 0,
-        "transfer": 48.14,
+        "transfer": 48.15,
         "update": 0
       }
     },
@@ -30844,17 +30844,17 @@
       "member-price": {
         "create": 24.86,
         "renew": 24.86,
-        "restore": 78.13,
+        "restore": 78.14,
         "trade": 0,
         "transfer": 24.86,
         "update": 0
       },
       "regular-price": {
-        "create": 48.14,
-        "renew": 48.14,
-        "restore": 78.13,
+        "create": 48.15,
+        "renew": 48.15,
+        "restore": 78.14,
         "trade": 0,
-        "transfer": 48.14,
+        "transfer": 48.15,
         "update": 0
       }
     },
@@ -31089,16 +31089,16 @@
     "ustka.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32039,17 +32039,17 @@
     "vix.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.93,
-        "renew": 42.93,
-        "restore": 12.33,
+        "create": 42.81,
+        "renew": 42.81,
+        "restore": 12.29,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -32286,16 +32286,16 @@
     "walbrzych.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32343,16 +32343,16 @@
     "warmia.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32362,16 +32362,16 @@
     "warszawa.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32419,16 +32419,16 @@
     "waw.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32438,17 +32438,17 @@
     "web.za": {
       "maxYears": 5,
       "member-price": {
-        "create": 4.92,
-        "renew": 4.92,
-        "restore": 20.8,
+        "create": 4.91,
+        "renew": 4.91,
+        "restore": 20.76,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 7.23,
-        "renew": 13.81,
-        "restore": 20.8,
+        "create": 7.22,
+        "renew": 13.79,
+        "restore": 20.76,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -32514,16 +32514,16 @@
     "wegrow.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32571,16 +32571,16 @@
     "wielun.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32666,16 +32666,16 @@
     "wlocl.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32685,16 +32685,16 @@
     "wloclawek.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32704,16 +32704,16 @@
     "wodzislaw.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32723,16 +32723,16 @@
     "wolomin.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32799,16 +32799,16 @@
     "wroclaw.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -33358,11 +33358,11 @@
         "update": 0
       },
       "regular-price": {
-        "create": 1189.74,
-        "renew": 1189.74,
+        "create": 1189.72,
+        "renew": 1189.72,
         "restore": 101.7,
         "trade": 0,
-        "transfer": 1189.74,
+        "transfer": 1189.72,
         "update": 0
       }
     },
@@ -33407,19 +33407,19 @@
     "xn--d1acj3b": {
       "maxYears": 10,
       "member-price": {
-        "create": 6.51,
-        "renew": 6.51,
-        "restore": 10.34,
+        "create": 6.57,
+        "renew": 6.57,
+        "restore": 10.44,
         "trade": 0,
-        "transfer": 6.32,
+        "transfer": 6.38,
         "update": 0
       },
       "regular-price": {
-        "create": 12.63,
-        "renew": 12.63,
-        "restore": 10.34,
+        "create": 12.75,
+        "renew": 12.75,
+        "restore": 10.44,
         "trade": 0,
-        "transfer": 12.63,
+        "transfer": 12.75,
         "update": 0
       }
     },
@@ -33842,11 +33842,11 @@
     "xn--imr513n": {
       "maxYears": 10,
       "member-price": {
-        "create": 94.12,
-        "renew": 94.12,
+        "create": 94.11,
+        "renew": 94.11,
         "restore": 187.75,
         "trade": 0,
-        "transfer": 94.12,
+        "transfer": 94.11,
         "update": 0
       },
       "regular-price": {
@@ -34146,19 +34146,19 @@
     "xn--p1ai": {
       "maxYears": 1,
       "member-price": {
-        "create": 2.23,
-        "renew": 2.23,
+        "create": 2.25,
+        "renew": 2.25,
         "restore": 0,
         "trade": 0,
-        "transfer": 2.23,
+        "transfer": 2.25,
         "update": 0
       },
       "regular-price": {
-        "create": 2.74,
-        "renew": 5.87,
+        "create": 2.77,
+        "renew": 5.93,
         "restore": 0,
         "trade": 0,
-        "transfer": 2.74,
+        "transfer": 2.77,
         "update": 0
       }
     },
@@ -34203,19 +34203,19 @@
     "xn--q9jyb4c": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.58,
-        "renew": 5.58,
-        "restore": 36.96,
+        "create": 5.63,
+        "renew": 5.63,
+        "restore": 37.32,
         "trade": 0,
-        "transfer": 5.58,
+        "transfer": 5.63,
         "update": 0
       },
       "regular-price": {
-        "create": 15.46,
-        "renew": 15.46,
-        "restore": 36.96,
+        "create": 15.61,
+        "renew": 15.61,
+        "restore": 37.32,
         "trade": 0,
-        "transfer": 15.46,
+        "transfer": 15.61,
         "update": 0
       }
     },
@@ -34849,19 +34849,19 @@
     "yokohama": {
       "maxYears": 10,
       "member-price": {
-        "create": 12.3,
-        "renew": 12.3,
-        "restore": 33.6,
+        "create": 12.42,
+        "renew": 12.42,
+        "restore": 33.93,
         "trade": 0,
-        "transfer": 12.3,
+        "transfer": 12.42,
         "update": 0
       },
       "regular-price": {
-        "create": 20.16,
-        "renew": 20.16,
-        "restore": 33.6,
+        "create": 20.36,
+        "renew": 20.36,
+        "restore": 33.93,
         "trade": 0,
-        "transfer": 13.63,
+        "transfer": 13.77,
         "update": 0
       }
     },
@@ -34925,16 +34925,16 @@
     "zachpomor.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -34944,16 +34944,16 @@
     "zagan.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -34963,16 +34963,16 @@
     "zarow.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -34982,16 +34982,16 @@
     "zgora.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -35001,16 +35001,16 @@
     "zgorzelec.pl": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.21,
-        "renew": 8.48,
+        "create": 4.22,
+        "renew": 8.49,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.14,
-        "renew": 33.94,
+        "create": 14.16,
+        "renew": 33.97,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
