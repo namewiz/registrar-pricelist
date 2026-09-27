@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://docs.google.com/spreadsheets/d/1fHBHaxICLF7yhyEI5ir4jvY4H5h4nSa-aIgSMaP0500/export?format=csv&gid=1726709886",
-    "generated_at": "2026-09-26T11:05:32.394Z",
+    "generated_at": "2026-09-27T11:44:20.960Z",
     "header_row_index": 1,
     "data_start_index": 2,
     "rows_processed": 31995,
@@ -741,17 +741,17 @@
     "ae": {
       "maxYears": 5,
       "member-price": {
-        "create": 29.04,
-        "renew": 29.04,
-        "restore": 14.29,
+        "create": 29.05,
+        "renew": 29.05,
+        "restore": 14.3,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 82.9,
-        "renew": 82.9,
-        "restore": 14.29,
+        "create": 82.91,
+        "renew": 82.91,
+        "restore": 14.3,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -7159,18 +7159,18 @@
     "com.lk": {
       "maxYears": 1,
       "member-price": {
-        "create": 47.74,
-        "renew": 47.74,
+        "create": 47.68,
+        "renew": 47.68,
         "restore": 0,
-        "trade": 47.74,
+        "trade": 47.68,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 47.74,
-        "renew": 47.74,
+        "create": 47.68,
+        "renew": 47.68,
         "restore": 0,
-        "trade": 47.74,
+        "trade": 47.68,
         "transfer": 0,
         "update": 0
       }
@@ -9648,18 +9648,18 @@
     "edu.lk": {
       "maxYears": 1,
       "member-price": {
-        "create": 47.74,
-        "renew": 47.74,
+        "create": 47.68,
+        "renew": 47.68,
         "restore": 0,
-        "trade": 47.74,
+        "trade": 47.68,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 47.74,
-        "renew": 47.74,
+        "create": 47.68,
+        "renew": 47.68,
         "restore": 0,
-        "trade": 47.74,
+        "trade": 47.68,
         "transfer": 0,
         "update": 0
       }
@@ -16524,18 +16524,18 @@
     "lk": {
       "maxYears": 1,
       "member-price": {
-        "create": 54.11,
-        "renew": 54.11,
+        "create": 54.04,
+        "renew": 54.04,
         "restore": 0,
-        "trade": 54.11,
+        "trade": 54.04,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 54.11,
-        "renew": 54.11,
+        "create": 54.04,
+        "renew": 54.04,
         "restore": 0,
-        "trade": 54.11,
+        "trade": 54.04,
         "transfer": 0,
         "update": 0
       }
@@ -22159,18 +22159,18 @@
     "org.lk": {
       "maxYears": 1,
       "member-price": {
-        "create": 47.74,
-        "renew": 47.74,
+        "create": 47.68,
+        "renew": 47.68,
         "restore": 0,
-        "trade": 47.74,
+        "trade": 47.68,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 47.74,
-        "renew": 47.74,
+        "create": 47.68,
+        "renew": 47.68,
         "restore": 0,
-        "trade": 47.74,
+        "trade": 47.68,
         "transfer": 0,
         "update": 0
       }
