@@ -1,9 +1,9 @@
 {
   "meta": {
     "source": "manual-nira-pricelist",
-    "generated_at": "2026-09-28T13:23:16.604Z",
+    "generated_at": "2026-09-29T12:28:06.069Z",
     "data_currency": "USD",
-    "exchange_rate": 1328.669999,
+    "exchange_rate": 1329.510019,
     "orig_currency": "NGN"
   },
   "data": {
@@ -16,51 +16,51 @@
     },
     "com.ng": {
       "regular-price": {
-        "create": 4.52,
-        "renew": 4.52,
-        "transfer": 4.52
+        "create": 4.51,
+        "renew": 4.51,
+        "transfer": 4.51
       }
     },
     "org.ng": {
       "regular-price": {
-        "create": 4.52,
-        "renew": 4.52,
-        "transfer": 4.52
+        "create": 4.51,
+        "renew": 4.51,
+        "transfer": 4.51
       }
     },
     "net.ng": {
       "regular-price": {
-        "create": 4.52,
-        "renew": 4.52,
-        "transfer": 4.52
+        "create": 4.51,
+        "renew": 4.51,
+        "transfer": 4.51
       }
     },
     "mobi.ng": {
       "regular-price": {
-        "create": 4.52,
-        "renew": 4.52,
-        "transfer": 4.52
+        "create": 4.51,
+        "renew": 4.51,
+        "transfer": 4.51
       }
     },
     "i.ng": {
       "regular-price": {
-        "create": 4.52,
-        "renew": 4.52,
-        "transfer": 4.52
+        "create": 4.51,
+        "renew": 4.51,
+        "transfer": 4.51
       }
     },
     "sch.ng": {
       "regular-price": {
-        "create": 4.52,
-        "renew": 4.52,
-        "transfer": 4.52
+        "create": 4.51,
+        "renew": 4.51,
+        "transfer": 4.51
       }
     },
     "edu.ng": {
       "regular-price": {
-        "create": 4.52,
-        "renew": 4.52,
-        "transfer": 4.52
+        "create": 4.51,
+        "renew": 4.51,
+        "transfer": 4.51
       }
     },
     "name.ng": {
@@ -72,9 +72,9 @@
     },
     "premium.ng": {
       "regular-price": {
-        "create": 112.89,
-        "renew": 112.89,
-        "transfer": 112.89
+        "create": 112.82,
+        "renew": 112.82,
+        "transfer": 112.82
       }
     }
   },
