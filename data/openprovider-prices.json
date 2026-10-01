@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://docs.google.com/spreadsheets/d/1fHBHaxICLF7yhyEI5ir4jvY4H5h4nSa-aIgSMaP0500/export?format=csv&gid=1726709886",
-    "generated_at": "2026-09-30T12:13:21.558Z",
+    "generated_at": "2026-10-01T12:47:40.537Z",
     "header_row_index": 1,
     "data_start_index": 2,
     "rows_processed": 31995,
@@ -268,17 +268,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -287,17 +287,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -323,17 +323,17 @@
     "abc.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.11,
-        "renew": 35.57,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 35.63,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.11,
-        "renew": 35.57,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 35.63,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -494,17 +494,17 @@
     "ac.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.07,
-        "renew": 13.07,
-        "restore": 11.88,
+        "create": 13.04,
+        "renew": 13.04,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 26.04,
-        "renew": 26.04,
-        "restore": 11.88,
+        "create": 25.99,
+        "renew": 25.99,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -939,8 +939,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -971,17 +971,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -1009,17 +1009,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -1034,8 +1034,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -1199,17 +1199,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -1767,18 +1767,18 @@
     "asn.au": {
       "maxYears": 5,
       "member-price": {
-        "create": 14.69,
-        "renew": 14.69,
-        "restore": 22.06,
-        "trade": 14.69,
+        "create": 14.62,
+        "renew": 14.62,
+        "restore": 21.95,
+        "trade": 14.62,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.69,
-        "renew": 14.69,
-        "restore": 22.06,
-        "trade": 14.69,
+        "create": 14.62,
+        "renew": 14.62,
+        "restore": 21.95,
+        "trade": 14.62,
         "transfer": 0,
         "update": 0
       }
@@ -1927,8 +1927,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -1957,18 +1957,18 @@
     "au": {
       "maxYears": 5,
       "member-price": {
-        "create": 14.69,
-        "renew": 14.69,
-        "restore": 22.06,
-        "trade": 14.69,
+        "create": 14.62,
+        "renew": 14.62,
+        "restore": 21.95,
+        "trade": 14.62,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.69,
-        "renew": 14.69,
-        "restore": 22.06,
-        "trade": 14.69,
+        "create": 14.62,
+        "renew": 14.62,
+        "restore": 21.95,
+        "trade": 14.62,
         "transfer": 0,
         "update": 0
       }
@@ -2022,8 +2022,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -2060,8 +2060,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -2193,8 +2193,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -2592,8 +2592,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -2622,17 +2622,17 @@
     "belem.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.11,
-        "renew": 35.57,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 35.63,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.11,
-        "renew": 35.57,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 35.63,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -2725,8 +2725,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -2839,8 +2839,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -2858,8 +2858,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -2915,8 +2915,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -2953,8 +2953,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -2966,17 +2966,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -3080,17 +3080,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -3105,8 +3105,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -3268,17 +3268,17 @@
     "blog.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 35.57,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 35.63,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 35.57,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 35.63,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -3390,8 +3390,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -3859,17 +3859,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -3922,8 +3922,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -3941,8 +3941,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -4009,19 +4009,19 @@
     "ca": {
       "maxYears": 10,
       "member-price": {
-        "create": 7.78,
-        "renew": 7.78,
-        "restore": 29.62,
+        "create": 7.77,
+        "renew": 7.77,
+        "restore": 29.61,
         "trade": 0,
-        "transfer": 7.78,
+        "transfer": 7.77,
         "update": 0
       },
       "regular-price": {
         "create": 11.84,
-        "renew": 19.25,
-        "restore": 29.62,
+        "renew": 19.24,
+        "restore": 29.61,
         "trade": 0,
-        "transfer": 19.25,
+        "transfer": 19.24,
         "update": 0
       }
     },
@@ -4030,17 +4030,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -4332,19 +4332,19 @@
     "capetown": {
       "maxYears": 10,
       "member-price": {
-        "create": 16.84,
-        "renew": 16.84,
-        "restore": 32.07,
+        "create": 16.81,
+        "renew": 16.81,
+        "restore": 32.03,
         "trade": 0,
-        "transfer": 16.84,
+        "transfer": 16.81,
         "update": 0
       },
       "regular-price": {
-        "create": 21.16,
-        "renew": 21.16,
-        "restore": 32.07,
+        "create": 21.14,
+        "renew": 21.14,
+        "restore": 32.03,
         "trade": 0,
-        "transfer": 21.16,
+        "transfer": 21.14,
         "update": 0
       }
     },
@@ -4940,17 +4940,17 @@
     "ch": {
       "maxYears": 1,
       "member-price": {
-        "create": 7.25,
-        "renew": 7.25,
-        "restore": 50.41,
+        "create": 7.23,
+        "renew": 7.23,
+        "restore": 50.32,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 8.81,
-        "renew": 27.71,
-        "restore": 50.41,
+        "create": 8.79,
+        "renew": 27.66,
+        "restore": 50.32,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -5174,8 +5174,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -5453,17 +5453,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -5736,19 +5736,19 @@
     "co.gl": {
       "maxYears": 2,
       "member-price": {
-        "create": 89.32,
-        "renew": 89.32,
+        "create": 89.31,
+        "renew": 89.31,
         "restore": 103.67,
         "trade": 0,
-        "transfer": 89.32,
+        "transfer": 89.31,
         "update": 0
       },
       "regular-price": {
-        "create": 89.32,
-        "renew": 89.32,
+        "create": 89.31,
+        "renew": 89.31,
         "restore": 103.67,
         "trade": 0,
-        "transfer": 89.32,
+        "transfer": 89.31,
         "update": 0
       }
     },
@@ -5812,16 +5812,16 @@
     "co.im": {
       "maxYears": 10,
       "member-price": {
-        "create": 63.98,
-        "renew": 63.98,
+        "create": 64.18,
+        "renew": 64.18,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 63.98,
-        "renew": 63.98,
+        "create": 64.18,
+        "renew": 64.18,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -5833,17 +5833,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -6097,17 +6097,17 @@
     "co.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.07,
-        "renew": 13.07,
-        "restore": 11.88,
+        "create": 13.04,
+        "renew": 13.04,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 26.04,
-        "renew": 26.04,
-        "restore": 11.88,
+        "create": 25.99,
+        "renew": 25.99,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -6211,16 +6211,16 @@
     "co.uk": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.44,
-        "renew": 5.44,
+        "create": 5.45,
+        "renew": 5.45,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 6.95,
-        "renew": 17.39,
+        "create": 6.98,
+        "renew": 17.44,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -6251,15 +6251,15 @@
       "member-price": {
         "create": 4.79,
         "renew": 4.79,
-        "restore": 20.28,
+        "restore": 20.26,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
         "create": 7.05,
-        "renew": 13.47,
-        "restore": 20.28,
+        "renew": 13.45,
+        "restore": 20.26,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -6477,18 +6477,18 @@
     "com.au": {
       "maxYears": 5,
       "member-price": {
-        "create": 14.69,
-        "renew": 14.69,
-        "restore": 22.06,
-        "trade": 14.69,
+        "create": 14.62,
+        "renew": 14.62,
+        "restore": 21.95,
+        "trade": 14.62,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.69,
-        "renew": 14.69,
-        "restore": 22.06,
-        "trade": 14.69,
+        "create": 14.62,
+        "renew": 14.62,
+        "restore": 21.95,
+        "trade": 14.62,
         "transfer": 0,
         "update": 0
       }
@@ -6591,17 +6591,17 @@
     "com.br": {
       "maxYears": 10,
       "member-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -6895,19 +6895,19 @@
     "com.gl": {
       "maxYears": 2,
       "member-price": {
-        "create": 89.32,
-        "renew": 89.32,
+        "create": 89.31,
+        "renew": 89.31,
         "restore": 103.67,
         "trade": 0,
-        "transfer": 89.32,
+        "transfer": 89.31,
         "update": 0
       },
       "regular-price": {
-        "create": 89.32,
-        "renew": 89.32,
+        "create": 89.31,
+        "renew": 89.31,
         "restore": 103.67,
         "trade": 0,
-        "transfer": 89.32,
+        "transfer": 89.31,
         "update": 0
       }
     },
@@ -6971,10 +6971,10 @@
     "com.hk": {
       "maxYears": 5,
       "member-price": {
-        "create": 14.09,
+        "create": 14.08,
         "renew": 20.11,
         "restore": 66.91,
-        "trade": 26.77,
+        "trade": 26.76,
         "transfer": 0,
         "update": 0
       },
@@ -6982,7 +6982,7 @@
         "create": 53.53,
         "renew": 53.53,
         "restore": 66.91,
-        "trade": 26.77,
+        "trade": 26.76,
         "transfer": 0,
         "update": 0
       }
@@ -7028,16 +7028,16 @@
     "com.im": {
       "maxYears": 1,
       "member-price": {
-        "create": 41.73,
-        "renew": 41.73,
+        "create": 41.85,
+        "renew": 41.85,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 41.73,
-        "renew": 41.73,
+        "create": 41.85,
+        "renew": 41.85,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -7049,36 +7049,36 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
     "com.ki": {
       "maxYears": 1,
       "member-price": {
-        "create": 164.01,
-        "renew": 164.01,
-        "restore": 66.19,
+        "create": 163.14,
+        "renew": 163.14,
+        "restore": 65.84,
         "trade": 0,
-        "transfer": 88.26,
+        "transfer": 87.79,
         "update": 0
       },
       "regular-price": {
-        "create": 164.01,
-        "renew": 164.01,
-        "restore": 66.19,
+        "create": 163.14,
+        "renew": 163.14,
+        "restore": 65.84,
         "trade": 0,
-        "transfer": 88.26,
+        "transfer": 87.79,
         "update": 0
       }
     },
@@ -7159,18 +7159,18 @@
     "com.lk": {
       "maxYears": 1,
       "member-price": {
-        "create": 47.57,
-        "renew": 47.57,
+        "create": 47.64,
+        "renew": 47.64,
         "restore": 0,
-        "trade": 47.57,
+        "trade": 47.64,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 47.57,
-        "renew": 47.57,
+        "create": 47.64,
+        "renew": 47.64,
         "restore": 0,
-        "trade": 47.57,
+        "trade": 47.64,
         "transfer": 0,
         "update": 0
       }
@@ -7471,8 +7471,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -8130,17 +8130,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -8434,17 +8434,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -8565,19 +8565,19 @@
     "cymru": {
       "maxYears": 10,
       "member-price": {
-        "create": 10.65,
-        "renew": 10.65,
-        "restore": 16.69,
+        "create": 10.69,
+        "renew": 10.69,
+        "restore": 16.74,
         "trade": 0,
-        "transfer": 10.65,
+        "transfer": 10.69,
         "update": 0
       },
       "regular-price": {
-        "create": 26.43,
-        "renew": 26.43,
-        "restore": 16.69,
+        "create": 26.51,
+        "renew": 26.51,
+        "restore": 16.74,
         "trade": 0,
-        "transfer": 26.43,
+        "transfer": 26.51,
         "update": 0
       }
     },
@@ -8603,16 +8603,16 @@
     "cz": {
       "maxYears": 10,
       "member-price": {
-        "create": 8.31,
-        "renew": 8.31,
+        "create": 8.3,
+        "renew": 8.3,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 11.32,
-        "renew": 11.32,
+        "create": 11.3,
+        "renew": 11.3,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -8649,8 +8649,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -8668,8 +8668,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -8890,17 +8890,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -9276,8 +9276,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -9384,36 +9384,36 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
     "durban": {
       "maxYears": 10,
       "member-price": {
-        "create": 16.84,
-        "renew": 16.84,
-        "restore": 32.07,
+        "create": 16.81,
+        "renew": 16.81,
+        "restore": 32.03,
         "trade": 0,
-        "transfer": 16.84,
+        "transfer": 16.81,
         "update": 0
       },
       "regular-price": {
-        "create": 21.16,
-        "renew": 21.16,
-        "restore": 32.07,
+        "create": 21.14,
+        "renew": 21.14,
+        "restore": 32.03,
         "trade": 0,
-        "transfer": 21.16,
+        "transfer": 21.14,
         "update": 0
       }
     },
@@ -9592,18 +9592,18 @@
       "maxYears": 2,
       "member-price": {
         "create": 86.13,
-        "renew": 89.32,
+        "renew": 89.31,
         "restore": 103.67,
         "trade": 0,
-        "transfer": 89.32,
+        "transfer": 89.31,
         "update": 0
       },
       "regular-price": {
         "create": 86.13,
-        "renew": 89.32,
+        "renew": 89.31,
         "restore": 103.67,
         "trade": 0,
-        "transfer": 89.32,
+        "transfer": 89.31,
         "update": 0
       }
     },
@@ -9648,18 +9648,18 @@
     "edu.lk": {
       "maxYears": 1,
       "member-price": {
-        "create": 47.57,
-        "renew": 47.57,
+        "create": 47.64,
+        "renew": 47.64,
         "restore": 0,
-        "trade": 47.57,
+        "trade": 47.64,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 47.57,
-        "renew": 47.57,
+        "create": 47.64,
+        "renew": 47.64,
         "restore": 0,
-        "trade": 47.57,
+        "trade": 47.64,
         "transfer": 0,
         "update": 0
       }
@@ -9770,8 +9770,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -9846,8 +9846,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -9865,8 +9865,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -9933,17 +9933,17 @@
     "emp.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 68.5,
-        "renew": 68.5,
-        "restore": 12.09,
+        "create": 68.62,
+        "renew": 68.62,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 68.5,
-        "renew": 68.5,
-        "restore": 12.09,
+        "create": 68.62,
+        "renew": 68.62,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -10125,17 +10125,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -10161,17 +10161,17 @@
     "esp.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -10503,17 +10503,17 @@
     "far.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -10828,17 +10828,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -10997,17 +10997,17 @@
     "floripa.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -11094,7 +11094,7 @@
       "member-price": {
         "create": 210.53,
         "renew": 84.53,
-        "restore": 111.65,
+        "restore": 111.64,
         "trade": 68.58,
         "transfer": 68.58,
         "update": 0
@@ -11102,7 +11102,7 @@
       "regular-price": {
         "create": 210.53,
         "renew": 84.53,
-        "restore": 111.65,
+        "restore": 111.64,
         "trade": 68.58,
         "transfer": 68.58,
         "update": 0
@@ -11928,38 +11928,38 @@
     "gb.com": {
       "maxYears": 10,
       "member-price": {
-        "create": 45.2,
-        "renew": 27.75,
+        "create": 45.34,
+        "renew": 27.83,
         "restore": 0,
         "trade": 0,
-        "transfer": 27.75,
+        "transfer": 27.83,
         "update": 0
       },
       "regular-price": {
-        "create": 90.41,
-        "renew": 55.5,
+        "create": 90.68,
+        "renew": 55.67,
         "restore": 0,
         "trade": 0,
-        "transfer": 55.5,
+        "transfer": 55.67,
         "update": 0
       }
     },
     "gb.net": {
       "maxYears": 10,
       "member-price": {
-        "create": 24.34,
-        "renew": 24.34,
-        "restore": 76.5,
+        "create": 24.41,
+        "renew": 24.41,
+        "restore": 76.73,
         "trade": 0,
-        "transfer": 24.34,
+        "transfer": 24.41,
         "update": 0
       },
       "regular-price": {
-        "create": 33.23,
-        "renew": 33.23,
-        "restore": 76.5,
+        "create": 33.33,
+        "renew": 33.33,
+        "restore": 76.73,
         "trade": 0,
-        "transfer": 33.23,
+        "transfer": 33.33,
         "update": 0
       }
     },
@@ -12061,17 +12061,17 @@
     "geek.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.07,
-        "renew": 13.07,
-        "restore": 11.88,
+        "create": 13.04,
+        "renew": 13.04,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 26.04,
-        "renew": 26.04,
-        "restore": 11.88,
+        "create": 25.99,
+        "renew": 25.99,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -12082,34 +12082,34 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
     "gen.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.07,
-        "renew": 13.07,
-        "restore": 11.88,
+        "create": 13.04,
+        "renew": 13.04,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 26.04,
-        "renew": 26.04,
-        "restore": 11.88,
+        "create": 25.99,
+        "renew": 25.99,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -12308,19 +12308,19 @@
     "gl": {
       "maxYears": 2,
       "member-price": {
-        "create": 89.32,
-        "renew": 89.32,
+        "create": 89.31,
+        "renew": 89.31,
         "restore": 103.67,
         "trade": 0,
-        "transfer": 89.32,
+        "transfer": 89.31,
         "update": 0
       },
       "regular-price": {
-        "create": 89.32,
-        "renew": 89.32,
+        "create": 89.31,
+        "renew": 89.31,
         "restore": 103.67,
         "trade": 0,
-        "transfer": 89.32,
+        "transfer": 89.31,
         "update": 0
       }
     },
@@ -12373,8 +12373,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -12411,8 +12411,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -12430,8 +12430,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -12601,8 +12601,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -12753,8 +12753,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -12924,8 +12924,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -12994,17 +12994,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -13372,10 +13372,10 @@
     "hk": {
       "maxYears": 5,
       "member-price": {
-        "create": 14.09,
+        "create": 14.08,
         "renew": 20.11,
         "restore": 66.91,
-        "trade": 26.77,
+        "trade": 26.76,
         "transfer": 0,
         "update": 0
       },
@@ -13383,7 +13383,7 @@
         "create": 53.53,
         "renew": 53.53,
         "restore": 66.91,
-        "trade": 26.77,
+        "trade": 26.76,
         "transfer": 0,
         "update": 0
       }
@@ -13790,18 +13790,18 @@
     "id.au": {
       "maxYears": 5,
       "member-price": {
-        "create": 14.69,
-        "renew": 14.69,
-        "restore": 22.06,
-        "trade": 14.69,
+        "create": 14.62,
+        "renew": 14.62,
+        "restore": 21.95,
+        "trade": 14.62,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.69,
-        "renew": 14.69,
-        "restore": 22.06,
-        "trade": 14.69,
+        "create": 14.62,
+        "renew": 14.62,
+        "restore": 21.95,
+        "trade": 14.62,
         "transfer": 0,
         "update": 0
       }
@@ -13831,7 +13831,7 @@
         "create": 11.41,
         "renew": 13.42,
         "restore": 60.22,
-        "trade": 26.77,
+        "trade": 26.76,
         "transfer": 0,
         "update": 0
       },
@@ -13839,7 +13839,7 @@
         "create": 46.84,
         "renew": 46.84,
         "restore": 60.22,
-        "trade": 26.77,
+        "trade": 26.76,
         "transfer": 0,
         "update": 0
       }
@@ -13931,8 +13931,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -13942,16 +13942,16 @@
     "im": {
       "maxYears": 10,
       "member-price": {
-        "create": 63.98,
-        "renew": 63.98,
+        "create": 64.18,
+        "renew": 64.18,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 63.98,
-        "renew": 63.98,
+        "create": 64.18,
+        "renew": 64.18,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -14037,19 +14037,19 @@
     "in": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.47,
-        "renew": 5.47,
-        "restore": 16.41,
+        "create": 5.48,
+        "renew": 5.48,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 5.47,
+        "transfer": 5.48,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -14094,17 +14094,17 @@
     "ind.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.11,
-        "renew": 35.57,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 35.63,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.11,
-        "renew": 35.57,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 35.63,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -14134,17 +14134,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -14208,18 +14208,18 @@
     "info.au": {
       "maxYears": 5,
       "member-price": {
-        "create": 14.69,
-        "renew": 14.69,
-        "restore": 22.06,
-        "trade": 14.69,
+        "create": 14.62,
+        "renew": 14.62,
+        "restore": 21.95,
+        "trade": 14.62,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.69,
-        "renew": 14.69,
-        "restore": 22.06,
-        "trade": 14.69,
+        "create": 14.62,
+        "renew": 14.62,
+        "restore": 21.95,
+        "trade": 14.62,
         "transfer": 0,
         "update": 0
       }
@@ -14324,17 +14324,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -14366,8 +14366,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -14531,17 +14531,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -14588,17 +14588,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -14645,17 +14645,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -14852,17 +14852,17 @@
     "jampa.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -14879,8 +14879,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -14917,8 +14917,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -14974,8 +14974,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15023,19 +15023,19 @@
     "joburg": {
       "maxYears": 10,
       "member-price": {
-        "create": 16.84,
-        "renew": 16.84,
-        "restore": 32.07,
+        "create": 16.81,
+        "renew": 16.81,
+        "restore": 32.03,
         "trade": 0,
-        "transfer": 16.84,
+        "transfer": 16.81,
         "update": 0
       },
       "regular-price": {
-        "create": 21.16,
-        "renew": 21.16,
-        "restore": 32.07,
+        "create": 21.14,
+        "renew": 21.14,
+        "restore": 32.03,
         "trade": 0,
-        "transfer": 21.16,
+        "transfer": 21.14,
         "update": 0
       }
     },
@@ -15202,8 +15202,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15221,8 +15221,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15240,8 +15240,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15259,8 +15259,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15278,8 +15278,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15316,8 +15316,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15354,8 +15354,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15373,8 +15373,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15384,19 +15384,19 @@
     "ki": {
       "maxYears": 5,
       "member-price": {
-        "create": 1676.88,
-        "renew": 1676.88,
-        "restore": 228,
+        "create": 1668.03,
+        "renew": 1668.03,
+        "restore": 226.79,
         "trade": 0,
-        "transfer": 147.09,
+        "transfer": 146.32,
         "update": 0
       },
       "regular-price": {
-        "create": 1676.88,
-        "renew": 1676.88,
-        "restore": 228,
+        "create": 1668.03,
+        "renew": 1668.03,
+        "restore": 226.79,
         "trade": 0,
-        "transfer": 147.09,
+        "transfer": 146.32,
         "update": 0
       }
     },
@@ -15479,36 +15479,36 @@
     "kiwi": {
       "maxYears": 10,
       "member-price": {
-        "create": 15.05,
-        "renew": 15.05,
-        "restore": 47.51,
+        "create": 15.03,
+        "renew": 15.03,
+        "restore": 47.42,
         "trade": 0,
-        "transfer": 15.05,
+        "transfer": 15.03,
         "update": 0
       },
       "regular-price": {
-        "create": 29.91,
-        "renew": 29.91,
-        "restore": 47.51,
+        "create": 29.85,
+        "renew": 29.85,
+        "restore": 47.42,
         "trade": 0,
-        "transfer": 29.91,
+        "transfer": 29.85,
         "update": 0
       }
     },
     "kiwi.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.07,
-        "renew": 13.07,
-        "restore": 11.88,
+        "create": 13.04,
+        "renew": 13.04,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 26.04,
-        "renew": 26.04,
-        "restore": 11.88,
+        "create": 25.99,
+        "renew": 25.99,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -15525,8 +15525,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15544,8 +15544,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15582,8 +15582,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15601,8 +15601,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15620,8 +15620,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15715,8 +15715,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -15764,19 +15764,19 @@
     "kyoto": {
       "maxYears": 10,
       "member-price": {
-        "create": 33.62,
-        "renew": 33.62,
-        "restore": 140.34,
+        "create": 33.64,
+        "renew": 33.64,
+        "restore": 140.45,
         "trade": 0,
-        "transfer": 33.62,
+        "transfer": 33.64,
         "update": 0
       },
       "regular-price": {
-        "create": 73.51,
-        "renew": 73.51,
-        "restore": 140.34,
+        "create": 73.57,
+        "renew": 73.57,
+        "restore": 140.45,
         "trade": 0,
-        "transfer": 73.51,
+        "transfer": 73.57,
         "update": 0
       }
     },
@@ -15867,8 +15867,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -16133,8 +16133,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -16209,8 +16209,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -16228,8 +16228,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -16258,17 +16258,17 @@
     "li": {
       "maxYears": 1,
       "member-price": {
-        "create": 7.25,
-        "renew": 7.25,
-        "restore": 50.41,
+        "create": 7.23,
+        "renew": 7.23,
+        "restore": 50.32,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 27.12,
-        "renew": 27.12,
-        "restore": 50.41,
+        "create": 27.07,
+        "renew": 27.07,
+        "restore": 50.32,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -16399,8 +16399,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -16524,18 +16524,18 @@
     "lk": {
       "maxYears": 1,
       "member-price": {
-        "create": 53.92,
-        "renew": 53.92,
+        "create": 53.99,
+        "renew": 53.99,
         "restore": 0,
-        "trade": 53.92,
+        "trade": 53.99,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 53.92,
-        "renew": 53.92,
+        "create": 53.99,
+        "renew": 53.99,
         "restore": 0,
-        "trade": 53.92,
+        "trade": 53.99,
         "transfer": 0,
         "update": 0
       }
@@ -16760,8 +16760,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -16771,19 +16771,19 @@
     "london": {
       "maxYears": 10,
       "member-price": {
-        "create": 28.04,
-        "renew": 28.04,
-        "restore": 76.5,
+        "create": 28.13,
+        "renew": 28.13,
+        "restore": 76.73,
         "trade": 0,
-        "transfer": 28.04,
+        "transfer": 28.13,
         "update": 0
       },
       "regular-price": {
-        "create": 56.05,
-        "renew": 56.05,
-        "restore": 76.5,
+        "create": 56.22,
+        "renew": 56.22,
+        "restore": 76.73,
         "trade": 0,
-        "transfer": 56.05,
+        "transfer": 56.22,
         "update": 0
       }
     },
@@ -16836,8 +16836,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -16847,19 +16847,19 @@
     "ls": {
       "maxYears": 1,
       "member-price": {
-        "create": 212.81,
-        "renew": 178.03,
+        "create": 213.45,
+        "renew": 178.58,
         "restore": 0,
-        "trade": 123.79,
-        "transfer": 123.79,
+        "trade": 124.17,
+        "transfer": 124.17,
         "update": 0
       },
       "regular-price": {
-        "create": 212.81,
-        "renew": 178.03,
+        "create": 213.45,
+        "renew": 178.58,
         "restore": 0,
-        "trade": 123.79,
-        "transfer": 123.79,
+        "trade": 124.17,
+        "transfer": 124.17,
         "update": 0
       }
     },
@@ -16942,16 +16942,16 @@
     "ltd.uk": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.44,
-        "renew": 5.44,
+        "create": 5.45,
+        "renew": 5.45,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 18.57,
-        "renew": 18.57,
+        "create": 18.62,
+        "renew": 18.62,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17026,8 +17026,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17083,8 +17083,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17170,17 +17170,17 @@
     "macapa.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 35.57,
-        "renew": 35.57,
-        "restore": 12.09,
+        "create": 35.63,
+        "renew": 35.63,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 35.57,
-        "renew": 35.57,
-        "restore": 12.09,
+        "create": 35.63,
+        "renew": 35.63,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -17235,8 +17235,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17292,8 +17292,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17311,8 +17311,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17360,17 +17360,17 @@
     "maori.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.07,
-        "renew": 13.07,
-        "restore": 11.88,
+        "create": 13.04,
+        "renew": 13.04,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 26.04,
-        "renew": 26.04,
-        "restore": 11.88,
+        "create": 25.99,
+        "renew": 25.99,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -17539,8 +17539,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17558,8 +17558,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17666,17 +17666,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -17759,16 +17759,16 @@
     "me.uk": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.44,
-        "renew": 5.44,
+        "create": 5.45,
+        "renew": 5.45,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 18.57,
-        "renew": 18.57,
+        "create": 18.62,
+        "renew": 18.62,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17862,8 +17862,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -17911,19 +17911,19 @@
     "melbourne": {
       "maxYears": 10,
       "member-price": {
-        "create": 37.02,
-        "renew": 37.02,
-        "restore": 77.22,
+        "create": 36.82,
+        "renew": 36.82,
+        "restore": 76.82,
         "trade": 0,
-        "transfer": 37.02,
+        "transfer": 36.82,
         "update": 0
       },
       "regular-price": {
-        "create": 73.55,
-        "renew": 73.55,
-        "restore": 77.22,
+        "create": 73.16,
+        "renew": 73.16,
+        "restore": 76.82,
         "trade": 0,
-        "transfer": 73.55,
+        "transfer": 73.16,
         "update": 0
       }
     },
@@ -18109,8 +18109,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -18128,8 +18128,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -18147,8 +18147,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -18166,8 +18166,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -18831,8 +18831,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -19013,19 +19013,19 @@
     "nagoya": {
       "maxYears": 10,
       "member-price": {
-        "create": 12.23,
-        "renew": 12.23,
-        "restore": 33.41,
+        "create": 12.24,
+        "renew": 12.24,
+        "restore": 33.44,
         "trade": 0,
-        "transfer": 12.23,
+        "transfer": 12.24,
         "update": 0
       },
       "regular-price": {
-        "create": 20.05,
-        "renew": 20.05,
-        "restore": 33.41,
+        "create": 20.06,
+        "renew": 20.06,
+        "restore": 33.44,
         "trade": 0,
-        "transfer": 13.56,
+        "transfer": 13.57,
         "update": 0
       }
     },
@@ -19040,8 +19040,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -19353,18 +19353,18 @@
     "net.au": {
       "maxYears": 5,
       "member-price": {
-        "create": 14.69,
-        "renew": 14.69,
-        "restore": 22.06,
-        "trade": 14.69,
+        "create": 14.62,
+        "renew": 14.62,
+        "restore": 21.95,
+        "trade": 14.62,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.69,
-        "renew": 14.69,
-        "restore": 22.06,
-        "trade": 14.69,
+        "create": 14.62,
+        "renew": 14.62,
+        "restore": 21.95,
+        "trade": 14.62,
         "transfer": 0,
         "update": 0
       }
@@ -19448,17 +19448,17 @@
     "net.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -19619,19 +19619,19 @@
     "net.gl": {
       "maxYears": 2,
       "member-price": {
-        "create": 89.32,
-        "renew": 89.32,
+        "create": 89.31,
+        "renew": 89.31,
         "restore": 103.67,
         "trade": 0,
-        "transfer": 89.32,
+        "transfer": 89.31,
         "update": 0
       },
       "regular-price": {
-        "create": 89.32,
-        "renew": 89.32,
+        "create": 89.31,
+        "renew": 89.31,
         "restore": 103.67,
         "trade": 0,
-        "transfer": 89.32,
+        "transfer": 89.31,
         "update": 0
       }
     },
@@ -19695,10 +19695,10 @@
     "net.hk": {
       "maxYears": 5,
       "member-price": {
-        "create": 14.09,
+        "create": 14.08,
         "renew": 20.11,
         "restore": 66.91,
-        "trade": 26.77,
+        "trade": 26.76,
         "transfer": 0,
         "update": 0
       },
@@ -19706,7 +19706,7 @@
         "create": 53.53,
         "renew": 53.53,
         "restore": 66.91,
-        "trade": 26.77,
+        "trade": 26.76,
         "transfer": 0,
         "update": 0
       }
@@ -19752,16 +19752,16 @@
     "net.im": {
       "maxYears": 10,
       "member-price": {
-        "create": 41.73,
-        "renew": 52.85,
+        "create": 41.85,
+        "renew": 53.01,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 41.73,
-        "renew": 52.85,
+        "create": 41.85,
+        "renew": 53.01,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -19773,17 +19773,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -19809,19 +19809,19 @@
     "net.ki": {
       "maxYears": 1,
       "member-price": {
-        "create": 164.01,
-        "renew": 251.53,
-        "restore": 66.19,
+        "create": 163.14,
+        "renew": 250.2,
+        "restore": 65.84,
         "trade": 0,
-        "transfer": 82.37,
+        "transfer": 81.94,
         "update": 0
       },
       "regular-price": {
-        "create": 164.01,
-        "renew": 251.53,
-        "restore": 66.19,
+        "create": 163.14,
+        "renew": 250.2,
+        "restore": 65.84,
         "trade": 0,
-        "transfer": 82.37,
+        "transfer": 81.94,
         "update": 0
       }
     },
@@ -20037,17 +20037,17 @@
     "net.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.07,
-        "renew": 13.07,
-        "restore": 11.88,
+        "create": 13.04,
+        "renew": 13.04,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 26.04,
-        "renew": 26.04,
-        "restore": 11.88,
+        "create": 25.99,
+        "renew": 25.99,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -20140,8 +20140,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -20400,15 +20400,15 @@
       "member-price": {
         "create": 4.79,
         "renew": 4.79,
-        "restore": 20.28,
+        "restore": 20.26,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
         "create": 7.05,
-        "renew": 13.47,
-        "restore": 20.28,
+        "renew": 13.45,
+        "restore": 20.26,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -20539,8 +20539,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -20641,19 +20641,19 @@
     "no": {
       "maxYears": 1,
       "member-price": {
-        "create": 29.61,
-        "renew": 29.61,
-        "restore": 43.86,
-        "trade": 21.16,
-        "transfer": 27.3,
+        "create": 29.53,
+        "renew": 29.53,
+        "restore": 43.75,
+        "trade": 21.11,
+        "transfer": 27.23,
         "update": 0
       },
       "regular-price": {
-        "create": 29.61,
-        "renew": 29.61,
-        "restore": 43.86,
-        "trade": 21.16,
-        "transfer": 27.3,
+        "create": 29.53,
+        "renew": 29.53,
+        "restore": 43.75,
+        "trade": 21.11,
+        "transfer": 27.23,
         "update": 0
       }
     },
@@ -20820,8 +20820,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -20877,8 +20877,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -20943,16 +20943,16 @@
     "nu": {
       "maxYears": 10,
       "member-price": {
-        "create": 18.43,
-        "renew": 14.22,
+        "create": 18.41,
+        "renew": 14.21,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 22.16,
-        "renew": 35.64,
+        "create": 22.14,
+        "renew": 35.61,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -21046,8 +21046,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -21057,17 +21057,17 @@
     "nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.07,
-        "renew": 13.07,
-        "restore": 11.88,
+        "create": 13.04,
+        "renew": 13.04,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 26.04,
-        "renew": 26.04,
-        "restore": 11.88,
+        "create": 25.99,
+        "renew": 25.99,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -21152,19 +21152,19 @@
     "okinawa": {
       "maxYears": 10,
       "member-price": {
-        "create": 12.23,
-        "renew": 12.23,
-        "restore": 33.41,
+        "create": 12.24,
+        "renew": 12.24,
+        "restore": 33.44,
         "trade": 0,
-        "transfer": 12.23,
+        "transfer": 12.24,
         "update": 0
       },
       "regular-price": {
-        "create": 13.56,
-        "renew": 13.56,
-        "restore": 33.41,
+        "create": 13.57,
+        "renew": 13.57,
+        "restore": 33.44,
         "trade": 0,
-        "transfer": 13.56,
+        "transfer": 13.57,
         "update": 0
       }
     },
@@ -21179,8 +21179,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -21236,8 +21236,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -21255,8 +21255,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -21274,8 +21274,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -21388,8 +21388,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -21407,8 +21407,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -21646,18 +21646,18 @@
     "org.au": {
       "maxYears": 5,
       "member-price": {
-        "create": 14.69,
-        "renew": 22.05,
-        "restore": 22.06,
-        "trade": 14.69,
+        "create": 14.62,
+        "renew": 21.93,
+        "restore": 21.95,
+        "trade": 14.62,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 14.69,
-        "renew": 22.05,
-        "restore": 22.06,
-        "trade": 14.69,
+        "create": 14.62,
+        "renew": 21.93,
+        "restore": 21.95,
+        "trade": 14.62,
         "transfer": 0,
         "update": 0
       }
@@ -21741,17 +21741,17 @@
     "org.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 74.55,
-        "renew": 74.55,
-        "restore": 12.09,
+        "create": 74.67,
+        "renew": 74.67,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 74.55,
-        "renew": 74.55,
-        "restore": 12.09,
+        "create": 74.67,
+        "renew": 74.67,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -21893,19 +21893,19 @@
     "org.gl": {
       "maxYears": 2,
       "member-price": {
-        "create": 89.32,
-        "renew": 89.32,
+        "create": 89.31,
+        "renew": 89.31,
         "restore": 103.67,
         "trade": 0,
-        "transfer": 89.32,
+        "transfer": 89.31,
         "update": 0
       },
       "regular-price": {
-        "create": 89.32,
-        "renew": 89.32,
+        "create": 89.31,
+        "renew": 89.31,
         "restore": 103.67,
         "trade": 0,
-        "transfer": 89.32,
+        "transfer": 89.31,
         "update": 0
       }
     },
@@ -21950,10 +21950,10 @@
     "org.hk": {
       "maxYears": 5,
       "member-price": {
-        "create": 14.09,
+        "create": 14.08,
         "renew": 20.11,
         "restore": 66.91,
-        "trade": 26.77,
+        "trade": 26.76,
         "transfer": 0,
         "update": 0
       },
@@ -21961,7 +21961,7 @@
         "create": 53.53,
         "renew": 53.53,
         "restore": 66.91,
-        "trade": 26.77,
+        "trade": 26.76,
         "transfer": 0,
         "update": 0
       }
@@ -22026,16 +22026,16 @@
     "org.im": {
       "maxYears": 10,
       "member-price": {
-        "create": 52.85,
-        "renew": 63.98,
+        "create": 53.01,
+        "renew": 64.18,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 52.85,
-        "renew": 63.98,
+        "create": 53.01,
+        "renew": 64.18,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -22047,17 +22047,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -22083,19 +22083,19 @@
     "org.ki": {
       "maxYears": 1,
       "member-price": {
-        "create": 251.53,
-        "renew": 251.53,
-        "restore": 66.19,
+        "create": 250.2,
+        "renew": 250.2,
+        "restore": 65.84,
         "trade": 0,
-        "transfer": 82.37,
+        "transfer": 81.94,
         "update": 0
       },
       "regular-price": {
-        "create": 251.53,
-        "renew": 251.53,
-        "restore": 66.19,
+        "create": 250.2,
+        "renew": 250.2,
+        "restore": 65.84,
         "trade": 0,
-        "transfer": 82.37,
+        "transfer": 81.94,
         "update": 0
       }
     },
@@ -22159,18 +22159,18 @@
     "org.lk": {
       "maxYears": 1,
       "member-price": {
-        "create": 47.57,
-        "renew": 47.57,
+        "create": 47.64,
+        "renew": 47.64,
         "restore": 0,
-        "trade": 47.57,
+        "trade": 47.64,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 47.57,
-        "renew": 47.57,
+        "create": 47.64,
+        "renew": 47.64,
         "restore": 0,
-        "trade": 47.57,
+        "trade": 47.64,
         "transfer": 0,
         "update": 0
       }
@@ -22368,17 +22368,17 @@
     "org.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.07,
-        "renew": 13.07,
-        "restore": 11.88,
+        "create": 13.04,
+        "renew": 13.04,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 26.04,
-        "renew": 26.04,
-        "restore": 11.88,
+        "create": 25.99,
+        "renew": 25.99,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -22471,8 +22471,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -22729,16 +22729,16 @@
     "org.uk": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.44,
-        "renew": 5.44,
+        "create": 5.45,
+        "renew": 5.45,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 18.57,
-        "renew": 18.57,
+        "create": 18.62,
+        "renew": 18.62,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -22826,15 +22826,15 @@
       "member-price": {
         "create": 4.79,
         "renew": 4.79,
-        "restore": 20.28,
+        "restore": 20.26,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
         "create": 7.05,
-        "renew": 13.47,
-        "restore": 20.28,
+        "renew": 13.45,
+        "restore": 20.26,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -22927,8 +22927,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -22946,8 +22946,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -22965,8 +22965,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -22984,8 +22984,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -23288,8 +23288,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -23472,17 +23472,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -23744,8 +23744,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -23820,8 +23820,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -23870,15 +23870,15 @@
       "maxYears": 10,
       "member-price": {
         "create": 4.07,
-        "renew": 13.66,
+        "renew": 13.64,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 12.7,
-        "renew": 32.45,
+        "create": 12.69,
+        "renew": 32.42,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24040,17 +24040,17 @@
     "poa.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -24067,8 +24067,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24086,8 +24086,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24124,8 +24124,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24143,8 +24143,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24162,8 +24162,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24213,17 +24213,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -24257,8 +24257,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24382,18 +24382,18 @@
     "priv.no": {
       "maxYears": 1,
       "member-price": {
-        "create": 39.47,
-        "renew": 39.47,
+        "create": 39.37,
+        "renew": 39.37,
         "restore": 0,
-        "trade": 39.47,
+        "trade": 39.37,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 39.47,
-        "renew": 39.47,
+        "create": 39.37,
+        "renew": 39.37,
         "restore": 0,
-        "trade": 39.47,
+        "trade": 39.37,
         "transfer": 0,
         "update": 0
       }
@@ -24409,8 +24409,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24460,17 +24460,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -24504,8 +24504,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24637,8 +24637,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24656,8 +24656,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -24827,8 +24827,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -25093,8 +25093,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -25150,8 +25150,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -25264,8 +25264,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -25332,17 +25332,17 @@
     "recife.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -25549,8 +25549,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -25562,7 +25562,7 @@
       "member-price": {
         "create": 9.95,
         "renew": 9.95,
-        "restore": 86.15,
+        "restore": 86.14,
         "trade": 0,
         "transfer": 9.95,
         "update": 0
@@ -25570,7 +25570,7 @@
       "regular-price": {
         "create": 39.91,
         "renew": 39.91,
-        "restore": 86.15,
+        "restore": 86.14,
         "trade": 0,
         "transfer": 39.91,
         "update": 0
@@ -25845,36 +25845,36 @@
     "rio": {
       "maxYears": 10,
       "member-price": {
-        "create": 10.51,
-        "renew": 10.51,
+        "create": 10.53,
+        "renew": 10.53,
         "restore": 0,
         "trade": 0,
-        "transfer": 10.51,
+        "transfer": 10.53,
         "update": 0
       },
       "regular-price": {
-        "create": 21.56,
-        "renew": 21.56,
+        "create": 21.6,
+        "renew": 21.6,
         "restore": 0,
         "trade": 0,
-        "transfer": 21.56,
+        "transfer": 21.6,
         "update": 0
       }
     },
     "rio.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -26130,19 +26130,19 @@
     "ru": {
       "maxYears": 1,
       "member-price": {
-        "create": 2.29,
-        "renew": 2.29,
+        "create": 2.31,
+        "renew": 2.31,
         "restore": 0,
         "trade": 0,
-        "transfer": 2.29,
+        "transfer": 2.31,
         "update": 0
       },
       "regular-price": {
-        "create": 2.81,
-        "renew": 6.03,
+        "create": 2.84,
+        "renew": 6.09,
         "restore": 0,
         "trade": 0,
-        "transfer": 2.81,
+        "transfer": 2.84,
         "update": 0
       }
     },
@@ -26233,8 +26233,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -26244,19 +26244,19 @@
     "ryukyu": {
       "maxYears": 10,
       "member-price": {
-        "create": 12.23,
-        "renew": 12.23,
-        "restore": 33.41,
+        "create": 12.24,
+        "renew": 12.24,
+        "restore": 33.44,
         "trade": 0,
-        "transfer": 6.35,
+        "transfer": 6.36,
         "update": 0
       },
       "regular-price": {
-        "create": 13.56,
-        "renew": 13.56,
-        "restore": 33.41,
+        "create": 13.57,
+        "renew": 13.57,
+        "restore": 33.44,
         "trade": 0,
-        "transfer": 13.56,
+        "transfer": 13.57,
         "update": 0
       }
     },
@@ -26271,8 +26271,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -26404,8 +26404,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -26529,19 +26529,19 @@
     "sb": {
       "maxYears": 1,
       "member-price": {
-        "create": 91.2,
-        "renew": 91.2,
-        "restore": 26.48,
+        "create": 90.72,
+        "renew": 90.72,
+        "restore": 26.34,
         "trade": 0,
-        "transfer": 36.77,
+        "transfer": 36.58,
         "update": 0
       },
       "regular-price": {
-        "create": 91.2,
-        "renew": 91.2,
-        "restore": 26.48,
+        "create": 90.72,
+        "renew": 90.72,
+        "restore": 26.34,
         "trade": 0,
-        "transfer": 36.77,
+        "transfer": 36.58,
         "update": 0
       }
     },
@@ -26681,17 +26681,17 @@
     "school.nz": {
       "maxYears": 10,
       "member-price": {
-        "create": 13.07,
-        "renew": 13.07,
-        "restore": 11.88,
+        "create": 13.04,
+        "renew": 13.04,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 26.04,
-        "renew": 26.04,
-        "restore": 11.88,
+        "create": 25.99,
+        "renew": 25.99,
+        "restore": 11.85,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -26776,16 +26776,16 @@
     "se": {
       "maxYears": 10,
       "member-price": {
-        "create": 18.43,
-        "renew": 14.22,
+        "create": 18.41,
+        "renew": 14.21,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 22.16,
-        "renew": 35.64,
+        "create": 22.14,
+        "renew": 35.61,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -26860,8 +26860,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -26955,8 +26955,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27107,8 +27107,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27327,17 +27327,17 @@
     "sjc.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -27411,8 +27411,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27430,8 +27430,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27449,8 +27449,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27468,8 +27468,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27696,8 +27696,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27715,8 +27715,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27924,8 +27924,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27943,8 +27943,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -27962,8 +27962,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28266,8 +28266,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28304,8 +28304,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28323,8 +28323,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28342,8 +28342,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28353,19 +28353,19 @@
     "swiss": {
       "maxYears": 10,
       "member-price": {
-        "create": 113.63,
-        "renew": 113.63,
-        "restore": 126.02,
+        "create": 113.43,
+        "renew": 113.43,
+        "restore": 125.79,
         "trade": 0,
-        "transfer": 113.63,
+        "transfer": 113.43,
         "update": 0
       },
       "regular-price": {
-        "create": 227.29,
-        "renew": 227.29,
-        "restore": 126.02,
+        "create": 226.88,
+        "renew": 226.88,
+        "restore": 125.79,
         "trade": 0,
-        "transfer": 227.29,
+        "transfer": 226.88,
         "update": 0
       }
     },
@@ -28410,19 +28410,19 @@
     "sydney": {
       "maxYears": 10,
       "member-price": {
-        "create": 37.02,
-        "renew": 37.02,
-        "restore": 80.9,
+        "create": 36.82,
+        "renew": 36.82,
+        "restore": 80.48,
         "trade": 0,
-        "transfer": 37.02,
+        "transfer": 36.82,
         "update": 0
       },
       "regular-price": {
-        "create": 73.55,
-        "renew": 73.55,
-        "restore": 80.9,
+        "create": 73.16,
+        "renew": 73.16,
+        "restore": 80.48,
         "trade": 0,
-        "transfer": 73.55,
+        "transfer": 73.16,
         "update": 0
       }
     },
@@ -28456,8 +28456,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28475,8 +28475,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28494,8 +28494,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28589,8 +28589,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28608,8 +28608,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -28619,19 +28619,19 @@
     "tatar": {
       "maxYears": 10,
       "member-price": {
-        "create": 4.63,
-        "renew": 4.63,
-        "restore": 11.8,
+        "create": 4.68,
+        "renew": 4.68,
+        "restore": 11.92,
         "trade": 0,
-        "transfer": 4.44,
+        "transfer": 4.48,
         "update": 0
       },
       "regular-price": {
-        "create": 10.48,
-        "renew": 10.48,
-        "restore": 11.8,
+        "create": 10.59,
+        "renew": 10.59,
+        "restore": 11.92,
         "trade": 0,
-        "transfer": 10.48,
+        "transfer": 10.59,
         "update": 0
       }
     },
@@ -28969,8 +28969,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -29151,19 +29151,19 @@
     "tl": {
       "maxYears": 5,
       "member-price": {
-        "create": 93.91,
-        "renew": 93.91,
-        "restore": 25.74,
+        "create": 93.41,
+        "renew": 93.41,
+        "restore": 25.61,
         "trade": 0,
-        "transfer": 38.16,
+        "transfer": 37.96,
         "update": 0
       },
       "regular-price": {
-        "create": 93.91,
-        "renew": 93.91,
-        "restore": 25.74,
+        "create": 93.41,
+        "renew": 93.41,
+        "restore": 25.61,
         "trade": 0,
-        "transfer": 38.16,
+        "transfer": 37.96,
         "update": 0
       }
     },
@@ -29235,8 +29235,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -29341,19 +29341,19 @@
     "tokyo": {
       "maxYears": 10,
       "member-price": {
-        "create": 12.23,
-        "renew": 12.23,
-        "restore": 33.41,
+        "create": 12.24,
+        "renew": 12.24,
+        "restore": 33.44,
         "trade": 0,
-        "transfer": 12.23,
+        "transfer": 12.24,
         "update": 0
       },
       "regular-price": {
-        "create": 20.05,
-        "renew": 20.05,
-        "restore": 33.41,
+        "create": 20.06,
+        "renew": 20.06,
+        "restore": 33.44,
         "trade": 0,
-        "transfer": 13.56,
+        "transfer": 13.57,
         "update": 0
       }
     },
@@ -29381,7 +29381,7 @@
       "member-price": {
         "create": 1.33,
         "renew": 4.31,
-        "restore": 93.98,
+        "restore": 93.97,
         "trade": 0,
         "transfer": 4.31,
         "update": 0
@@ -29389,7 +29389,7 @@
       "regular-price": {
         "create": 4.7,
         "renew": 12.84,
-        "restore": 93.98,
+        "restore": 93.97,
         "trade": 0,
         "transfer": 12.84,
         "update": 0
@@ -29463,8 +29463,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -29742,17 +29742,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -29767,8 +29767,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -30424,19 +30424,19 @@
     "tur.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
-        "transfer": 35.57,
+        "transfer": 35.63,
         "update": 0
       },
       "regular-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
-        "transfer": 35.57,
+        "transfer": 35.63,
         "update": 0
       }
     },
@@ -30470,8 +30470,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -30508,8 +30508,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 32.78,
-        "renew": 40.97,
+        "create": 32.75,
+        "renew": 40.93,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -30557,17 +30557,17 @@
     "tv.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -30578,17 +30578,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -30679,8 +30679,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -30785,16 +30785,16 @@
     "uk": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.44,
-        "renew": 5.44,
+        "create": 5.45,
+        "renew": 5.45,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 6.95,
-        "renew": 20.85,
+        "create": 6.98,
+        "renew": 20.91,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -30804,19 +30804,19 @@
     "uk.com": {
       "maxYears": 10,
       "member-price": {
-        "create": 24.34,
-        "renew": 24.34,
-        "restore": 76.5,
+        "create": 24.41,
+        "renew": 24.41,
+        "restore": 76.73,
         "trade": 0,
-        "transfer": 24.34,
+        "transfer": 24.41,
         "update": 0
       },
       "regular-price": {
-        "create": 47.14,
-        "renew": 47.14,
-        "restore": 76.5,
+        "create": 47.28,
+        "renew": 47.28,
+        "restore": 76.73,
         "trade": 0,
-        "transfer": 47.14,
+        "transfer": 47.28,
         "update": 0
       }
     },
@@ -30825,36 +30825,36 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
     "uk.net": {
       "maxYears": 10,
       "member-price": {
-        "create": 24.34,
-        "renew": 24.34,
-        "restore": 76.5,
+        "create": 24.41,
+        "renew": 24.41,
+        "restore": 76.73,
         "trade": 0,
-        "transfer": 24.34,
+        "transfer": 24.41,
         "update": 0
       },
       "regular-price": {
-        "create": 47.14,
-        "renew": 47.14,
-        "restore": 76.5,
+        "create": 47.28,
+        "renew": 47.28,
+        "restore": 76.73,
         "trade": 0,
-        "transfer": 47.14,
+        "transfer": 47.28,
         "update": 0
       }
     },
@@ -30958,17 +30958,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -31053,17 +31053,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -31097,8 +31097,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32039,17 +32039,17 @@
     "vix.br": {
       "maxYears": 1,
       "member-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
-        "create": 42.11,
-        "renew": 42.11,
-        "restore": 12.09,
+        "create": 42.18,
+        "renew": 42.18,
+        "restore": 12.11,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -32294,8 +32294,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32305,19 +32305,19 @@
     "wales": {
       "maxYears": 10,
       "member-price": {
-        "create": 10.65,
-        "renew": 10.65,
-        "restore": 17.39,
+        "create": 10.69,
+        "renew": 10.69,
+        "restore": 17.44,
         "trade": 0,
-        "transfer": 10.65,
+        "transfer": 10.69,
         "update": 0
       },
       "regular-price": {
-        "create": 26.43,
-        "renew": 26.43,
-        "restore": 17.39,
+        "create": 26.51,
+        "renew": 26.51,
+        "restore": 17.44,
         "trade": 0,
-        "transfer": 26.43,
+        "transfer": 26.51,
         "update": 0
       }
     },
@@ -32351,8 +32351,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32370,8 +32370,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32427,8 +32427,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32440,15 +32440,15 @@
       "member-price": {
         "create": 4.79,
         "renew": 4.79,
-        "restore": 20.28,
+        "restore": 20.26,
         "trade": 0,
         "transfer": 0,
         "update": 0
       },
       "regular-price": {
         "create": 7.05,
-        "renew": 13.47,
-        "restore": 20.28,
+        "renew": 13.45,
+        "restore": 20.26,
         "trade": 0,
         "transfer": 0,
         "update": 0
@@ -32522,8 +32522,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32579,8 +32579,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32674,8 +32674,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32693,8 +32693,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32712,8 +32712,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32731,8 +32731,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32807,8 +32807,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -32894,19 +32894,19 @@
     "xn--11b2bfp5fn6er.xn--h2brj9c8c": {
       "maxYears": 10,
       "member-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -32915,36 +32915,36 @@
       "member-price": {
         "create": 13.08,
         "renew": 13.08,
-        "restore": 172.3,
+        "restore": 172.27,
         "trade": 0,
         "transfer": 13.08,
         "update": 0
       },
       "regular-price": {
-        "create": 28.95,
-        "renew": 28.95,
-        "restore": 172.3,
+        "create": 28.94,
+        "renew": 28.94,
+        "restore": 172.27,
         "trade": 0,
-        "transfer": 28.95,
+        "transfer": 28.94,
         "update": 0
       }
     },
     "xn--2scrj9c": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.47,
-        "renew": 5.47,
-        "restore": 16.41,
+        "create": 5.48,
+        "renew": 5.48,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 5.47,
+        "transfer": 5.48,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -32989,57 +32989,57 @@
     "xn--3hcrj9c": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.47,
-        "renew": 5.47,
-        "restore": 16.41,
+        "create": 5.48,
+        "renew": 5.48,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 5.47,
+        "transfer": 5.48,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
     "xn--45br5cyl": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.47,
-        "renew": 5.47,
-        "restore": 16.41,
+        "create": 5.48,
+        "renew": 5.48,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 5.47,
+        "transfer": 5.48,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
     "xn--45brj9c": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.47,
-        "renew": 5.47,
-        "restore": 16.41,
+        "create": 5.48,
+        "renew": 5.48,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 5.47,
+        "transfer": 5.48,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -33048,7 +33048,7 @@
       "member-price": {
         "create": 200.2,
         "renew": 200.2,
-        "restore": 86.15,
+        "restore": 86.14,
         "trade": 0,
         "transfer": 200.2,
         "update": 0
@@ -33056,7 +33056,7 @@
       "regular-price": {
         "create": 400.36,
         "renew": 400.36,
-        "restore": 86.15,
+        "restore": 86.14,
         "trade": 0,
         "transfer": 400.36,
         "update": 0
@@ -33086,17 +33086,17 @@
       "member-price": {
         "create": 25.61,
         "renew": 25.61,
-        "restore": 172.3,
+        "restore": 172.27,
         "trade": 0,
         "transfer": 25.61,
         "update": 0
       },
       "regular-price": {
-        "create": 55.61,
-        "renew": 55.61,
-        "restore": 172.3,
+        "create": 55.6,
+        "renew": 55.6,
+        "restore": 172.27,
         "trade": 0,
-        "transfer": 55.61,
+        "transfer": 55.6,
         "update": 0
       }
     },
@@ -33350,19 +33350,19 @@
     "xn--czr694b": {
       "maxYears": 10,
       "member-price": {
-        "create": 595.46,
-        "renew": 595.46,
-        "restore": 101.81,
+        "create": 595.36,
+        "renew": 595.36,
+        "restore": 101.8,
         "trade": 0,
-        "transfer": 595.46,
+        "transfer": 595.36,
         "update": 0
       },
       "regular-price": {
-        "create": 1191.07,
-        "renew": 1191.07,
-        "restore": 101.81,
+        "create": 1190.87,
+        "renew": 1190.87,
+        "restore": 101.8,
         "trade": 0,
-        "transfer": 1191.07,
+        "transfer": 1190.87,
         "update": 0
       }
     },
@@ -33407,19 +33407,19 @@
     "xn--d1acj3b": {
       "maxYears": 10,
       "member-price": {
-        "create": 6.69,
-        "renew": 6.69,
-        "restore": 10.62,
+        "create": 6.75,
+        "renew": 6.75,
+        "restore": 10.73,
         "trade": 0,
-        "transfer": 6.49,
+        "transfer": 6.56,
         "update": 0
       },
       "regular-price": {
-        "create": 12.97,
-        "renew": 12.97,
-        "restore": 10.62,
+        "create": 13.1,
+        "renew": 13.1,
+        "restore": 10.73,
         "trade": 0,
-        "transfer": 12.97,
+        "transfer": 13.1,
         "update": 0
       }
     },
@@ -33447,17 +33447,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -33485,17 +33485,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -33597,19 +33597,19 @@
     "xn--fpcrj9c3d": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.47,
-        "renew": 5.47,
-        "restore": 16.41,
+        "create": 5.48,
+        "renew": 5.48,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 5.47,
+        "transfer": 5.48,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -33635,19 +33635,19 @@
     "xn--gecrj9c": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.47,
-        "renew": 5.47,
-        "restore": 16.41,
+        "create": 5.48,
+        "renew": 5.48,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 5.47,
+        "transfer": 5.48,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -33656,74 +33656,74 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
     "xn--h2breg3eve": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.47,
-        "renew": 5.47,
-        "restore": 16.41,
+        "create": 5.48,
+        "renew": 5.48,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 5.47,
+        "transfer": 5.48,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
     "xn--h2brj9c": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.47,
-        "renew": 5.47,
-        "restore": 16.41,
+        "create": 5.48,
+        "renew": 5.48,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 5.47,
+        "transfer": 5.48,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
     "xn--h2brj9c8c": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.47,
-        "renew": 5.47,
-        "restore": 16.41,
+        "create": 5.48,
+        "renew": 5.48,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 5.47,
+        "transfer": 5.48,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -33749,36 +33749,36 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
     "xn--hhbcm0s3h.xn--mgbgu82a": {
       "maxYears": 10,
       "member-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -33806,17 +33806,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -33842,19 +33842,19 @@
     "xn--imr513n": {
       "maxYears": 10,
       "member-price": {
-        "create": 94.22,
-        "renew": 94.22,
-        "restore": 187.96,
+        "create": 94.2,
+        "renew": 94.2,
+        "restore": 187.93,
         "trade": 0,
-        "transfer": 94.22,
+        "transfer": 94.2,
         "update": 0
       },
       "regular-price": {
-        "create": 187.96,
-        "renew": 187.96,
-        "restore": 187.96,
+        "create": 187.93,
+        "renew": 187.93,
+        "restore": 187.93,
         "trade": 0,
-        "transfer": 187.96,
+        "transfer": 187.93,
         "update": 0
       }
     },
@@ -33863,17 +33863,17 @@
       "member-price": {
         "create": 25.61,
         "renew": 25.61,
-        "restore": 172.3,
+        "restore": 172.27,
         "trade": 0,
         "transfer": 25.61,
         "update": 0
       },
       "regular-price": {
-        "create": 55.61,
-        "renew": 55.61,
-        "restore": 172.3,
+        "create": 55.6,
+        "renew": 55.6,
+        "restore": 172.27,
         "trade": 0,
-        "transfer": 55.61,
+        "transfer": 55.6,
         "update": 0
       }
     },
@@ -33956,38 +33956,38 @@
     "xn--mgbbh1a": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.47,
-        "renew": 5.47,
-        "restore": 16.41,
+        "create": 5.48,
+        "renew": 5.48,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 5.47,
+        "transfer": 5.48,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
     "xn--mgbbh1a71e": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.47,
-        "renew": 5.47,
-        "restore": 16.41,
+        "create": 5.48,
+        "renew": 5.48,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 5.47,
+        "transfer": 5.48,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -34013,19 +34013,19 @@
     "xn--mgbgu82a": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.47,
-        "renew": 5.47,
-        "restore": 16.41,
+        "create": 5.48,
+        "renew": 5.48,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 5.47,
+        "transfer": 5.48,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -34146,19 +34146,19 @@
     "xn--p1ai": {
       "maxYears": 1,
       "member-price": {
-        "create": 2.29,
-        "renew": 2.29,
+        "create": 2.31,
+        "renew": 2.31,
         "restore": 0,
         "trade": 0,
-        "transfer": 2.29,
+        "transfer": 2.31,
         "update": 0
       },
       "regular-price": {
-        "create": 2.81,
-        "renew": 6.03,
+        "create": 2.84,
+        "renew": 6.09,
         "restore": 0,
         "trade": 0,
-        "transfer": 2.81,
+        "transfer": 2.84,
         "update": 0
       }
     },
@@ -34167,36 +34167,36 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
     "xn--p5b2bfp5fn6er.xn--45br5cyl": {
       "maxYears": 10,
       "member-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -34205,17 +34205,17 @@
       "member-price": {
         "create": 5.55,
         "renew": 5.55,
-        "restore": 36.76,
+        "restore": 36.78,
         "trade": 0,
         "transfer": 5.55,
         "update": 0
       },
       "regular-price": {
-        "create": 15.37,
-        "renew": 15.37,
-        "restore": 36.76,
+        "create": 15.38,
+        "renew": 15.38,
+        "restore": 36.78,
         "trade": 0,
-        "transfer": 15.37,
+        "transfer": 15.38,
         "update": 0
       }
     },
@@ -34279,38 +34279,38 @@
     "xn--rvc1e0am3e": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.47,
-        "renew": 5.47,
-        "restore": 16.41,
+        "create": 5.48,
+        "renew": 5.48,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 5.47,
+        "transfer": 5.48,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
     "xn--s9brj9c": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.47,
-        "renew": 5.47,
-        "restore": 16.41,
+        "create": 5.48,
+        "renew": 5.48,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 5.47,
+        "transfer": 5.48,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -34336,19 +34336,19 @@
     "xn--ses554g": {
       "maxYears": 10,
       "member-price": {
-        "create": 175.98,
-        "renew": 175.75,
-        "restore": 187.96,
+        "create": 175.95,
+        "renew": 175.72,
+        "restore": 187.93,
         "trade": 0,
-        "transfer": 175.98,
+        "transfer": 175.95,
         "update": 0
       },
       "regular-price": {
-        "create": 351.49,
-        "renew": 351.49,
-        "restore": 187.96,
+        "create": 351.43,
+        "renew": 351.43,
+        "restore": 187.93,
         "trade": 0,
-        "transfer": 351.49,
+        "transfer": 351.43,
         "update": 0
       }
     },
@@ -34661,17 +34661,17 @@
       "member-price": {
         "create": 4.38,
         "renew": 4.38,
-        "restore": 16.41,
+        "restore": 16.43,
         "trade": 0,
         "transfer": 4.38,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -34699,36 +34699,36 @@
       "member-price": {
         "create": 13.08,
         "renew": 13.08,
-        "restore": 172.3,
+        "restore": 172.27,
         "trade": 0,
         "transfer": 13.08,
         "update": 0
       },
       "regular-price": {
-        "create": 28.95,
-        "renew": 28.95,
-        "restore": 172.3,
+        "create": 28.94,
+        "renew": 28.94,
+        "restore": 172.27,
         "trade": 0,
-        "transfer": 28.95,
+        "transfer": 28.94,
         "update": 0
       }
     },
     "xn--xkc2dl3a5ee0h": {
       "maxYears": 10,
       "member-price": {
-        "create": 5.47,
-        "renew": 5.47,
-        "restore": 16.41,
+        "create": 5.48,
+        "renew": 5.48,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 5.47,
+        "transfer": 5.48,
         "update": 0
       },
       "regular-price": {
-        "create": 7.65,
-        "renew": 10.93,
-        "restore": 16.41,
+        "create": 7.66,
+        "renew": 10.95,
+        "restore": 16.43,
         "trade": 0,
-        "transfer": 7.65,
+        "transfer": 7.66,
         "update": 0
       }
     },
@@ -34849,19 +34849,19 @@
     "yokohama": {
       "maxYears": 10,
       "member-price": {
-        "create": 12.23,
-        "renew": 12.23,
-        "restore": 33.41,
+        "create": 12.24,
+        "renew": 12.24,
+        "restore": 33.44,
         "trade": 0,
-        "transfer": 12.23,
+        "transfer": 12.24,
         "update": 0
       },
       "regular-price": {
-        "create": 20.05,
-        "renew": 20.05,
-        "restore": 33.41,
+        "create": 20.06,
+        "renew": 20.06,
+        "restore": 33.44,
         "trade": 0,
-        "transfer": 13.56,
+        "transfer": 13.57,
         "update": 0
       }
     },
@@ -34933,8 +34933,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -34952,8 +34952,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -34971,8 +34971,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -34990,8 +34990,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -35009,8 +35009,8 @@
         "update": 0
       },
       "regular-price": {
-        "create": 13.66,
-        "renew": 32.78,
+        "create": 13.64,
+        "renew": 32.75,
         "restore": 0,
         "trade": 0,
         "transfer": 0,
@@ -35096,19 +35096,19 @@
     "zuerich": {
       "maxYears": 10,
       "member-price": {
-        "create": 75.8,
-        "renew": 75.8,
-        "restore": 258.34,
+        "create": 75.67,
+        "renew": 75.67,
+        "restore": 257.88,
         "trade": 0,
-        "transfer": 75.8,
+        "transfer": 75.67,
         "update": 0
       },
       "regular-price": {
-        "create": 90.73,
-        "renew": 90.73,
-        "restore": 258.34,
+        "create": 90.57,
+        "renew": 90.57,
+        "restore": 257.88,
         "trade": 0,
-        "transfer": 90.73,
+        "transfer": 90.57,
         "update": 0
       }
     }
