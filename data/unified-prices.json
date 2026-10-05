@@ -7836,18 +7836,6 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 119.04,
-      "renew": 176.79,
-      "restore": 0,
-      "trade": 0,
-      "transfer": 53.04,
-      "update": 0
-    },
-    "tld": "gov.ng"
-  },
-  {
-    "provider": "openprovider",
-    "regular-price": {
       "create": 145,
       "renew": 145,
       "restore": 50,
@@ -11473,24 +11461,6 @@
       "update": 0
     },
     "tld": "mobi.ke"
-  },
-  {
-    "currencies": {
-      "NGN": {
-        "regular-price": {
-          "create": 6000,
-          "renew": 6000,
-          "transfer": 6000
-        }
-      }
-    },
-    "provider": "nira",
-    "regular-price": {
-      "create": 4.51,
-      "renew": 4.51,
-      "transfer": 4.51
-    },
-    "tld": "mobi.ng"
   },
   {
     "provider": "openprovider",

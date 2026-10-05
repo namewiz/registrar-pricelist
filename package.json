@@ -18,7 +18,12 @@
     "./generators": "./src/generators/index.js",
     "./data/namecheap.json": "./data/namecheap-prices.json",
     "./data/nira.json": "./data/nira-prices.json",
-    "./data/openprovider.json": "./data/openprovider-prices.json"
+    "./data/openprovider.json": "./data/openprovider-prices.json",
+    "./data/unified.json": "./data/unified-prices.json",
+    "./data/abridged.json": "./data/abridged-prices.json",
+    "./data/extensions.json": "./data/extensions.json",
+    "./data/abridged-extensions.json": "./data/abridged-extensions.json",
+    "./extensions": "./src/extensions.js"
   },
   "homepage": "https://github.com/namewiz/registrar-pricelist",
   "repository": {

@@ -4,6 +4,7 @@ import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { getRegistrarGenerator, listRegistrarIds, generateUnifiedList, generateCheapestOpRows, rowsToCsv, generateCatalogRows, catalogRowsToCsv } from './generators/index.js';
 import exchangeRatesGenerator from './generators/exchange-rates.js';
+import { filterResultsByTld, generateExtensionList, isAbridgedTld, isExcludedTld } from './extensions.js';
 
 function printHelp() {
   console.log(`Usage: npx registrar-pricelist [options]\n\n` +
@@ -12,13 +13,14 @@ function printHelp() {
     `  --outDir=<path>       Directory where JSON files will be written (default: ./data)\n` +
     `  --unified             Also write combined TLD unified list\n` +
     `  --unifiedOut=<file>   Filename for unified list (default: unified-prices.json)\n` +
+    `  --fromData            Skip fetching; rebuild unified outputs from existing JSON in --outDir\n` +
     `  --list                Print available registrar ids\n` +
     `  --verbose             Enable verbose logging\n` +
     `  -h, --help            Show this message\n`);
 }
 
 function parseArgs(argv) {
-  const args = { registrars: null, outDir: './data', unified: false, unifiedOut: 'unified-prices.json', verbose: false, list: false };
+  const args = { registrars: null, outDir: './data', unified: false, unifiedOut: 'unified-prices.json', verbose: false, list: false, fromData: false };
   let deprecatedMasterFlag = false;
   for (const raw of argv.slice(2)) {
     if (raw === '--help' || raw === '-h') {
@@ -43,6 +45,10 @@ function parseArgs(argv) {
     }
     if (raw === '--unified') {
       args.unified = true;
+      continue;
+    }
+    if (raw === '--fromData') {
+      args.fromData = true;
       continue;
     }
     if (raw.startsWith('--unifiedOut=')) {
@@ -113,54 +119,66 @@ async function run() {
     console.warn('[deprecation] --master/--masterOut are deprecated. Use --unified/--unifiedOut instead.');
   }
 
-  // Always generate exchange rates first
-  console.log(`Generating ${exchangeRatesGenerator.label}...`);
-  const exchangeRates = await exchangeRatesGenerator.generate({ env: process.env, logger: verboseLogger });
-  const exchangeOutPath = path.join(outDir, exchangeRatesGenerator.defaultOutput || `${exchangeRatesGenerator.id}.json`);
-  await fs.writeFile(exchangeOutPath, JSON.stringify(exchangeRates, null, 2));
-  console.log(`  ✔ Saved ${exchangeRatesGenerator.label} to ${path.relative(process.cwd(), exchangeOutPath)}`);
-
   const resultsById = {};
 
-  for (const generator of generators) {
-    console.log(`Generating ${generator.label} price list...`);
-    const result = await generator.generate({ env: process.env, logger: verboseLogger });
-    const outPath = path.join(outDir, generator.defaultOutput || `${generator.id}-prices.json`);
-    await fs.writeFile(outPath, JSON.stringify(result, null, 2));
-    console.log(`  ✔ Saved ${generator.label} prices to ${path.relative(process.cwd(), outPath)}`);
-    resultsById[generator.id] = result;
+  if (args.fromData) {
+    for (const generator of generators) {
+      const inPath = path.join(outDir, generator.defaultOutput || `${generator.id}-prices.json`);
+      console.log(`Loading ${generator.label} prices from ${path.relative(process.cwd(), inPath)}...`);
+      resultsById[generator.id] = JSON.parse(await fs.readFile(inPath, 'utf8'));
+    }
+  } else {
+    // Always generate exchange rates first
+    console.log(`Generating ${exchangeRatesGenerator.label}...`);
+    const exchangeRates = await exchangeRatesGenerator.generate({ env: process.env, logger: verboseLogger });
+    const exchangeOutPath = path.join(outDir, exchangeRatesGenerator.defaultOutput || `${exchangeRatesGenerator.id}.json`);
+    await fs.writeFile(exchangeOutPath, JSON.stringify(exchangeRates, null, 2));
+    console.log(`  ✔ Saved ${exchangeRatesGenerator.label} to ${path.relative(process.cwd(), exchangeOutPath)}`);
+
+    for (const generator of generators) {
+      console.log(`Generating ${generator.label} price list...`);
+      const result = await generator.generate({ env: process.env, logger: verboseLogger });
+      const outPath = path.join(outDir, generator.defaultOutput || `${generator.id}-prices.json`);
+      await fs.writeFile(outPath, JSON.stringify(result, null, 2));
+      console.log(`  ✔ Saved ${generator.label} prices to ${path.relative(process.cwd(), outPath)}`);
+      resultsById[generator.id] = result;
+    }
   }
 
   if (args.unified) {
+    const writeOut = async (filename, contents, label) => {
+      const outPath = path.join(outDir, filename);
+      await fs.writeFile(outPath, contents);
+      console.log(`  ✔ Saved ${label} to ${path.relative(process.cwd(), outPath)}`);
+    };
+
+    // Excluded extensions are dropped from every published unified output.
+    const supportedResults = filterResultsByTld(resultsById, (tld) => !isExcludedTld(tld));
+    const abridgedResults = filterResultsByTld(supportedResults, isAbridgedTld);
+
     console.log('Building unified TLD list...');
-    const unified = generateUnifiedList(resultsById, { providers: normalizedIds });
-    const unifiedPath = path.join(outDir, args.unifiedOut || 'unified-prices.json');
-    await fs.writeFile(unifiedPath, JSON.stringify(unified, null, 2));
-    console.log(`  ✔ Saved unified list to ${path.relative(process.cwd(), unifiedPath)}`);
+    const unified = generateUnifiedList(supportedResults, { providers: normalizedIds });
+    await writeOut(args.unifiedOut || 'unified-prices.json', JSON.stringify(unified, null, 2), 'unified list');
 
     console.log('Building unified CSVs (create, renew, transfer)...');
-    const createRows = generateCheapestOpRows(resultsById, 'create', normalizedIds);
-    const renewRows = generateCheapestOpRows(resultsById, 'renew', normalizedIds);
-    const transferRows = generateCheapestOpRows(resultsById, 'transfer', normalizedIds);
-    const createCsv = rowsToCsv(createRows);
-    const renewCsv = rowsToCsv(renewRows);
-    const transferCsv = rowsToCsv(transferRows);
-    const createPath = path.join(outDir, 'unified-create-prices.csv');
-    const renewPath = path.join(outDir, 'unified-renew-prices.csv');
-    const transferPath = path.join(outDir, 'unified-transfer-prices.csv');
-    await fs.writeFile(createPath, createCsv);
-    await fs.writeFile(renewPath, renewCsv);
-    await fs.writeFile(transferPath, transferCsv);
-    console.log(`  ✔ Saved unified create CSV to ${path.relative(process.cwd(), createPath)}`);
-    console.log(`  ✔ Saved unified renew CSV to ${path.relative(process.cwd(), renewPath)}`);
-    console.log(`  ✔ Saved unified transfer CSV to ${path.relative(process.cwd(), transferPath)}`);
+    for (const op of ['create', 'renew', 'transfer']) {
+      const rows = generateCheapestOpRows(supportedResults, op, normalizedIds);
+      await writeOut(`unified-${op}-prices.csv`, rowsToCsv(rows), `unified ${op} CSV`);
+    }
 
     console.log('Building unified catalog CSV (price-quotes format)...');
-    const catalogRows = generateCatalogRows(resultsById, normalizedIds);
-    const catalogCsv = catalogRowsToCsv(catalogRows);
-    const catalogPath = path.join(outDir, 'unified-catalog.csv');
-    await fs.writeFile(catalogPath, catalogCsv);
-    console.log(`  ✔ Saved unified catalog CSV to ${path.relative(process.cwd(), catalogPath)}`);
+    const catalogRows = generateCatalogRows(supportedResults, normalizedIds);
+    await writeOut('unified-catalog.csv', catalogRowsToCsv(catalogRows), 'unified catalog CSV');
+
+    console.log('Building abridged list (.ng + top 100 global extensions)...');
+    const abridged = generateUnifiedList(abridgedResults, { providers: normalizedIds });
+    await writeOut('abridged-prices.json', JSON.stringify(abridged, null, 2), 'abridged list');
+    const abridgedCatalogRows = generateCatalogRows(abridgedResults, normalizedIds);
+    await writeOut('abridged-catalog.csv', catalogRowsToCsv(abridgedCatalogRows), 'abridged catalog CSV');
+
+    console.log('Building extension metadata lists...');
+    await writeOut('extensions.json', JSON.stringify(generateExtensionList(unified), null, 2), 'extension list');
+    await writeOut('abridged-extensions.json', JSON.stringify(generateExtensionList(abridged), null, 2), 'abridged extension list');
   }
 }
 

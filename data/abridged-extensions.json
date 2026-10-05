@@ -1,0 +1,582 @@
+[
+  {
+    "tld": "academy",
+    "type": "generic",
+    "description": "For schools, courses and training programmes."
+  },
+  {
+    "tld": "africa",
+    "type": "generic",
+    "description": "The pan-African domain for brands and communities across Africa."
+  },
+  {
+    "tld": "agency",
+    "type": "generic",
+    "description": "For agencies of every kind."
+  },
+  {
+    "tld": "ai",
+    "type": "country-code",
+    "country": "AI",
+    "description": "Anguilla's domain, popular with artificial intelligence companies."
+  },
+  {
+    "tld": "app",
+    "type": "generic",
+    "description": "For apps and app developers (HTTPS required)."
+  },
+  {
+    "tld": "art",
+    "type": "generic",
+    "description": "For artists, galleries and the creative community."
+  },
+  {
+    "tld": "at",
+    "type": "country-code",
+    "country": "AT",
+    "description": "Austria's country-code domain."
+  },
+  {
+    "tld": "au",
+    "type": "country-code",
+    "country": "AU",
+    "description": "Australia's short country-code domain (Australian presence required)."
+  },
+  {
+    "tld": "be",
+    "type": "country-code",
+    "country": "BE",
+    "description": "Belgium's country-code domain."
+  },
+  {
+    "tld": "best",
+    "type": "generic",
+    "description": "For standout products, reviews and recommendations."
+  },
+  {
+    "tld": "biz",
+    "type": "generic",
+    "description": "For businesses and commercial ventures."
+  },
+  {
+    "tld": "blog",
+    "type": "generic",
+    "description": "For blogs and bloggers."
+  },
+  {
+    "tld": "business",
+    "type": "generic",
+    "description": "For businesses of every size."
+  },
+  {
+    "tld": "ca",
+    "type": "country-code",
+    "country": "CA",
+    "description": "Canada's country-code domain (Canadian presence required)."
+  },
+  {
+    "tld": "capital",
+    "type": "generic",
+    "description": "For investment firms and capital markets."
+  },
+  {
+    "tld": "cc",
+    "type": "country-code",
+    "country": "CC",
+    "description": "Cocos (Keeling) Islands' domain, used as a general-purpose alternative."
+  },
+  {
+    "tld": "ch",
+    "type": "country-code",
+    "country": "CH",
+    "description": "Switzerland's country-code domain."
+  },
+  {
+    "tld": "chat",
+    "type": "generic",
+    "description": "For messaging, chat apps and communities."
+  },
+  {
+    "tld": "click",
+    "type": "generic",
+    "description": "For marketing campaigns and calls to action."
+  },
+  {
+    "tld": "cloud",
+    "type": "generic",
+    "description": "For cloud services, hosting and SaaS."
+  },
+  {
+    "tld": "club",
+    "type": "generic",
+    "description": "For clubs, communities and fan groups."
+  },
+  {
+    "tld": "co",
+    "type": "country-code",
+    "country": "CO",
+    "description": "Colombia's domain, popular worldwide as a short alternative to .com."
+  },
+  {
+    "tld": "co.ke",
+    "type": "second-level",
+    "country": "KE",
+    "description": "Kenya's commercial domain."
+  },
+  {
+    "tld": "co.uk",
+    "type": "second-level",
+    "country": "GB",
+    "description": "The United Kingdom's commercial domain."
+  },
+  {
+    "tld": "co.za",
+    "type": "second-level",
+    "country": "ZA",
+    "description": "South Africa's commercial domain."
+  },
+  {
+    "tld": "com",
+    "type": "generic",
+    "description": "The most popular domain worldwide, for any commercial or personal site."
+  },
+  {
+    "tld": "com.au",
+    "type": "second-level",
+    "country": "AU",
+    "description": "Australia's commercial domain (Australian presence required)."
+  },
+  {
+    "tld": "com.ng",
+    "type": "second-level",
+    "country": "NG",
+    "description": "Nigerian commercial domain, for businesses and brands."
+  },
+  {
+    "tld": "company",
+    "type": "generic",
+    "description": "For companies and corporations."
+  },
+  {
+    "tld": "consulting",
+    "type": "generic",
+    "description": "For consultants and advisory firms."
+  },
+  {
+    "tld": "de",
+    "type": "country-code",
+    "country": "DE",
+    "description": "Germany's country-code domain."
+  },
+  {
+    "tld": "design",
+    "type": "generic",
+    "description": "For designers, studios and creative work."
+  },
+  {
+    "tld": "dev",
+    "type": "generic",
+    "description": "For developers and technical projects (HTTPS required)."
+  },
+  {
+    "tld": "digital",
+    "type": "generic",
+    "description": "For digital agencies, products and services."
+  },
+  {
+    "tld": "edu.ng",
+    "type": "second-level",
+    "country": "NG",
+    "description": "Nigerian domain for tertiary institutions (restricted)."
+  },
+  {
+    "tld": "education",
+    "type": "generic",
+    "description": "For schools, educators and learning resources."
+  },
+  {
+    "tld": "email",
+    "type": "generic",
+    "description": "For email services and memorable email addresses."
+  },
+  {
+    "tld": "es",
+    "type": "country-code",
+    "country": "ES",
+    "description": "Spain's country-code domain."
+  },
+  {
+    "tld": "eu",
+    "type": "country-code",
+    "country": "EU",
+    "description": "The European Union's domain, for EU residents and organisations."
+  },
+  {
+    "tld": "events",
+    "type": "generic",
+    "description": "For event planners, venues and ticketing."
+  },
+  {
+    "tld": "finance",
+    "type": "generic",
+    "description": "For financial services and advisors."
+  },
+  {
+    "tld": "fm",
+    "type": "country-code",
+    "country": "FM",
+    "description": "Micronesia's domain, popular with radio and podcasts."
+  },
+  {
+    "tld": "fr",
+    "type": "country-code",
+    "country": "FR",
+    "description": "France's country-code domain."
+  },
+  {
+    "tld": "fun",
+    "type": "generic",
+    "description": "For entertainment, games and leisure."
+  },
+  {
+    "tld": "games",
+    "type": "generic",
+    "description": "For gamers, game studios and gaming communities."
+  },
+  {
+    "tld": "gg",
+    "type": "country-code",
+    "country": "GG",
+    "description": "Guernsey's domain, popular with gaming communities."
+  },
+  {
+    "tld": "global",
+    "type": "generic",
+    "description": "For organisations with a worldwide audience."
+  },
+  {
+    "tld": "group",
+    "type": "generic",
+    "description": "For groups, collectives and holding companies."
+  },
+  {
+    "tld": "guru",
+    "type": "generic",
+    "description": "For experts, coaches and specialists."
+  },
+  {
+    "tld": "host",
+    "type": "generic",
+    "description": "For hosting providers and infrastructure services."
+  },
+  {
+    "tld": "i.ng",
+    "type": "second-level",
+    "country": "NG",
+    "description": "Short Nigerian domain for personal and creative use."
+  },
+  {
+    "tld": "in",
+    "type": "country-code",
+    "country": "IN",
+    "description": "India's country-code domain."
+  },
+  {
+    "tld": "info",
+    "type": "generic",
+    "description": "For informational and resource sites."
+  },
+  {
+    "tld": "io",
+    "type": "country-code",
+    "country": "IO",
+    "description": "British Indian Ocean Territory's domain, widely used by tech startups."
+  },
+  {
+    "tld": "it",
+    "type": "country-code",
+    "country": "IT",
+    "description": "Italy's country-code domain."
+  },
+  {
+    "tld": "ke",
+    "type": "country-code",
+    "country": "KE",
+    "description": "Kenya's country-code domain."
+  },
+  {
+    "tld": "la",
+    "type": "country-code",
+    "country": "LA",
+    "description": "Laos' domain, popular with Los Angeles brands."
+  },
+  {
+    "tld": "life",
+    "type": "generic",
+    "description": "For lifestyle, personal and wellbeing sites."
+  },
+  {
+    "tld": "link",
+    "type": "generic",
+    "description": "A short domain for links, landing pages and redirects."
+  },
+  {
+    "tld": "live",
+    "type": "generic",
+    "description": "For live events, streaming and entertainment."
+  },
+  {
+    "tld": "love",
+    "type": "generic",
+    "description": "For romance, passions and things people love."
+  },
+  {
+    "tld": "marketing",
+    "type": "generic",
+    "description": "For marketers and marketing agencies."
+  },
+  {
+    "tld": "me",
+    "type": "country-code",
+    "country": "ME",
+    "description": "Montenegro's domain, popular for personal sites and brands."
+  },
+  {
+    "tld": "media",
+    "type": "generic",
+    "description": "For media companies and content creators."
+  },
+  {
+    "tld": "mobi",
+    "type": "generic",
+    "description": "For mobile-focused sites and services."
+  },
+  {
+    "tld": "money",
+    "type": "generic",
+    "description": "For fintech, payments and personal finance."
+  },
+  {
+    "tld": "music",
+    "type": "generic",
+    "description": "For musicians, labels and music lovers."
+  },
+  {
+    "tld": "mx",
+    "type": "country-code",
+    "country": "MX",
+    "description": "Mexico's country-code domain."
+  },
+  {
+    "tld": "name",
+    "type": "generic",
+    "description": "For individuals and personal names."
+  },
+  {
+    "tld": "name.ng",
+    "type": "second-level",
+    "country": "NG",
+    "description": "Nigerian domain for individuals and personal names."
+  },
+  {
+    "tld": "net",
+    "type": "generic",
+    "description": "Originally for networks; now a general-purpose alternative to .com."
+  },
+  {
+    "tld": "net.ng",
+    "type": "second-level",
+    "country": "NG",
+    "description": "Nigerian domain for network and internet service providers."
+  },
+  {
+    "tld": "network",
+    "type": "generic",
+    "description": "For networks, communities and IT services."
+  },
+  {
+    "tld": "news",
+    "type": "generic",
+    "description": "For news outlets, journalists and publishers."
+  },
+  {
+    "tld": "ng",
+    "type": "country-code",
+    "country": "NG",
+    "description": "Nigeria's country-code domain, open to everyone."
+  },
+  {
+    "tld": "nl",
+    "type": "country-code",
+    "country": "NL",
+    "description": "The Netherlands' country-code domain."
+  },
+  {
+    "tld": "one",
+    "type": "generic",
+    "description": "A short, versatile domain for any brand."
+  },
+  {
+    "tld": "online",
+    "type": "generic",
+    "description": "For any business or individual with an online presence."
+  },
+  {
+    "tld": "org",
+    "type": "generic",
+    "description": "For non-profits, communities and open-source projects."
+  },
+  {
+    "tld": "org.ng",
+    "type": "second-level",
+    "country": "NG",
+    "description": "Nigerian domain for non-profits and organisations."
+  },
+  {
+    "tld": "page",
+    "type": "generic",
+    "description": "For simple sites and landing pages (HTTPS required)."
+  },
+  {
+    "tld": "photography",
+    "type": "generic",
+    "description": "For photographers and photo studios."
+  },
+  {
+    "tld": "pl",
+    "type": "country-code",
+    "country": "PL",
+    "description": "Poland's country-code domain."
+  },
+  {
+    "tld": "pro",
+    "type": "generic",
+    "description": "For professionals and their services."
+  },
+  {
+    "tld": "sch.ng",
+    "type": "second-level",
+    "country": "NG",
+    "description": "Nigerian domain for primary and secondary schools (restricted)."
+  },
+  {
+    "tld": "se",
+    "type": "country-code",
+    "country": "SE",
+    "description": "Sweden's country-code domain."
+  },
+  {
+    "tld": "services",
+    "type": "generic",
+    "description": "For service businesses."
+  },
+  {
+    "tld": "shop",
+    "type": "generic",
+    "description": "For e-commerce and shops of any size."
+  },
+  {
+    "tld": "site",
+    "type": "generic",
+    "description": "A short, general-purpose domain for any website."
+  },
+  {
+    "tld": "social",
+    "type": "generic",
+    "description": "For social networks, communities and influencers."
+  },
+  {
+    "tld": "solutions",
+    "type": "generic",
+    "description": "For solution providers and consultancies."
+  },
+  {
+    "tld": "space",
+    "type": "generic",
+    "description": "For creative spaces, portfolios and projects."
+  },
+  {
+    "tld": "store",
+    "type": "generic",
+    "description": "For online stores and retail brands."
+  },
+  {
+    "tld": "studio",
+    "type": "generic",
+    "description": "For studios, producers and creatives."
+  },
+  {
+    "tld": "team",
+    "type": "generic",
+    "description": "For teams, sports clubs and collaborators."
+  },
+  {
+    "tld": "tech",
+    "type": "generic",
+    "description": "For technology companies, startups and products."
+  },
+  {
+    "tld": "today",
+    "type": "generic",
+    "description": "For news, daily content and timely updates."
+  },
+  {
+    "tld": "top",
+    "type": "generic",
+    "description": "A short, general-purpose domain signalling quality."
+  },
+  {
+    "tld": "travel",
+    "type": "generic",
+    "description": "For travel agencies, airlines and tourism."
+  },
+  {
+    "tld": "tv",
+    "type": "country-code",
+    "country": "TV",
+    "description": "Tuvalu's domain, popular for video, streaming and media."
+  },
+  {
+    "tld": "uk",
+    "type": "country-code",
+    "country": "GB",
+    "description": "The United Kingdom's short country-code domain."
+  },
+  {
+    "tld": "us",
+    "type": "country-code",
+    "country": "US",
+    "description": "The United States' country-code domain."
+  },
+  {
+    "tld": "vip",
+    "type": "generic",
+    "description": "For exclusive brands, events and services."
+  },
+  {
+    "tld": "website",
+    "type": "generic",
+    "description": "A descriptive domain for any website."
+  },
+  {
+    "tld": "works",
+    "type": "generic",
+    "description": "For portfolios, workshops and production houses."
+  },
+  {
+    "tld": "world",
+    "type": "generic",
+    "description": "For global brands and international projects."
+  },
+  {
+    "tld": "ws",
+    "type": "country-code",
+    "country": "WS",
+    "description": "Samoa's domain, often read as \"website\"."
+  },
+  {
+    "tld": "xyz",
+    "type": "generic",
+    "description": "A flexible, generation-neutral domain for any project."
+  }
+]
