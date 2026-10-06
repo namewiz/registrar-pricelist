@@ -4,7 +4,7 @@ import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { getRegistrarGenerator, listRegistrarIds, generateUnifiedList, generateCheapestOpRows, rowsToCsv, generateCatalogRows, catalogRowsToCsv } from './generators/index.js';
 import exchangeRatesGenerator from './generators/exchange-rates.js';
-import { filterResultsByTld, generateExtensionList, isAbridgedTld, isExcludedTld } from './extensions.js';
+import { extensionsToCsv, filterResultsByTld, generateExtensionList, isAbridgedTld, isExcludedTld } from './extensions.js';
 
 function printHelp() {
   console.log(`Usage: npx registrar-pricelist [options]\n\n` +
@@ -176,9 +176,8 @@ async function run() {
     const abridgedCatalogRows = generateCatalogRows(abridgedResults, normalizedIds);
     await writeOut('abridged-catalog.csv', catalogRowsToCsv(abridgedCatalogRows), 'abridged catalog CSV');
 
-    console.log('Building extension metadata lists...');
-    await writeOut('extensions.json', JSON.stringify(generateExtensionList(unified), null, 2), 'extension list');
-    await writeOut('abridged-extensions.json', JSON.stringify(generateExtensionList(abridged), null, 2), 'abridged extension list');
+    console.log('Building abridged extension metadata CSV...');
+    await writeOut('abridged-extensions.csv', extensionsToCsv(generateExtensionList(abridged)), 'abridged extension CSV');
   }
 }
 

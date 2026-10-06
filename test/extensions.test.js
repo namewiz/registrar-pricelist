@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {
   describeExtension,
   EXCLUDED_TLDS,
+  extensionsToCsv,
   filterResultsByTld,
   generateExtensionList,
   isAbridgedTld,
@@ -49,7 +50,7 @@ test('describeExtension classifies generic, country-code, second-level and IDN e
   assert.deepEqual(describeExtension('com'), {
     tld: 'com',
     type: 'generic',
-    description: 'The most popular domain worldwide, for any commercial or personal site.',
+    description: "The world's most trusted domain. The first choice for any business, brand or idea.",
   });
   assert.equal(describeExtension('ng').type, 'country-code');
   assert.equal(describeExtension('ng').country, 'NG');
@@ -72,4 +73,23 @@ test('generateExtensionList skips synthetic SKUs and carries no prices', () => {
   ]);
   assert.deepEqual(list.map((e) => e.tld), ['com', 'ng']);
   assert.ok(list.every((e) => !('regular-price' in e)));
+});
+
+test('every abridged extension has a hand-written description', () => {
+  const generated = /^(Generic top-level domain|Second-level domain under)|'s country-code domain\.$/;
+  for (const tld of ['ng', 'com.ng', 'org.ng', 'net.ng', 'edu.ng', 'sch.ng', 'name.ng', 'i.ng', ...TOP_GLOBAL_TLDS]) {
+    assert.doesNotMatch(describeExtension(tld).description, generated, tld);
+  }
+});
+
+test('extensionsToCsv writes a header, leaves absent fields empty and quotes commas', () => {
+  const csv = extensionsToCsv([
+    { tld: 'com.ng', type: 'second-level', country: 'NG', description: 'Trusted, local.' },
+    { tld: 'xn--p1ai', unicode: 'рф', type: 'generic', description: 'Say "hi"' },
+  ]);
+  assert.deepEqual(csv.split('\n'), [
+    'tld,unicode,type,country,description',
+    'com.ng,,second-level,NG,"Trusted, local."',
+    'xn--p1ai,рф,generic,,"Say ""hi"""',
+  ]);
 });

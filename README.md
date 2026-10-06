@@ -94,20 +94,19 @@ extension plus the top 100 global extensions (`TOP_GLOBAL_TLDS` in `src/extensio
 
 ### Extension metadata
 
-Price-free metadata for each supported extension, sorted by `tld`:
+`abridged-extensions.csv` holds price-free metadata for every extension in `abridged-prices.json`,
+sorted by `tld`, with a market-facing description for each (`DESCRIPTIONS` in `src/extensions.js`).
+Synthetic catalog SKUs (e.g. `premium.ng`) are omitted. Fields containing commas or quotes are quoted
+per RFC 4180.
 
-- `extensions.json` – every extension in `unified-prices.json`.
-- `abridged-extensions.json` – every extension in `abridged-prices.json`.
-
-Synthetic catalog SKUs (e.g. `premium.ng`) are omitted. Each entry has the shape:
-
-```json
-{ "tld": "com.ng", "type": "second-level", "country": "NG", "description": "Nigerian commercial domain, for businesses and brands." }
+```csv
+tld,unicode,type,country,description
+com.ng,,second-level,NG,The go-to address for Nigerian businesses. Signals a trusted, local brand.
 ```
 
 - `type` – `generic`, `country-code` or `second-level`.
-- `country` – ISO 3166-1 alpha-2 code, present for country-code extensions and second-level extensions under one.
-- `unicode` – present for IDN extensions (e.g. `xn--p1ai` → `рф`).
+- `country` – ISO 3166-1 alpha-2 code for country-code extensions and second-level extensions under one; empty otherwise.
+- `unicode` – the Unicode form of an IDN extension; empty otherwise.
 
 ### Rebuilding from existing data
 
