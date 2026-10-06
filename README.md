@@ -39,6 +39,7 @@ Useful flags:
 
 - `--list` – print all available registrar ids.
 - `--verbose` – emit detailed progress logs.
+- `--fromData` – rebuild unified outputs from existing JSON in `--outDir` instead of fetching.
 - `--help` – display usage information.
 
 ### Unified list (combined)
@@ -77,6 +78,45 @@ Additionally, when `--unified` is used, several CSVs are produced for quick look
   directly to `price-quotes`' `loadCatalog()`.
 
 Rows are sorted by `tld` and include a header line matching the columns above.
+
+### Excluded extensions
+
+`gov.ng`, `biz.ng` and `mobi.ng` are dropped from every unified/abridged output even when a registrar
+prices them (see `EXCLUDED_TLDS` in `src/extensions.js`). The raw per-registrar files are untouched.
+
+### Abridged list
+
+Alongside the unified outputs, `--unified` also writes an abridged list holding every Nigerian (`.ng`)
+extension plus the top 100 global extensions (`TOP_GLOBAL_TLDS` in `src/extensions.js`):
+
+- `abridged-prices.json` – same shape as `unified-prices.json`.
+- `abridged-catalog.csv` – same format as `unified-catalog.csv`.
+
+### Extension metadata
+
+Price-free metadata for each supported extension, sorted by `tld`:
+
+- `extensions.json` – every extension in `unified-prices.json`.
+- `abridged-extensions.json` – every extension in `abridged-prices.json`.
+
+Synthetic catalog SKUs (e.g. `premium.ng`) are omitted. Each entry has the shape:
+
+```json
+{ "tld": "com.ng", "type": "second-level", "country": "NG", "description": "Nigerian commercial domain, for businesses and brands." }
+```
+
+- `type` – `generic`, `country-code` or `second-level`.
+- `country` – ISO 3166-1 alpha-2 code, present for country-code extensions and second-level extensions under one.
+- `unicode` – present for IDN extensions (e.g. `xn--p1ai` → `рф`).
+
+### Rebuilding from existing data
+
+`--fromData` skips fetching and rebuilds the unified/abridged/extension outputs from the registrar JSON
+files already in `--outDir`:
+
+```bash
+node src/cli.js --registrars=openprovider,nira --unified --fromData
+```
 
 ### Registrar specific configuration
 
