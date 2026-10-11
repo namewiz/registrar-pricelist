@@ -257,7 +257,7 @@ export function generateExtensionList(unifiedList) {
     .map(describeExtension);
 }
 
-const EXTENSION_CSV_COLUMNS = ['tld', 'unicode', 'type', 'country', 'description'];
+const EXTENSION_CSV_COLUMNS = ['tld', 'type', 'country', 'description'];
 
 function escapeCsvField(value) {
   const str = String(value ?? '');

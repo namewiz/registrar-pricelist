@@ -92,6 +92,8 @@ extension plus a curated selection of popular global extensions (`POPULAR_GLOBAL
 - `abridged-prices.json` – same shape as `unified-prices.json`.
 - `abridged-catalog.csv` – same format as `unified-catalog.csv`.
 
+The abridged list does not support internationalized domain (IDN) extensions (Unicode or `xn--` punycode forms).
+
 ### Extension metadata
 
 `abridged-extensions.csv` holds price-free metadata for every extension in `abridged-prices.json`,
@@ -100,13 +102,12 @@ Synthetic catalog SKUs (e.g. `premium.ng`) are omitted. Fields containing commas
 per RFC 4180.
 
 ```csv
-tld,unicode,type,country,description
-com.ng,,second-level,NG,The go-to address for Nigerian businesses. Signals a trusted, local brand.
+tld,type,country,description
+com.ng,second-level,NG,"The go-to address for Nigerian businesses. Signals a trusted, local brand."
 ```
 
 - `type` – `generic`, `country-code` or `second-level`.
 - `country` – ISO 3166-1 alpha-2 code for country-code extensions and second-level extensions under one; empty otherwise.
-- `unicode` – the Unicode form of an IDN extension; empty otherwise.
 
 ### Rebuilding from existing data
 

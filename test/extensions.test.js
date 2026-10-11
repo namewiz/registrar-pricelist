@@ -88,8 +88,8 @@ test('extensionsToCsv writes a header, leaves absent fields empty and quotes com
     { tld: 'xn--p1ai', unicode: 'рф', type: 'generic', description: 'Say "hi"' },
   ]);
   assert.deepEqual(csv.split('\n'), [
-    'tld,unicode,type,country,description',
-    'com.ng,,second-level,NG,"Trusted, local."',
-    'xn--p1ai,рф,generic,,"Say ""hi"""',
+    'tld,type,country,description',
+    'com.ng,second-level,NG,"Trusted, local."',
+    'xn--p1ai,generic,,"Say ""hi"""',
   ]);
 });
