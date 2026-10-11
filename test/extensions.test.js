@@ -50,7 +50,7 @@ test('describeExtension classifies generic, country-code, second-level and IDN e
   assert.deepEqual(describeExtension('com'), {
     tld: 'com',
     type: 'generic',
-    description: "Build a familiar web presence for your business, brand or idea.",
+    description: "Businesses, brands, shops and personal websites",
   });
   assert.equal(describeExtension('ng').type, 'country-code');
   assert.equal(describeExtension('ng').country, 'NG');
