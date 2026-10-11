@@ -1,182 +1,182 @@
-tld,type,country,description
-academy,generic,,"Schools, online courses and training programmes"
-africa,generic,,"African businesses, communities and regional services"
-agency,generic,,"Marketing, design, travel and recruitment agencies"
-ai,country-code,AI,"Artificial intelligence, machine learning, AI tools and startups"
-app,generic,,"Mobile apps, web apps and SaaS products; HTTPS required"
-art,generic,,"Artists, galleries, artwork and collections"
-asia,generic,,"Asian businesses, communities and regional services"
-at,country-code,AT,"Austrian businesses, communities and local services"
-au,country-code,AU,Australian businesses and communities; Australian presence required
-autos,generic,,"Car dealerships, vehicle listings and automotive services"
-baby,generic,,"Baby products, newborn care, parenting and nursery supplies"
-bar,generic,,"Bars, cocktails, nightlife and hospitality"
-be,country-code,BE,"Belgian businesses, communities and local services"
-beauty,generic,,"Beauty brands, salons, cosmetics and personal care"
-beer,generic,,"Breweries, pubs, beer brands and tasting events"
-berlin,generic,,"Berlin businesses, culture, events and local services"
-best,generic,,"Product reviews, rankings and recommendations"
-bet,generic,,"Sports betting, odds and betting analysis"
-bid,generic,,"Auctions, bidding platforms, tenders and procurement"
-bio,generic,,"Biographies, personal profiles, biology and biotechnology"
-biz,generic,,"Small businesses, shops and professional services"
-blog,generic,,"Blogs, personal journals and editorial content"
-boats,generic,,"Boat sales, rentals, sailing and marine services"
-bond,generic,,"Bonds, investment services and community connections"
-business,generic,,"Businesses, entrepreneurship and B2B services"
-buzz,generic,,"Trends, entertainment and marketing"
-ca,country-code,CA,Canadian businesses and communities; Canadian presence required
-cam,generic,,"Cameras, webcams, video chats and streaming"
-capital,generic,,"Investment firms, venture capital and business funding"
-care,generic,,"Healthcare, caregiving, elder care and support services"
-casino,generic,,"Casinos, casino games and gaming entertainment"
-cat,generic,,"Catalan-language websites, culture and communities"
-cc,country-code,CC,"Creative projects, community groups and personal websites"
-center,generic,,"Community centres, resource hubs and service centres"
-cfd,generic,,"Financial trading, market analysis and trading platforms"
-ch,country-code,CH,"Swiss businesses, communities and local services"
-chat,generic,,"Messaging, chatbots, customer support and community discussions"
-church,generic,,"Churches, congregations, ministries and worship resources"
-click,generic,,"Advertising campaigns, landing pages and affiliate links"
-cloud,generic,,"Cloud computing, SaaS, hosting and storage"
-club,generic,,"Clubs, hobby groups and membership communities"
-co,country-code,CO,"Companies, startups and business services"
-co.ke,second-level,KE,"Kenyan businesses, shops and services"
-co.uk,second-level,GB,"UK businesses, shops and professional services"
-co.za,second-level,ZA,"South African businesses, shops and services"
-com,generic,,"Businesses, brands, shops and personal websites"
-com.au,second-level,AU,Australian businesses and services; Australian presence required
-com.ng,second-level,NG,"Nigerian businesses, shops and services"
-community,generic,,"Forums, associations and membership groups"
-company,generic,,"Company profiles, corporate websites and business services"
-consulting,generic,,"Business consultants, advisory services and strategy"
-courses,generic,,Online courses and education businesses
-cyou,generic,,Personal and creator websites
-de,country-code,DE,"German businesses, communities and local services"
-design,generic,,"Design portfolios, creative studios and design services"
-dev,generic,,"Developer tools, APIs and software projects; HTTPS required"
-digital,generic,,"Digital products, creative agencies and online services"
-earth,generic,,"Environmental projects, sustainability, conservation and earth sciences"
-edu.ng,second-level,NG,"Eligible Nigerian universities, polytechnics and colleges"
-education,generic,,"Schools, tutoring, online learning and educational resources"
-email,generic,,"Email hosting, newsletters and email marketing"
-es,country-code,ES,"Spanish businesses, communities and local services"
-eu,country-code,EU,European businesses and communities; EU presence required
-events,generic,,"Conferences, festivals, venues and event ticketing"
-expert,generic,,Consultants and specialist services
-family,generic,,"Family communities, genealogy, parenting and shared memories"
-finance,generic,,"Financial advice, lending, investment and fintech"
-fit,generic,,"Fitness, workouts, personal training and active lifestyles"
-fitness,generic,,"Gyms, trainers and fitness platforms"
-fm,country-code,FM,"Radio stations, podcasts, music and audio streaming"
-forum,generic,,"Discussion boards, community forums and peer support"
-fr,country-code,FR,"French businesses, communities and local services"
-fun,generic,,"Games, hobbies, parties and entertainment"
-fyi,generic,,"Reference guides, explainers, announcements and useful information"
-games,generic,,"Video games, game studios, esports and gaming communities"
-garden,generic,,"Gardening, landscaping, nurseries and horticulture"
-gg,country-code,GG,"Gaming, esports, streamers and gaming communities"
-global,generic,,"International businesses, trade and worldwide services"
-group,generic,,"Business groups, collectives and holding companies"
-guru,generic,,"Coaches, consultants, tutorials and specialist advice"
-hair,generic,,"Hair salons, barbers, styling and haircare products"
-health,generic,,Health services and wellness businesses
-help,generic,,"Support, advice, tutorials and troubleshooting"
-homes,generic,,"Housing, property listings, home builders and residential services"
-host,generic,,"Web hosting, servers and infrastructure services"
-i.ng,second-level,NG,"Nigerian brands, startups and personal projects"
-icu,generic,,"Personal profiles, portfolios and creator websites"
-in,country-code,IN,"Indian businesses, communities and local services"
-info,generic,,"Information portals, reference guides and educational resources"
-ink,generic,,"Publishing, printing, writing, art and tattoos"
-io,country-code,IO,"Technology startups, SaaS products and developer tools"
-it,country-code,IT,"Italian businesses, communities and local services"
-ke,country-code,KE,"Kenyan businesses, communities and local services"
-la,country-code,LA,"Los Angeles businesses, creators and local services"
-lat,generic,,"Latin American businesses, creators and communities"
-legal,generic,,Law firms and legal services
-life,generic,,"Lifestyle, wellness, personal stories and life coaching"
-link,generic,,"Link directories, link-in-bio pages and redirects"
-live,generic,,"Live streams, concerts, events and broadcasts"
-llc,generic,,Limited liability companies and business services
-lol,generic,,"Humour, memes, comedy and entertainment"
-london,generic,,"London businesses, tourism, events and local services"
-love,generic,,"Weddings, dating, relationships and fan communities"
-ltd,generic,,"Limited companies, corporate profiles and business services"
-makeup,generic,,"Cosmetics, makeup artists, tutorials and beauty brands"
-marketing,generic,,"Marketing agencies, advertising, campaigns and growth services"
-me,country-code,ME,"Personal profiles, portfolios, resumes and blogs"
-media,generic,,"Digital media, podcasts and content production"
-mobi,generic,,"Mobile apps, services and websites"
-mom,generic,,"Motherhood, parenting, family advice and support groups"
-money,generic,,"Payments, savings, budgeting and personal finance"
-music,generic,,"Musicians, record labels, venues and music communities"
-mx,country-code,MX,"Mexican businesses, communities and local services"
-name,generic,,"Personal profiles, portfolios and email"
-name.ng,second-level,NG,"Nigerian personal profiles, portfolios and email"
-net,generic,,"Internet services, technology companies and networks"
-net.ng,second-level,NG,"Nigerian technology, networking and telecom services"
-network,generic,,"Computer networks, professional networks and communities"
-news,generic,,"News reporting, journalism and editorial coverage"
-ng,country-code,NG,"Nigerian businesses, organisations and personal websites"
-nl,country-code,NL,"Dutch businesses, communities and local services"
-nyc,generic,,"New York City businesses, neighbourhoods and local services"
-one,generic,,"Personal brands, flagship products and all-in-one services"
-onl,generic,,"Online services, stores and personal websites"
-online,generic,,"Online businesses, shops, services and personal projects"
-org,generic,,"Nonprofits, charities, communities and open-source projects"
-org.ng,second-level,NG,"Nigerian nonprofits, charities and community groups"
-page,generic,,"Personal pages, landing pages and event pages; HTTPS required"
-photo,generic,,"Photography, photo galleries, image sharing and editing"
-photography,generic,,"Photographers, photo portfolios and studio services"
-pics,generic,,"Photos, image galleries, picture sharing and visual portfolios"
-pl,country-code,PL,"Polish businesses, communities and local services"
-plus,generic,,"Premium memberships, added services and product upgrades"
-pro,generic,,"Professional services, consultants and freelancers"
-quest,generic,,"Adventures, gaming quests, exploration and learning challenges"
-realestate,generic,,Property agents and listings
-rest,generic,,"Restaurants, menus, dining guides and reservations"
-restaurant,generic,,"Restaurants, menus, reservations and dining guides"
-reviews,generic,,Product reviews and comparison websites
-rocks,generic,,"Rock music, bands, geology, climbing and fan communities"
-run,generic,,"Running, jogging, races, job runners and workflow automation"
-sbs,generic,,"Community projects, nonprofits and collaborative teams"
-sch.ng,second-level,NG,Eligible Nigerian primary and secondary schools
-school,generic,,Schools and learning platforms
-se,country-code,SE,"Swedish businesses, communities and local services"
-services,generic,,"Professional, local and business services"
-shop,generic,,"Online shops, local retailers and e-commerce"
-site,generic,,"Business websites, portfolios and project pages"
-skin,generic,,"Skincare, dermatology, cosmetics and beauty products"
-social,generic,,"Social networks, creator communities and social apps"
-software,generic,,"Software businesses, SaaS products and development services"
-solutions,generic,,"Business consulting, IT solutions and service providers"
-space,generic,,"Creative portfolios, coworking spaces and astronomy projects"
-store,generic,,"Online stores, retail brands and e-commerce"
-studio,generic,,"Music, film, photography, fitness and design studios"
-support,generic,,"Help centres, technical support and customer service"
-surf,generic,,"Surfing, surf schools, beach travel and board sports"
-systems,generic,,"IT providers, systems integration and business software"
-team,generic,,"Sports teams, project teams and workplace collaboration"
-tech,generic,,"Technology startups, software, hardware and IT services"
-technology,generic,,"Technology companies, innovation, software and engineering"
-tel,generic,,"Contact directories, telephone services and business listings"
-today,generic,,"Daily news, current events and daily deals"
-tools,generic,,"Developer utilities, productivity apps and online calculators"
-top,generic,,"Rankings, best-of lists and product recommendations"
-training,generic,,Professional training and coaching
-travel,generic,,"Travel agencies, tours, destinations and travel guides"
-tv,country-code,TV,"Video channels, streaming and broadcasting"
-uk,country-code,GB,"UK businesses, organisations and local services"
-us,country-code,US,US businesses and communities; US presence required
-video,generic,,"Video creators, production and streaming"
-vip,generic,,"Premium services, exclusive events and loyalty programmes"
-website,generic,,"Business websites, personal sites and online portfolios"
-wiki,generic,,Knowledge bases and documentation
-win,generic,,"Competitions, gaming, prizes and sports results"
-work,generic,,"Recruitment, freelancing, portfolios and workplace tools"
-works,generic,,"Creative portfolios, workshops, manufacturing and production"
-world,generic,,"Global communities, travel guides and international projects"
-ws,country-code,WS,"Business websites, personal sites and online projects"
-wtf,generic,,"Humour, satire, surprising stories and commentary"
-xyz,generic,,"Startups, creative projects and experimental apps"
+tld,type,country,description,tags
+academy,generic,,"Schools, online courses and training programmes",academic
+africa,generic,,"African businesses, communities and regional services",geographic
+agency,generic,,"Marketing, design, travel and recruitment agencies",business|social & lifestyle
+ai,country-code,AI,"Artificial intelligence, machine learning, AI tools and startups",geographic|popular|short|technology
+app,generic,,"Mobile apps, web apps and SaaS products; HTTPS required",popular|short|technology
+art,generic,,"Artists, galleries, artwork and collections",arts & media|short
+asia,generic,,"Asian businesses, communities and regional services",geographic
+at,country-code,AT,"Austrian businesses, communities and local services",geographic|short
+au,country-code,AU,Australian businesses and communities; Australian presence required,geographic|short
+autos,generic,,"Car dealerships, vehicle listings and automotive services",business
+baby,generic,,"Baby products, newborn care, parenting and nursery supplies",social & lifestyle
+bar,generic,,"Bars, cocktails, nightlife and hospitality",short|social & lifestyle
+be,country-code,BE,"Belgian businesses, communities and local services",cheap|geographic|short
+beauty,generic,,"Beauty brands, salons, cosmetics and personal care",business|social & lifestyle
+beer,generic,,"Breweries, pubs, beer brands and tasting events",social & lifestyle
+berlin,generic,,"Berlin businesses, culture, events and local services",arts & media|geographic
+best,generic,,"Product reviews, rankings and recommendations",business
+bet,generic,,"Sports betting, odds and betting analysis",fun & sports|short
+bid,generic,,"Auctions, bidding platforms, tenders and procurement",business|finance|short
+bio,generic,,"Biographies, personal profiles, biology and biotechnology",academic|health|short|social & lifestyle|technology
+biz,generic,,"Small businesses, shops and professional services",business|short
+blog,generic,,"Blogs, personal journals and editorial content",arts & media|social & lifestyle
+boats,generic,,"Boat sales, rentals, sailing and marine services",business|social & lifestyle
+bond,generic,,"Bonds, investment services and community connections",finance|social & lifestyle
+business,generic,,"Businesses, entrepreneurship and B2B services",business
+buzz,generic,,"Trends, entertainment and marketing",business
+ca,country-code,CA,Canadian businesses and communities; Canadian presence required,geographic|short
+cam,generic,,"Cameras, webcams, video chats and streaming",arts & media|short|technology
+capital,generic,,"Investment firms, venture capital and business funding",business|finance
+care,generic,,"Healthcare, caregiving, elder care and support services",business|health
+casino,generic,,"Casinos, casino games and gaming entertainment",fun & sports
+cat,generic,,"Catalan-language websites, culture and communities",arts & media|geographic|short
+cc,country-code,CC,"Creative projects, community groups and personal websites",cheap|geographic|short|social & lifestyle
+center,generic,,"Community centres, resource hubs and service centres",business
+cfd,generic,,"Financial trading, market analysis and trading platforms",finance|short
+ch,country-code,CH,"Swiss businesses, communities and local services",cheap|geographic|short
+chat,generic,,"Messaging, chatbots, customer support and community discussions",business|social & lifestyle|technology
+church,generic,,"Churches, congregations, ministries and worship resources",social & lifestyle
+click,generic,,"Advertising campaigns, landing pages and affiliate links",business
+cloud,generic,,"Cloud computing, SaaS, hosting and storage",business|technology
+club,generic,,"Clubs, hobby groups and membership communities",fun & sports|social & lifestyle
+co,country-code,CO,"Companies, startups and business services",business|geographic|popular|short
+co.ke,second-level,KE,"Kenyan businesses, shops and services",geographic
+co.uk,second-level,GB,"UK businesses, shops and professional services",cheap|geographic
+co.za,second-level,ZA,"South African businesses, shops and services",cheap|geographic
+com,generic,,"Businesses, brands, shops and personal websites",business|popular|short
+com.au,second-level,AU,Australian businesses and services; Australian presence required,geographic
+com.ng,second-level,NG,"Nigerian businesses, shops and services",business|cheap|geographic|popular
+community,generic,,"Forums, associations and membership groups",social & lifestyle
+company,generic,,"Company profiles, corporate websites and business services",business
+consulting,generic,,"Business consultants, advisory services and strategy",business
+courses,generic,,Online courses and education businesses,academic
+cyou,generic,,Personal and creator websites,social & lifestyle
+de,country-code,DE,"German businesses, communities and local services",cheap|geographic|short
+design,generic,,"Design portfolios, creative studios and design services",arts & media|business
+dev,generic,,"Developer tools, APIs and software projects; HTTPS required",popular|short|technology
+digital,generic,,"Digital products, creative agencies and online services",business|technology
+earth,generic,,"Environmental projects, sustainability, conservation and earth sciences",academic
+edu.ng,second-level,NG,"Eligible Nigerian universities, polytechnics and colleges",academic|cheap|geographic
+education,generic,,"Schools, tutoring, online learning and educational resources",academic
+email,generic,,"Email hosting, newsletters and email marketing",business|technology
+es,country-code,ES,"Spanish businesses, communities and local services",cheap|geographic|short
+eu,country-code,EU,European businesses and communities; EU presence required,cheap|geographic|short
+events,generic,,"Conferences, festivals, venues and event ticketing",arts & media|fun & sports|social & lifestyle
+expert,generic,,Consultants and specialist services,business
+family,generic,,"Family communities, genealogy, parenting and shared memories",social & lifestyle
+finance,generic,,"Financial advice, lending, investment and fintech",business|finance
+fit,generic,,"Fitness, workouts, personal training and active lifestyles",fun & sports|health|short
+fitness,generic,,"Gyms, trainers and fitness platforms",fun & sports|health
+fm,country-code,FM,"Radio stations, podcasts, music and audio streaming",arts & media|geographic|short
+forum,generic,,"Discussion boards, community forums and peer support",social & lifestyle
+fr,country-code,FR,"French businesses, communities and local services",cheap|geographic|short
+fun,generic,,"Games, hobbies, parties and entertainment",fun & sports|short
+fyi,generic,,"Reference guides, explainers, announcements and useful information",academic|short
+games,generic,,"Video games, game studios, esports and gaming communities",fun & sports
+garden,generic,,"Gardening, landscaping, nurseries and horticulture",business
+gg,country-code,GG,"Gaming, esports, streamers and gaming communities",fun & sports|geographic|short
+global,generic,,"International businesses, trade and worldwide services",business
+group,generic,,"Business groups, collectives and holding companies",business|social & lifestyle
+guru,generic,,"Coaches, consultants, tutorials and specialist advice",business
+hair,generic,,"Hair salons, barbers, styling and haircare products",business|social & lifestyle
+health,generic,,Health services and wellness businesses,health
+help,generic,,"Support, advice, tutorials and troubleshooting",business
+homes,generic,,"Housing, property listings, home builders and residential services",business
+host,generic,,"Web hosting, servers and infrastructure services",business|technology
+i.ng,second-level,NG,"Nigerian brands, startups and personal projects",business|cheap|geographic|social & lifestyle
+icu,generic,,"Personal profiles, portfolios and creator websites",short|social & lifestyle
+in,country-code,IN,"Indian businesses, communities and local services",cheap|geographic|short
+info,generic,,"Information portals, reference guides and educational resources",academic|popular
+ink,generic,,"Publishing, printing, writing, art and tattoos",arts & media|business|short
+io,country-code,IO,"Technology startups, SaaS products and developer tools",geographic|popular|short|technology
+it,country-code,IT,"Italian businesses, communities and local services",cheap|geographic|short
+ke,country-code,KE,"Kenyan businesses, communities and local services",geographic|short
+la,country-code,LA,"Los Angeles businesses, creators and local services",geographic|short
+lat,generic,,"Latin American businesses, creators and communities",business|geographic|short
+legal,generic,,Law firms and legal services,business
+life,generic,,"Lifestyle, wellness, personal stories and life coaching",health|social & lifestyle
+link,generic,,"Link directories, link-in-bio pages and redirects",business|social & lifestyle
+live,generic,,"Live streams, concerts, events and broadcasts",arts & media|fun & sports
+llc,generic,,Limited liability companies and business services,business|short
+lol,generic,,"Humour, memes, comedy and entertainment",fun & sports|short
+london,generic,,"London businesses, tourism, events and local services",arts & media|geographic|social & lifestyle
+love,generic,,"Weddings, dating, relationships and fan communities",social & lifestyle
+ltd,generic,,"Limited companies, corporate profiles and business services",business|short
+makeup,generic,,"Cosmetics, makeup artists, tutorials and beauty brands",social & lifestyle
+marketing,generic,,"Marketing agencies, advertising, campaigns and growth services",business
+me,country-code,ME,"Personal profiles, portfolios, resumes and blogs",geographic|short|social & lifestyle
+media,generic,,"Digital media, podcasts and content production",arts & media
+mobi,generic,,"Mobile apps, services and websites",business|technology
+mom,generic,,"Motherhood, parenting, family advice and support groups",short|social & lifestyle
+money,generic,,"Payments, savings, budgeting and personal finance",business|finance
+music,generic,,"Musicians, record labels, venues and music communities",arts & media
+mx,country-code,MX,"Mexican businesses, communities and local services",geographic|short
+name,generic,,"Personal profiles, portfolios and email",social & lifestyle
+name.ng,second-level,NG,"Nigerian personal profiles, portfolios and email",cheap|geographic|social & lifestyle
+net,generic,,"Internet services, technology companies and networks",business|popular|short|technology
+net.ng,second-level,NG,"Nigerian technology, networking and telecom services",business|cheap|geographic|technology
+network,generic,,"Computer networks, professional networks and communities",social & lifestyle|technology
+news,generic,,"News reporting, journalism and editorial coverage",arts & media
+ng,country-code,NG,"Nigerian businesses, organisations and personal websites",business|cheap|geographic|popular|short
+nl,country-code,NL,"Dutch businesses, communities and local services",geographic|short
+nyc,generic,,"New York City businesses, neighbourhoods and local services",geographic|short
+one,generic,,"Personal brands, flagship products and all-in-one services",short|social & lifestyle
+onl,generic,,"Online services, stores and personal websites",short
+online,generic,,"Online businesses, shops, services and personal projects",business|popular
+org,generic,,"Nonprofits, charities, communities and open-source projects",popular|short|social & lifestyle
+org.ng,second-level,NG,"Nigerian nonprofits, charities and community groups",cheap|geographic|social & lifestyle
+page,generic,,"Personal pages, landing pages and event pages; HTTPS required",business
+photo,generic,,"Photography, photo galleries, image sharing and editing",arts & media
+photography,generic,,"Photographers, photo portfolios and studio services",arts & media|business
+pics,generic,,"Photos, image galleries, picture sharing and visual portfolios",arts & media
+pl,country-code,PL,"Polish businesses, communities and local services",geographic|short
+plus,generic,,"Premium memberships, added services and product upgrades",business
+pro,generic,,"Professional services, consultants and freelancers",business|short
+quest,generic,,"Adventures, gaming quests, exploration and learning challenges",fun & sports|social & lifestyle
+realestate,generic,,Property agents and listings,business
+rest,generic,,"Restaurants, menus, dining guides and reservations",social & lifestyle
+restaurant,generic,,"Restaurants, menus, reservations and dining guides",social & lifestyle
+reviews,generic,,Product reviews and comparison websites,business
+rocks,generic,,"Rock music, bands, geology, climbing and fan communities",arts & media|fun & sports
+run,generic,,"Running, jogging, races, job runners and workflow automation",fun & sports|short|technology
+sbs,generic,,"Community projects, nonprofits and collaborative teams",short|social & lifestyle
+sch.ng,second-level,NG,Eligible Nigerian primary and secondary schools,academic|cheap|geographic
+school,generic,,Schools and learning platforms,academic
+se,country-code,SE,"Swedish businesses, communities and local services",geographic|short
+services,generic,,"Professional, local and business services",business
+shop,generic,,"Online shops, local retailers and e-commerce",business|popular
+site,generic,,"Business websites, portfolios and project pages",business|popular
+skin,generic,,"Skincare, dermatology, cosmetics and beauty products",health|social & lifestyle
+social,generic,,"Social networks, creator communities and social apps",social & lifestyle
+software,generic,,"Software businesses, SaaS products and development services",business|technology
+solutions,generic,,"Business consulting, IT solutions and service providers",business|technology
+space,generic,,"Creative portfolios, coworking spaces and astronomy projects",arts & media
+store,generic,,"Online stores, retail brands and e-commerce",business|popular
+studio,generic,,"Music, film, photography, fitness and design studios",arts & media|business
+support,generic,,"Help centres, technical support and customer service",business|technology
+surf,generic,,"Surfing, surf schools, beach travel and board sports",fun & sports|social & lifestyle
+systems,generic,,"IT providers, systems integration and business software",business|technology
+team,generic,,"Sports teams, project teams and workplace collaboration",fun & sports|social & lifestyle
+tech,generic,,"Technology startups, software, hardware and IT services",popular|technology
+technology,generic,,"Technology companies, innovation, software and engineering",technology
+tel,generic,,"Contact directories, telephone services and business listings",business|short|technology
+today,generic,,"Daily news, current events and daily deals",arts & media
+tools,generic,,"Developer utilities, productivity apps and online calculators",technology
+top,generic,,"Rankings, best-of lists and product recommendations",business|cheap|short
+training,generic,,Professional training and coaching,academic|business
+travel,generic,,"Travel agencies, tours, destinations and travel guides",social & lifestyle
+tv,country-code,TV,"Video channels, streaming and broadcasting",arts & media|geographic|short
+uk,country-code,GB,"UK businesses, organisations and local services",cheap|geographic|short
+us,country-code,US,US businesses and communities; US presence required,cheap|geographic|short
+video,generic,,"Video creators, production and streaming",arts & media
+vip,generic,,"Premium services, exclusive events and loyalty programmes",business|short|social & lifestyle
+website,generic,,"Business websites, personal sites and online portfolios",business
+wiki,generic,,Knowledge bases and documentation,academic
+win,generic,,"Competitions, gaming, prizes and sports results",fun & sports|short
+work,generic,,"Recruitment, freelancing, portfolios and workplace tools",business|social & lifestyle
+works,generic,,"Creative portfolios, workshops, manufacturing and production",arts & media|business
+world,generic,,"Global communities, travel guides and international projects",social & lifestyle
+ws,country-code,WS,"Business websites, personal sites and online projects",geographic|short|social & lifestyle
+wtf,generic,,"Humour, satire, surprising stories and commentary",fun & sports|short
+xyz,generic,,"Startups, creative projects and experimental apps",arts & media|popular|short|technology

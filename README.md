@@ -102,12 +102,43 @@ Synthetic catalog SKUs (e.g. `premium.ng`) are omitted. Fields containing commas
 per RFC 4180.
 
 ```csv
-tld,type,country,description
-com.ng,second-level,NG,"The go-to address for Nigerian businesses. Signals a trusted, local brand."
+tld,type,country,description,tags
+com.ng,second-level,NG,"Nigerian businesses, shops and services",business|cheap|geographic|popular
 ```
 
 - `type` – `generic`, `country-code` or `second-level`.
 - `country` – ISO 3166-1 alpha-2 code for country-code extensions and second-level extensions under one; empty otherwise.
+- `tags` – multiple lowercase labels separated by `|`, sorted and deduplicated. Split this field on `|`
+  to filter or group extensions; labels can contain spaces and `&`.
+
+There are exactly 12 tags: `popular`, `short`, `cheap`, `geographic`, `technology`, `business`,
+`academic`, `finance`, `arts & media`, `fun & sports`, `social & lifestyle` and `health`.
+
+- `geographic` combines country-code suffixes, extensions beneath them, and regional or city
+  suffixes such as `.africa`, `.lat` and `.london`. The `country` field retains individual country codes.
+- `business` includes professional services, marketing, trades and transport.
+- `arts & media` combines arts, culture, publishing, music and broadcasting.
+- `social & lifestyle` includes communities, religion, food, drink and travel.
+- `technology`, `academic`, `finance`, `fun & sports` and `health` retain their topic groupings.
+
+Extensions can belong to several groups; for example, `.ai` is both `geographic` and `technology`.
+The former `new` and `international` tags have been removed.
+
+- `popular` is an editorial shortlist in `TAG_GROUPS`, not a live ranking or every abridged entry.
+- `short` means the full suffix, without a leading dot, is two or three ASCII letters (e.g. `com`, `ng`).
+- `cheap` means the published regular first-year registration price is at most US$10
+  (`CHEAP_CREATE_PRICE_USD`). It is recalculated when metadata is generated. Missing, invalid or
+  non-USD prices do not qualify; legacy entries without a currency use USD. This tag does not
+  imply a renewal price or a promotional discount.
+
+The exported `describeExtension(tld, priceEntry?)` and `generateExtensionList(unifiedList)` helpers
+return `tags` as a string array. Pass a unified price entry to `describeExtension` to include
+price-based tagging; without one it returns only static tags. For example:
+
+```js
+const technologyExtensions = generateExtensionList(abridgedPrices)
+  .filter((extension) => extension.tags.includes('technology'));
+```
 
 ### Rebuilding from existing data
 

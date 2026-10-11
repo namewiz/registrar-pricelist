@@ -4,7 +4,7 @@
  *
  * - EXCLUDED_TLDS are dropped from every published unified output.
  * - The abridged list is every Nigerian (.ng) extension plus POPULAR_GLOBAL_TLDS.
- * - Extension metadata (type, country, description) never carries prices and is
+ * - Extension metadata (type, country, description, tags) never carries prices and is
  *   only published for the abridged list, as CSV.
  */
 import { domainToUnicode } from 'node:url';
@@ -48,6 +48,47 @@ export const POPULAR_GLOBAL_TLDS = [
 export const TOP_GLOBAL_TLDS = POPULAR_GLOBAL_TLDS;
 
 const POPULAR_GLOBAL_SET = new Set(POPULAR_GLOBAL_TLDS);
+
+/** Curated discovery groups, based on the market-facing descriptions below. */
+const TAG_GROUPS = {
+  popular: 'ai app co com com.ng dev info io net ng online org shop site store tech xyz',
+  technology: 'ai app bio cam chat cloud dev digital email host io mobi net net.ng network run software solutions support systems tech technology tel tools xyz',
+  academic: 'academy bio courses earth edu.ng education fyi info sch.ng school training wiki',
+  finance: 'bid bond capital cfd finance money',
+  business: 'agency autos beauty best bid biz boats business buzz capital care center chat click cloud co com com.ng company consulting design digital email expert finance garden global group guru hair help homes host i.ng ink lat legal link llc ltd marketing mobi money net net.ng ng online page photography plus pro realestate reviews services shop site software solutions store studio support systems tel top training vip website work works',
+  'arts & media': 'art berlin blog cam cat design events fm ink live london media music news photo photography pics rocks space studio today tv video works xyz',
+  'social & lifestyle': 'agency baby bar beauty beer bio blog boats bond cc chat church club community cyou events family forum group hair i.ng icu life link london love makeup me mom name name.ng network one org org.ng quest rest restaurant sbs skin social surf team travel vip work world ws',
+  'fun & sports': 'bet casino club events fit fitness fun games gg live lol quest rocks run surf team win wtf',
+  health: 'bio care fit fitness health life skin',
+};
+
+const TAGS_BY_TLD = new Map();
+for (const [tag, tlds] of Object.entries(TAG_GROUPS)) {
+  for (const tld of tlds.split(' ')) {
+    if (!TAGS_BY_TLD.has(tld)) TAGS_BY_TLD.set(tld, []);
+    TAGS_BY_TLD.get(tld).push(tag);
+  }
+}
+
+// Geographic generic suffixes supplement country-code suffixes and their children.
+const REGIONAL_TLDS = new Set('africa asia cat berlin london lat nyc'.split(' '));
+
+/** Maximum regular first-year USD registration price for the `cheap` tag. */
+export const CHEAP_CREATE_PRICE_USD = 10;
+
+function extensionTags(tld, top, region, priceEntry) {
+  const tags = new Set(TAGS_BY_TLD.get(tld) || []);
+  if (region || REGIONAL_TLDS.has(top)) tags.add('geographic');
+  if (/^[a-z]{2,3}$/.test(tld)) tags.add('short');
+  const create = priceEntry?.['regular-price']?.create;
+  // Legacy unified entries omit currency and use USD. Never compare a local
+  // currency amount with the USD threshold or use sale/renewal prices.
+  if ((priceEntry?.currency || 'USD').toUpperCase() === 'USD'
+      && Number.isFinite(create) && create >= 0 && create <= CHEAP_CREATE_PRICE_USD) {
+    tags.add('cheap');
+  }
+  return [...tags].sort();
+}
 
 /** Market-facing descriptions for every abridged extension; anything else gets a generated one. */
 const DESCRIPTIONS = {
@@ -292,9 +333,11 @@ export function filterResultsByTld(resultsByRegistrar, predicate) {
  * Describes a single extension (no prices).
  *
  * @param {string} tld e.g. "com", "com.ng", "xn--p1ai"
- * @returns {{ tld: string, unicode?: string, type: 'generic' | 'country-code' | 'second-level', country?: string, description: string }}
+ * @param {{ currency?: string, 'regular-price'?: { create?: number } }} [priceEntry]
+ *   Optional unified price entry used only to determine the `cheap` tag.
+ * @returns {{ tld: string, unicode?: string, type: 'generic' | 'country-code' | 'second-level', country?: string, description: string, tags: string[] }}
  */
-export function describeExtension(tld) {
+export function describeExtension(tld, priceEntry) {
   const labels = tld.split('.');
   const top = labels[labels.length - 1];
   const region = regionFor(top);
@@ -321,6 +364,7 @@ export function describeExtension(tld) {
   entry.type = type;
   if (region) entry.country = region.code;
   entry.description = description;
+  entry.tags = extensionTags(tld, top, region, priceEntry);
   return entry;
 }
 
@@ -328,26 +372,26 @@ export function describeExtension(tld) {
  * Builds the sorted extension metadata list for a unified price list,
  * skipping synthetic SKUs.
  *
- * @param {Array<{ tld: string }>} unifiedList
+ * @param {Array<{ tld: string, currency?: string, 'regular-price'?: { create?: number } }>} unifiedList
  */
 export function generateExtensionList(unifiedList) {
   return unifiedList
-    .map((entry) => entry.tld)
-    .filter((tld) => !SYNTHETIC_SKUS.has(tld))
-    .sort()
-    .map(describeExtension);
+    .filter((entry) => !SYNTHETIC_SKUS.has(entry.tld))
+    .map((entry) => describeExtension(entry.tld, entry))
+    .sort((a, b) => a.tld < b.tld ? -1 : a.tld > b.tld ? 1 : 0);
 }
 
-const EXTENSION_CSV_COLUMNS = ['tld', 'type', 'country', 'description'];
+const EXTENSION_CSV_COLUMNS = ['tld', 'type', 'country', 'description', 'tags'];
 
 function escapeCsvField(value) {
   const str = String(value ?? '');
   return /[",\n]/.test(str) ? `"${str.replace(/"/g, '""')}"` : str;
 }
 
-/** Serializes extension metadata as CSV; optional fields are left empty when absent. */
+/** Serializes metadata as CSV with pipe-separated tags; absent fields stay empty. */
 export function extensionsToCsv(extensions) {
   const header = EXTENSION_CSV_COLUMNS.join(',');
-  const body = extensions.map((ext) => EXTENSION_CSV_COLUMNS.map((col) => escapeCsvField(ext[col])).join(','));
+  const body = extensions.map((ext) => EXTENSION_CSV_COLUMNS
+    .map((col) => escapeCsvField(col === 'tags' ? ext.tags?.join('|') : ext[col])).join(','));
   return [header, ...body].join('\n');
 }
