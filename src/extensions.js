@@ -3,7 +3,7 @@
  * price lists when building the published unified/abridged outputs.
  *
  * - EXCLUDED_TLDS are dropped from every published unified output.
- * - The abridged list is every Nigerian (.ng) extension plus TOP_GLOBAL_TLDS.
+ * - The abridged list is every Nigerian (.ng) extension plus POPULAR_GLOBAL_TLDS.
  * - Extension metadata (type, country, description) never carries prices and is
  *   only published for the abridged list, as CSV.
  */
@@ -18,8 +18,8 @@ export const EXCLUDED_TLDS = new Set(['gov.ng', 'biz.ng', 'mobi.ng']);
  */
 export const SYNTHETIC_SKUS = new Set(['premium.ng']);
 
-/** Top 100 global (non-.ng) extensions, most popular first. */
-export const TOP_GLOBAL_TLDS = [
+/** A curated selection of popular global (non-.ng) extensions. */
+export const POPULAR_GLOBAL_TLDS = [
   // Legacy generic
   'com', 'net', 'org', 'info', 'biz', 'name', 'pro', 'mobi',
   // New generic
@@ -36,7 +36,10 @@ export const TOP_GLOBAL_TLDS = [
   'fm', 'la',
 ];
 
-const TOP_GLOBAL_SET = new Set(TOP_GLOBAL_TLDS);
+/** Backward-compatible export for existing consumers. */
+export const TOP_GLOBAL_TLDS = POPULAR_GLOBAL_TLDS;
+
+const POPULAR_GLOBAL_SET = new Set(POPULAR_GLOBAL_TLDS);
 
 /** Market-facing descriptions for every abridged extension; anything else gets a generated one. */
 const DESCRIPTIONS = {
@@ -174,9 +177,9 @@ export function isExcludedTld(tld) {
   return EXCLUDED_TLDS.has(tld);
 }
 
-/** Abridged list: every .ng extension plus the top 100 global extensions. */
+/** Abridged list: every .ng extension plus a selection of popular global extensions. */
 export function isAbridgedTld(tld) {
-  return isNigerianTld(tld) || TOP_GLOBAL_SET.has(tld);
+  return isNigerianTld(tld) || POPULAR_GLOBAL_SET.has(tld);
 }
 
 /**

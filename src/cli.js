@@ -170,7 +170,7 @@ async function run() {
     const catalogRows = generateCatalogRows(supportedResults, normalizedIds);
     await writeOut('unified-catalog.csv', catalogRowsToCsv(catalogRows), 'unified catalog CSV');
 
-    console.log('Building abridged list (.ng + top 100 global extensions)...');
+    console.log('Building abridged list (.ng + popular global extensions)...');
     const abridged = generateUnifiedList(abridgedResults, { providers: normalizedIds });
     await writeOut('abridged-prices.json', JSON.stringify(abridged, null, 2), 'abridged list');
     const abridgedCatalogRows = generateCatalogRows(abridgedResults, normalizedIds);

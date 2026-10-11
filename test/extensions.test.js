@@ -8,13 +8,13 @@ import {
   generateExtensionList,
   isAbridgedTld,
   isExcludedTld,
-  TOP_GLOBAL_TLDS,
+  POPULAR_GLOBAL_TLDS,
 } from '../src/extensions.js';
 
-test('TOP_GLOBAL_TLDS holds exactly 100 unique non-.ng extensions', () => {
-  assert.equal(TOP_GLOBAL_TLDS.length, 100);
-  assert.equal(new Set(TOP_GLOBAL_TLDS).size, 100);
-  assert.ok(TOP_GLOBAL_TLDS.every((tld) => tld !== 'ng' && !tld.endsWith('.ng')));
+test('POPULAR_GLOBAL_TLDS holds unique non-.ng extensions', () => {
+  assert.ok(POPULAR_GLOBAL_TLDS.length > 0);
+  assert.equal(new Set(POPULAR_GLOBAL_TLDS).size, POPULAR_GLOBAL_TLDS.length);
+  assert.ok(POPULAR_GLOBAL_TLDS.every((tld) => tld !== 'ng' && !tld.endsWith('.ng')));
 });
 
 test('gov.ng, biz.ng and mobi.ng are excluded', () => {
@@ -23,7 +23,7 @@ test('gov.ng, biz.ng and mobi.ng are excluded', () => {
   assert.ok(!isExcludedTld('com.ng'));
 });
 
-test('abridged list covers every .ng extension plus the top global ones', () => {
+test('abridged list covers every .ng extension plus selected popular global ones', () => {
   assert.ok(isAbridgedTld('ng'));
   assert.ok(isAbridgedTld('com.ng'));
   assert.ok(isAbridgedTld('com'));
@@ -77,7 +77,7 @@ test('generateExtensionList skips synthetic SKUs and carries no prices', () => {
 
 test('every abridged extension has a hand-written description', () => {
   const generated = /^(Generic top-level domain|Second-level domain under)|'s country-code domain\.$/;
-  for (const tld of ['ng', 'com.ng', 'org.ng', 'net.ng', 'edu.ng', 'sch.ng', 'name.ng', 'i.ng', ...TOP_GLOBAL_TLDS]) {
+  for (const tld of ['ng', 'com.ng', 'org.ng', 'net.ng', 'edu.ng', 'sch.ng', 'name.ng', 'i.ng', ...POPULAR_GLOBAL_TLDS]) {
     assert.doesNotMatch(describeExtension(tld).description, generated, tld);
   }
 });

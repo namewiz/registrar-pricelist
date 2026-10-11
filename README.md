@@ -87,7 +87,7 @@ prices them (see `EXCLUDED_TLDS` in `src/extensions.js`). The raw per-registrar 
 ### Abridged list
 
 Alongside the unified outputs, `--unified` also writes an abridged list holding every Nigerian (`.ng`)
-extension plus the top 100 global extensions (`TOP_GLOBAL_TLDS` in `src/extensions.js`):
+extension plus a curated selection of popular global extensions (`POPULAR_GLOBAL_TLDS` in `src/extensions.js`):
 
 - `abridged-prices.json` – same shape as `unified-prices.json`.
 - `abridged-catalog.csv` – same format as `unified-catalog.csv`.
