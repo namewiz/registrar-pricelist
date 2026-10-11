@@ -5,16 +5,24 @@ agency,generic,,"Showcase your creative, marketing, travel or recruitment agency
 ai,country-code,AI,"Highlight artificial intelligence products, services and startups."
 app,generic,,Showcase your app on a domain that requires HTTPS.
 art,generic,,"Showcase artwork, galleries and collections."
+asia,generic,,Businesses targeting Asia
 at,country-code,AT,Reach Austrian customers through their national domain.
 au,country-code,AU,Reach local customers with a domain requiring an Australian presence.
+autos,generic,,Automotive businesses
 be,country-code,BE,Connect with Belgian customers through their national domain.
+beer,generic,,Breweries and hospitality
 best,generic,,"Publish reviews, rankings and standout recommendations."
+bet,generic,,Betting-related businesses
 biz,generic,,Give your business a professional web address.
 blog,generic,,Create a home for your blog or writing.
+bond,generic,,Finance and brand names
 business,generic,,Create a professional online presence for your business.
+buzz,generic,,"Trends, entertainment and marketing"
 ca,country-code,CA,Reach Canadian customers with a domain requiring a Canadian presence.
+cam,generic,,Cameras and streaming
 capital,generic,,"Present investment firms, venture capital and financial services."
 cc,country-code,CC,Create a compact address for your brand or project.
+cfd,generic,,Trading and financial brands
 ch,country-code,CH,Reach Swiss customers through their national domain.
 chat,generic,,"Create a home for messaging, support and community conversations."
 click,generic,,Direct visitors to campaigns and landing pages.
@@ -27,8 +35,11 @@ co.za,second-level,ZA,Give your business a local address for South African custo
 com,generic,,"Build a familiar web presence for your business, brand or idea."
 com.au,second-level,AU,Represent your business with a domain requiring an Australian presence.
 com.ng,second-level,NG,Give your Nigerian business a local web address.
+community,generic,,"Forums, associations and membership groups"
 company,generic,,Establish an online home for your company.
 consulting,generic,,Present your consulting and advisory services.
+courses,generic,,Online courses and education businesses
+cyou,generic,,Personal and creator websites
 de,country-code,DE,Reach German customers through their national domain.
 design,generic,,"Present design portfolios, studios and creative services."
 dev,generic,,Showcase developer tools and projects on a domain that requires HTTPS.
@@ -39,27 +50,40 @@ email,generic,,Create an address for email services and newsletters.
 es,country-code,ES,Reach customers in Spain through their national domain.
 eu,country-code,EU,Reach European audiences with a domain requiring an EU presence.
 events,generic,,"Promote events, venues and ticketing services."
+expert,generic,,Consultants and specialist services
 finance,generic,,"Showcase financial advice, lending and fintech services."
+fitness,generic,,"Gyms, trainers and fitness platforms"
 fm,country-code,FM,"Promote radio stations, podcasts and music brands."
 fr,country-code,FR,Connect with French customers through their national domain.
 fun,generic,,"Share games, hobbies, events and entertainment."
 games,generic,,"Connect gamers, game studios and esports communities."
+garden,generic,,Gardening and landscaping
 gg,country-code,GG,"Connect with gamers, esports teams and streamers."
 global,generic,,Present your international brand to a worldwide audience.
 group,generic,,"Represent groups, collectives and holding companies online."
 guru,generic,,"Share your expertise as a coach, consultant or specialist."
+health,generic,,Health services and wellness businesses
+help,generic,,Support and advice
+homes,generic,,Housing and property
 host,generic,,"Promote web hosting, servers and infrastructure services."
 i.ng,second-level,NG,"Create a short, distinctive Nigerian web address."
+icu,generic,,General branding
 in,country-code,IN,Connect with Indian customers through their national domain.
 info,generic,,"Share guides, resources and useful information online."
+ink,generic,,"Publishing, art and tattoos"
 io,country-code,IO,"Showcase technology startups, SaaS products and developer tools."
 it,country-code,IT,Connect with Italian customers through their national domain.
 ke,country-code,KE,Connect with Kenyan customers through their national domain.
 la,country-code,LA,"Give your LA brand a short, distinctive web address."
+lat,generic,,Latin American audiences
+legal,generic,,Law firms and legal services
 life,generic,,"Share lifestyle, wellness and personal interests online."
 link,generic,,"Share links, redirects and campaign pages."
 live,generic,,"Promote live streams, events and broadcasts."
+llc,generic,,Branding for limited liability companies
+lol,generic,,Humour and entertainment
 love,generic,,"Celebrate weddings, passions and the things you love."
+ltd,generic,,Company websites and business branding
 marketing,generic,,"Promote marketing agencies, campaigns and growth services."
 me,country-code,ME,Showcase your personal brand or portfolio.
 media,generic,,"Showcase media, podcasts and content production."
@@ -80,29 +104,45 @@ online,generic,,"Bring your business, brand or project online."
 org,generic,,"Represent nonprofits, charities, communities and open-source projects online."
 org.ng,second-level,NG,"Represent your Nigerian nonprofit, charity or community online."
 page,generic,,"Present your brand, event or project on a domain that requires HTTPS."
+photo,generic,,Shorter alternative to your existing .photography
 photography,generic,,Display photography portfolios and studio services.
 pl,country-code,PL,Reach Polish customers through their national domain.
 pro,generic,,"Highlight your professional services, consultancy or freelance work."
+realestate,generic,,Property agents and listings
+restaurant,generic,,Restaurants and dining businesses
+reviews,generic,,Product reviews and comparison websites
+run,generic,,Running and fitness
+sbs,generic,,General branding
 sch.ng,second-level,NG,Identify an eligible Nigerian primary or secondary school online.
+school,generic,,Schools and learning platforms
 se,country-code,SE,Connect with Swedish customers through their national domain.
 services,generic,,Help customers find the services your business offers.
 shop,generic,,Build an online home for your shop or e-commerce business.
 site,generic,,Create a simple web address for any project.
 social,generic,,"Connect communities, creators and social apps online."
+software,generic,,Software businesses and SaaS products
 solutions,generic,,Present the solutions your consultancy or service business provides.
 space,generic,,"Give your portfolio, studio or creative project room online."
 store,generic,,Give your online store or retail brand a clear web address.
 studio,generic,,"Showcase your music, film, fitness or design studio."
+support,generic,,Help centres and customer service
+systems,generic,,IT providers and systems integrators
 team,generic,,"Bring sports teams, clubs and collaborators together online."
 tech,generic,,"Highlight your technology startup, products or services."
 today,generic,,"Publish timely news, daily deals and fresh content."
+tools,generic,,Developer utilities and productivity apps
 top,generic,,"Give your brand a short, distinctive web address."
+training,generic,,Professional training and coaching
 travel,generic,,"Showcase travel agencies, tours and travel content."
 tv,country-code,TV,"Showcase video channels, streaming and broadcasting."
 uk,country-code,GB,Connect with British customers through a UK domain.
 us,country-code,US,Reach American customers with a domain requiring a US presence.
+video,generic,,"Video creators, production and streaming"
 vip,generic,,"Highlight premium brands, exclusive events and loyalty programmes."
 website,generic,,"Give any website a clear, descriptive address."
+wiki,generic,,Knowledge bases and documentation
+win,generic,,Competitions and gaming
+work,generic,,"Recruitment, freelancing and portfolios"
 works,generic,,"Showcase portfolios, workshops and production work."
 world,generic,,"Share brands, travel and projects with a global audience."
 ws,country-code,WS,"Create a short, memorable address for your website."
