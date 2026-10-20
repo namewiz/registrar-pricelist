@@ -1,9 +1,9 @@
 {
   "meta": {
     "source": "manual-nira-pricelist",
-    "generated_at": "2026-10-19T12:39:34.100Z",
+    "generated_at": "2026-10-20T11:11:47.420Z",
     "data_currency": "USD",
-    "exchange_rate": 1331.609971,
+    "exchange_rate": 1332.260045,
     "orig_currency": "NGN"
   },
   "data": {
@@ -16,51 +16,51 @@
     },
     "com.ng": {
       "regular-price": {
-        "create": 4.51,
-        "renew": 4.51,
-        "transfer": 4.51
+        "create": 4.5,
+        "renew": 4.5,
+        "transfer": 4.5
       }
     },
     "org.ng": {
       "regular-price": {
-        "create": 4.51,
-        "renew": 4.51,
-        "transfer": 4.51
+        "create": 4.5,
+        "renew": 4.5,
+        "transfer": 4.5
       }
     },
     "net.ng": {
       "regular-price": {
-        "create": 4.51,
-        "renew": 4.51,
-        "transfer": 4.51
+        "create": 4.5,
+        "renew": 4.5,
+        "transfer": 4.5
       }
     },
     "mobi.ng": {
       "regular-price": {
-        "create": 4.51,
-        "renew": 4.51,
-        "transfer": 4.51
+        "create": 4.5,
+        "renew": 4.5,
+        "transfer": 4.5
       }
     },
     "i.ng": {
       "regular-price": {
-        "create": 4.51,
-        "renew": 4.51,
-        "transfer": 4.51
+        "create": 4.5,
+        "renew": 4.5,
+        "transfer": 4.5
       }
     },
     "sch.ng": {
       "regular-price": {
-        "create": 4.51,
-        "renew": 4.51,
-        "transfer": 4.51
+        "create": 4.5,
+        "renew": 4.5,
+        "transfer": 4.5
       }
     },
     "edu.ng": {
       "regular-price": {
-        "create": 4.51,
-        "renew": 4.51,
-        "transfer": 4.51
+        "create": 4.5,
+        "renew": 4.5,
+        "transfer": 4.5
       }
     },
     "name.ng": {
@@ -72,9 +72,9 @@
     },
     "premium.ng": {
       "regular-price": {
-        "create": 112.65,
-        "renew": 112.65,
-        "transfer": 112.65
+        "create": 112.59,
+        "renew": 112.59,
+        "transfer": 112.59
       }
     }
   },
