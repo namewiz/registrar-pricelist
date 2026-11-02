@@ -3865,11 +3865,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 11.98,
-      "renew": 16.98,
+      "create": 12.17,
+      "renew": 12.17,
       "restore": 45,
       "trade": 0,
-      "transfer": 11.98,
+      "transfer": 12.17,
       "update": 0
     },
     "tld": "com"
