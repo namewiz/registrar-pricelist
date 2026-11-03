@@ -1,66 +1,66 @@
 {
   "meta": {
     "source": "manual-nira-pricelist",
-    "generated_at": "2026-11-02T15:13:29.148Z",
+    "generated_at": "2026-11-03T13:53:21.921Z",
     "data_currency": "USD",
-    "exchange_rate": 1346.910043,
+    "exchange_rate": 1346.259986,
     "orig_currency": "NGN"
   },
   "data": {
     "ng": {
       "regular-price": {
-        "create": 9.65,
-        "renew": 9.65,
-        "transfer": 9.65
+        "create": 9.66,
+        "renew": 9.66,
+        "transfer": 9.66
       }
     },
     "com.ng": {
       "regular-price": {
-        "create": 4.45,
-        "renew": 4.45,
-        "transfer": 4.45
+        "create": 4.46,
+        "renew": 4.46,
+        "transfer": 4.46
       }
     },
     "org.ng": {
       "regular-price": {
-        "create": 4.45,
-        "renew": 4.45,
-        "transfer": 4.45
+        "create": 4.46,
+        "renew": 4.46,
+        "transfer": 4.46
       }
     },
     "net.ng": {
       "regular-price": {
-        "create": 4.45,
-        "renew": 4.45,
-        "transfer": 4.45
+        "create": 4.46,
+        "renew": 4.46,
+        "transfer": 4.46
       }
     },
     "mobi.ng": {
       "regular-price": {
-        "create": 4.45,
-        "renew": 4.45,
-        "transfer": 4.45
+        "create": 4.46,
+        "renew": 4.46,
+        "transfer": 4.46
       }
     },
     "i.ng": {
       "regular-price": {
-        "create": 4.45,
-        "renew": 4.45,
-        "transfer": 4.45
+        "create": 4.46,
+        "renew": 4.46,
+        "transfer": 4.46
       }
     },
     "sch.ng": {
       "regular-price": {
-        "create": 4.45,
-        "renew": 4.45,
-        "transfer": 4.45
+        "create": 4.46,
+        "renew": 4.46,
+        "transfer": 4.46
       }
     },
     "edu.ng": {
       "regular-price": {
-        "create": 4.45,
-        "renew": 4.45,
-        "transfer": 4.45
+        "create": 4.46,
+        "renew": 4.46,
+        "transfer": 4.46
       }
     },
     "name.ng": {
@@ -72,9 +72,9 @@
     },
     "premium.ng": {
       "regular-price": {
-        "create": 111.37,
-        "renew": 111.37,
-        "transfer": 111.37
+        "create": 111.42,
+        "renew": 111.42,
+        "transfer": 111.42
       }
     }
   },
