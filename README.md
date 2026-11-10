@@ -5,6 +5,7 @@ Utilities for generating structured JSON price lists for domain registrars. The 
 - **Openprovider** – parses a public Google Sheet into a compact structure.
 - **Namecheap** – calls the official API and normalises create/renew/transfer/restore prices.
 - **NIRA** – converts fixed NGN list prices to USD using a live FX rate.
+- **NameSilo** – calls the `getPrices` API (needs `NAMESILO_API_KEY`); the daily workflow publishes its catalog to `data/namesilo/` for the ngdomain server's `DOMAIN_REGISTRAR=namesilo`.
 
 ## Prerequisites
 

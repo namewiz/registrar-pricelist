@@ -32,6 +32,14 @@ jobs:
       - name: Generate (Openprovider + NIRA only)
         run: node src/cli.js --registrars=openprovider,nira --unified --unifiedOut=unified-prices.json --outDir=./data
 
+      # The server serves this catalog when DOMAIN_REGISTRAR=namesilo; kept in its own folder so data/ is unaffected.
+      - name: Generate (NameSilo + NIRA)
+        # A NameSilo outage or key problem must not block the OpenProvider prices above from publishing.
+        continue-on-error: true
+        env:
+          NAMESILO_API_KEY: ${{ secrets.NAMESILO_API_KEY }}
+        run: mkdir -p data/namesilo && node src/cli.js --registrars=namesilo,nira --unified --unifiedOut=unified-prices.json --outDir=./data/namesilo
+
       - name: Commit and push changes (if any)
         run: |
           set -e

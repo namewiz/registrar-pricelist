@@ -1,9 +1,10 @@
 import namecheapGenerator from './namecheap.js';
+import namesiloGenerator from './namesilo.js';
 import niraGenerator from './nira.js';
 import openproviderGenerator from './openprovider.js';
 export { generateUnifiedList, generateCheapestOpRows, rowsToCsv, generateCatalogRows, catalogRowsToCsv } from './unified.js';
 
-export const registrarGenerators = [namecheapGenerator, niraGenerator, openproviderGenerator];
+export const registrarGenerators = [namecheapGenerator, namesiloGenerator, niraGenerator, openproviderGenerator];
 
 export const registrarGeneratorMap = Object.fromEntries(
   registrarGenerators.map((generator) => [generator.id, generator]),
