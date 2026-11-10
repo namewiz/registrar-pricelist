@@ -11,6 +11,8 @@ permissions:
 
 jobs:
   build:
+    # Data is only published from main; a manual dispatch on another branch is a no-op.
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     env:
       TZ: America/Los_Angeles
