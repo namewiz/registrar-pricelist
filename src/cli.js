@@ -2,9 +2,11 @@
 import 'dotenv/config';
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
-import { getRegistrarGenerator, listRegistrarIds, generateUnifiedList, generateCheapestOpRows, rowsToCsv, generateCatalogRows, catalogRowsToCsv } from './generators/index.js';
+import { getRegistrarGenerator, listRegistrarIds, generateUnifiedList, generateCheapestOpRows, rowsToCsv, catalogRowsToCsv } from './generators/index.js';
+import { catalogRowsFromOperationRows } from './generators/unified.js';
 import exchangeRatesGenerator from './generators/exchange-rates.js';
 import { extensionsToCsv, filterResultsByTld, generateExtensionList, isAbridgedTld, isExcludedTld } from './extensions.js';
+import { loadPublicationBaseline } from './publication-baseline.js';
 
 function printHelp() {
   console.log(`Usage: npx registrar-pricelist [options]\n\n` +
@@ -14,13 +16,14 @@ function printHelp() {
     `  --unified             Also write combined TLD unified list\n` +
     `  --unifiedOut=<file>   Filename for unified list (default: unified-prices.json)\n` +
     `  --fromData            Skip fetching; rebuild unified outputs from existing JSON in --outDir\n` +
+    `  --minPriceChangePercent=<number>  Minimum published price change (default: 1; 0 disables)\n` +
     `  --list                Print available registrar ids\n` +
     `  --verbose             Enable verbose logging\n` +
     `  -h, --help            Show this message\n`);
 }
 
 function parseArgs(argv) {
-  const args = { registrars: null, outDir: './data', unified: false, unifiedOut: 'unified-prices.json', verbose: false, list: false, fromData: false };
+  const args = { registrars: null, outDir: './data', unified: false, unifiedOut: 'unified-prices.json', verbose: false, list: false, fromData: false, minPriceChangePercent: 1 };
   let deprecatedMasterFlag = false;
   for (const raw of argv.slice(2)) {
     if (raw === '--help' || raw === '-h') {
@@ -53,6 +56,14 @@ function parseArgs(argv) {
     }
     if (raw.startsWith('--unifiedOut=')) {
       args.unifiedOut = raw.split('=')[1];
+      continue;
+    }
+    if (raw === '--minPriceChangePercent' || raw.startsWith('--minPriceChangePercent=')) {
+      const value = raw.slice('--minPriceChangePercent='.length).trim();
+      args.minPriceChangePercent = value ? Number(value) : NaN;
+      if (!Number.isFinite(args.minPriceChangePercent) || args.minPriceChangePercent < 0) {
+        throw new Error('--minPriceChangePercent must be a finite, nonnegative number.');
+      }
       continue;
     }
     // Backwards compatibility: deprecated flags
@@ -120,6 +131,7 @@ async function run() {
   }
 
   const resultsById = {};
+  const previous = args.unified ? await loadPublicationBaseline(outDir, args.unifiedOut || 'unified-prices.json') : undefined;
 
   if (args.fromData) {
     for (const generator of generators) {
@@ -154,26 +166,31 @@ async function run() {
 
     // Excluded extensions are dropped from every published unified output.
     const supportedResults = filterResultsByTld(resultsById, (tld) => !isExcludedTld(tld));
-    const abridgedResults = filterResultsByTld(supportedResults, isAbridgedTld);
-
     console.log('Building unified TLD list...');
-    const unified = generateUnifiedList(supportedResults, { providers: normalizedIds });
+    const unified = generateUnifiedList(supportedResults, {
+      providers: normalizedIds, previous: previous.unified, minPriceChangePercent: args.minPriceChangePercent,
+    });
+    const operationRows = {};
+    for (const op of ['create', 'renew', 'transfer']) {
+      operationRows[op] = generateCheapestOpRows(supportedResults, op, normalizedIds, {
+        previous: previous.operationRows[op], minPriceChangePercent: args.minPriceChangePercent,
+      });
+    }
     await writeOut(args.unifiedOut || 'unified-prices.json', JSON.stringify(unified, null, 2), 'unified list');
 
     console.log('Building unified CSVs (create, renew, transfer)...');
-    for (const op of ['create', 'renew', 'transfer']) {
-      const rows = generateCheapestOpRows(supportedResults, op, normalizedIds);
+    for (const [op, rows] of Object.entries(operationRows)) {
       await writeOut(`unified-${op}-prices.csv`, rowsToCsv(rows), `unified ${op} CSV`);
     }
 
     console.log('Building unified catalog CSV (price-quotes format)...');
-    const catalogRows = generateCatalogRows(supportedResults, normalizedIds);
+    const catalogRows = catalogRowsFromOperationRows(operationRows);
     await writeOut('unified-catalog.csv', catalogRowsToCsv(catalogRows), 'unified catalog CSV');
 
     console.log('Building abridged list (.ng + popular global extensions)...');
-    const abridged = generateUnifiedList(abridgedResults, { providers: normalizedIds });
+    const abridged = unified.filter((entry) => isAbridgedTld(entry.tld));
     await writeOut('abridged-prices.json', JSON.stringify(abridged, null, 2), 'abridged list');
-    const abridgedCatalogRows = generateCatalogRows(abridgedResults, normalizedIds);
+    const abridgedCatalogRows = catalogRows.filter((row) => isAbridgedTld(row.product_sku));
     await writeOut('abridged-catalog.csv', catalogRowsToCsv(abridgedCatalogRows), 'abridged catalog CSV');
 
     console.log('Building abridged extension metadata CSV...');

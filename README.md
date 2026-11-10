@@ -41,6 +41,7 @@ Useful flags:
 - `--list` – print all available registrar ids.
 - `--verbose` – emit detailed progress logs.
 - `--fromData` – rebuild unified outputs from existing JSON in `--outDir` instead of fetching.
+- `--minPriceChangePercent=<number>` – minimum published price change, default `1` percent; `0` disables filtering and provider retention.
 - `--help` – display usage information.
 
 ### Unified list (combined)
@@ -79,6 +80,38 @@ Additionally, when `--unified` is used, several CSVs are produced for quick look
   directly to `price-quotes`' `loadCatalog()`.
 
 Rows are sorted by `tld` and include a header line matching the columns above.
+
+### Minimum published price changes
+
+With `--unified`, prices change only when they move at least **1%** from the last published
+value, in either direction. For example, a published price of $10 stays at $10 when the
+fetched price becomes $10.09, but updates at $10.10 or $9.90. Ignored changes do not reset
+the baseline, so small movements can accumulate until they cross the threshold.
+
+The current provider is retained while its offering remains available, unless a competitor
+is at least 1% cheaper than that provider's **current fetched price**. JSON uses the create
+price (or its minimum-operation fallback) for provider selection; each operation CSV selects
+independently for each currency. Switching providers publishes the new provider's current
+prices immediately. Consequently, a published provider can differ from the current cheapest
+one when the savings are below the threshold.
+
+Change the percentage, or use `0` to publish every change and always select the cheapest provider:
+
+```bash
+node src/cli.js --registrars=openprovider,nira --unified --minPriceChangePercent=2
+```
+
+This applies to both fetched runs and `--fromData`. Registrar snapshots and exchange rates
+remain unfiltered. The baselines are the configured unified JSON file and the three operation
+CSVs in `--outDir`; catalogs and abridged outputs are derived from those accepted prices.
+JSON retains its single-provider-per-TLD format, so its renewal/transfer prices can differ
+from the independently selected operation CSVs and catalogs.
+
+New entries, currency changes, changes from zero to a nonzero price, and removals apply
+immediately. Missing baseline files start with current prices; malformed existing baselines
+stop publication with an error. Thresholds must be finite, nonnegative numbers.
+Raw data updates can still cause automated
+commits when all published prices remain stable.
 
 ### Excluded extensions
 
