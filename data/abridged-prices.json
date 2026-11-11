@@ -1641,17 +1641,17 @@
     "currencies": {
       "NGN": {
         "regular-price": {
-          "create": 150000,
-          "renew": 150000,
-          "transfer": 150000
+          "create": 101700,
+          "renew": 101700,
+          "transfer": 101700
         }
       }
     },
     "provider": "nira",
     "regular-price": {
-      "create": 111.14,
-      "renew": 111.14,
-      "transfer": 111.14
+      "create": 75.35,
+      "renew": 75.35,
+      "transfer": 75.35
     },
     "tld": "premium.ng"
   },

@@ -14,8 +14,8 @@ const NGN_PRICES = {
   "edu.ng": 6000,
   'name.ng': 400,
   // Synthetic SKU for NIRA's premium .ng pool (domainstat's isPremiumNgDomain) -
-  // not a real public suffix, priced separately from regular .ng registration.
-  'premium.ng': 150000,
+  // not a real public suffix. Not NIRA's list price: set so the server's 17% markup sells it at ₦118,990.
+  'premium.ng': 101700,
 };
 
 function round2(n) {
