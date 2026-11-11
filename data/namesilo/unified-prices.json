@@ -1,0 +1,4763 @@
+[
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 34.89,
+      "renew": 47.89,
+      "transfer": 46.99
+    },
+    "tld": "ac"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 17.89,
+      "renew": 56.89,
+      "transfer": 47.99
+    },
+    "tld": "academy"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 23.49,
+      "renew": 23.49,
+      "transfer": 22.99
+    },
+    "tld": "accountant"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 117.89,
+      "renew": 117.89,
+      "transfer": 109.99
+    },
+    "tld": "accountants"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 16.89,
+      "renew": 44.39,
+      "transfer": 41.99
+    },
+    "tld": "actor"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 89.89,
+      "renew": 79.89,
+      "transfer": 77.99
+    },
+    "tld": "ag"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 9.89,
+      "renew": 30.89,
+      "transfer": 28.99
+    },
+    "tld": "agency"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 94.99,
+      "renew": 94.99,
+      "transfer": 245
+    },
+    "tld": "ai"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 103.89,
+      "renew": 103.89,
+      "transfer": 95.99
+    },
+    "tld": "airforce"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 57.89,
+      "renew": 57.89,
+      "transfer": 53.99
+    },
+    "tld": "apartments"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 10.89,
+      "renew": 16.89,
+      "transfer": 15.99
+    },
+    "tld": "app"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 19.89,
+      "renew": 103.89,
+      "transfer": 95.99
+    },
+    "tld": "archi"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 18.89,
+      "renew": 39.89,
+      "transfer": 37.99
+    },
+    "tld": "army"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 3.09,
+      "renew": 23.89,
+      "transfer": 22.99
+    },
+    "tld": "art"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.79,
+      "renew": 13.39,
+      "transfer": 12.99
+    },
+    "tld": "asia"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 18.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "associates"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 11.89,
+      "renew": 11.89
+    },
+    "tld": "at"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 62.89,
+      "renew": 62.89,
+      "transfer": 59.99
+    },
+    "tld": "attorney"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 36.89,
+      "renew": 36.89,
+      "transfer": 34.99
+    },
+    "tld": "auction"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 104.89,
+      "renew": 114.89,
+      "transfer": 112.99
+    },
+    "tld": "audio"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1,
+      "renew": 2,
+      "transfer": 2
+    },
+    "tld": "auto"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.89,
+      "renew": 17.19,
+      "transfer": 14.75
+    },
+    "tld": "autos"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 17.89,
+      "renew": 54.89,
+      "transfer": 53.99
+    },
+    "tld": "baby"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 20.89,
+      "renew": 31.39,
+      "transfer": 29.99
+    },
+    "tld": "band"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 3.39,
+      "renew": 54.89,
+      "transfer": 54.99
+    },
+    "tld": "bar"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 17.89,
+      "renew": 26.39,
+      "transfer": 24.99
+    },
+    "tld": "bargains"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 34.89,
+      "renew": 34.89,
+      "transfer": 33.99
+    },
+    "tld": "bayern"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.89,
+      "renew": 17.19,
+      "transfer": 14.75
+    },
+    "tld": "beauty"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.09,
+      "renew": 32.39,
+      "transfer": 27.5
+    },
+    "tld": "beer"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.25,
+      "renew": 22.89,
+      "transfer": 19.25
+    },
+    "tld": "best"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 44.89,
+      "renew": 44.89,
+      "transfer": 43.99
+    },
+    "tld": "bible"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.15,
+      "renew": 6.15,
+      "transfer": 4.75
+    },
+    "tld": "bid"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 12.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "bike"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 53.89,
+      "renew": 53.89,
+      "transfer": 45.99
+    },
+    "tld": "bingo"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 9.89,
+      "renew": 69.89,
+      "transfer": 64.99
+    },
+    "tld": "bio"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 7.89,
+      "renew": 23.39,
+      "transfer": 19.95
+    },
+    "tld": "biz"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 27.89,
+      "renew": 64.89,
+      "transfer": 59.99
+    },
+    "tld": "black"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 114.89,
+      "renew": 114.89,
+      "transfer": 112.99
+    },
+    "tld": "blackfriday"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 4.19,
+      "renew": 22.89,
+      "transfer": 21.99
+    },
+    "tld": "blog"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 19.89,
+      "renew": 24.89,
+      "transfer": 21.99
+    },
+    "tld": "blue"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.89,
+      "renew": 17.19,
+      "transfer": 14.75
+    },
+    "tld": "boats"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.49,
+      "renew": 19.39,
+      "transfer": 16.5
+    },
+    "tld": "bond"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 23.39,
+      "renew": 23.39,
+      "transfer": 19.95
+    },
+    "tld": "boston"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 64.89,
+      "renew": 64.89,
+      "transfer": 59.99
+    },
+    "tld": "bot"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.89,
+      "renew": 32.89,
+      "transfer": 27.99
+    },
+    "tld": "boutique"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 35.89,
+      "renew": 35.89,
+      "transfer": 29.99
+    },
+    "tld": "builders"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 24.89,
+      "renew": 24.89,
+      "transfer": 19.99
+    },
+    "tld": "business"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.09,
+      "renew": 27.89,
+      "transfer": 27.99
+    },
+    "tld": "buzz"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 9.89,
+      "renew": 9.89,
+      "transfer": 9.49
+    },
+    "tld": "ca"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 32.89,
+      "renew": 32.89,
+      "transfer": 29.99
+    },
+    "tld": "cab"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 7.15,
+      "renew": 51.89,
+      "transfer": 47.99
+    },
+    "tld": "cafe"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 8.89,
+      "renew": 17.39,
+      "transfer": 16.49
+    },
+    "tld": "cam"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 58.89,
+      "renew": 58.89,
+      "transfer": 54.99
+    },
+    "tld": "camera"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 62.89,
+      "renew": 62.89,
+      "transfer": 59.99
+    },
+    "tld": "camp"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 10.89,
+      "renew": 71.89,
+      "transfer": 65.99
+    },
+    "tld": "capital"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1,
+      "renew": 2,
+      "transfer": 2
+    },
+    "tld": "car"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 38.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "cards"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 20.89,
+      "renew": 44.39,
+      "transfer": 40.99
+    },
+    "tld": "care"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 34.89,
+      "renew": 71.89,
+      "transfer": 67.99
+    },
+    "tld": "careers"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1,
+      "renew": 2,
+      "transfer": 2
+    },
+    "tld": "cars"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.09,
+      "renew": 12.89,
+      "transfer": 11.49
+    },
+    "tld": "casa"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 12.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "cash"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.89,
+      "renew": 179.89,
+      "transfer": 154.99
+    },
+    "tld": "casino"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 38.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "catering"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 4.09,
+      "renew": 9.89,
+      "transfer": 9.49
+    },
+    "tld": "cc"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.89,
+      "renew": 32.39,
+      "transfer": 29.99
+    },
+    "tld": "center"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 10.09,
+      "renew": 129.89,
+      "transfer": 109.99
+    },
+    "tld": "ceo"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.78,
+      "renew": 19.39,
+      "transfer": 16.5
+    },
+    "tld": "cfd"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.89,
+      "renew": 23.89,
+      "transfer": 22.99
+    },
+    "tld": "charity"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 10.89,
+      "renew": 44.89,
+      "transfer": 40.99
+    },
+    "tld": "chat"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 8.89,
+      "renew": 36.39,
+      "transfer": 33.99
+    },
+    "tld": "cheap"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 34.89,
+      "renew": 34.89,
+      "transfer": 33.99
+    },
+    "tld": "christmas"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.89,
+      "renew": 58.89,
+      "transfer": 53.99
+    },
+    "tld": "church"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 7.15,
+      "renew": 34.89,
+      "transfer": 29.99
+    },
+    "tld": "city"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 17.89,
+      "renew": 64.89,
+      "transfer": 61.99
+    },
+    "tld": "claims"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 75.39,
+      "renew": 75.39,
+      "transfer": 69.99
+    },
+    "tld": "cleaning"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.09,
+      "renew": 12.89,
+      "transfer": 11.49
+    },
+    "tld": "click"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 20.89,
+      "renew": 64.89,
+      "transfer": 62.99
+    },
+    "tld": "clinic"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 32.89,
+      "renew": 32.89,
+      "transfer": 27.99
+    },
+    "tld": "clothing"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.19,
+      "renew": 25.89,
+      "transfer": 23.99
+    },
+    "tld": "cloud"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 4.89,
+      "renew": 19.39,
+      "transfer": 16.5
+    },
+    "tld": "club"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 19.39,
+      "renew": 38.89,
+      "transfer": 32.99
+    },
+    "tld": "co"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.15,
+      "renew": 6.39,
+      "transfer": 5.99
+    },
+    "tld": "co.uk"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 17.89,
+      "renew": 77.89,
+      "transfer": 70.99
+    },
+    "tld": "coach"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 8.89,
+      "renew": 71.89,
+      "transfer": 65.99
+    },
+    "tld": "codes"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 16.89,
+      "renew": 42.89,
+      "transfer": 38.99
+    },
+    "tld": "coffee"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 17.89,
+      "renew": 59.89,
+      "transfer": 54.99
+    },
+    "tld": "college"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 12,
+      "renew": 12,
+      "transfer": 11.5
+    },
+    "tld": "com"
+  },
+  {
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 6000,
+          "renew": 6000,
+          "transfer": 6000
+        }
+      }
+    },
+    "provider": "nira",
+    "regular-price": {
+      "create": 4.45,
+      "renew": 4.45,
+      "transfer": 4.45
+    },
+    "tld": "com.ng"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 59.89,
+      "renew": 59.89,
+      "transfer": 51.99
+    },
+    "tld": "community"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 20.89,
+      "renew": 20.89,
+      "transfer": 18.99
+    },
+    "tld": "company"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 23.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "computer"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 58.89,
+      "renew": 58.89,
+      "transfer": 54.99
+    },
+    "tld": "condos"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 38.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "construction"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 27.89,
+      "renew": 54.89,
+      "transfer": 49.99
+    },
+    "tld": "consulting"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.89,
+      "renew": 14.89,
+      "transfer": 12.99
+    },
+    "tld": "contact"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 35.39,
+      "renew": 35.39,
+      "transfer": 32.99
+    },
+    "tld": "contractors"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 32.39,
+      "renew": 32.39,
+      "transfer": 27.5
+    },
+    "tld": "cooking"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 9.39,
+      "renew": 44.89,
+      "transfer": 41.99
+    },
+    "tld": "cool"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.89,
+      "renew": 54.89,
+      "transfer": 49.99
+    },
+    "tld": "coupons"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.09,
+      "renew": 38.89,
+      "transfer": 32.95
+    },
+    "tld": "courses"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 11.39,
+      "renew": 104.89,
+      "transfer": 94.99
+    },
+    "tld": "credit"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 144.89,
+      "renew": 144.89,
+      "transfer": 129.99
+    },
+    "tld": "creditcard"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 23.49,
+      "renew": 23.49,
+      "transfer": 22.99
+    },
+    "tld": "cricket"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 56.89,
+      "renew": 56.89,
+      "transfer": 47.99
+    },
+    "tld": "cruises"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.99,
+      "renew": 9.89,
+      "transfer": 8.49
+    },
+    "tld": "cv"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 18.89,
+      "renew": 18.89,
+      "transfer": 18.99
+    },
+    "tld": "cx"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.89,
+      "renew": 19.39,
+      "transfer": 16.5
+    },
+    "tld": "cyou"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 16.89,
+      "renew": 32.89,
+      "transfer": 28.99
+    },
+    "tld": "dance"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.15,
+      "renew": 6.15,
+      "transfer": 4.75
+    },
+    "tld": "date"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 20.89,
+      "renew": 64.89,
+      "transfer": 59.99
+    },
+    "tld": "dating"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.89,
+      "renew": 5.89,
+      "transfer": 5.79
+    },
+    "tld": "de"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 38.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "deal"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2,
+      "renew": 2,
+      "transfer": 2
+    },
+    "tld": "dealer"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 39.89,
+      "renew": 39.89,
+      "transfer": 35.99
+    },
+    "tld": "deals"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 52.89,
+      "renew": 52.89,
+      "transfer": 49.99
+    },
+    "tld": "degree"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 6.65,
+      "renew": 61.89,
+      "transfer": 57.99
+    },
+    "tld": "delivery"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 7.15,
+      "renew": 7.15,
+      "transfer": 6.25
+    },
+    "tld": "democrat"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 78.89,
+      "renew": 78.89,
+      "transfer": 74.99
+    },
+    "tld": "dental"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 65.89,
+      "renew": 65.89,
+      "transfer": 55.99
+    },
+    "tld": "dentist"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 58.39,
+      "renew": 58.39,
+      "transfer": 49.5
+    },
+    "tld": "design"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 10.89,
+      "renew": 14.89,
+      "transfer": 13.99
+    },
+    "tld": "dev"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 54.89,
+      "renew": 54.89,
+      "transfer": 51.99
+    },
+    "tld": "diamonds"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 104.89,
+      "renew": 114.89,
+      "transfer": 112.99
+    },
+    "tld": "diet"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 3.39,
+      "renew": 41.39,
+      "transfer": 38.99
+    },
+    "tld": "digital"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 17.89,
+      "renew": 41.89,
+      "transfer": 38.99
+    },
+    "tld": "direct"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 8.89,
+      "renew": 32.89,
+      "transfer": 28.99
+    },
+    "tld": "directory"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 30.89,
+      "renew": 30.89,
+      "transfer": 25.99
+    },
+    "tld": "discount"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.39,
+      "renew": 39.89,
+      "transfer": 35.99
+    },
+    "tld": "diy"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.39,
+      "renew": 116.89,
+      "transfer": 109.99
+    },
+    "tld": "doctor"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 7.39,
+      "renew": 64.89,
+      "transfer": 59.99
+    },
+    "tld": "dog"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 59.89,
+      "renew": 59.89,
+      "transfer": 51.99
+    },
+    "tld": "domains"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.15,
+      "renew": 6.15,
+      "transfer": 4.75
+    },
+    "tld": "download"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 18.89,
+      "renew": 18.89,
+      "transfer": 17.99
+    },
+    "tld": "earth"
+  },
+  {
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 6000,
+          "renew": 6000,
+          "transfer": 6000
+        }
+      }
+    },
+    "provider": "nira",
+    "regular-price": {
+      "create": 4.45,
+      "renew": 4.45,
+      "transfer": 4.45
+    },
+    "tld": "edu.ng"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 34.89,
+      "renew": 34.89,
+      "transfer": 32.99
+    },
+    "tld": "education"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 7.39,
+      "renew": 35.39,
+      "transfer": 29.99
+    },
+    "tld": "email"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 15.89,
+      "renew": 114.89,
+      "transfer": 104.99
+    },
+    "tld": "energy"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 38.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "engineer"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 16.89,
+      "renew": 79.89,
+      "transfer": 69.99
+    },
+    "tld": "engineering"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 11.39,
+      "renew": 35.89,
+      "transfer": 29.99
+    },
+    "tld": "enterprises"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 34.89,
+      "renew": 34.89,
+      "transfer": 29.99
+    },
+    "tld": "equipment"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 15.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "estate"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.39,
+      "renew": 9.89,
+      "transfer": 5.99
+    },
+    "tld": "eu"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 15.89,
+      "renew": 69.89,
+      "transfer": 59.99
+    },
+    "tld": "events"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 12.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "exchange"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 10.89,
+      "renew": 62.39,
+      "transfer": 55.99
+    },
+    "tld": "expert"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 22.39,
+      "renew": 22.39,
+      "transfer": 19.99
+    },
+    "tld": "exposed"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 12.39,
+      "renew": 39.89,
+      "transfer": 35.99
+    },
+    "tld": "express"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 38.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "fail"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 11.89,
+      "renew": 11.89,
+      "transfer": 10.99
+    },
+    "tld": "faith"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 39.89,
+      "renew": 39.89,
+      "transfer": 34.99
+    },
+    "tld": "family"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 9.78,
+      "renew": 9.78,
+      "transfer": 9.38
+    },
+    "tld": "fans"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 15.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "farm"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 32.39,
+      "renew": 32.39,
+      "transfer": 27.5
+    },
+    "tld": "fashion"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 29.39,
+      "renew": 29.39,
+      "transfer": 26.99
+    },
+    "tld": "fast"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 65.89,
+      "renew": 65.89,
+      "transfer": 65.99
+    },
+    "tld": "film"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 20.89,
+      "renew": 64.89,
+      "transfer": 59.99
+    },
+    "tld": "finance"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 23.89,
+      "renew": 58.89,
+      "transfer": 55.99
+    },
+    "tld": "financial"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 44.39,
+      "renew": 44.39,
+      "transfer": 41.99
+    },
+    "tld": "fish"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 32.39,
+      "renew": 32.39,
+      "transfer": 27.5
+    },
+    "tld": "fishing"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.89,
+      "renew": 32.39,
+      "transfer": 27.5
+    },
+    "tld": "fit"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 8.89,
+      "renew": 41.89,
+      "transfer": 38.99
+    },
+    "tld": "fitness"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 58.89,
+      "renew": 58.89,
+      "transfer": 54.99
+    },
+    "tld": "flights"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 32.89,
+      "renew": 32.89,
+      "transfer": 27.99
+    },
+    "tld": "florist"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 64.89,
+      "renew": 114.89,
+      "transfer": 111.99
+    },
+    "tld": "flowers"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 88.89,
+      "renew": 88.89,
+      "transfer": 88.99
+    },
+    "tld": "fm"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.39,
+      "renew": 39.89,
+      "transfer": 35.99
+    },
+    "tld": "food"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 25.89,
+      "renew": 25.89,
+      "transfer": 23.99
+    },
+    "tld": "football"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 16.89,
+      "renew": 36.89,
+      "transfer": 33.99
+    },
+    "tld": "forsale"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.09,
+      "renew": 34.89,
+      "transfer": 34.99
+    },
+    "tld": "forum"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.89,
+      "renew": 23.89,
+      "transfer": 22.99
+    },
+    "tld": "foundation"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 38.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "free"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.89,
+      "renew": 41.89,
+      "transfer": 31.99
+    },
+    "tld": "fun"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.89,
+      "renew": 71.89,
+      "transfer": 65.99
+    },
+    "tld": "fund"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 27.89,
+      "renew": 94.89,
+      "transfer": 89.99
+    },
+    "tld": "furniture"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 7.39,
+      "renew": 7.39,
+      "transfer": 6.49
+    },
+    "tld": "futbol"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 17.89,
+      "renew": 17.89,
+      "transfer": 15.99
+    },
+    "tld": "fyi"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 34.89,
+      "renew": 34.89,
+      "transfer": 29.99
+    },
+    "tld": "gallery"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 309.89,
+      "renew": 429.89,
+      "transfer": 379.99
+    },
+    "tld": "game"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 33.89,
+      "renew": 33.89,
+      "transfer": 31.99
+    },
+    "tld": "games"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.09,
+      "renew": 32.39,
+      "transfer": 27.5
+    },
+    "tld": "garden"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.89,
+      "renew": 38.89,
+      "transfer": 32.95
+    },
+    "tld": "gay"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.89,
+      "renew": 14.89,
+      "transfer": 14.49
+    },
+    "tld": "gift"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 36.89,
+      "renew": 36.89,
+      "transfer": 33.99
+    },
+    "tld": "gifts"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.89,
+      "renew": 23.89,
+      "transfer": 23.49
+    },
+    "tld": "gives"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 72.89,
+      "renew": 72.89,
+      "transfer": 67.99
+    },
+    "tld": "glass"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 46.89,
+      "renew": 95.89,
+      "transfer": 89.99
+    },
+    "tld": "global"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 59.89,
+      "renew": 59.89,
+      "transfer": 51.99
+    },
+    "tld": "gmbh"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 9.89,
+      "renew": 99.89,
+      "transfer": 94.99
+    },
+    "tld": "gold"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 7.39,
+      "renew": 64.89,
+      "transfer": 59.99
+    },
+    "tld": "golf"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 23.89,
+      "renew": 23.89,
+      "transfer": 19.99
+    },
+    "tld": "graphics"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 23.89,
+      "renew": 23.89,
+      "transfer": 21.99
+    },
+    "tld": "gratis"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.89,
+      "renew": 79.89,
+      "transfer": 75.99
+    },
+    "tld": "green"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 6.89,
+      "renew": 6.89,
+      "transfer": 6.49
+    },
+    "tld": "gripe"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 25.89,
+      "renew": 25.89,
+      "transfer": 23.99
+    },
+    "tld": "group"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 41.39,
+      "renew": 41.39,
+      "transfer": 38.99
+    },
+    "tld": "guide"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 104.89,
+      "renew": 114.89,
+      "transfer": 111.99
+    },
+    "tld": "guitars"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 4.39,
+      "renew": 42.89,
+      "transfer": 39.99
+    },
+    "tld": "guru"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.89,
+      "renew": 17.19,
+      "transfer": 14.75
+    },
+    "tld": "hair"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.89,
+      "renew": 33.89,
+      "transfer": 30.99
+    },
+    "tld": "haus"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 77.89,
+      "renew": 77.89,
+      "transfer": 64.95
+    },
+    "tld": "health"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 88.89,
+      "renew": 88.89,
+      "transfer": 84.99
+    },
+    "tld": "healthcare"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.09,
+      "renew": 32.39,
+      "transfer": 28.99
+    },
+    "tld": "help"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 23.89,
+      "renew": 23.89,
+      "transfer": 22.99
+    },
+    "tld": "hiphop"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 195.89,
+      "renew": 195.89,
+      "transfer": 193.99
+    },
+    "tld": "hiv"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 59.89,
+      "renew": 59.89,
+      "transfer": 55.99
+    },
+    "tld": "hockey"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 64.89,
+      "renew": 64.89,
+      "transfer": 59.99
+    },
+    "tld": "holdings"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 64.89,
+      "renew": 64.89,
+      "transfer": 59.99
+    },
+    "tld": "holiday"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.89,
+      "renew": 17.19,
+      "transfer": 14.75
+    },
+    "tld": "homes"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 32.39,
+      "renew": 32.39,
+      "transfer": 27.5
+    },
+    "tld": "horse"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 74.89,
+      "renew": 74.89,
+      "transfer": 64.99
+    },
+    "tld": "hospital"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 4.89,
+      "renew": 109.89,
+      "transfer": 84.49
+    },
+    "tld": "host"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 309.89,
+      "renew": 429.89,
+      "transfer": 379.99
+    },
+    "tld": "hosting"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 51.89,
+      "renew": 51.89,
+      "transfer": 47.99
+    },
+    "tld": "hot"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 19.89,
+      "renew": 44.39,
+      "transfer": 41.99
+    },
+    "tld": "house"
+  },
+  {
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 6000,
+          "renew": 6000,
+          "transfer": 6000
+        }
+      }
+    },
+    "provider": "nira",
+    "regular-price": {
+      "create": 4.45,
+      "renew": 4.45,
+      "transfer": 4.45
+    },
+    "tld": "i.ng"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 3.09,
+      "renew": 19.39,
+      "transfer": 16.5
+    },
+    "tld": "icu"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 20.65,
+      "renew": 20.65,
+      "transfer": 19.75
+    },
+    "tld": "id"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 34.89,
+      "renew": 34.89,
+      "transfer": 31.99
+    },
+    "tld": "immo"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 37.89,
+      "renew": 37.89,
+      "transfer": 33.99
+    },
+    "tld": "immobilien"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 7.85,
+      "renew": 7.85,
+      "transfer": 7.45
+    },
+    "tld": "in"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 278.9,
+      "renew": 2,
+      "transfer": 2
+    },
+    "tld": "inc"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 45.89,
+      "renew": 45.89,
+      "transfer": 42.99
+    },
+    "tld": "industries"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.15,
+      "renew": 29.39,
+      "transfer": 22.49
+    },
+    "tld": "info"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.89,
+      "renew": 32.39,
+      "transfer": 27.5
+    },
+    "tld": "ink"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 9.89,
+      "renew": 32.89,
+      "transfer": 28.99
+    },
+    "tld": "institute"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 72.89,
+      "renew": 72.89,
+      "transfer": 68.99
+    },
+    "tld": "insure"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 12.89,
+      "renew": 31.39,
+      "transfer": 28.99
+    },
+    "tld": "international"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 12.89,
+      "renew": 129.89,
+      "transfer": 114.99
+    },
+    "tld": "investments"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 38.89,
+      "renew": 69.89,
+      "transfer": 53.49
+    },
+    "tld": "io"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 7.39,
+      "renew": 22.39,
+      "transfer": 19.99
+    },
+    "tld": "irish"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 23.39,
+      "renew": 23.39,
+      "transfer": 19.99
+    },
+    "tld": "ist"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 29.89,
+      "renew": 29.89,
+      "transfer": 24.99
+    },
+    "tld": "istanbul"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 23.89,
+      "renew": 23.89,
+      "transfer": 21.99
+    },
+    "tld": "jetzt"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 64.89,
+      "renew": 64.89,
+      "transfer": 61.99
+    },
+    "tld": "jewelry"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 329.89,
+      "renew": 329.89,
+      "transfer": 329.99
+    },
+    "tld": "juegos"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.89,
+      "renew": 26.89,
+      "transfer": 24.99
+    },
+    "tld": "kaufen"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 6.69,
+      "renew": 19.89,
+      "transfer": 19.49
+    },
+    "tld": "kids"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 12.89,
+      "renew": 23.39,
+      "transfer": 20.99
+    },
+    "tld": "kim"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 10.89,
+      "renew": 64.89,
+      "transfer": 59.99
+    },
+    "tld": "kitchen"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 27.89,
+      "renew": 27.89,
+      "transfer": 27.99
+    },
+    "tld": "la"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 15.89,
+      "renew": 41.89,
+      "transfer": 38.99
+    },
+    "tld": "land"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.89,
+      "renew": 32.39,
+      "transfer": 29.99
+    },
+    "tld": "lat"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 95.89,
+      "renew": 95.89,
+      "transfer": 89.99
+    },
+    "tld": "law"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 62.89,
+      "renew": 62.89,
+      "transfer": 58.99
+    },
+    "tld": "lawyer"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 22.89,
+      "renew": 22.89,
+      "transfer": 20.99
+    },
+    "tld": "lc"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 56.89,
+      "renew": 56.89,
+      "transfer": 53.99
+    },
+    "tld": "lease"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 71.89,
+      "renew": 71.89,
+      "transfer": 67.99
+    },
+    "tld": "legal"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.89,
+      "renew": 79.89,
+      "transfer": 73.99
+    },
+    "tld": "lgbt"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 3.39,
+      "renew": 42.89,
+      "transfer": 35.99
+    },
+    "tld": "life"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.39,
+      "renew": 39.89,
+      "transfer": 35.99
+    },
+    "tld": "lifestyle"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 23.89,
+      "renew": 23.89,
+      "transfer": 19.99
+    },
+    "tld": "lighting"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 36.89,
+      "renew": 36.89,
+      "transfer": 33.99
+    },
+    "tld": "limited"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 54.89,
+      "renew": 54.89,
+      "transfer": 49.99
+    },
+    "tld": "limo"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 8.49,
+      "renew": 8.49,
+      "transfer": 7.75
+    },
+    "tld": "link"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 3.39,
+      "renew": 38.89,
+      "transfer": 32.99
+    },
+    "tld": "live"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.39,
+      "renew": 39.89,
+      "transfer": 35.99
+    },
+    "tld": "living"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.89,
+      "renew": 42.89,
+      "transfer": 39.99
+    },
+    "tld": "llc"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.15,
+      "renew": 6.15,
+      "transfer": 4.75
+    },
+    "tld": "loan"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 20.89,
+      "renew": 116.89,
+      "transfer": 109.99
+    },
+    "tld": "loans"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 6.78,
+      "renew": 37.89,
+      "transfer": 34.99
+    },
+    "tld": "locker"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.89,
+      "renew": 32.39,
+      "transfer": 29.99
+    },
+    "tld": "lol"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 31.89,
+      "renew": 31.89,
+      "transfer": 30.99
+    },
+    "tld": "london"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 9.89,
+      "renew": 28.89,
+      "transfer": 25.99
+    },
+    "tld": "love"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 8.89,
+      "renew": 42.89,
+      "transfer": 36.49
+    },
+    "tld": "ltd"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 34.89,
+      "renew": 34.89,
+      "transfer": 32.99
+    },
+    "tld": "ltda"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 19.39,
+      "renew": 19.39,
+      "transfer": 17.99
+    },
+    "tld": "luxe"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 57.89,
+      "renew": 57.89,
+      "transfer": 53.99
+    },
+    "tld": "maison"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.89,
+      "renew": 17.19,
+      "transfer": 14.75
+    },
+    "tld": "makeup"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 25.89,
+      "renew": 25.89,
+      "transfer": 23.99
+    },
+    "tld": "management"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 44.39,
+      "renew": 44.39,
+      "transfer": 39.99
+    },
+    "tld": "market"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 8.89,
+      "renew": 41.89,
+      "transfer": 38.99
+    },
+    "tld": "marketing"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 17.89,
+      "renew": 39.89,
+      "transfer": 35.99
+    },
+    "tld": "mba"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 9.89,
+      "renew": 19.89,
+      "transfer": 18.99
+    },
+    "tld": "me"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 11.89,
+      "renew": 44.89,
+      "transfer": 41.99
+    },
+    "tld": "media"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 57.9,
+      "renew": 57.9,
+      "transfer": 55
+    },
+    "tld": "melbourne"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 134.89,
+      "renew": 134.89,
+      "transfer": 114.99
+    },
+    "tld": "memorial"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.15,
+      "renew": 6.15,
+      "transfer": 4.75
+    },
+    "tld": "men"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 27.89,
+      "renew": 27.89,
+      "transfer": 27.99
+    },
+    "tld": "menu"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 23.39,
+      "renew": 23.39,
+      "transfer": 19.95
+    },
+    "tld": "miami"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 7.39,
+      "renew": 55.89,
+      "transfer": 42.75
+    },
+    "tld": "mobi"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 41.89,
+      "renew": 41.89,
+      "transfer": 39.99
+    },
+    "tld": "moda"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 13.89,
+      "renew": 13.89,
+      "transfer": 13.99
+    },
+    "tld": "moe"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 25.89,
+      "renew": 25.89,
+      "transfer": 23.99
+    },
+    "tld": "moi"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.89,
+      "renew": 27.89,
+      "transfer": 26.99
+    },
+    "tld": "mom"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 16.89,
+      "renew": 35.89,
+      "transfer": 29.99
+    },
+    "tld": "money"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.89,
+      "renew": 17.19,
+      "transfer": 14.75
+    },
+    "tld": "monster"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 62.89,
+      "renew": 62.89,
+      "transfer": 58.99
+    },
+    "tld": "mortgage"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.89,
+      "renew": 17.19,
+      "transfer": 14.75
+    },
+    "tld": "motorcycles"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 47.89,
+      "renew": 349.89,
+      "transfer": 329.99
+    },
+    "tld": "movie"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 39.89,
+      "renew": 43.89,
+      "transfer": 38.99
+    },
+    "tld": "mx"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 3.39,
+      "renew": 29.89,
+      "transfer": 27.99
+    },
+    "tld": "my"
+  },
+  {
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 400,
+          "renew": 400,
+          "transfer": 400
+        }
+      }
+    },
+    "provider": "nira",
+    "regular-price": {
+      "create": 0.3,
+      "renew": 0.3,
+      "transfer": 0.3
+    },
+    "tld": "name.ng"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 109.89,
+      "renew": 109.89,
+      "transfer": 94.99
+    },
+    "tld": "navy"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 11.85,
+      "renew": 11.85,
+      "transfer": 11.35
+    },
+    "tld": "net"
+  },
+  {
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 6000,
+          "renew": 6000,
+          "transfer": 6000
+        }
+      }
+    },
+    "provider": "nira",
+    "regular-price": {
+      "create": 4.45,
+      "renew": 4.45,
+      "transfer": 4.45
+    },
+    "tld": "net.ng"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 7.89,
+      "renew": 34.89,
+      "transfer": 31.99
+    },
+    "tld": "network"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.39,
+      "renew": 32.39,
+      "transfer": 29.99
+    },
+    "tld": "news"
+  },
+  {
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 13000,
+          "renew": 13000,
+          "transfer": 13000
+        }
+      }
+    },
+    "provider": "nira",
+    "regular-price": {
+      "create": 9.63,
+      "renew": 9.63,
+      "transfer": 9.63
+    },
+    "tld": "ng"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 15.89,
+      "renew": 30.89,
+      "transfer": 27.99
+    },
+    "tld": "ninja"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 6.88,
+      "renew": 7.89,
+      "transfer": 6.99
+    },
+    "tld": "nl"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 38.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "now"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 31.89,
+      "renew": 31.89,
+      "transfer": 29.99
+    },
+    "tld": "nyc"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 10.89,
+      "renew": 10.89,
+      "transfer": 10.49
+    },
+    "tld": "observer"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.89,
+      "renew": 24.65,
+      "transfer": 23.75
+    },
+    "tld": "one"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.39,
+      "renew": 23.39,
+      "transfer": 20.99
+    },
+    "tld": "onl"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.89,
+      "renew": 38.4,
+      "transfer": 29.49
+    },
+    "tld": "online"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 24.89,
+      "renew": 24.89,
+      "transfer": 23.99
+    },
+    "tld": "ooo"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 9.29,
+      "renew": 13.49,
+      "transfer": 11.99
+    },
+    "tld": "org"
+  },
+  {
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 6000,
+          "renew": 6000,
+          "transfer": 6000
+        }
+      }
+    },
+    "provider": "nira",
+    "regular-price": {
+      "create": 4.45,
+      "renew": 4.45,
+      "transfer": 4.45
+    },
+    "tld": "org.ng"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 17.89,
+      "renew": 85.89,
+      "transfer": 82.99
+    },
+    "tld": "organic"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 12.69,
+      "renew": 12.89,
+      "transfer": 11.99
+    },
+    "tld": "page"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 20.89,
+      "renew": 71.89,
+      "transfer": 67.99
+    },
+    "tld": "partners"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 12.89,
+      "renew": 41.89,
+      "transfer": 38.99
+    },
+    "tld": "parts"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.15,
+      "renew": 6.15,
+      "transfer": 4.75
+    },
+    "tld": "party"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.39,
+      "renew": 27.49,
+      "transfer": 22.99
+    },
+    "tld": "pet"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 46.39,
+      "renew": 46.39,
+      "transfer": 59.99
+    },
+    "tld": "ph"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 29.89,
+      "renew": 29.89,
+      "transfer": 27.99
+    },
+    "tld": "photo"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.39,
+      "renew": 36.39,
+      "transfer": 33.99
+    },
+    "tld": "photography"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 15.89,
+      "renew": 29.89,
+      "transfer": 26.99
+    },
+    "tld": "photos"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.89,
+      "renew": 32.39,
+      "transfer": 29.99
+    },
+    "tld": "pics"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 15.39,
+      "renew": 15.39,
+      "transfer": 13.49
+    },
+    "tld": "pictures"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.39,
+      "renew": 25.89,
+      "transfer": 23.99
+    },
+    "tld": "pink"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 17.89,
+      "renew": 64.89,
+      "transfer": 60.99
+    },
+    "tld": "pizza"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 22.39,
+      "renew": 22.39,
+      "transfer": 19.99
+    },
+    "tld": "place"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 72.89,
+      "renew": 72.89,
+      "transfer": 68.99
+    },
+    "tld": "plumbing"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 15.89,
+      "renew": 53.89,
+      "transfer": 49.99
+    },
+    "tld": "plus"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 10.89,
+      "renew": 67.89,
+      "transfer": 63.99
+    },
+    "tld": "poker"
+  },
+  {
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 101700,
+          "renew": 101700,
+          "transfer": 101700
+        }
+      }
+    },
+    "provider": "nira",
+    "regular-price": {
+      "create": 75.37,
+      "renew": 75.37,
+      "transfer": 75.37
+    },
+    "tld": "premium.ng"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 4.89,
+      "renew": 86.89,
+      "transfer": 65.99
+    },
+    "tld": "press"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 3.48,
+      "renew": 29.39,
+      "transfer": 22.49
+    },
+    "tld": "pro"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 10.89,
+      "renew": 40.39,
+      "transfer": 37.99
+    },
+    "tld": "productions"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.39,
+      "renew": 24.89,
+      "transfer": 21.99
+    },
+    "tld": "promo"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 18.89,
+      "renew": 39.89,
+      "transfer": 37.99
+    },
+    "tld": "properties"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 59.89,
+      "renew": 114.89,
+      "transfer": 112.99
+    },
+    "tld": "property"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1,
+      "renew": 2,
+      "transfer": 2
+    },
+    "tld": "protection"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 39.89,
+      "renew": 39.89,
+      "transfer": 35.99
+    },
+    "tld": "pub"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 3.89,
+      "renew": 24.39,
+      "transfer": 18.75
+    },
+    "tld": "pw"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 11.39,
+      "renew": 11.39,
+      "transfer": 10.49
+    },
+    "tld": "qpon"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.89,
+      "renew": 17.19,
+      "transfer": 14.75
+    },
+    "tld": "quest"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 11.89,
+      "renew": 11.89,
+      "transfer": 10.99
+    },
+    "tld": "racing"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 109.89,
+      "renew": 298.9,
+      "transfer": 284
+    },
+    "tld": "realty"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 8.89,
+      "renew": 77.89,
+      "transfer": 74.99
+    },
+    "tld": "recipes"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 11.39,
+      "renew": 23.39,
+      "transfer": 21.99
+    },
+    "tld": "red"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 36.89,
+      "renew": 36.89,
+      "transfer": 33.99
+    },
+    "tld": "rehab"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 27.79,
+      "renew": 97.89,
+      "transfer": 91.99
+    },
+    "tld": "reise"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 3.89,
+      "renew": 20.89,
+      "transfer": 18.99
+    },
+    "tld": "reisen"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 17.89,
+      "renew": 59.89,
+      "transfer": 54.99
+    },
+    "tld": "rent"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 10.89,
+      "renew": 44.39,
+      "transfer": 41.99
+    },
+    "tld": "rentals"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 12.89,
+      "renew": 36.89,
+      "transfer": 33.99
+    },
+    "tld": "repair"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 10.89,
+      "renew": 24.89,
+      "transfer": 22.99
+    },
+    "tld": "report"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 7.15,
+      "renew": 7.15,
+      "transfer": 6.25
+    },
+    "tld": "republican"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.09,
+      "renew": 28.89,
+      "transfer": 28.99
+    },
+    "tld": "rest"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 20.89,
+      "renew": 64.89,
+      "transfer": 59.99
+    },
+    "tld": "restaurant"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 11.89,
+      "renew": 11.89,
+      "transfer": 10.99
+    },
+    "tld": "review"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 62.89,
+      "renew": 62.89,
+      "transfer": 57.99
+    },
+    "tld": "reviews"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 94.89,
+      "renew": 1,
+      "transfer": 1
+    },
+    "tld": "rich"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 23.39,
+      "renew": 23.39,
+      "transfer": 21.49
+    },
+    "tld": "rip"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 11.89,
+      "renew": 21.89,
+      "transfer": 19.99
+    },
+    "tld": "rocks"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 12.89,
+      "renew": 12.89,
+      "transfer": 10.95
+    },
+    "tld": "rodeo"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 6.89,
+      "renew": 31.89,
+      "transfer": 26.49
+    },
+    "tld": "run"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 7.39,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "sale"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 57.89,
+      "renew": 57.89,
+      "transfer": 48.99
+    },
+    "tld": "salon"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 6.89,
+      "renew": 6.89,
+      "transfer": 6.49
+    },
+    "tld": "sarl"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.78,
+      "renew": 19.39,
+      "transfer": 16.5
+    },
+    "tld": "sbs"
+  },
+  {
+    "currencies": {
+      "NGN": {
+        "regular-price": {
+          "create": 6000,
+          "renew": 6000,
+          "transfer": 6000
+        }
+      }
+    },
+    "provider": "nira",
+    "regular-price": {
+      "create": 4.45,
+      "renew": 4.45,
+      "transfer": 4.45
+    },
+    "tld": "sch.ng"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 44.89,
+      "renew": 44.89,
+      "transfer": 38.99
+    },
+    "tld": "school"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 34.89,
+      "renew": 34.89,
+      "transfer": 29.99
+    },
+    "tld": "schule"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 11.89,
+      "renew": 11.89,
+      "transfer": 10.99
+    },
+    "tld": "science"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1,
+      "renew": 2,
+      "transfer": 2
+    },
+    "tld": "security"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "services"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2,
+      "renew": 2,
+      "transfer": 2
+    },
+    "tld": "sexy"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 39.89,
+      "renew": 47.89,
+      "transfer": 46.99
+    },
+    "tld": "sh"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.89,
+      "renew": 51.89,
+      "transfer": 48.99
+    },
+    "tld": "shiksha"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 64.89,
+      "renew": 64.89,
+      "transfer": 60.99
+    },
+    "tld": "shoes"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "shop"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 26.89,
+      "renew": 26.89,
+      "transfer": 25.99
+    },
+    "tld": "shopping"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 18.89,
+      "renew": 44.39,
+      "transfer": 39.99
+    },
+    "tld": "show"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 12.99,
+      "renew": 24.89,
+      "transfer": 17.99
+    },
+    "tld": "si"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 9.39,
+      "renew": 33.89,
+      "transfer": 31.99
+    },
+    "tld": "singles"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.89,
+      "renew": 38.4,
+      "transfer": 29.49
+    },
+    "tld": "site"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 27.89,
+      "renew": 64.89,
+      "transfer": 58.99
+    },
+    "tld": "ski"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.89,
+      "renew": 17.19,
+      "transfer": 14.75
+    },
+    "tld": "skin"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 25.89,
+      "renew": 25.89,
+      "transfer": 23.99
+    },
+    "tld": "soccer"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 9.89,
+      "renew": 41.39,
+      "transfer": 38.99
+    },
+    "tld": "social"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 20.89,
+      "renew": 41.89,
+      "transfer": 37.99
+    },
+    "tld": "software"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 64.89,
+      "renew": 64.89,
+      "transfer": 59.99
+    },
+    "tld": "solar"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 10.89,
+      "renew": 39.89,
+      "transfer": 34.99
+    },
+    "tld": "solutions"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 24.89,
+      "renew": 24.89,
+      "transfer": 22.99
+    },
+    "tld": "spa"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 3.89,
+      "renew": 34.89,
+      "transfer": 26.75
+    },
+    "tld": "space"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 25.89,
+      "renew": 25.89,
+      "transfer": 23.99
+    },
+    "tld": "spot"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 31.89,
+      "renew": 31.89,
+      "transfer": 29.99
+    },
+    "tld": "srl"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 509.89,
+      "renew": 529.89,
+      "transfer": 519.99
+    },
+    "tld": "storage"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.09,
+      "renew": 58.89,
+      "transfer": 44.99
+    },
+    "tld": "store"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.15,
+      "renew": 6.15,
+      "transfer": 4.75
+    },
+    "tld": "stream"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 17.89,
+      "renew": 54.89,
+      "transfer": 47.99
+    },
+    "tld": "studio"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.09,
+      "renew": 38.89,
+      "transfer": 32.95
+    },
+    "tld": "study"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 16.89,
+      "renew": 38.89,
+      "transfer": 36.99
+    },
+    "tld": "style"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 218.89,
+      "renew": 218.89,
+      "transfer": 218.99
+    },
+    "tld": "sucks"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 24.89,
+      "renew": 24.89,
+      "transfer": 22.99
+    },
+    "tld": "supplies"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 25.89,
+      "renew": 25.89,
+      "transfer": 23.99
+    },
+    "tld": "supply"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 8.89,
+      "renew": 26.89,
+      "transfer": 24.99
+    },
+    "tld": "support"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.09,
+      "renew": 32.39,
+      "transfer": 27.5
+    },
+    "tld": "surf"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 54.89,
+      "renew": 54.89,
+      "transfer": 50.99
+    },
+    "tld": "surgery"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 57.9,
+      "renew": 57.9,
+      "transfer": 55
+    },
+    "tld": "sydney"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 18.89,
+      "renew": 34.89,
+      "transfer": 31.99
+    },
+    "tld": "systems"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 38.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "talk"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.89,
+      "renew": 34.89,
+      "transfer": 34.99
+    },
+    "tld": "tattoo"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.89,
+      "renew": 67.39,
+      "transfer": 64.99
+    },
+    "tld": "tax"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 10.89,
+      "renew": 62.89,
+      "transfer": 59.99
+    },
+    "tld": "taxi"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 7.39,
+      "renew": 36.39,
+      "transfer": 33.99
+    },
+    "tld": "team"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 8.89,
+      "renew": 68.89,
+      "transfer": 52.49
+    },
+    "tld": "tech"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 12.89,
+      "renew": 34.89,
+      "transfer": 29.99
+    },
+    "tld": "technology"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 10.69,
+      "renew": 10.69,
+      "transfer": 10.79
+    },
+    "tld": "tel"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 89.89,
+      "renew": 89.89,
+      "transfer": 74.99
+    },
+    "tld": "tennis"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 65.89,
+      "renew": 65.89,
+      "transfer": 61.99
+    },
+    "tld": "theater"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 509.89,
+      "renew": 529.89,
+      "transfer": 519.99
+    },
+    "tld": "theatre"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 359.89,
+      "renew": 488.78,
+      "transfer": 438.88
+    },
+    "tld": "tickets"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 59.89,
+      "renew": 59.89,
+      "transfer": 55.99
+    },
+    "tld": "tienda"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 15.89,
+      "renew": 30.89,
+      "transfer": 27.99
+    },
+    "tld": "tips"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.89,
+      "renew": 78.89,
+      "transfer": 74.99
+    },
+    "tld": "tires"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 64.89,
+      "renew": 64.89,
+      "transfer": 53.49
+    },
+    "tld": "to"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.89,
+      "renew": 32.89,
+      "transfer": 27.49
+    },
+    "tld": "today"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 18.89,
+      "renew": 36.39,
+      "transfer": 33.99
+    },
+    "tld": "tools"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.78,
+      "renew": 4.78,
+      "transfer": 4.78
+    },
+    "tld": "top"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 10.89,
+      "renew": 61.89,
+      "transfer": 55.99
+    },
+    "tld": "tours"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 8.89,
+      "renew": 36.39,
+      "transfer": 33.99
+    },
+    "tld": "town"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 17.89,
+      "renew": 64.89,
+      "transfer": 59.99
+    },
+    "tld": "toys"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.15,
+      "renew": 6.15,
+      "transfer": 4.75
+    },
+    "tld": "trade"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 15.89,
+      "renew": 41.89,
+      "transfer": 37.99
+    },
+    "tld": "training"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 27.89,
+      "renew": 149.89,
+      "transfer": 134.99
+    },
+    "tld": "travel"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 23.89,
+      "renew": 23.89,
+      "transfer": 22.99
+    },
+    "tld": "tube"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 26.89,
+      "renew": 26.89,
+      "transfer": 26.99
+    },
+    "tld": "tv"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.15,
+      "renew": 6.39,
+      "transfer": 5.99
+    },
+    "tld": "uk"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 62.89,
+      "renew": 62.89,
+      "transfer": 59.99
+    },
+    "tld": "university"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 3.89,
+      "renew": 27.89,
+      "transfer": 21.49
+    },
+    "tld": "uno"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.39,
+      "renew": 7.89,
+      "transfer": 7.49
+    },
+    "tld": "us"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 38.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "vacations"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 18.89,
+      "renew": 43.89,
+      "transfer": 42.99
+    },
+    "tld": "vegas"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 20.89,
+      "renew": 59.89,
+      "transfer": 56.99
+    },
+    "tld": "ventures"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 41.89,
+      "renew": 41.89,
+      "transfer": 38.99
+    },
+    "tld": "vet"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 99.89,
+      "renew": 99.89,
+      "transfer": 89.99
+    },
+    "tld": "viajes"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 14.89,
+      "renew": 36.39,
+      "transfer": 33.99
+    },
+    "tld": "video"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 59.89,
+      "renew": 59.89,
+      "transfer": 55.99
+    },
+    "tld": "villas"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 8.89,
+      "renew": 59.89,
+      "transfer": 53.99
+    },
+    "tld": "vin"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 4.89,
+      "renew": 19.39,
+      "transfer": 16.5
+    },
+    "tld": "vip"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 45.89,
+      "renew": 45.89,
+      "transfer": 42.99
+    },
+    "tld": "vision"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 32.39,
+      "renew": 32.39,
+      "transfer": 27.5
+    },
+    "tld": "vodka"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 34.89,
+      "renew": 90.89,
+      "transfer": 84.99
+    },
+    "tld": "vote"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 58.89,
+      "renew": 58.89,
+      "transfer": 54.99
+    },
+    "tld": "voyage"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.89,
+      "renew": 44.39,
+      "transfer": 41.99
+    },
+    "tld": "watch"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 11.89,
+      "renew": 11.89,
+      "transfer": 10.99
+    },
+    "tld": "webcam"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.89,
+      "renew": 22.89,
+      "transfer": 21.99
+    },
+    "tld": "website"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 32.39,
+      "renew": 32.39,
+      "transfer": 27.5
+    },
+    "tld": "wedding"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5,
+      "renew": 5,
+      "transfer": 5
+    },
+    "tld": "whoswho"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.89,
+      "renew": 32.39,
+      "transfer": 27.5
+    },
+    "tld": "wiki"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.15,
+      "renew": 6.15,
+      "transfer": 4.75
+    },
+    "tld": "win"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 9.89,
+      "renew": 59.89,
+      "transfer": 56.99
+    },
+    "tld": "wine"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.89,
+      "renew": 12.89,
+      "transfer": 10.99
+    },
+    "tld": "work"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 7.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "works"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 5.39,
+      "renew": 46.89,
+      "transfer": 39.99
+    },
+    "tld": "world"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 6.39,
+      "renew": 30.89,
+      "transfer": 23.49
+    },
+    "tld": "ws"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 7.39,
+      "renew": 36.39,
+      "transfer": 32.99
+    },
+    "tld": "wtf"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 2.69,
+      "renew": 17.19,
+      "transfer": 14.75
+    },
+    "tld": "xyz"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 1.89,
+      "renew": 17.19,
+      "transfer": 14.75
+    },
+    "tld": "yachts"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 32.39,
+      "renew": 32.39,
+      "transfer": 27.5
+    },
+    "tld": "yoga"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 22.89,
+      "renew": 22.89,
+      "transfer": 20.99
+    },
+    "tld": "you"
+  },
+  {
+    "currency": "USD",
+    "provider": "namesilo",
+    "regular-price": {
+      "create": 12.89,
+      "renew": 38.89,
+      "transfer": 35.99
+    },
+    "tld": "zone"
+  }
+]

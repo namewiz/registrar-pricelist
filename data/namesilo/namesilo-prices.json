@@ -1,0 +1,3231 @@
+{
+  "meta": {
+    "source": "NameSilo API",
+    "endpoint": "https://www.namesilo.com/api/getPrices",
+    "generated_at": "2026-11-11T11:38:15.054Z",
+    "currency": "USD",
+    "tlds_in_output": 460,
+    "notes": "Year=1 prices at this account's price level."
+  },
+  "data": {
+    "com": {
+      "regular-price": {
+        "create": 12,
+        "renew": 12,
+        "transfer": 11.5
+      }
+    },
+    "net": {
+      "regular-price": {
+        "create": 11.85,
+        "renew": 11.85,
+        "transfer": 11.35
+      }
+    },
+    "org": {
+      "regular-price": {
+        "create": 9.29,
+        "renew": 13.49,
+        "transfer": 11.99
+      }
+    },
+    "club": {
+      "regular-price": {
+        "create": 4.89,
+        "renew": 19.39,
+        "transfer": 16.5
+      }
+    },
+    "biz": {
+      "regular-price": {
+        "create": 7.89,
+        "renew": 23.39,
+        "transfer": 19.95
+      }
+    },
+    "life": {
+      "regular-price": {
+        "create": 3.39,
+        "renew": 42.89,
+        "transfer": 35.99
+      }
+    },
+    "icu": {
+      "regular-price": {
+        "create": 3.09,
+        "renew": 19.39,
+        "transfer": 16.5
+      }
+    },
+    "info": {
+      "regular-price": {
+        "create": 5.15,
+        "renew": 29.39,
+        "transfer": 22.49
+      }
+    },
+    "top": {
+      "regular-price": {
+        "create": 1.78,
+        "renew": 4.78,
+        "transfer": 4.78
+      }
+    },
+    "store": {
+      "regular-price": {
+        "create": 5.09,
+        "renew": 58.89,
+        "transfer": 44.99
+      }
+    },
+    "xyz": {
+      "regular-price": {
+        "create": 2.69,
+        "renew": 17.19,
+        "transfer": 14.75
+      }
+    },
+    "ac": {
+      "regular-price": {
+        "create": 34.89,
+        "renew": 47.89,
+        "transfer": 46.99
+      }
+    },
+    "academy": {
+      "regular-price": {
+        "create": 17.89,
+        "renew": 56.89,
+        "transfer": 47.99
+      }
+    },
+    "accountant": {
+      "regular-price": {
+        "create": 23.49,
+        "renew": 23.49,
+        "transfer": 22.99
+      }
+    },
+    "accountants": {
+      "regular-price": {
+        "create": 117.89,
+        "renew": 117.89,
+        "transfer": 109.99
+      }
+    },
+    "actor": {
+      "regular-price": {
+        "create": 16.89,
+        "renew": 44.39,
+        "transfer": 41.99
+      }
+    },
+    "agency": {
+      "regular-price": {
+        "create": 9.89,
+        "renew": 30.89,
+        "transfer": 28.99
+      }
+    },
+    "airforce": {
+      "regular-price": {
+        "create": 103.89,
+        "renew": 103.89,
+        "transfer": 95.99
+      }
+    },
+    "apartments": {
+      "regular-price": {
+        "create": 57.89,
+        "renew": 57.89,
+        "transfer": 53.99
+      }
+    },
+    "archi": {
+      "regular-price": {
+        "create": 19.89,
+        "renew": 103.89,
+        "transfer": 95.99
+      }
+    },
+    "army": {
+      "regular-price": {
+        "create": 18.89,
+        "renew": 39.89,
+        "transfer": 37.99
+      }
+    },
+    "art": {
+      "regular-price": {
+        "create": 3.09,
+        "renew": 23.89,
+        "transfer": 22.99
+      }
+    },
+    "asia": {
+      "regular-price": {
+        "create": 1.79,
+        "renew": 13.39,
+        "transfer": 12.99
+      }
+    },
+    "associates": {
+      "regular-price": {
+        "create": 18.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "attorney": {
+      "regular-price": {
+        "create": 62.89,
+        "renew": 62.89,
+        "transfer": 59.99
+      }
+    },
+    "auction": {
+      "regular-price": {
+        "create": 36.89,
+        "renew": 36.89,
+        "transfer": 34.99
+      }
+    },
+    "audio": {
+      "regular-price": {
+        "create": 104.89,
+        "renew": 114.89,
+        "transfer": 112.99
+      }
+    },
+    "band": {
+      "regular-price": {
+        "create": 20.89,
+        "renew": 31.39,
+        "transfer": 29.99
+      }
+    },
+    "bar": {
+      "regular-price": {
+        "create": 3.39,
+        "renew": 54.89,
+        "transfer": 54.99
+      }
+    },
+    "bargains": {
+      "regular-price": {
+        "create": 17.89,
+        "renew": 26.39,
+        "transfer": 24.99
+      }
+    },
+    "beer": {
+      "regular-price": {
+        "create": 2.09,
+        "renew": 32.39,
+        "transfer": 27.5
+      }
+    },
+    "best": {
+      "regular-price": {
+        "create": 2.25,
+        "renew": 22.89,
+        "transfer": 19.25
+      }
+    },
+    "bid": {
+      "regular-price": {
+        "create": 5.15,
+        "renew": 6.15,
+        "transfer": 4.75
+      }
+    },
+    "bike": {
+      "regular-price": {
+        "create": 12.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "bingo": {
+      "regular-price": {
+        "create": 53.89,
+        "renew": 53.89,
+        "transfer": 45.99
+      }
+    },
+    "bio": {
+      "regular-price": {
+        "create": 9.89,
+        "renew": 69.89,
+        "transfer": 64.99
+      }
+    },
+    "black": {
+      "regular-price": {
+        "create": 27.89,
+        "renew": 64.89,
+        "transfer": 59.99
+      }
+    },
+    "blackfriday": {
+      "regular-price": {
+        "create": 114.89,
+        "renew": 114.89,
+        "transfer": 112.99
+      }
+    },
+    "blog": {
+      "regular-price": {
+        "create": 4.19,
+        "renew": 22.89,
+        "transfer": 21.99
+      }
+    },
+    "blue": {
+      "regular-price": {
+        "create": 19.89,
+        "renew": 24.89,
+        "transfer": 21.99
+      }
+    },
+    "boston": {
+      "regular-price": {
+        "create": 23.39,
+        "renew": 23.39,
+        "transfer": 19.95
+      }
+    },
+    "boutique": {
+      "regular-price": {
+        "create": 5.89,
+        "renew": 32.89,
+        "transfer": 27.99
+      }
+    },
+    "builders": {
+      "regular-price": {
+        "create": 35.89,
+        "renew": 35.89,
+        "transfer": 29.99
+      }
+    },
+    "business": {
+      "regular-price": {
+        "create": 24.89,
+        "renew": 24.89,
+        "transfer": 19.99
+      }
+    },
+    "buzz": {
+      "regular-price": {
+        "create": 2.09,
+        "renew": 27.89,
+        "transfer": 27.99
+      }
+    },
+    "ca": {
+      "regular-price": {
+        "create": 9.89,
+        "renew": 9.89,
+        "transfer": 9.49
+      }
+    },
+    "cab": {
+      "regular-price": {
+        "create": 32.89,
+        "renew": 32.89,
+        "transfer": 29.99
+      }
+    },
+    "cafe": {
+      "regular-price": {
+        "create": 7.15,
+        "renew": 51.89,
+        "transfer": 47.99
+      }
+    },
+    "camera": {
+      "regular-price": {
+        "create": 58.89,
+        "renew": 58.89,
+        "transfer": 54.99
+      }
+    },
+    "camp": {
+      "regular-price": {
+        "create": 62.89,
+        "renew": 62.89,
+        "transfer": 59.99
+      }
+    },
+    "capital": {
+      "regular-price": {
+        "create": 10.89,
+        "renew": 71.89,
+        "transfer": 65.99
+      }
+    },
+    "cards": {
+      "regular-price": {
+        "create": 38.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "care": {
+      "regular-price": {
+        "create": 20.89,
+        "renew": 44.39,
+        "transfer": 40.99
+      }
+    },
+    "careers": {
+      "regular-price": {
+        "create": 34.89,
+        "renew": 71.89,
+        "transfer": 67.99
+      }
+    },
+    "casa": {
+      "regular-price": {
+        "create": 2.09,
+        "renew": 12.89,
+        "transfer": 11.49
+      }
+    },
+    "cash": {
+      "regular-price": {
+        "create": 12.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "casino": {
+      "regular-price": {
+        "create": 14.89,
+        "renew": 179.89,
+        "transfer": 154.99
+      }
+    },
+    "catering": {
+      "regular-price": {
+        "create": 38.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "cc": {
+      "regular-price": {
+        "create": 4.09,
+        "renew": 9.89,
+        "transfer": 9.49
+      }
+    },
+    "center": {
+      "regular-price": {
+        "create": 5.89,
+        "renew": 32.39,
+        "transfer": 29.99
+      }
+    },
+    "charity": {
+      "regular-price": {
+        "create": 14.89,
+        "renew": 23.89,
+        "transfer": 22.99
+      }
+    },
+    "chat": {
+      "regular-price": {
+        "create": 10.89,
+        "renew": 44.89,
+        "transfer": 40.99
+      }
+    },
+    "cheap": {
+      "regular-price": {
+        "create": 8.89,
+        "renew": 36.39,
+        "transfer": 33.99
+      }
+    },
+    "christmas": {
+      "regular-price": {
+        "create": 34.89,
+        "renew": 34.89,
+        "transfer": 33.99
+      }
+    },
+    "church": {
+      "regular-price": {
+        "create": 14.89,
+        "renew": 58.89,
+        "transfer": 53.99
+      }
+    },
+    "city": {
+      "regular-price": {
+        "create": 7.15,
+        "renew": 34.89,
+        "transfer": 29.99
+      }
+    },
+    "claims": {
+      "regular-price": {
+        "create": 17.89,
+        "renew": 64.89,
+        "transfer": 61.99
+      }
+    },
+    "cleaning": {
+      "regular-price": {
+        "create": 75.39,
+        "renew": 75.39,
+        "transfer": 69.99
+      }
+    },
+    "click": {
+      "regular-price": {
+        "create": 2.09,
+        "renew": 12.89,
+        "transfer": 11.49
+      }
+    },
+    "clinic": {
+      "regular-price": {
+        "create": 20.89,
+        "renew": 64.89,
+        "transfer": 62.99
+      }
+    },
+    "clothing": {
+      "regular-price": {
+        "create": 32.89,
+        "renew": 32.89,
+        "transfer": 27.99
+      }
+    },
+    "cloud": {
+      "regular-price": {
+        "create": 5.19,
+        "renew": 25.89,
+        "transfer": 23.99
+      }
+    },
+    "co": {
+      "regular-price": {
+        "create": 19.39,
+        "renew": 38.89,
+        "transfer": 32.99
+      }
+    },
+    "coach": {
+      "regular-price": {
+        "create": 17.89,
+        "renew": 77.89,
+        "transfer": 70.99
+      }
+    },
+    "codes": {
+      "regular-price": {
+        "create": 8.89,
+        "renew": 71.89,
+        "transfer": 65.99
+      }
+    },
+    "college": {
+      "regular-price": {
+        "create": 17.89,
+        "renew": 59.89,
+        "transfer": 54.99
+      }
+    },
+    "consulting": {
+      "regular-price": {
+        "create": 27.89,
+        "renew": 54.89,
+        "transfer": 49.99
+      }
+    },
+    "coffee": {
+      "regular-price": {
+        "create": 16.89,
+        "renew": 42.89,
+        "transfer": 38.99
+      }
+    },
+    "community": {
+      "regular-price": {
+        "create": 59.89,
+        "renew": 59.89,
+        "transfer": 51.99
+      }
+    },
+    "company": {
+      "regular-price": {
+        "create": 20.89,
+        "renew": 20.89,
+        "transfer": 18.99
+      }
+    },
+    "computer": {
+      "regular-price": {
+        "create": 23.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "condos": {
+      "regular-price": {
+        "create": 58.89,
+        "renew": 58.89,
+        "transfer": 54.99
+      }
+    },
+    "construction": {
+      "regular-price": {
+        "create": 38.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "contractors": {
+      "regular-price": {
+        "create": 35.39,
+        "renew": 35.39,
+        "transfer": 32.99
+      }
+    },
+    "cooking": {
+      "regular-price": {
+        "create": 32.39,
+        "renew": 32.39,
+        "transfer": 27.5
+      }
+    },
+    "cool": {
+      "regular-price": {
+        "create": 9.39,
+        "renew": 44.89,
+        "transfer": 41.99
+      }
+    },
+    "coupons": {
+      "regular-price": {
+        "create": 5.89,
+        "renew": 54.89,
+        "transfer": 49.99
+      }
+    },
+    "courses": {
+      "regular-price": {
+        "create": 2.09,
+        "renew": 38.89,
+        "transfer": 32.95
+      }
+    },
+    "credit": {
+      "regular-price": {
+        "create": 11.39,
+        "renew": 104.89,
+        "transfer": 94.99
+      }
+    },
+    "creditcard": {
+      "regular-price": {
+        "create": 144.89,
+        "renew": 144.89,
+        "transfer": 129.99
+      }
+    },
+    "cricket": {
+      "regular-price": {
+        "create": 23.49,
+        "renew": 23.49,
+        "transfer": 22.99
+      }
+    },
+    "cruises": {
+      "regular-price": {
+        "create": 56.89,
+        "renew": 56.89,
+        "transfer": 47.99
+      }
+    },
+    "dance": {
+      "regular-price": {
+        "create": 16.89,
+        "renew": 32.89,
+        "transfer": 28.99
+      }
+    },
+    "date": {
+      "regular-price": {
+        "create": 5.15,
+        "renew": 6.15,
+        "transfer": 4.75
+      }
+    },
+    "dating": {
+      "regular-price": {
+        "create": 20.89,
+        "renew": 64.89,
+        "transfer": 59.99
+      }
+    },
+    "deals": {
+      "regular-price": {
+        "create": 39.89,
+        "renew": 39.89,
+        "transfer": 35.99
+      }
+    },
+    "degree": {
+      "regular-price": {
+        "create": 52.89,
+        "renew": 52.89,
+        "transfer": 49.99
+      }
+    },
+    "delivery": {
+      "regular-price": {
+        "create": 6.65,
+        "renew": 61.89,
+        "transfer": 57.99
+      }
+    },
+    "democrat": {
+      "regular-price": {
+        "create": 7.15,
+        "renew": 7.15,
+        "transfer": 6.25
+      }
+    },
+    "dental": {
+      "regular-price": {
+        "create": 78.89,
+        "renew": 78.89,
+        "transfer": 74.99
+      }
+    },
+    "dentist": {
+      "regular-price": {
+        "create": 65.89,
+        "renew": 65.89,
+        "transfer": 55.99
+      }
+    },
+    "design": {
+      "regular-price": {
+        "create": 58.39,
+        "renew": 58.39,
+        "transfer": 49.5
+      }
+    },
+    "diamonds": {
+      "regular-price": {
+        "create": 54.89,
+        "renew": 54.89,
+        "transfer": 51.99
+      }
+    },
+    "diet": {
+      "regular-price": {
+        "create": 104.89,
+        "renew": 114.89,
+        "transfer": 112.99
+      }
+    },
+    "digital": {
+      "regular-price": {
+        "create": 3.39,
+        "renew": 41.39,
+        "transfer": 38.99
+      }
+    },
+    "direct": {
+      "regular-price": {
+        "create": 17.89,
+        "renew": 41.89,
+        "transfer": 38.99
+      }
+    },
+    "directory": {
+      "regular-price": {
+        "create": 8.89,
+        "renew": 32.89,
+        "transfer": 28.99
+      }
+    },
+    "discount": {
+      "regular-price": {
+        "create": 30.89,
+        "renew": 30.89,
+        "transfer": 25.99
+      }
+    },
+    "doctor": {
+      "regular-price": {
+        "create": 14.39,
+        "renew": 116.89,
+        "transfer": 109.99
+      }
+    },
+    "dog": {
+      "regular-price": {
+        "create": 7.39,
+        "renew": 64.89,
+        "transfer": 59.99
+      }
+    },
+    "domains": {
+      "regular-price": {
+        "create": 59.89,
+        "renew": 59.89,
+        "transfer": 51.99
+      }
+    },
+    "download": {
+      "regular-price": {
+        "create": 5.15,
+        "renew": 6.15,
+        "transfer": 4.75
+      }
+    },
+    "earth": {
+      "regular-price": {
+        "create": 18.89,
+        "renew": 18.89,
+        "transfer": 17.99
+      }
+    },
+    "education": {
+      "regular-price": {
+        "create": 34.89,
+        "renew": 34.89,
+        "transfer": 32.99
+      }
+    },
+    "email": {
+      "regular-price": {
+        "create": 7.39,
+        "renew": 35.39,
+        "transfer": 29.99
+      }
+    },
+    "energy": {
+      "regular-price": {
+        "create": 15.89,
+        "renew": 114.89,
+        "transfer": 104.99
+      }
+    },
+    "engineer": {
+      "regular-price": {
+        "create": 38.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "engineering": {
+      "regular-price": {
+        "create": 16.89,
+        "renew": 79.89,
+        "transfer": 69.99
+      }
+    },
+    "enterprises": {
+      "regular-price": {
+        "create": 11.39,
+        "renew": 35.89,
+        "transfer": 29.99
+      }
+    },
+    "equipment": {
+      "regular-price": {
+        "create": 34.89,
+        "renew": 34.89,
+        "transfer": 29.99
+      }
+    },
+    "estate": {
+      "regular-price": {
+        "create": 15.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "events": {
+      "regular-price": {
+        "create": 15.89,
+        "renew": 69.89,
+        "transfer": 59.99
+      }
+    },
+    "exchange": {
+      "regular-price": {
+        "create": 12.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "expert": {
+      "regular-price": {
+        "create": 10.89,
+        "renew": 62.39,
+        "transfer": 55.99
+      }
+    },
+    "exposed": {
+      "regular-price": {
+        "create": 22.39,
+        "renew": 22.39,
+        "transfer": 19.99
+      }
+    },
+    "express": {
+      "regular-price": {
+        "create": 12.39,
+        "renew": 39.89,
+        "transfer": 35.99
+      }
+    },
+    "fail": {
+      "regular-price": {
+        "create": 38.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "faith": {
+      "regular-price": {
+        "create": 11.89,
+        "renew": 11.89,
+        "transfer": 10.99
+      }
+    },
+    "family": {
+      "regular-price": {
+        "create": 39.89,
+        "renew": 39.89,
+        "transfer": 34.99
+      }
+    },
+    "fans": {
+      "regular-price": {
+        "create": 9.78,
+        "renew": 9.78,
+        "transfer": 9.38
+      }
+    },
+    "farm": {
+      "regular-price": {
+        "create": 15.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "fashion": {
+      "regular-price": {
+        "create": 32.39,
+        "renew": 32.39,
+        "transfer": 27.5
+      }
+    },
+    "film": {
+      "regular-price": {
+        "create": 65.89,
+        "renew": 65.89,
+        "transfer": 65.99
+      }
+    },
+    "finance": {
+      "regular-price": {
+        "create": 20.89,
+        "renew": 64.89,
+        "transfer": 59.99
+      }
+    },
+    "financial": {
+      "regular-price": {
+        "create": 23.89,
+        "renew": 58.89,
+        "transfer": 55.99
+      }
+    },
+    "fish": {
+      "regular-price": {
+        "create": 44.39,
+        "renew": 44.39,
+        "transfer": 41.99
+      }
+    },
+    "fishing": {
+      "regular-price": {
+        "create": 32.39,
+        "renew": 32.39,
+        "transfer": 27.5
+      }
+    },
+    "fit": {
+      "regular-price": {
+        "create": 2.89,
+        "renew": 32.39,
+        "transfer": 27.5
+      }
+    },
+    "fitness": {
+      "regular-price": {
+        "create": 8.89,
+        "renew": 41.89,
+        "transfer": 38.99
+      }
+    },
+    "flights": {
+      "regular-price": {
+        "create": 58.89,
+        "renew": 58.89,
+        "transfer": 54.99
+      }
+    },
+    "florist": {
+      "regular-price": {
+        "create": 32.89,
+        "renew": 32.89,
+        "transfer": 27.99
+      }
+    },
+    "flowers": {
+      "regular-price": {
+        "create": 64.89,
+        "renew": 114.89,
+        "transfer": 111.99
+      }
+    },
+    "football": {
+      "regular-price": {
+        "create": 25.89,
+        "renew": 25.89,
+        "transfer": 23.99
+      }
+    },
+    "forsale": {
+      "regular-price": {
+        "create": 16.89,
+        "renew": 36.89,
+        "transfer": 33.99
+      }
+    },
+    "foundation": {
+      "regular-price": {
+        "create": 14.89,
+        "renew": 23.89,
+        "transfer": 22.99
+      }
+    },
+    "fun": {
+      "regular-price": {
+        "create": 2.89,
+        "renew": 41.89,
+        "transfer": 31.99
+      }
+    },
+    "fund": {
+      "regular-price": {
+        "create": 14.89,
+        "renew": 71.89,
+        "transfer": 65.99
+      }
+    },
+    "furniture": {
+      "regular-price": {
+        "create": 27.89,
+        "renew": 94.89,
+        "transfer": 89.99
+      }
+    },
+    "futbol": {
+      "regular-price": {
+        "create": 7.39,
+        "renew": 7.39,
+        "transfer": 6.49
+      }
+    },
+    "fyi": {
+      "regular-price": {
+        "create": 17.89,
+        "renew": 17.89,
+        "transfer": 15.99
+      }
+    },
+    "gallery": {
+      "regular-price": {
+        "create": 34.89,
+        "renew": 34.89,
+        "transfer": 29.99
+      }
+    },
+    "game": {
+      "regular-price": {
+        "create": 309.89,
+        "renew": 429.89,
+        "transfer": 379.99
+      }
+    },
+    "games": {
+      "regular-price": {
+        "create": 33.89,
+        "renew": 33.89,
+        "transfer": 31.99
+      }
+    },
+    "garden": {
+      "regular-price": {
+        "create": 2.09,
+        "renew": 32.39,
+        "transfer": 27.5
+      }
+    },
+    "gift": {
+      "regular-price": {
+        "create": 14.89,
+        "renew": 14.89,
+        "transfer": 14.49
+      }
+    },
+    "gifts": {
+      "regular-price": {
+        "create": 36.89,
+        "renew": 36.89,
+        "transfer": 33.99
+      }
+    },
+    "gives": {
+      "regular-price": {
+        "create": 14.89,
+        "renew": 23.89,
+        "transfer": 23.49
+      }
+    },
+    "glass": {
+      "regular-price": {
+        "create": 72.89,
+        "renew": 72.89,
+        "transfer": 67.99
+      }
+    },
+    "rocks": {
+      "regular-price": {
+        "create": 11.89,
+        "renew": 21.89,
+        "transfer": 19.99
+      }
+    },
+    "gmbh": {
+      "regular-price": {
+        "create": 59.89,
+        "renew": 59.89,
+        "transfer": 51.99
+      }
+    },
+    "gold": {
+      "regular-price": {
+        "create": 9.89,
+        "renew": 99.89,
+        "transfer": 94.99
+      }
+    },
+    "golf": {
+      "regular-price": {
+        "create": 7.39,
+        "renew": 64.89,
+        "transfer": 59.99
+      }
+    },
+    "graphics": {
+      "regular-price": {
+        "create": 23.89,
+        "renew": 23.89,
+        "transfer": 19.99
+      }
+    },
+    "gratis": {
+      "regular-price": {
+        "create": 23.89,
+        "renew": 23.89,
+        "transfer": 21.99
+      }
+    },
+    "green": {
+      "regular-price": {
+        "create": 14.89,
+        "renew": 79.89,
+        "transfer": 75.99
+      }
+    },
+    "gripe": {
+      "regular-price": {
+        "create": 6.89,
+        "renew": 6.89,
+        "transfer": 6.49
+      }
+    },
+    "group": {
+      "regular-price": {
+        "create": 25.89,
+        "renew": 25.89,
+        "transfer": 23.99
+      }
+    },
+    "guide": {
+      "regular-price": {
+        "create": 41.39,
+        "renew": 41.39,
+        "transfer": 38.99
+      }
+    },
+    "guitars": {
+      "regular-price": {
+        "create": 104.89,
+        "renew": 114.89,
+        "transfer": 111.99
+      }
+    },
+    "guru": {
+      "regular-price": {
+        "create": 4.39,
+        "renew": 42.89,
+        "transfer": 39.99
+      }
+    },
+    "haus": {
+      "regular-price": {
+        "create": 14.89,
+        "renew": 33.89,
+        "transfer": 30.99
+      }
+    },
+    "healthcare": {
+      "regular-price": {
+        "create": 88.89,
+        "renew": 88.89,
+        "transfer": 84.99
+      }
+    },
+    "help": {
+      "regular-price": {
+        "create": 2.09,
+        "renew": 32.39,
+        "transfer": 28.99
+      }
+    },
+    "hiphop": {
+      "regular-price": {
+        "create": 23.89,
+        "renew": 23.89,
+        "transfer": 22.99
+      }
+    },
+    "hiv": {
+      "regular-price": {
+        "create": 195.89,
+        "renew": 195.89,
+        "transfer": 193.99
+      }
+    },
+    "hockey": {
+      "regular-price": {
+        "create": 59.89,
+        "renew": 59.89,
+        "transfer": 55.99
+      }
+    },
+    "holdings": {
+      "regular-price": {
+        "create": 64.89,
+        "renew": 64.89,
+        "transfer": 59.99
+      }
+    },
+    "holiday": {
+      "regular-price": {
+        "create": 64.89,
+        "renew": 64.89,
+        "transfer": 59.99
+      }
+    },
+    "horse": {
+      "regular-price": {
+        "create": 32.39,
+        "renew": 32.39,
+        "transfer": 27.5
+      }
+    },
+    "hospital": {
+      "regular-price": {
+        "create": 74.89,
+        "renew": 74.89,
+        "transfer": 64.99
+      }
+    },
+    "host": {
+      "regular-price": {
+        "create": 4.89,
+        "renew": 109.89,
+        "transfer": 84.49
+      }
+    },
+    "hosting": {
+      "regular-price": {
+        "create": 309.89,
+        "renew": 429.89,
+        "transfer": 379.99
+      }
+    },
+    "house": {
+      "regular-price": {
+        "create": 19.89,
+        "renew": 44.39,
+        "transfer": 41.99
+      }
+    },
+    "immo": {
+      "regular-price": {
+        "create": 34.89,
+        "renew": 34.89,
+        "transfer": 31.99
+      }
+    },
+    "immobilien": {
+      "regular-price": {
+        "create": 37.89,
+        "renew": 37.89,
+        "transfer": 33.99
+      }
+    },
+    "in": {
+      "regular-price": {
+        "create": 7.85,
+        "renew": 7.85,
+        "transfer": 7.45
+      }
+    },
+    "industries": {
+      "regular-price": {
+        "create": 45.89,
+        "renew": 45.89,
+        "transfer": 42.99
+      }
+    },
+    "ink": {
+      "regular-price": {
+        "create": 2.89,
+        "renew": 32.39,
+        "transfer": 27.5
+      }
+    },
+    "institute": {
+      "regular-price": {
+        "create": 9.89,
+        "renew": 32.89,
+        "transfer": 28.99
+      }
+    },
+    "insure": {
+      "regular-price": {
+        "create": 72.89,
+        "renew": 72.89,
+        "transfer": 68.99
+      }
+    },
+    "international": {
+      "regular-price": {
+        "create": 12.89,
+        "renew": 31.39,
+        "transfer": 28.99
+      }
+    },
+    "investments": {
+      "regular-price": {
+        "create": 12.89,
+        "renew": 129.89,
+        "transfer": 114.99
+      }
+    },
+    "io": {
+      "regular-price": {
+        "create": 38.89,
+        "renew": 69.89,
+        "transfer": 53.49
+      }
+    },
+    "irish": {
+      "regular-price": {
+        "create": 7.39,
+        "renew": 22.39,
+        "transfer": 19.99
+      }
+    },
+    "jewelry": {
+      "regular-price": {
+        "create": 64.89,
+        "renew": 64.89,
+        "transfer": 61.99
+      }
+    },
+    "jetzt": {
+      "regular-price": {
+        "create": 23.89,
+        "renew": 23.89,
+        "transfer": 21.99
+      }
+    },
+    "juegos": {
+      "regular-price": {
+        "create": 329.89,
+        "renew": 329.89,
+        "transfer": 329.99
+      }
+    },
+    "kaufen": {
+      "regular-price": {
+        "create": 5.89,
+        "renew": 26.89,
+        "transfer": 24.99
+      }
+    },
+    "kim": {
+      "regular-price": {
+        "create": 12.89,
+        "renew": 23.39,
+        "transfer": 20.99
+      }
+    },
+    "kitchen": {
+      "regular-price": {
+        "create": 10.89,
+        "renew": 64.89,
+        "transfer": 59.99
+      }
+    },
+    "la": {
+      "regular-price": {
+        "create": 27.89,
+        "renew": 27.89,
+        "transfer": 27.99
+      }
+    },
+    "land": {
+      "regular-price": {
+        "create": 15.89,
+        "renew": 41.89,
+        "transfer": 38.99
+      }
+    },
+    "law": {
+      "regular-price": {
+        "create": 95.89,
+        "renew": 95.89,
+        "transfer": 89.99
+      }
+    },
+    "lawyer": {
+      "regular-price": {
+        "create": 62.89,
+        "renew": 62.89,
+        "transfer": 58.99
+      }
+    },
+    "lease": {
+      "regular-price": {
+        "create": 56.89,
+        "renew": 56.89,
+        "transfer": 53.99
+      }
+    },
+    "legal": {
+      "regular-price": {
+        "create": 71.89,
+        "renew": 71.89,
+        "transfer": 67.99
+      }
+    },
+    "lgbt": {
+      "regular-price": {
+        "create": 14.89,
+        "renew": 79.89,
+        "transfer": 73.99
+      }
+    },
+    "link": {
+      "regular-price": {
+        "create": 8.49,
+        "renew": 8.49,
+        "transfer": 7.75
+      }
+    },
+    "lighting": {
+      "regular-price": {
+        "create": 23.89,
+        "renew": 23.89,
+        "transfer": 19.99
+      }
+    },
+    "limited": {
+      "regular-price": {
+        "create": 36.89,
+        "renew": 36.89,
+        "transfer": 33.99
+      }
+    },
+    "limo": {
+      "regular-price": {
+        "create": 54.89,
+        "renew": 54.89,
+        "transfer": 49.99
+      }
+    },
+    "live": {
+      "regular-price": {
+        "create": 3.39,
+        "renew": 38.89,
+        "transfer": 32.99
+      }
+    },
+    "llc": {
+      "regular-price": {
+        "create": 14.89,
+        "renew": 42.89,
+        "transfer": 39.99
+      }
+    },
+    "loan": {
+      "regular-price": {
+        "create": 5.15,
+        "renew": 6.15,
+        "transfer": 4.75
+      }
+    },
+    "loans": {
+      "regular-price": {
+        "create": 20.89,
+        "renew": 116.89,
+        "transfer": 109.99
+      }
+    },
+    "lol": {
+      "regular-price": {
+        "create": 1.89,
+        "renew": 32.39,
+        "transfer": 29.99
+      }
+    },
+    "love": {
+      "regular-price": {
+        "create": 9.89,
+        "renew": 28.89,
+        "transfer": 25.99
+      }
+    },
+    "ltd": {
+      "regular-price": {
+        "create": 8.89,
+        "renew": 42.89,
+        "transfer": 36.49
+      }
+    },
+    "maison": {
+      "regular-price": {
+        "create": 57.89,
+        "renew": 57.89,
+        "transfer": 53.99
+      }
+    },
+    "management": {
+      "regular-price": {
+        "create": 25.89,
+        "renew": 25.89,
+        "transfer": 23.99
+      }
+    },
+    "market": {
+      "regular-price": {
+        "create": 44.39,
+        "renew": 44.39,
+        "transfer": 39.99
+      }
+    },
+    "marketing": {
+      "regular-price": {
+        "create": 8.89,
+        "renew": 41.89,
+        "transfer": 38.99
+      }
+    },
+    "mba": {
+      "regular-price": {
+        "create": 17.89,
+        "renew": 39.89,
+        "transfer": 35.99
+      }
+    },
+    "me": {
+      "regular-price": {
+        "create": 9.89,
+        "renew": 19.89,
+        "transfer": 18.99
+      }
+    },
+    "media": {
+      "regular-price": {
+        "create": 11.89,
+        "renew": 44.89,
+        "transfer": 41.99
+      }
+    },
+    "memorial": {
+      "regular-price": {
+        "create": 134.89,
+        "renew": 134.89,
+        "transfer": 114.99
+      }
+    },
+    "men": {
+      "regular-price": {
+        "create": 5.15,
+        "renew": 6.15,
+        "transfer": 4.75
+      }
+    },
+    "menu": {
+      "regular-price": {
+        "create": 27.89,
+        "renew": 27.89,
+        "transfer": 27.99
+      }
+    },
+    "miami": {
+      "regular-price": {
+        "create": 23.39,
+        "renew": 23.39,
+        "transfer": 19.95
+      }
+    },
+    "mobi": {
+      "regular-price": {
+        "create": 7.39,
+        "renew": 55.89,
+        "transfer": 42.75
+      }
+    },
+    "moda": {
+      "regular-price": {
+        "create": 41.89,
+        "renew": 41.89,
+        "transfer": 39.99
+      }
+    },
+    "moe": {
+      "regular-price": {
+        "create": 13.89,
+        "renew": 13.89,
+        "transfer": 13.99
+      }
+    },
+    "mom": {
+      "regular-price": {
+        "create": 1.89,
+        "renew": 27.89,
+        "transfer": 26.99
+      }
+    },
+    "money": {
+      "regular-price": {
+        "create": 16.89,
+        "renew": 35.89,
+        "transfer": 29.99
+      }
+    },
+    "mortgage": {
+      "regular-price": {
+        "create": 62.89,
+        "renew": 62.89,
+        "transfer": 58.99
+      }
+    },
+    "movie": {
+      "regular-price": {
+        "create": 47.89,
+        "renew": 349.89,
+        "transfer": 329.99
+      }
+    },
+    "mx": {
+      "regular-price": {
+        "create": 39.89,
+        "renew": 43.89,
+        "transfer": 38.99
+      }
+    },
+    "navy": {
+      "regular-price": {
+        "create": 109.89,
+        "renew": 109.89,
+        "transfer": 94.99
+      }
+    },
+    "network": {
+      "regular-price": {
+        "create": 7.89,
+        "renew": 34.89,
+        "transfer": 31.99
+      }
+    },
+    "news": {
+      "regular-price": {
+        "create": 14.39,
+        "renew": 32.39,
+        "transfer": 29.99
+      }
+    },
+    "ninja": {
+      "regular-price": {
+        "create": 15.89,
+        "renew": 30.89,
+        "transfer": 27.99
+      }
+    },
+    "observer": {
+      "regular-price": {
+        "create": 10.89,
+        "renew": 10.89,
+        "transfer": 10.49
+      }
+    },
+    "one": {
+      "regular-price": {
+        "create": 5.89,
+        "renew": 24.65,
+        "transfer": 23.75
+      }
+    },
+    "online": {
+      "regular-price": {
+        "create": 2.89,
+        "renew": 38.4,
+        "transfer": 29.49
+      }
+    },
+    "ooo": {
+      "regular-price": {
+        "create": 24.89,
+        "renew": 24.89,
+        "transfer": 23.99
+      }
+    },
+    "organic": {
+      "regular-price": {
+        "create": 17.89,
+        "renew": 85.89,
+        "transfer": 82.99
+      }
+    },
+    "partners": {
+      "regular-price": {
+        "create": 20.89,
+        "renew": 71.89,
+        "transfer": 67.99
+      }
+    },
+    "parts": {
+      "regular-price": {
+        "create": 12.89,
+        "renew": 41.89,
+        "transfer": 38.99
+      }
+    },
+    "party": {
+      "regular-price": {
+        "create": 5.15,
+        "renew": 6.15,
+        "transfer": 4.75
+      }
+    },
+    "pet": {
+      "regular-price": {
+        "create": 14.39,
+        "renew": 27.49,
+        "transfer": 22.99
+      }
+    },
+    "photography": {
+      "regular-price": {
+        "create": 14.39,
+        "renew": 36.39,
+        "transfer": 33.99
+      }
+    },
+    "photo": {
+      "regular-price": {
+        "create": 29.89,
+        "renew": 29.89,
+        "transfer": 27.99
+      }
+    },
+    "photos": {
+      "regular-price": {
+        "create": 15.89,
+        "renew": 29.89,
+        "transfer": 26.99
+      }
+    },
+    "pics": {
+      "regular-price": {
+        "create": 1.89,
+        "renew": 32.39,
+        "transfer": 29.99
+      }
+    },
+    "pictures": {
+      "regular-price": {
+        "create": 15.39,
+        "renew": 15.39,
+        "transfer": 13.49
+      }
+    },
+    "pink": {
+      "regular-price": {
+        "create": 14.39,
+        "renew": 25.89,
+        "transfer": 23.99
+      }
+    },
+    "pizza": {
+      "regular-price": {
+        "create": 17.89,
+        "renew": 64.89,
+        "transfer": 60.99
+      }
+    },
+    "place": {
+      "regular-price": {
+        "create": 22.39,
+        "renew": 22.39,
+        "transfer": 19.99
+      }
+    },
+    "plumbing": {
+      "regular-price": {
+        "create": 72.89,
+        "renew": 72.89,
+        "transfer": 68.99
+      }
+    },
+    "plus": {
+      "regular-price": {
+        "create": 15.89,
+        "renew": 53.89,
+        "transfer": 49.99
+      }
+    },
+    "press": {
+      "regular-price": {
+        "create": 4.89,
+        "renew": 86.89,
+        "transfer": 65.99
+      }
+    },
+    "pro": {
+      "regular-price": {
+        "create": 3.48,
+        "renew": 29.39,
+        "transfer": 22.49
+      }
+    },
+    "productions": {
+      "regular-price": {
+        "create": 10.89,
+        "renew": 40.39,
+        "transfer": 37.99
+      }
+    },
+    "promo": {
+      "regular-price": {
+        "create": 14.39,
+        "renew": 24.89,
+        "transfer": 21.99
+      }
+    },
+    "properties": {
+      "regular-price": {
+        "create": 18.89,
+        "renew": 39.89,
+        "transfer": 37.99
+      }
+    },
+    "property": {
+      "regular-price": {
+        "create": 59.89,
+        "renew": 114.89,
+        "transfer": 112.99
+      }
+    },
+    "protection": {
+      "regular-price": {
+        "create": 1,
+        "renew": 2,
+        "transfer": 2
+      }
+    },
+    "pub": {
+      "regular-price": {
+        "create": 39.89,
+        "renew": 39.89,
+        "transfer": 35.99
+      }
+    },
+    "pw": {
+      "regular-price": {
+        "create": 3.89,
+        "renew": 24.39,
+        "transfer": 18.75
+      }
+    },
+    "racing": {
+      "regular-price": {
+        "create": 11.89,
+        "renew": 11.89,
+        "transfer": 10.99
+      }
+    },
+    "realty": {
+      "regular-price": {
+        "create": 109.89,
+        "renew": 298.9,
+        "transfer": 284
+      }
+    },
+    "recipes": {
+      "regular-price": {
+        "create": 8.89,
+        "renew": 77.89,
+        "transfer": 74.99
+      }
+    },
+    "red": {
+      "regular-price": {
+        "create": 11.39,
+        "renew": 23.39,
+        "transfer": 21.99
+      }
+    },
+    "rehab": {
+      "regular-price": {
+        "create": 36.89,
+        "renew": 36.89,
+        "transfer": 33.99
+      }
+    },
+    "reise": {
+      "regular-price": {
+        "create": 27.79,
+        "renew": 97.89,
+        "transfer": 91.99
+      }
+    },
+    "reisen": {
+      "regular-price": {
+        "create": 3.89,
+        "renew": 20.89,
+        "transfer": 18.99
+      }
+    },
+    "rent": {
+      "regular-price": {
+        "create": 17.89,
+        "renew": 59.89,
+        "transfer": 54.99
+      }
+    },
+    "rentals": {
+      "regular-price": {
+        "create": 10.89,
+        "renew": 44.39,
+        "transfer": 41.99
+      }
+    },
+    "repair": {
+      "regular-price": {
+        "create": 12.89,
+        "renew": 36.89,
+        "transfer": 33.99
+      }
+    },
+    "report": {
+      "regular-price": {
+        "create": 10.89,
+        "renew": 24.89,
+        "transfer": 22.99
+      }
+    },
+    "republican": {
+      "regular-price": {
+        "create": 7.15,
+        "renew": 7.15,
+        "transfer": 6.25
+      }
+    },
+    "rest": {
+      "regular-price": {
+        "create": 2.09,
+        "renew": 28.89,
+        "transfer": 28.99
+      }
+    },
+    "restaurant": {
+      "regular-price": {
+        "create": 20.89,
+        "renew": 64.89,
+        "transfer": 59.99
+      }
+    },
+    "review": {
+      "regular-price": {
+        "create": 11.89,
+        "renew": 11.89,
+        "transfer": 10.99
+      }
+    },
+    "reviews": {
+      "regular-price": {
+        "create": 62.89,
+        "renew": 62.89,
+        "transfer": 57.99
+      }
+    },
+    "rip": {
+      "regular-price": {
+        "create": 23.39,
+        "renew": 23.39,
+        "transfer": 21.49
+      }
+    },
+    "global": {
+      "regular-price": {
+        "create": 46.89,
+        "renew": 95.89,
+        "transfer": 89.99
+      }
+    },
+    "boats": {
+      "regular-price": {
+        "create": 1.89,
+        "renew": 17.19,
+        "transfer": 14.75
+      }
+    },
+    "homes": {
+      "regular-price": {
+        "create": 1.89,
+        "renew": 17.19,
+        "transfer": 14.75
+      }
+    },
+    "motorcycles": {
+      "regular-price": {
+        "create": 1.89,
+        "renew": 17.19,
+        "transfer": 14.75
+      }
+    },
+    "yachts": {
+      "regular-price": {
+        "create": 1.89,
+        "renew": 17.19,
+        "transfer": 14.75
+      }
+    },
+    "autos": {
+      "regular-price": {
+        "create": 1.89,
+        "renew": 17.19,
+        "transfer": 14.75
+      }
+    },
+    "rodeo": {
+      "regular-price": {
+        "create": 12.89,
+        "renew": 12.89,
+        "transfer": 10.95
+      }
+    },
+    "run": {
+      "regular-price": {
+        "create": 6.89,
+        "renew": 31.89,
+        "transfer": 26.49
+      }
+    },
+    "sale": {
+      "regular-price": {
+        "create": 7.39,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "salon": {
+      "regular-price": {
+        "create": 57.89,
+        "renew": 57.89,
+        "transfer": 48.99
+      }
+    },
+    "sarl": {
+      "regular-price": {
+        "create": 6.89,
+        "renew": 6.89,
+        "transfer": 6.49
+      }
+    },
+    "school": {
+      "regular-price": {
+        "create": 44.89,
+        "renew": 44.89,
+        "transfer": 38.99
+      }
+    },
+    "schule": {
+      "regular-price": {
+        "create": 34.89,
+        "renew": 34.89,
+        "transfer": 29.99
+      }
+    },
+    "science": {
+      "regular-price": {
+        "create": 11.89,
+        "renew": 11.89,
+        "transfer": 10.99
+      }
+    },
+    "security": {
+      "regular-price": {
+        "create": 1,
+        "renew": 2,
+        "transfer": 2
+      }
+    },
+    "services": {
+      "regular-price": {
+        "create": 14.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "sexy": {
+      "regular-price": {
+        "create": 2,
+        "renew": 2,
+        "transfer": 2
+      }
+    },
+    "sh": {
+      "regular-price": {
+        "create": 39.89,
+        "renew": 47.89,
+        "transfer": 46.99
+      }
+    },
+    "shiksha": {
+      "regular-price": {
+        "create": 14.89,
+        "renew": 51.89,
+        "transfer": 48.99
+      }
+    },
+    "shoes": {
+      "regular-price": {
+        "create": 64.89,
+        "renew": 64.89,
+        "transfer": 60.99
+      }
+    },
+    "shop": {
+      "regular-price": {
+        "create": 2.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "shopping": {
+      "regular-price": {
+        "create": 26.89,
+        "renew": 26.89,
+        "transfer": 25.99
+      }
+    },
+    "show": {
+      "regular-price": {
+        "create": 18.89,
+        "renew": 44.39,
+        "transfer": 39.99
+      }
+    },
+    "singles": {
+      "regular-price": {
+        "create": 9.39,
+        "renew": 33.89,
+        "transfer": 31.99
+      }
+    },
+    "site": {
+      "regular-price": {
+        "create": 2.89,
+        "renew": 38.4,
+        "transfer": 29.49
+      }
+    },
+    "ski": {
+      "regular-price": {
+        "create": 27.89,
+        "renew": 64.89,
+        "transfer": 58.99
+      }
+    },
+    "soccer": {
+      "regular-price": {
+        "create": 25.89,
+        "renew": 25.89,
+        "transfer": 23.99
+      }
+    },
+    "social": {
+      "regular-price": {
+        "create": 9.89,
+        "renew": 41.39,
+        "transfer": 38.99
+      }
+    },
+    "software": {
+      "regular-price": {
+        "create": 20.89,
+        "renew": 41.89,
+        "transfer": 37.99
+      }
+    },
+    "solar": {
+      "regular-price": {
+        "create": 64.89,
+        "renew": 64.89,
+        "transfer": 59.99
+      }
+    },
+    "solutions": {
+      "regular-price": {
+        "create": 10.89,
+        "renew": 39.89,
+        "transfer": 34.99
+      }
+    },
+    "space": {
+      "regular-price": {
+        "create": 3.89,
+        "renew": 34.89,
+        "transfer": 26.75
+      }
+    },
+    "storage": {
+      "regular-price": {
+        "create": 509.89,
+        "renew": 529.89,
+        "transfer": 519.99
+      }
+    },
+    "stream": {
+      "regular-price": {
+        "create": 5.15,
+        "renew": 6.15,
+        "transfer": 4.75
+      }
+    },
+    "studio": {
+      "regular-price": {
+        "create": 17.89,
+        "renew": 54.89,
+        "transfer": 47.99
+      }
+    },
+    "study": {
+      "regular-price": {
+        "create": 2.09,
+        "renew": 38.89,
+        "transfer": 32.95
+      }
+    },
+    "style": {
+      "regular-price": {
+        "create": 16.89,
+        "renew": 38.89,
+        "transfer": 36.99
+      }
+    },
+    "sucks": {
+      "regular-price": {
+        "create": 218.89,
+        "renew": 218.89,
+        "transfer": 218.99
+      }
+    },
+    "supplies": {
+      "regular-price": {
+        "create": 24.89,
+        "renew": 24.89,
+        "transfer": 22.99
+      }
+    },
+    "supply": {
+      "regular-price": {
+        "create": 25.89,
+        "renew": 25.89,
+        "transfer": 23.99
+      }
+    },
+    "support": {
+      "regular-price": {
+        "create": 8.89,
+        "renew": 26.89,
+        "transfer": 24.99
+      }
+    },
+    "surf": {
+      "regular-price": {
+        "create": 2.09,
+        "renew": 32.39,
+        "transfer": 27.5
+      }
+    },
+    "surgery": {
+      "regular-price": {
+        "create": 54.89,
+        "renew": 54.89,
+        "transfer": 50.99
+      }
+    },
+    "systems": {
+      "regular-price": {
+        "create": 18.89,
+        "renew": 34.89,
+        "transfer": 31.99
+      }
+    },
+    "tattoo": {
+      "regular-price": {
+        "create": 2.89,
+        "renew": 34.89,
+        "transfer": 34.99
+      }
+    },
+    "tax": {
+      "regular-price": {
+        "create": 14.89,
+        "renew": 67.39,
+        "transfer": 64.99
+      }
+    },
+    "taxi": {
+      "regular-price": {
+        "create": 10.89,
+        "renew": 62.89,
+        "transfer": 59.99
+      }
+    },
+    "team": {
+      "regular-price": {
+        "create": 7.39,
+        "renew": 36.39,
+        "transfer": 33.99
+      }
+    },
+    "tech": {
+      "regular-price": {
+        "create": 8.89,
+        "renew": 68.89,
+        "transfer": 52.49
+      }
+    },
+    "technology": {
+      "regular-price": {
+        "create": 12.89,
+        "renew": 34.89,
+        "transfer": 29.99
+      }
+    },
+    "tel": {
+      "regular-price": {
+        "create": 10.69,
+        "renew": 10.69,
+        "transfer": 10.79
+      }
+    },
+    "tennis": {
+      "regular-price": {
+        "create": 89.89,
+        "renew": 89.89,
+        "transfer": 74.99
+      }
+    },
+    "theater": {
+      "regular-price": {
+        "create": 65.89,
+        "renew": 65.89,
+        "transfer": 61.99
+      }
+    },
+    "theatre": {
+      "regular-price": {
+        "create": 509.89,
+        "renew": 529.89,
+        "transfer": 519.99
+      }
+    },
+    "tickets": {
+      "regular-price": {
+        "create": 359.89,
+        "renew": 488.78,
+        "transfer": 438.88
+      }
+    },
+    "tienda": {
+      "regular-price": {
+        "create": 59.89,
+        "renew": 59.89,
+        "transfer": 55.99
+      }
+    },
+    "tips": {
+      "regular-price": {
+        "create": 15.89,
+        "renew": 30.89,
+        "transfer": 27.99
+      }
+    },
+    "tires": {
+      "regular-price": {
+        "create": 5.89,
+        "renew": 78.89,
+        "transfer": 74.99
+      }
+    },
+    "today": {
+      "regular-price": {
+        "create": 5.89,
+        "renew": 32.89,
+        "transfer": 27.49
+      }
+    },
+    "tools": {
+      "regular-price": {
+        "create": 18.89,
+        "renew": 36.39,
+        "transfer": 33.99
+      }
+    },
+    "tours": {
+      "regular-price": {
+        "create": 10.89,
+        "renew": 61.89,
+        "transfer": 55.99
+      }
+    },
+    "town": {
+      "regular-price": {
+        "create": 8.89,
+        "renew": 36.39,
+        "transfer": 33.99
+      }
+    },
+    "toys": {
+      "regular-price": {
+        "create": 17.89,
+        "renew": 64.89,
+        "transfer": 59.99
+      }
+    },
+    "trade": {
+      "regular-price": {
+        "create": 5.15,
+        "renew": 6.15,
+        "transfer": 4.75
+      }
+    },
+    "training": {
+      "regular-price": {
+        "create": 15.89,
+        "renew": 41.89,
+        "transfer": 37.99
+      }
+    },
+    "tube": {
+      "regular-price": {
+        "create": 23.89,
+        "renew": 23.89,
+        "transfer": 22.99
+      }
+    },
+    "tv": {
+      "regular-price": {
+        "create": 26.89,
+        "renew": 26.89,
+        "transfer": 26.99
+      }
+    },
+    "university": {
+      "regular-price": {
+        "create": 62.89,
+        "renew": 62.89,
+        "transfer": 59.99
+      }
+    },
+    "uno": {
+      "regular-price": {
+        "create": 3.89,
+        "renew": 27.89,
+        "transfer": 21.49
+      }
+    },
+    "us": {
+      "regular-price": {
+        "create": 5.39,
+        "renew": 7.89,
+        "transfer": 7.49
+      }
+    },
+    "vacations": {
+      "regular-price": {
+        "create": 38.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "vegas": {
+      "regular-price": {
+        "create": 18.89,
+        "renew": 43.89,
+        "transfer": 42.99
+      }
+    },
+    "ventures": {
+      "regular-price": {
+        "create": 20.89,
+        "renew": 59.89,
+        "transfer": 56.99
+      }
+    },
+    "vet": {
+      "regular-price": {
+        "create": 41.89,
+        "renew": 41.89,
+        "transfer": 38.99
+      }
+    },
+    "viajes": {
+      "regular-price": {
+        "create": 99.89,
+        "renew": 99.89,
+        "transfer": 89.99
+      }
+    },
+    "video": {
+      "regular-price": {
+        "create": 14.89,
+        "renew": 36.39,
+        "transfer": 33.99
+      }
+    },
+    "villas": {
+      "regular-price": {
+        "create": 59.89,
+        "renew": 59.89,
+        "transfer": 55.99
+      }
+    },
+    "vin": {
+      "regular-price": {
+        "create": 8.89,
+        "renew": 59.89,
+        "transfer": 53.99
+      }
+    },
+    "vip": {
+      "regular-price": {
+        "create": 4.89,
+        "renew": 19.39,
+        "transfer": 16.5
+      }
+    },
+    "vision": {
+      "regular-price": {
+        "create": 45.89,
+        "renew": 45.89,
+        "transfer": 42.99
+      }
+    },
+    "vodka": {
+      "regular-price": {
+        "create": 32.39,
+        "renew": 32.39,
+        "transfer": 27.5
+      }
+    },
+    "voyage": {
+      "regular-price": {
+        "create": 58.89,
+        "renew": 58.89,
+        "transfer": 54.99
+      }
+    },
+    "watch": {
+      "regular-price": {
+        "create": 5.89,
+        "renew": 44.39,
+        "transfer": 41.99
+      }
+    },
+    "webcam": {
+      "regular-price": {
+        "create": 11.89,
+        "renew": 11.89,
+        "transfer": 10.99
+      }
+    },
+    "website": {
+      "regular-price": {
+        "create": 2.89,
+        "renew": 22.89,
+        "transfer": 21.99
+      }
+    },
+    "wedding": {
+      "regular-price": {
+        "create": 32.39,
+        "renew": 32.39,
+        "transfer": 27.5
+      }
+    },
+    "whoswho": {
+      "regular-price": {
+        "create": 5,
+        "renew": 5,
+        "transfer": 5
+      }
+    },
+    "wiki": {
+      "regular-price": {
+        "create": 2.89,
+        "renew": 32.39,
+        "transfer": 27.5
+      }
+    },
+    "baby": {
+      "regular-price": {
+        "create": 17.89,
+        "renew": 54.89,
+        "transfer": 53.99
+      }
+    },
+    "monster": {
+      "regular-price": {
+        "create": 1.89,
+        "renew": 17.19,
+        "transfer": 14.75
+      }
+    },
+    "sydney": {
+      "regular-price": {
+        "create": 57.9,
+        "renew": 57.9,
+        "transfer": 55
+      }
+    },
+    "dev": {
+      "regular-price": {
+        "create": 10.89,
+        "renew": 14.89,
+        "transfer": 13.99
+      }
+    },
+    "app": {
+      "regular-price": {
+        "create": 10.89,
+        "renew": 16.89,
+        "transfer": 15.99
+      }
+    },
+    "melbourne": {
+      "regular-price": {
+        "create": 57.9,
+        "renew": 57.9,
+        "transfer": 55
+      }
+    },
+    "win": {
+      "regular-price": {
+        "create": 5.15,
+        "renew": 6.15,
+        "transfer": 4.75
+      }
+    },
+    "wine": {
+      "regular-price": {
+        "create": 9.89,
+        "renew": 59.89,
+        "transfer": 56.99
+      }
+    },
+    "works": {
+      "regular-price": {
+        "create": 7.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "world": {
+      "regular-price": {
+        "create": 5.39,
+        "renew": 46.89,
+        "transfer": 39.99
+      }
+    },
+    "work": {
+      "regular-price": {
+        "create": 2.89,
+        "renew": 12.89,
+        "transfer": 10.99
+      }
+    },
+    "ws": {
+      "regular-price": {
+        "create": 6.39,
+        "renew": 30.89,
+        "transfer": 23.49
+      }
+    },
+    "wtf": {
+      "regular-price": {
+        "create": 7.39,
+        "renew": 36.39,
+        "transfer": 32.99
+      }
+    },
+    "yoga": {
+      "regular-price": {
+        "create": 32.39,
+        "renew": 32.39,
+        "transfer": 27.5
+      }
+    },
+    "zone": {
+      "regular-price": {
+        "create": 12.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "travel": {
+      "regular-price": {
+        "create": 27.89,
+        "renew": 149.89,
+        "transfer": 134.99
+      }
+    },
+    "nl": {
+      "regular-price": {
+        "create": 6.88,
+        "renew": 7.89,
+        "transfer": 6.99
+      }
+    },
+    "bible": {
+      "regular-price": {
+        "create": 44.89,
+        "renew": 44.89,
+        "transfer": 43.99
+      }
+    },
+    "at": {
+      "regular-price": {
+        "create": 11.89,
+        "renew": 11.89
+      }
+    },
+    "ist": {
+      "regular-price": {
+        "create": 23.39,
+        "renew": 23.39,
+        "transfer": 19.99
+      }
+    },
+    "istanbul": {
+      "regular-price": {
+        "create": 29.89,
+        "renew": 29.89,
+        "transfer": 24.99
+      }
+    },
+    "bond": {
+      "regular-price": {
+        "create": 2.49,
+        "renew": 19.39,
+        "transfer": 16.5
+      }
+    },
+    "poker": {
+      "regular-price": {
+        "create": 10.89,
+        "renew": 67.89,
+        "transfer": 63.99
+      }
+    },
+    "vote": {
+      "regular-price": {
+        "create": 34.89,
+        "renew": 90.89,
+        "transfer": 84.99
+      }
+    },
+    "ph": {
+      "regular-price": {
+        "create": 46.39,
+        "renew": 46.39,
+        "transfer": 59.99
+      }
+    },
+    "de": {
+      "regular-price": {
+        "create": 5.89,
+        "renew": 5.89,
+        "transfer": 5.79
+      }
+    },
+    "cyou": {
+      "regular-price": {
+        "create": 2.89,
+        "renew": 19.39,
+        "transfer": 16.5
+      }
+    },
+    "gay": {
+      "regular-price": {
+        "create": 2.89,
+        "renew": 38.89,
+        "transfer": 32.95
+      }
+    },
+    "uk": {
+      "regular-price": {
+        "create": 2.15,
+        "renew": 6.39,
+        "transfer": 5.99
+      }
+    },
+    "nyc": {
+      "regular-price": {
+        "create": 31.89,
+        "renew": 31.89,
+        "transfer": 29.99
+      }
+    },
+    "page": {
+      "regular-price": {
+        "create": 12.69,
+        "renew": 12.89,
+        "transfer": 11.99
+      }
+    },
+    "eu": {
+      "regular-price": {
+        "create": 5.39,
+        "renew": 9.89,
+        "transfer": 5.99
+      }
+    },
+    "cfd": {
+      "regular-price": {
+        "create": 1.78,
+        "renew": 19.39,
+        "transfer": 16.5
+      }
+    },
+    "inc": {
+      "regular-price": {
+        "create": 278.9,
+        "renew": 2,
+        "transfer": 2
+      }
+    },
+    "contact": {
+      "regular-price": {
+        "create": 14.89,
+        "renew": 14.89,
+        "transfer": 12.99
+      }
+    },
+    "london": {
+      "regular-price": {
+        "create": 31.89,
+        "renew": 31.89,
+        "transfer": 30.99
+      }
+    },
+    "bayern": {
+      "regular-price": {
+        "create": 34.89,
+        "renew": 34.89,
+        "transfer": 33.99
+      }
+    },
+    "luxe": {
+      "regular-price": {
+        "create": 19.39,
+        "renew": 19.39,
+        "transfer": 17.99
+      }
+    },
+    "beauty": {
+      "regular-price": {
+        "create": 1.89,
+        "renew": 17.19,
+        "transfer": 14.75
+      }
+    },
+    "hair": {
+      "regular-price": {
+        "create": 1.89,
+        "renew": 17.19,
+        "transfer": 14.75
+      }
+    },
+    "skin": {
+      "regular-price": {
+        "create": 1.89,
+        "renew": 17.19,
+        "transfer": 14.75
+      }
+    },
+    "makeup": {
+      "regular-price": {
+        "create": 1.89,
+        "renew": 17.19,
+        "transfer": 14.75
+      }
+    },
+    "quest": {
+      "regular-price": {
+        "create": 1.89,
+        "renew": 17.19,
+        "transfer": 14.75
+      }
+    },
+    "sbs": {
+      "regular-price": {
+        "create": 1.78,
+        "renew": 19.39,
+        "transfer": 16.5
+      }
+    },
+    "dealer": {
+      "regular-price": {
+        "create": 2,
+        "renew": 2,
+        "transfer": 2
+      }
+    },
+    "health": {
+      "regular-price": {
+        "create": 77.89,
+        "renew": 77.89,
+        "transfer": 64.95
+      }
+    },
+    "ai": {
+      "regular-price": {
+        "create": 94.99,
+        "renew": 94.99,
+        "transfer": 245
+      }
+    },
+    "auto": {
+      "regular-price": {
+        "create": 1,
+        "renew": 2,
+        "transfer": 2
+      }
+    },
+    "car": {
+      "regular-price": {
+        "create": 1,
+        "renew": 2,
+        "transfer": 2
+      }
+    },
+    "cars": {
+      "regular-price": {
+        "create": 1,
+        "renew": 2,
+        "transfer": 2
+      }
+    },
+    "lat": {
+      "regular-price": {
+        "create": 1.89,
+        "renew": 32.39,
+        "transfer": 29.99
+      }
+    },
+    "kids": {
+      "regular-price": {
+        "create": 6.69,
+        "renew": 19.89,
+        "transfer": 19.49
+      }
+    },
+    "cam": {
+      "regular-price": {
+        "create": 8.89,
+        "renew": 17.39,
+        "transfer": 16.49
+      }
+    },
+    "forum": {
+      "regular-price": {
+        "create": 2.09,
+        "renew": 34.89,
+        "transfer": 34.99
+      }
+    },
+    "cv": {
+      "regular-price": {
+        "create": 2.99,
+        "renew": 9.89,
+        "transfer": 8.49
+      }
+    },
+    "my": {
+      "regular-price": {
+        "create": 3.39,
+        "renew": 29.89,
+        "transfer": 27.99
+      }
+    },
+    "ag": {
+      "regular-price": {
+        "create": 89.89,
+        "renew": 79.89,
+        "transfer": 77.99
+      }
+    },
+    "lc": {
+      "regular-price": {
+        "create": 22.89,
+        "renew": 22.89,
+        "transfer": 20.99
+      }
+    },
+    "srl": {
+      "regular-price": {
+        "create": 31.89,
+        "renew": 31.89,
+        "transfer": 29.99
+      }
+    },
+    "ltda": {
+      "regular-price": {
+        "create": 34.89,
+        "renew": 34.89,
+        "transfer": 32.99
+      }
+    },
+    "spa": {
+      "regular-price": {
+        "create": 24.89,
+        "renew": 24.89,
+        "transfer": 22.99
+      }
+    },
+    "cx": {
+      "regular-price": {
+        "create": 18.89,
+        "renew": 18.89,
+        "transfer": 18.99
+      }
+    },
+    "ceo": {
+      "regular-price": {
+        "create": 10.09,
+        "renew": 129.89,
+        "transfer": 109.99
+      }
+    },
+    "qpon": {
+      "regular-price": {
+        "create": 11.39,
+        "renew": 11.39,
+        "transfer": 10.49
+      }
+    },
+    "onl": {
+      "regular-price": {
+        "create": 5.39,
+        "renew": 23.39,
+        "transfer": 20.99
+      }
+    },
+    "rich": {
+      "regular-price": {
+        "create": 94.89,
+        "renew": 1,
+        "transfer": 1
+      }
+    },
+    "diy": {
+      "regular-price": {
+        "create": 5.39,
+        "renew": 39.89,
+        "transfer": 35.99
+      }
+    },
+    "food": {
+      "regular-price": {
+        "create": 5.39,
+        "renew": 39.89,
+        "transfer": 35.99
+      }
+    },
+    "lifestyle": {
+      "regular-price": {
+        "create": 5.39,
+        "renew": 39.89,
+        "transfer": 35.99
+      }
+    },
+    "living": {
+      "regular-price": {
+        "create": 5.39,
+        "renew": 39.89,
+        "transfer": 35.99
+      }
+    },
+    "locker": {
+      "regular-price": {
+        "create": 6.78,
+        "renew": 37.89,
+        "transfer": 34.99
+      }
+    },
+    "co.uk": {
+      "regular-price": {
+        "create": 2.15,
+        "renew": 6.39,
+        "transfer": 5.99
+      }
+    },
+    "id": {
+      "regular-price": {
+        "create": 20.65,
+        "renew": 20.65,
+        "transfer": 19.75
+      }
+    },
+    "fm": {
+      "regular-price": {
+        "create": 88.89,
+        "renew": 88.89,
+        "transfer": 88.99
+      }
+    },
+    "bot": {
+      "regular-price": {
+        "create": 64.89,
+        "renew": 64.89,
+        "transfer": 59.99
+      }
+    },
+    "deal": {
+      "regular-price": {
+        "create": 38.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "fast": {
+      "regular-price": {
+        "create": 29.39,
+        "renew": 29.39,
+        "transfer": 26.99
+      }
+    },
+    "free": {
+      "regular-price": {
+        "create": 38.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "hot": {
+      "regular-price": {
+        "create": 51.89,
+        "renew": 51.89,
+        "transfer": 47.99
+      }
+    },
+    "moi": {
+      "regular-price": {
+        "create": 25.89,
+        "renew": 25.89,
+        "transfer": 23.99
+      }
+    },
+    "now": {
+      "regular-price": {
+        "create": 38.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "spot": {
+      "regular-price": {
+        "create": 25.89,
+        "renew": 25.89,
+        "transfer": 23.99
+      }
+    },
+    "talk": {
+      "regular-price": {
+        "create": 38.89,
+        "renew": 38.89,
+        "transfer": 35.99
+      }
+    },
+    "you": {
+      "regular-price": {
+        "create": 22.89,
+        "renew": 22.89,
+        "transfer": 20.99
+      }
+    },
+    "to": {
+      "regular-price": {
+        "create": 64.89,
+        "renew": 64.89,
+        "transfer": 53.49
+      }
+    },
+    "si": {
+      "regular-price": {
+        "create": 12.99,
+        "renew": 24.89,
+        "transfer": 17.99
+      }
+    }
+  }
+}
