@@ -890,9 +890,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 4.44,
-      "renew": 4.44,
-      "transfer": 4.44
+      "create": 4.42,
+      "renew": 4.42,
+      "transfer": 4.42
     },
     "tld": "com.ng"
   },
@@ -1358,9 +1358,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 4.44,
-      "renew": 4.44,
-      "transfer": 4.44
+      "create": 4.42,
+      "renew": 4.42,
+      "transfer": 4.42
     },
     "tld": "edu.ng"
   },
@@ -2186,9 +2186,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 4.44,
-      "renew": 4.44,
-      "transfer": 4.44
+      "create": 4.42,
+      "renew": 4.42,
+      "transfer": 4.42
     },
     "tld": "i.ng"
   },
@@ -2964,9 +2964,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 0.3,
-      "renew": 0.3,
-      "transfer": 0.3
+      "create": 0.29,
+      "renew": 0.29,
+      "transfer": 0.29
     },
     "tld": "name.ng"
   },
@@ -3002,9 +3002,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 4.44,
-      "renew": 4.44,
-      "transfer": 4.44
+      "create": 4.42,
+      "renew": 4.42,
+      "transfer": 4.42
     },
     "tld": "net.ng"
   },
@@ -3040,9 +3040,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 9.62,
-      "renew": 9.62,
-      "transfer": 9.62
+      "create": 9.57,
+      "renew": 9.57,
+      "transfer": 9.57
     },
     "tld": "ng"
   },
@@ -3158,9 +3158,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 4.44,
-      "renew": 4.44,
-      "transfer": 4.44
+      "create": 4.42,
+      "renew": 4.42,
+      "transfer": 4.42
     },
     "tld": "org.ng"
   },
@@ -3356,9 +3356,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 75.29,
-      "renew": 75.29,
-      "transfer": 75.29
+      "create": 74.87,
+      "renew": 74.87,
+      "transfer": 74.87
     },
     "tld": "premium.ng"
   },
@@ -3734,9 +3734,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 4.44,
-      "renew": 4.44,
-      "transfer": 4.44
+      "create": 4.42,
+      "renew": 4.42,
+      "transfer": 4.42
     },
     "tld": "sch.ng"
   },
