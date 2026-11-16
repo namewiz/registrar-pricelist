@@ -2,7 +2,7 @@
   "meta": {
     "source": "NameSilo API",
     "endpoint": "https://www.namesilo.com/api/getPrices",
-    "generated_at": "2026-11-15T13:42:57.832Z",
+    "generated_at": "2026-11-16T15:18:10.344Z",
     "currency": "USD",
     "tlds_in_output": 460,
     "notes": "Year=1 prices at this account's price level."
