@@ -1070,9 +1070,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 9.6,
-      "renew": 9.6,
-      "transfer": 9.6
+      "create": 9.61,
+      "renew": 9.61,
+      "transfer": 9.61
     },
     "tld": "ng"
   },
@@ -1216,9 +1216,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 75.11,
-      "renew": 75.11,
-      "transfer": 75.11
+      "create": 75.14,
+      "renew": 75.14,
+      "transfer": 75.14
     },
     "tld": "premium.ng"
   },

@@ -1060,7 +1060,7 @@
     "currency": "USD",
     "provider": "namesilo",
     "regular-price": {
-      "create": 2.99,
+      "create": 2.89,
       "renew": 9.89,
       "transfer": 8.49
     },
@@ -3040,9 +3040,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 9.6,
-      "renew": 9.6,
-      "transfer": 9.6
+      "create": 9.61,
+      "renew": 9.61,
+      "transfer": 9.61
     },
     "tld": "ng"
   },
@@ -3356,9 +3356,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 75.11,
-      "renew": 75.11,
-      "transfer": 75.11
+      "create": 75.14,
+      "renew": 75.14,
+      "transfer": 75.14
     },
     "tld": "premium.ng"
   },
