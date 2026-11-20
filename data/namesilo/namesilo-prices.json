@@ -2,7 +2,7 @@
   "meta": {
     "source": "NameSilo API",
     "endpoint": "https://www.namesilo.com/api/getPrices",
-    "generated_at": "2026-11-18T15:23:52.344Z",
+    "generated_at": "2026-11-20T15:07:14.885Z",
     "currency": "USD",
     "tlds_in_output": 460,
     "notes": "Year=1 prices at this account's price level."
@@ -52,7 +52,7 @@
     },
     "icu": {
       "regular-price": {
-        "create": 3.09,
+        "create": 1.89,
         "renew": 19.39,
         "transfer": 16.5
       }
@@ -276,7 +276,7 @@
     },
     "blog": {
       "regular-price": {
-        "create": 4.19,
+        "create": 2.65,
         "renew": 22.89,
         "transfer": 21.99
       }
@@ -486,7 +486,7 @@
     },
     "click": {
       "regular-price": {
-        "create": 2.09,
+        "create": 1.65,
         "renew": 12.89,
         "transfer": 11.49
       }
@@ -1214,7 +1214,7 @@
     },
     "help": {
       "regular-price": {
-        "create": 2.09,
+        "create": 1.65,
         "renew": 32.39,
         "transfer": 28.99
       }
@@ -1977,7 +1977,7 @@
     },
     "rest": {
       "regular-price": {
-        "create": 2.09,
+        "create": 1.65,
         "renew": 28.89,
         "transfer": 28.99
       }
@@ -2774,7 +2774,7 @@
     },
     "bond": {
       "regular-price": {
-        "create": 2.49,
+        "create": 1.78,
         "renew": 19.39,
         "transfer": 16.5
       }
@@ -2809,7 +2809,7 @@
     },
     "cyou": {
       "regular-price": {
-        "create": 2.89,
+        "create": 1.69,
         "renew": 19.39,
         "transfer": 16.5
       }
@@ -2851,7 +2851,7 @@
     },
     "cfd": {
       "regular-price": {
-        "create": 1.78,
+        "create": 1.69,
         "renew": 19.39,
         "transfer": 16.5
       }
@@ -3012,7 +3012,7 @@
     },
     "my": {
       "regular-price": {
-        "create": 3.39,
+        "create": 1.49,
         "renew": 29.89,
         "transfer": 27.99
       }

@@ -37,10 +37,10 @@ bio,namesilo,USD,9.89
 biz,namesilo,USD,7.89
 black,namesilo,USD,27.89
 blackfriday,namesilo,USD,114.89
-blog,namesilo,USD,4.19
+blog,namesilo,USD,2.65
 blue,namesilo,USD,19.89
 boats,namesilo,USD,1.89
-bond,namesilo,USD,2.49
+bond,namesilo,USD,1.78
 boston,namesilo,USD,23.39
 bot,namesilo,USD,64.89
 boutique,namesilo,USD,5.89
@@ -66,7 +66,7 @@ catering,namesilo,USD,38.89
 cc,namesilo,USD,4.09
 center,namesilo,USD,5.89
 ceo,namesilo,USD,10.09
-cfd,namesilo,USD,1.78
+cfd,namesilo,USD,1.69
 charity,namesilo,USD,14.89
 chat,namesilo,USD,10.89
 cheap,namesilo,USD,8.89
@@ -75,7 +75,7 @@ church,namesilo,USD,14.89
 city,namesilo,USD,7.15
 claims,namesilo,USD,17.89
 cleaning,namesilo,USD,75.39
-click,namesilo,USD,2.09
+click,namesilo,USD,1.65
 clinic,namesilo,USD,20.89
 clothing,namesilo,USD,32.89
 cloud,namesilo,USD,5.19
@@ -88,7 +88,7 @@ coffee,namesilo,USD,16.89
 college,namesilo,USD,17.89
 com,namesilo,USD,12
 com.ng,nira,NGN,6000
-com.ng,nira,USD,4.43
+com.ng,nira,USD,4.4
 community,namesilo,USD,59.89
 company,namesilo,USD,20.89
 computer,namesilo,USD,23.89
@@ -107,7 +107,7 @@ cricket,namesilo,USD,23.49
 cruises,namesilo,USD,56.89
 cv,namesilo,USD,2.89
 cx,namesilo,USD,18.89
-cyou,namesilo,USD,2.89
+cyou,namesilo,USD,1.69
 dance,namesilo,USD,16.89
 date,namesilo,USD,5.15
 dating,namesilo,USD,20.89
@@ -135,7 +135,7 @@ domains,namesilo,USD,59.89
 download,namesilo,USD,5.15
 earth,namesilo,USD,18.89
 edu.ng,nira,NGN,6000
-edu.ng,nira,USD,4.43
+edu.ng,nira,USD,4.4
 education,namesilo,USD,34.89
 email,namesilo,USD,7.39
 energy,namesilo,USD,15.89
@@ -204,7 +204,7 @@ hair,namesilo,USD,1.89
 haus,namesilo,USD,14.89
 health,namesilo,USD,77.89
 healthcare,namesilo,USD,88.89
-help,namesilo,USD,2.09
+help,namesilo,USD,1.65
 hiphop,namesilo,USD,23.89
 hiv,namesilo,USD,195.89
 hockey,namesilo,USD,59.89
@@ -218,8 +218,8 @@ hosting,namesilo,USD,309.89
 hot,namesilo,USD,51.89
 house,namesilo,USD,19.89
 i.ng,nira,NGN,6000
-i.ng,nira,USD,4.43
-icu,namesilo,USD,3.09
+i.ng,nira,USD,4.4
+icu,namesilo,USD,1.89
 id,namesilo,USD,20.65
 immo,namesilo,USD,34.89
 immobilien,namesilo,USD,37.89
@@ -294,17 +294,17 @@ mortgage,namesilo,USD,62.89
 motorcycles,namesilo,USD,1.89
 movie,namesilo,USD,47.89
 mx,namesilo,USD,39.89
-my,namesilo,USD,3.39
+my,namesilo,USD,1.49
 name.ng,nira,NGN,400
-name.ng,nira,USD,0.3
+name.ng,nira,USD,0.29
 navy,namesilo,USD,109.89
 net,namesilo,USD,11.85
 net.ng,nira,NGN,6000
-net.ng,nira,USD,4.43
+net.ng,nira,USD,4.4
 network,namesilo,USD,7.89
 news,namesilo,USD,14.39
 ng,nira,NGN,13000
-ng,nira,USD,9.61
+ng,nira,USD,9.54
 ninja,namesilo,USD,15.89
 nl,namesilo,USD,6.88
 now,namesilo,USD,38.89
@@ -316,7 +316,7 @@ online,namesilo,USD,2.89
 ooo,namesilo,USD,24.89
 org,namesilo,USD,9.29
 org.ng,nira,NGN,6000
-org.ng,nira,USD,4.43
+org.ng,nira,USD,4.4
 organic,namesilo,USD,17.89
 page,namesilo,USD,12.69
 partners,namesilo,USD,20.89
@@ -336,7 +336,7 @@ plumbing,namesilo,USD,72.89
 plus,namesilo,USD,15.89
 poker,namesilo,USD,10.89
 premium.ng,nira,NGN,101700
-premium.ng,nira,USD,75.14
+premium.ng,nira,USD,74.6
 press,namesilo,USD,4.89
 pro,namesilo,USD,3.48
 productions,namesilo,USD,10.89
@@ -360,7 +360,7 @@ rentals,namesilo,USD,10.89
 repair,namesilo,USD,12.89
 report,namesilo,USD,10.89
 republican,namesilo,USD,7.15
-rest,namesilo,USD,2.09
+rest,namesilo,USD,1.65
 restaurant,namesilo,USD,20.89
 review,namesilo,USD,11.89
 reviews,namesilo,USD,62.89
@@ -374,7 +374,7 @@ salon,namesilo,USD,57.89
 sarl,namesilo,USD,6.89
 sbs,namesilo,USD,1.78
 sch.ng,nira,NGN,6000
-sch.ng,nira,USD,4.43
+sch.ng,nira,USD,4.4
 school,namesilo,USD,44.89
 schule,namesilo,USD,34.89
 science,namesilo,USD,11.89
