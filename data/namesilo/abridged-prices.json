@@ -380,9 +380,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 4.4,
-      "renew": 4.4,
-      "transfer": 4.4
+      "create": 4.36,
+      "renew": 4.36,
+      "transfer": 4.36
     },
     "tld": "com.ng"
   },
@@ -498,9 +498,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 4.4,
-      "renew": 4.4,
-      "transfer": 4.4
+      "create": 4.36,
+      "renew": 4.36,
+      "transfer": 4.36
     },
     "tld": "edu.ng"
   },
@@ -746,9 +746,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 4.4,
-      "renew": 4.4,
-      "transfer": 4.4
+      "create": 4.36,
+      "renew": 4.36,
+      "transfer": 4.36
     },
     "tld": "i.ng"
   },
@@ -1032,9 +1032,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 4.4,
-      "renew": 4.4,
-      "transfer": 4.4
+      "create": 4.36,
+      "renew": 4.36,
+      "transfer": 4.36
     },
     "tld": "net.ng"
   },
@@ -1070,9 +1070,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 9.54,
-      "renew": 9.54,
-      "transfer": 9.54
+      "create": 9.44,
+      "renew": 9.44,
+      "transfer": 9.44
     },
     "tld": "ng"
   },
@@ -1148,9 +1148,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 4.4,
-      "renew": 4.4,
-      "transfer": 4.4
+      "create": 4.36,
+      "renew": 4.36,
+      "transfer": 4.36
     },
     "tld": "org.ng"
   },
@@ -1216,9 +1216,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 74.6,
-      "renew": 74.6,
-      "transfer": 74.6
+      "create": 73.88,
+      "renew": 73.88,
+      "transfer": 73.88
     },
     "tld": "premium.ng"
   },
@@ -1314,9 +1314,9 @@
     },
     "provider": "nira",
     "regular-price": {
-      "create": 4.4,
-      "renew": 4.4,
-      "transfer": 4.4
+      "create": 4.36,
+      "renew": 4.36,
+      "transfer": 4.36
     },
     "tld": "sch.ng"
   },
