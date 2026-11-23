@@ -374,7 +374,7 @@ com.mw,openprovider,USD,196.17
 com.mx,openprovider,USD,37.98
 com.nf,openprovider,USD,123.5
 com.ng,nira,NGN,6000
-com.ng,nira,USD,4.36
+com.ng,nira,USD,4.32
 com.om,openprovider,USD,170.78
 com.pa,openprovider,USD,150
 com.pe,openprovider,USD,110
@@ -501,7 +501,7 @@ edu.mk,openprovider,USD,51
 edu.mu,openprovider,USD,109
 edu.mx,openprovider,USD,35.99
 edu.ng,nira,NGN,6000
-edu.ng,nira,USD,4.36
+edu.ng,nira,USD,4.32
 edu.pl,openprovider,USD,38.82
 edu.vn,openprovider,USD,145
 edu.vu,openprovider,USD,120
@@ -712,7 +712,7 @@ hu,openprovider,USD,27.69
 hu.com,openprovider,USD,53.08
 hu.net,openprovider,USD,53.08
 i.ng,nira,NGN,6000
-i.ng,nira,USD,4.36
+i.ng,nira,USD,4.32
 icu,openprovider,USD,25.98
 id.au,openprovider,USD,13.98
 id.lv,openprovider,USD,26.48
@@ -1044,7 +1044,7 @@ net.mx,openprovider,USD,37.98
 net.mz,openprovider,USD,286.18
 net.nf,openprovider,USD,123.5
 net.ng,nira,NGN,6000
-net.ng,nira,USD,4.36
+net.ng,nira,USD,4.32
 net.nz,openprovider,USD,25.34
 net.om,openprovider,USD,170.78
 net.pe,openprovider,USD,110
@@ -1071,7 +1071,7 @@ news,openprovider,USD,41
 nexus,openprovider,USD,17
 nf,openprovider,USD,240
 ng,nira,NGN,13000
-ng,nira,USD,9.44
+ng,nira,USD,9.35
 ngo,openprovider,USD,30
 nieruchomosci.pl,openprovider,USD,38.82
 ninja,openprovider,USD,34
@@ -1171,7 +1171,7 @@ org.mx,openprovider,USD,37.98
 org.mz,openprovider,USD,276.95
 org.nf,openprovider,USD,130
 org.ng,nira,NGN,6000
-org.ng,nira,USD,4.36
+org.ng,nira,USD,4.32
 org.nz,openprovider,USD,25.34
 org.om,openprovider,USD,170.78
 org.pe,openprovider,USD,110
@@ -1276,7 +1276,7 @@ pr.it,openprovider,USD,18.41
 prato.it,openprovider,USD,18.41
 prd.fr,openprovider,USD,57.7
 premium.ng,nira,NGN,101700
-premium.ng,nira,USD,73.88
+premium.ng,nira,USD,73.18
 press,openprovider,USD,79.98
 presse.fr,openprovider,USD,57.7
 pri.ee,openprovider,USD,25.39
@@ -1400,7 +1400,7 @@ sc.cn,openprovider,USD,33.26
 sc.ke,openprovider,USD,163.86
 sc.tz,openprovider,USD,86.55
 sch.ng,nira,NGN,6000
-sch.ng,nira,USD,4.36
+sch.ng,nira,USD,4.32
 school,openprovider,USD,38
 school.nz,openprovider,USD,25.34
 schule,openprovider,USD,35

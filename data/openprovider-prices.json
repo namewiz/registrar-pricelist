@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://docs.google.com/spreadsheets/d/1fHBHaxICLF7yhyEI5ir4jvY4H5h4nSa-aIgSMaP0500/export?format=csv&gid=1726709886",
-    "generated_at": "2026-11-22T14:20:42.915Z",
+    "generated_at": "2026-11-23T17:44:23.928Z",
     "header_row_index": 1,
     "data_start_index": 2,
     "rows_processed": 31995,
@@ -3040,7 +3040,7 @@
     "biz": {
       "maxYears": 10,
       "member-price": {
-        "create": 18.2,
+        "create": 1.2,
         "renew": 18.2,
         "restore": 45,
         "trade": 0,
@@ -3458,7 +3458,7 @@
     "bond": {
       "maxYears": 10,
       "member-price": {
-        "create": 1.2,
+        "create": 0.89,
         "renew": 15.2,
         "restore": 85,
         "trade": 0,
@@ -9040,7 +9040,7 @@
     "design": {
       "maxYears": 10,
       "member-price": {
-        "create": 45.2,
+        "create": 2.7,
         "renew": 45.2,
         "restore": 95,
         "trade": 0,
@@ -13239,7 +13239,7 @@
     "health": {
       "maxYears": 10,
       "member-price": {
-        "create": 60.2,
+        "create": 2.7,
         "renew": 60.2,
         "restore": 45,
         "trade": 0,
@@ -13771,7 +13771,7 @@
     "icu": {
       "maxYears": 10,
       "member-price": {
-        "create": 1.7,
+        "create": 1,
         "renew": 15.2,
         "restore": 85,
         "trade": 0,
@@ -21019,7 +21019,7 @@
     "nyc": {
       "maxYears": 10,
       "member-price": {
-        "create": 25.2,
+        "create": 5.2,
         "renew": 25.2,
         "restore": 45,
         "trade": 0,

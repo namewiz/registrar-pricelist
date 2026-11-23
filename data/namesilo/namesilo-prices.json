@@ -2,9 +2,9 @@
   "meta": {
     "source": "NameSilo API",
     "endpoint": "https://www.namesilo.com/api/getPrices",
-    "generated_at": "2026-11-22T14:20:44.391Z",
+    "generated_at": "2026-11-23T17:44:25.107Z",
     "currency": "USD",
-    "tlds_in_output": 460,
+    "tlds_in_output": 463,
     "notes": "Year=1 prices at this account's price level."
   },
   "data": {
@@ -2745,17 +2745,17 @@
         "transfer": 6.99
       }
     },
+    "at": {
+      "regular-price": {
+        "create": 11.89,
+        "renew": 11.89
+      }
+    },
     "bible": {
       "regular-price": {
         "create": 44.89,
         "renew": 44.89,
         "transfer": 43.99
-      }
-    },
-    "at": {
-      "regular-price": {
-        "create": 11.89,
-        "renew": 11.89
       }
     },
     "ist": {
@@ -2835,18 +2835,18 @@
         "transfer": 29.99
       }
     },
-    "page": {
-      "regular-price": {
-        "create": 12.69,
-        "renew": 12.89,
-        "transfer": 11.99
-      }
-    },
     "eu": {
       "regular-price": {
         "create": 5.39,
         "renew": 9.89,
         "transfer": 5.99
+      }
+    },
+    "page": {
+      "regular-price": {
+        "create": 12.69,
+        "renew": 12.89,
+        "transfer": 11.99
       }
     },
     "cfd": {
@@ -3225,6 +3225,27 @@
         "create": 12.99,
         "renew": 24.89,
         "transfer": 17.99
+      }
+    },
+    "fly": {
+      "regular-price": {
+        "create": 16.89,
+        "renew": 16.89,
+        "transfer": 16.99
+      }
+    },
+    "eat": {
+      "regular-price": {
+        "create": 16.89,
+        "renew": 16.89,
+        "transfer": 16.99
+      }
+    },
+    "here": {
+      "regular-price": {
+        "create": 16.89,
+        "renew": 16.89,
+        "transfer": 16.99
       }
     }
   }

@@ -373,7 +373,7 @@ com.mw,openprovider,USD,196.17
 com.mx,openprovider,USD,35.98
 com.nf,openprovider,USD,0
 com.ng,nira,NGN,6000
-com.ng,nira,USD,4.36
+com.ng,nira,USD,4.32
 com.om,openprovider,USD,170.78
 com.pa,openprovider,USD,150
 com.pe,openprovider,USD,110
@@ -1043,7 +1043,7 @@ net.mx,openprovider,USD,35.98
 net.mz,openprovider,USD,0
 net.nf,openprovider,USD,0
 net.ng,nira,NGN,6000
-net.ng,nira,USD,4.36
+net.ng,nira,USD,4.32
 net.nz,openprovider,USD,0
 net.om,openprovider,USD,170.78
 net.pe,openprovider,USD,110
@@ -1070,7 +1070,7 @@ news,openprovider,USD,41
 nexus,openprovider,USD,12
 nf,openprovider,USD,137
 ng,nira,NGN,13000
-ng,nira,USD,9.44
+ng,nira,USD,9.35
 ngo,openprovider,USD,30
 nieruchomosci.pl,openprovider,USD,0
 ninja,openprovider,USD,34
@@ -1170,7 +1170,7 @@ org.mx,openprovider,USD,35.98
 org.mz,openprovider,USD,0
 org.nf,openprovider,USD,0
 org.ng,nira,NGN,6000
-org.ng,nira,USD,4.36
+org.ng,nira,USD,4.32
 org.nz,openprovider,USD,0
 org.om,openprovider,USD,170.78
 org.pe,openprovider,USD,110
@@ -1275,7 +1275,7 @@ pr.it,openprovider,USD,18.41
 prato.it,openprovider,USD,18.41
 prd.fr,openprovider,USD,57.7
 premium.ng,nira,NGN,101700
-premium.ng,nira,USD,73.88
+premium.ng,nira,USD,73.18
 press,openprovider,USD,79.98
 presse.fr,openprovider,USD,57.7
 pri.ee,openprovider,USD,0

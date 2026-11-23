@@ -88,7 +88,7 @@ coffee,namesilo,USD,16.89
 college,namesilo,USD,17.89
 com,namesilo,USD,12
 com.ng,nira,NGN,6000
-com.ng,nira,USD,4.36
+com.ng,nira,USD,4.32
 community,namesilo,USD,59.89
 company,namesilo,USD,20.89
 computer,namesilo,USD,23.89
@@ -134,8 +134,9 @@ dog,namesilo,USD,7.39
 domains,namesilo,USD,59.89
 download,namesilo,USD,5.15
 earth,namesilo,USD,18.89
+eat,namesilo,USD,16.89
 edu.ng,nira,NGN,6000
-edu.ng,nira,USD,4.36
+edu.ng,nira,USD,4.32
 education,namesilo,USD,34.89
 email,namesilo,USD,7.39
 energy,namesilo,USD,15.89
@@ -167,6 +168,7 @@ fitness,namesilo,USD,8.89
 flights,namesilo,USD,58.89
 florist,namesilo,USD,32.89
 flowers,namesilo,USD,64.89
+fly,namesilo,USD,16.89
 fm,namesilo,USD,88.89
 food,namesilo,USD,5.39
 football,namesilo,USD,25.89
@@ -205,6 +207,7 @@ haus,namesilo,USD,14.89
 health,namesilo,USD,77.89
 healthcare,namesilo,USD,88.89
 help,namesilo,USD,1.65
+here,namesilo,USD,16.89
 hiphop,namesilo,USD,23.89
 hiv,namesilo,USD,195.89
 hockey,namesilo,USD,59.89
@@ -218,7 +221,7 @@ hosting,namesilo,USD,309.89
 hot,namesilo,USD,51.89
 house,namesilo,USD,19.89
 i.ng,nira,NGN,6000
-i.ng,nira,USD,4.36
+i.ng,nira,USD,4.32
 icu,namesilo,USD,1.89
 id,namesilo,USD,20.65
 immo,namesilo,USD,34.89
@@ -300,11 +303,11 @@ name.ng,nira,USD,0.29
 navy,namesilo,USD,109.89
 net,namesilo,USD,11.85
 net.ng,nira,NGN,6000
-net.ng,nira,USD,4.36
+net.ng,nira,USD,4.32
 network,namesilo,USD,7.89
 news,namesilo,USD,14.39
 ng,nira,NGN,13000
-ng,nira,USD,9.44
+ng,nira,USD,9.35
 ninja,namesilo,USD,15.89
 nl,namesilo,USD,6.88
 now,namesilo,USD,38.89
@@ -316,7 +319,7 @@ online,namesilo,USD,2.89
 ooo,namesilo,USD,24.89
 org,namesilo,USD,9.29
 org.ng,nira,NGN,6000
-org.ng,nira,USD,4.36
+org.ng,nira,USD,4.32
 organic,namesilo,USD,17.89
 page,namesilo,USD,12.69
 partners,namesilo,USD,20.89
@@ -336,7 +339,7 @@ plumbing,namesilo,USD,72.89
 plus,namesilo,USD,15.89
 poker,namesilo,USD,10.89
 premium.ng,nira,NGN,101700
-premium.ng,nira,USD,73.88
+premium.ng,nira,USD,73.18
 press,namesilo,USD,4.89
 pro,namesilo,USD,3.48
 productions,namesilo,USD,10.89
@@ -374,7 +377,7 @@ salon,namesilo,USD,57.89
 sarl,namesilo,USD,6.89
 sbs,namesilo,USD,1.78
 sch.ng,nira,NGN,6000
-sch.ng,nira,USD,4.36
+sch.ng,nira,USD,4.32
 school,namesilo,USD,44.89
 schule,namesilo,USD,34.89
 science,namesilo,USD,11.89
