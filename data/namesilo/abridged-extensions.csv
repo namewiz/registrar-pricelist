@@ -43,7 +43,7 @@ consulting,generic,,"Business consultants, advisory services and strategy",busin
 courses,generic,,Online courses and education businesses,academic|cheap
 cyou,generic,,Personal and creator websites,cheap|social & lifestyle
 de,country-code,DE,"German businesses, communities and local services",cheap|geographic|short
-design,generic,,"Design portfolios, creative studios and design services",arts & media|business
+design,generic,,"Design portfolios, creative studios and design services",arts & media|business|cheap
 dev,generic,,"Developer tools, APIs and software projects; HTTPS required",popular|short|technology
 digital,generic,,"Digital products, creative agencies and online services",business|cheap|technology
 earth,generic,,"Environmental projects, sustainability, conservation and earth sciences",academic
@@ -67,7 +67,7 @@ global,generic,,"International businesses, trade and worldwide services",busines
 group,generic,,"Business groups, collectives and holding companies",business|social & lifestyle
 guru,generic,,"Coaches, consultants, tutorials and specialist advice",business|cheap
 hair,generic,,"Hair salons, barbers, styling and haircare products",business|cheap|social & lifestyle
-health,generic,,Health services and wellness businesses,health
+health,generic,,Health services and wellness businesses,cheap|health
 help,generic,,"Support, advice, tutorials and troubleshooting",business|cheap
 homes,generic,,"Housing, property listings, home builders and residential services",business|cheap
 host,generic,,"Web hosting, servers and infrastructure services",business|cheap|technology
@@ -103,7 +103,7 @@ network,generic,,"Computer networks, professional networks and communities",chea
 news,generic,,"News reporting, journalism and editorial coverage",arts & media
 ng,country-code,NG,"Nigerian businesses, organisations and personal websites",business|cheap|geographic|popular|short
 nl,country-code,NL,"Dutch businesses, communities and local services",cheap|geographic|short
-nyc,generic,,"New York City businesses, neighbourhoods and local services",geographic|short
+nyc,generic,,"New York City businesses, neighbourhoods and local services",cheap|geographic|short
 one,generic,,"Personal brands, flagship products and all-in-one services",cheap|short|social & lifestyle
 onl,generic,,"Online services, stores and personal websites",cheap|short
 online,generic,,"Online businesses, shops, services and personal projects",business|cheap|popular

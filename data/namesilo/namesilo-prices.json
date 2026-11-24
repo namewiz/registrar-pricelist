@@ -2,7 +2,7 @@
   "meta": {
     "source": "NameSilo API",
     "endpoint": "https://www.namesilo.com/api/getPrices",
-    "generated_at": "2026-11-23T17:44:25.107Z",
+    "generated_at": "2026-11-24T17:17:06.877Z",
     "currency": "USD",
     "tlds_in_output": 463,
     "notes": "Year=1 prices at this account's price level."
@@ -24,21 +24,21 @@
     },
     "org": {
       "regular-price": {
-        "create": 9.29,
+        "create": 9.49,
         "renew": 13.49,
         "transfer": 11.99
       }
     },
     "club": {
       "regular-price": {
-        "create": 4.89,
+        "create": 1.89,
         "renew": 19.39,
         "transfer": 16.5
       }
     },
     "biz": {
       "regular-price": {
-        "create": 7.89,
+        "create": 1.89,
         "renew": 23.39,
         "transfer": 19.95
       }
@@ -717,7 +717,7 @@
     },
     "design": {
       "regular-price": {
-        "create": 58.39,
+        "create": 3.65,
         "renew": 58.39,
         "transfer": 49.5
       }
@@ -1354,7 +1354,7 @@
     },
     "io": {
       "regular-price": {
-        "create": 38.89,
+        "create": 23.89,
         "renew": 69.89,
         "transfer": 53.49
       }
@@ -2152,7 +2152,7 @@
     },
     "shop": {
       "regular-price": {
-        "create": 2.89,
+        "create": 2.45,
         "renew": 38.89,
         "transfer": 35.99
       }
@@ -2509,8 +2509,8 @@
     },
     "vegas": {
       "regular-price": {
-        "create": 18.89,
-        "renew": 43.89,
+        "create": 12.89,
+        "renew": 12.89,
         "transfer": 42.99
       }
     },
@@ -2830,7 +2830,7 @@
     },
     "nyc": {
       "regular-price": {
-        "create": 31.89,
+        "create": 7.15,
         "renew": 31.89,
         "transfer": 29.99
       }
@@ -2942,7 +2942,7 @@
     },
     "health": {
       "regular-price": {
-        "create": 77.89,
+        "create": 3.65,
         "renew": 77.89,
         "transfer": 64.95
       }

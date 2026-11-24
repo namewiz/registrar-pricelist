@@ -1,66 +1,66 @@
 {
   "meta": {
     "source": "manual-nira-pricelist",
-    "generated_at": "2026-11-23T17:44:25.109Z",
+    "generated_at": "2026-11-24T17:17:06.879Z",
     "data_currency": "USD",
-    "exchange_rate": 1389.729957,
+    "exchange_rate": 1394.010034,
     "orig_currency": "NGN"
   },
   "data": {
     "ng": {
       "regular-price": {
-        "create": 9.35,
-        "renew": 9.35,
-        "transfer": 9.35
+        "create": 9.33,
+        "renew": 9.33,
+        "transfer": 9.33
       }
     },
     "com.ng": {
       "regular-price": {
-        "create": 4.32,
-        "renew": 4.32,
-        "transfer": 4.32
+        "create": 4.3,
+        "renew": 4.3,
+        "transfer": 4.3
       }
     },
     "org.ng": {
       "regular-price": {
-        "create": 4.32,
-        "renew": 4.32,
-        "transfer": 4.32
+        "create": 4.3,
+        "renew": 4.3,
+        "transfer": 4.3
       }
     },
     "net.ng": {
       "regular-price": {
-        "create": 4.32,
-        "renew": 4.32,
-        "transfer": 4.32
+        "create": 4.3,
+        "renew": 4.3,
+        "transfer": 4.3
       }
     },
     "mobi.ng": {
       "regular-price": {
-        "create": 4.32,
-        "renew": 4.32,
-        "transfer": 4.32
+        "create": 4.3,
+        "renew": 4.3,
+        "transfer": 4.3
       }
     },
     "i.ng": {
       "regular-price": {
-        "create": 4.32,
-        "renew": 4.32,
-        "transfer": 4.32
+        "create": 4.3,
+        "renew": 4.3,
+        "transfer": 4.3
       }
     },
     "sch.ng": {
       "regular-price": {
-        "create": 4.32,
-        "renew": 4.32,
-        "transfer": 4.32
+        "create": 4.3,
+        "renew": 4.3,
+        "transfer": 4.3
       }
     },
     "edu.ng": {
       "regular-price": {
-        "create": 4.32,
-        "renew": 4.32,
-        "transfer": 4.32
+        "create": 4.3,
+        "renew": 4.3,
+        "transfer": 4.3
       }
     },
     "name.ng": {
@@ -72,9 +72,9 @@
     },
     "premium.ng": {
       "regular-price": {
-        "create": 73.18,
-        "renew": 73.18,
-        "transfer": 73.18
+        "create": 72.95,
+        "renew": 72.95,
+        "transfer": 72.95
       }
     }
   },
