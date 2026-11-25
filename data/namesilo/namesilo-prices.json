@@ -2,7 +2,7 @@
   "meta": {
     "source": "NameSilo API",
     "endpoint": "https://www.namesilo.com/api/getPrices",
-    "generated_at": "2026-11-24T17:17:06.877Z",
+    "generated_at": "2026-11-25T16:58:26.047Z",
     "currency": "USD",
     "tlds_in_output": 463,
     "notes": "Year=1 prices at this account's price level."
@@ -3131,7 +3131,7 @@
     },
     "id": {
       "regular-price": {
-        "create": 20.65,
+        "create": 13.89,
         "renew": 20.65,
         "transfer": 19.75
       }
