@@ -67,6 +67,26 @@ function cheapestMetric(regularMap) {
   return min;
 }
 
+function isSmallChange(previous, current, percent) {
+  if (!Number.isFinite(previous) || previous === 0 || percent <= 0) return false;
+  // Allow subtraction noise at the exact boundary, e.g. 10.10 - 10.
+  const tolerance = Number.EPSILON * Math.max(Math.abs(previous), Math.abs(current)) * 8;
+  return Math.abs(current - previous) + tolerance < Math.abs(previous) * (percent / 100);
+}
+
+function retainProvider(incumbent, cheapest, percent) {
+  return percent > 0 && (cheapest >= incumbent || isSmallChange(incumbent, cheapest, percent));
+}
+
+function stabilizePrices(current, previous, percent) {
+  for (const op of Object.keys(current)) {
+    if (isSmallChange(previous?.[op], current[op], percent)) current[op] = previous[op];
+  }
+}
+
+const currencyOf = (entry) => (entry.currency || 'USD').toUpperCase();
+const rowKey = (row) => JSON.stringify([row.tld, currencyOf(row)]);
+
 /**
  * Build the unified list array from registrar results.
  *
@@ -75,51 +95,44 @@ function cheapestMetric(regularMap) {
  * @param {Object} [options]
  * @param {string[]} [options.providers]
  *   Optional subset of registrar ids to include; defaults to all in results.
+ * @param {Array} [options.previous] Previously published entries.
+ * @param {number} [options.minPriceChangePercent=0] Price and provider-switch threshold.
  * @returns {Array<{ provider: string, tld: string, 'regular-price': Record<string, number> }>} unified list
  */
 export function generateUnifiedList(resultsByRegistrar, options = {}) {
-  const include = (options.providers && options.providers.length)
-    ? options.providers
-    : Object.keys(resultsByRegistrar || {});
-
-  /** @type {Record<string, { provider: string, tld: string, 'regular-price': Record<string, number> }[]>} */
-  const candidatesByTld = {};
-
-  for (const provider of include) {
-    const result = resultsByRegistrar[provider];
-    if (!result || !result.data || typeof result.data !== 'object') continue;
-    const baseCurrency = deriveBaseCurrency(result) || undefined;
-    for (const [tld, entry] of Object.entries(result.data)) {
-      const regular = normalizeRegularPriceMap(entry?.['regular-price']);
-      if (!regular || Object.keys(regular).length === 0) continue;
-      if (!candidatesByTld[tld]) candidatesByTld[tld] = [];
-      // Construct entry with predictable key order via sortObjectKeys later
-      const candidate = { provider, tld, 'regular-price': regular };
-      if (baseCurrency) candidate.currency = baseCurrency;
-      const currencyExtras = collectCurrencyRegularPriceMaps(result, tld);
-      if (currencyExtras && Object.keys(currencyExtras).length > 0) {
-        candidate.currencies = currencyExtras;
-      }
-      candidatesByTld[tld].push(candidate);
-    }
-  }
+  const candidatesByTld = collectCandidatesByTld(resultsByRegistrar, options.providers);
+  const previous = new Map((options.previous || []).map((entry) => [entry.tld, entry]));
+  const percent = options.minPriceChangePercent ?? 0;
 
   /** @type {Array<{ provider: string, tld: string, 'regular-price': Record<string, number> }>} */
   const selected = [];
   for (const tld of Object.keys(candidatesByTld)) {
-    const options = candidatesByTld[tld];
-    if (!options || options.length === 0) continue;
-    let best = options[0];
+    const candidates = candidatesByTld[tld];
+    if (!candidates || candidates.length === 0) continue;
+    let best = candidates[0];
     let bestMetric = cheapestMetric(best['regular-price']);
-    for (let i = 1; i < options.length; i++) {
-      const cand = options[i];
+    for (let i = 1; i < candidates.length; i++) {
+      const cand = candidates[i];
       const metric = cheapestMetric(cand['regular-price']);
       if (metric < bestMetric || (metric === bestMetric && String(cand.provider) < String(best.provider))) {
         best = cand;
         bestMetric = metric;
       }
     }
-    // Sort keys for stable output
+    const old = previous.get(tld);
+    const incumbent = candidates.find((candidate) => candidate.provider === old?.provider);
+    if (incumbent && currencyOf(incumbent) === currencyOf(best) && currencyOf(incumbent) === currencyOf(old)
+        && (old['regular-price'].create === undefined || incumbent['regular-price'].create !== undefined)
+        && retainProvider(cheapestMetric(incumbent['regular-price']), bestMetric, percent)) {
+      best = incumbent;
+    }
+    if (old?.provider === best.provider) {
+      if (currencyOf(old) === currencyOf(best)) stabilizePrices(best['regular-price'], old['regular-price'], percent);
+      for (const [currency, entry] of Object.entries(best.currencies || {})) {
+        stabilizePrices(entry['regular-price'], old.currencies?.[currency]?.['regular-price'], percent);
+      }
+    }
+    // Candidate maps are fresh copies, so stabilization never changes registrar results.
     selected.push(sortObjectKeys(best));
   }
 
@@ -160,12 +173,28 @@ function collectCandidatesByTld(resultsByRegistrar, providers) {
  * Build cheapest rows for a specific operation (e.g., 'create' or 'renew').
  * Rows are objects with tld, provider, currency, amount so additional
  * currencies can be appended without changing the shape.
+ * Optional publication settings: { previous: rows, minPriceChangePercent: 0 }.
  */
-export function generateCheapestOpRows(resultsByRegistrar, op, providers) {
+export function generateCheapestOpRows(resultsByRegistrar, op, providers, { previous = [], minPriceChangePercent = 0 } = {}) {
   const candidatesByTld = collectCandidatesByTld(resultsByRegistrar, providers);
+  const oldRows = new Map(previous.map((row) => [rowKey(row), row]));
   const rows = [];
   for (const tld of Object.keys(candidatesByTld)) {
     const list = candidatesByTld[tld];
+    const publishRow = (row) => {
+      const old = oldRows.get(rowKey(row));
+      const incumbent = list.find((candidate) => candidate.provider === old?.provider);
+      if (incumbent) {
+        const basePrice = incumbent['regular-price'][op];
+        const baseCurrency = Number.isFinite(basePrice) ? currencyOf(incumbent) : 'USD';
+        const price = currencyOf(row) === baseCurrency ? basePrice : incumbent.currencies?.[row.currency]?.['regular-price']?.[op];
+        if (Number.isFinite(price) && retainProvider(price, row.amount, minPriceChangePercent)) {
+          row = { ...row, provider: incumbent.provider, amount: price };
+        }
+      }
+      if (old?.provider === row.provider && isSmallChange(old.amount, row.amount, minPriceChangePercent)) row.amount = old.amount;
+      rows.push(row);
+    };
     let best = null;
     let bestPrice = Number.POSITIVE_INFINITY;
     for (const cand of list) {
@@ -178,7 +207,7 @@ export function generateCheapestOpRows(resultsByRegistrar, op, providers) {
     }
     const baseCurrency = best?.currency || 'USD';
     if (best) {
-      rows.push({
+      publishRow({
         tld,
         provider: best.provider,
         currency: baseCurrency,
@@ -202,7 +231,7 @@ export function generateCheapestOpRows(resultsByRegistrar, op, providers) {
       if (code === baseCodeUpper) continue;
       const entry = byCurrency.get(code);
       if (!entry) continue;
-      rows.push({
+      publishRow({
         tld,
         provider: entry.candidate.provider,
         currency: code,
@@ -235,9 +264,16 @@ const CATALOG_OPS = ['create', 'renew', 'transfer'];
  * it doesn't recognize.
  */
 export function generateCatalogRows(resultsByRegistrar, providers) {
+  return catalogRowsFromOperationRows(Object.fromEntries(
+    CATALOG_OPS.map((op) => [op, generateCheapestOpRows(resultsByRegistrar, op, providers)]),
+  ));
+}
+
+/** Build a catalog from already selected (and optionally stabilized) operation rows. */
+export function catalogRowsFromOperationRows(rowsByOperation) {
   const rows = [];
   for (const op of CATALOG_OPS) {
-    const opRows = generateCheapestOpRows(resultsByRegistrar, op, providers);
+    const opRows = rowsByOperation[op] || [];
     for (const row of opRows) {
       rows.push({
         product_sku: row.tld,
