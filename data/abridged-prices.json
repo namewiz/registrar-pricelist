@@ -86,9 +86,9 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 11.74,
-      "renew": 20.72,
-      "restore": 20.14,
+      "create": 11.71,
+      "renew": 20.67,
+      "restore": 20.09,
       "trade": 0,
       "transfer": 0,
       "update": 0
@@ -98,10 +98,10 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 13.93,
-      "renew": 13.93,
-      "restore": 20.92,
-      "trade": 13.93,
+      "create": 13.78,
+      "renew": 13.78,
+      "restore": 20.7,
+      "trade": 13.78,
       "transfer": 0,
       "update": 0
     },
@@ -146,11 +146,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 8.63,
-      "renew": 18.39,
-      "restore": 12.64,
-      "trade": 16.09,
-      "transfer": 8.63,
+      "create": 8.61,
+      "renew": 18.35,
+      "restore": 12.61,
+      "trade": 16.05,
+      "transfer": 8.61,
       "update": 0
     },
     "tld": "be"
@@ -182,11 +182,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 82.86,
-      "renew": 82.86,
-      "restore": 120.87,
+      "create": 82.65,
+      "renew": 82.65,
+      "restore": 120.56,
       "trade": 0,
-      "transfer": 82.86,
+      "transfer": 82.65,
       "update": 0
     },
     "tld": "berlin"
@@ -194,11 +194,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 29.93,
-      "renew": 34.95,
-      "restore": 51.8,
+      "create": 29.85,
+      "renew": 34.86,
+      "restore": 51.67,
       "trade": 0,
-      "transfer": 34.95,
+      "transfer": 34.86,
       "update": 0
     },
     "tld": "best"
@@ -314,11 +314,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 11.72,
-      "renew": 19.05,
-      "restore": 29.31,
+      "create": 11.78,
+      "renew": 19.14,
+      "restore": 29.46,
       "trade": 0,
-      "transfer": 19.05,
+      "transfer": 19.14,
       "update": 0
     },
     "tld": "ca"
@@ -374,11 +374,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 18.41,
-      "renew": 34.52,
+      "create": 18.36,
+      "renew": 34.43,
       "restore": 0,
       "trade": 0,
-      "transfer": 34.52,
+      "transfer": 34.43,
       "update": 0
     },
     "tld": "cat"
@@ -422,9 +422,9 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 8.76,
-      "renew": 27.57,
-      "restore": 50.14,
+      "create": 8.83,
+      "renew": 27.79,
+      "restore": 50.55,
       "trade": 0,
       "transfer": 0,
       "update": 0
@@ -506,11 +506,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 163.46,
-      "renew": 163.46,
+      "create": 163.04,
+      "renew": 163.04,
       "restore": 0,
       "trade": 0,
-      "transfer": 163.46,
+      "transfer": 163.04,
       "update": 0
     },
     "tld": "co.ke"
@@ -518,8 +518,8 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 6.88,
-      "renew": 17.19,
+      "create": 6.86,
+      "renew": 17.14,
       "restore": 0,
       "trade": 0,
       "transfer": 0,
@@ -530,9 +530,9 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 7.12,
-      "renew": 13.11,
-      "restore": 19.75,
+      "create": 7.06,
+      "renew": 12.99,
+      "restore": 19.58,
       "trade": 0,
       "transfer": 0,
       "update": 0
@@ -554,10 +554,10 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 13.93,
-      "renew": 13.93,
-      "restore": 20.92,
-      "trade": 13.93,
+      "create": 13.78,
+      "renew": 13.78,
+      "restore": 20.7,
+      "trade": 13.78,
       "transfer": 0,
       "update": 0
     },
@@ -644,11 +644,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 5.35,
-      "renew": 5.35,
-      "restore": 13.81,
+      "create": 5.34,
+      "renew": 5.34,
+      "restore": 13.78,
       "trade": 0,
-      "transfer": 5.35,
+      "transfer": 5.34,
       "update": 0
     },
     "tld": "de"
@@ -746,8 +746,8 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 5.18,
-      "renew": 11.5,
+      "create": 5.17,
+      "renew": 11.47,
       "restore": 0,
       "trade": 0,
       "transfer": 0,
@@ -758,11 +758,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 8.03,
-      "renew": 14.94,
-      "restore": 17.27,
+      "create": 8.01,
+      "renew": 14.9,
+      "restore": 17.22,
       "trade": 0,
-      "transfer": 13.79,
+      "transfer": 13.76,
       "update": 0
     },
     "tld": "eu"
@@ -866,11 +866,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 6.85,
-      "renew": 8,
-      "restore": 28.78,
+      "create": 6.83,
+      "renew": 7.98,
+      "restore": 28.7,
       "trade": 0,
-      "transfer": 8,
+      "transfer": 7.98,
       "update": 0
     },
     "tld": "fr"
@@ -926,11 +926,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 286.63,
-      "renew": 189.93,
-      "restore": 94.39,
-      "trade": 28.78,
-      "transfer": 189.93,
+      "create": 285.9,
+      "renew": 189.45,
+      "restore": 94.15,
+      "trade": 28.7,
+      "transfer": 189.45,
       "update": 0
     },
     "tld": "gg"
@@ -1064,11 +1064,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 7.9,
-      "renew": 11.29,
-      "restore": 16.95,
+      "create": 7.96,
+      "renew": 11.37,
+      "restore": 17.08,
       "trade": 0,
-      "transfer": 7.9,
+      "transfer": 7.96,
       "update": 0
     },
     "tld": "in"
@@ -1112,11 +1112,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 5.74,
-      "renew": 18.41,
-      "restore": 11.51,
+      "create": 5.73,
+      "renew": 18.36,
+      "restore": 11.48,
       "trade": 0,
-      "transfer": 18.41,
+      "transfer": 18.36,
       "update": 0
     },
     "tld": "it"
@@ -1232,11 +1232,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 55.42,
-      "renew": 55.42,
-      "restore": 75.64,
+      "create": 55.26,
+      "renew": 55.26,
+      "restore": 75.42,
       "trade": 0,
-      "transfer": 55.42,
+      "transfer": 55.26,
       "update": 0
     },
     "tld": "london"
@@ -1292,11 +1292,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 19.56,
-      "renew": 31.07,
-      "restore": 109.36,
+      "create": 19.51,
+      "renew": 30.99,
+      "restore": 109.08,
       "trade": 0,
-      "transfer": 20.71,
+      "transfer": 20.66,
       "update": 0
     },
     "tld": "me"
@@ -1478,9 +1478,9 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 13.8,
-      "renew": 13.8,
-      "restore": 18.28,
+      "create": 13.77,
+      "renew": 13.77,
+      "restore": 18.23,
       "trade": 0,
       "transfer": 0,
       "update": 0
@@ -1616,8 +1616,8 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 12,
-      "renew": 30.66,
+      "create": 11.92,
+      "renew": 30.45,
       "restore": 0,
       "trade": 0,
       "transfer": 0,
@@ -1796,8 +1796,8 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 21.58,
-      "renew": 34.72,
+      "create": 21.49,
+      "renew": 34.57,
       "restore": 0,
       "trade": 0,
       "transfer": 0,
@@ -2036,11 +2036,11 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 4.73,
-      "renew": 12.92,
-      "restore": 94.53,
+      "create": 4.72,
+      "renew": 12.9,
+      "restore": 94.37,
       "trade": 0,
-      "transfer": 12.92,
+      "transfer": 12.9,
       "update": 0
     },
     "tld": "top"
@@ -2084,8 +2084,8 @@
   {
     "provider": "openprovider",
     "regular-price": {
-      "create": 6.88,
-      "renew": 20.62,
+      "create": 6.86,
+      "renew": 20.56,
       "restore": 0,
       "trade": 0,
       "transfer": 0,

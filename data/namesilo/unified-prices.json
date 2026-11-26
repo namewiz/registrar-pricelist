@@ -3130,7 +3130,7 @@
     "currency": "USD",
     "provider": "namesilo",
     "regular-price": {
-      "create": 5.89,
+      "create": 1.89,
       "renew": 24.65,
       "transfer": 23.75
     },
