@@ -35,7 +35,7 @@ cloud,generic,,"Cloud computing, SaaS, hosting and storage",business|cheap|techn
 club,generic,,"Clubs, hobby groups and membership communities",cheap|fun & sports|social & lifestyle
 co,country-code,CO,"Companies, startups and business services",business|geographic|popular|short
 co.uk,second-level,GB,"UK businesses, shops and professional services",cheap|geographic
-com,generic,,"Businesses, brands, shops and personal websites",business|popular|short
+com,generic,,"Businesses, brands, shops and personal websites",business|cheap|popular|short
 com.ng,second-level,NG,"Nigerian businesses, shops and services",business|cheap|geographic|popular
 community,generic,,"Forums, associations and membership groups",social & lifestyle
 company,generic,,"Company profiles, corporate websites and business services",business
@@ -97,7 +97,7 @@ mom,generic,,"Motherhood, parenting, family advice and support groups",cheap|sho
 money,generic,,"Payments, savings, budgeting and personal finance",business|finance
 mx,country-code,MX,"Mexican businesses, communities and local services",geographic|short
 name.ng,second-level,NG,"Nigerian personal profiles, portfolios and email",cheap|geographic|social & lifestyle
-net,generic,,"Internet services, technology companies and networks",business|popular|short|technology
+net,generic,,"Internet services, technology companies and networks",business|cheap|popular|short|technology
 net.ng,second-level,NG,"Nigerian technology, networking and telecom services",business|cheap|geographic|technology
 network,generic,,"Computer networks, professional networks and communities",cheap|social & lifestyle|technology
 news,generic,,"News reporting, journalism and editorial coverage",arts & media

@@ -2,7 +2,7 @@
   "meta": {
     "source": "NameSilo API",
     "endpoint": "https://www.namesilo.com/api/getPrices",
-    "generated_at": "2026-11-26T16:38:43.868Z",
+    "generated_at": "2026-11-27T16:24:10.990Z",
     "currency": "USD",
     "tlds_in_output": 463,
     "notes": "Year=1 prices at this account's price level."
@@ -10,14 +10,14 @@
   "data": {
     "com": {
       "regular-price": {
-        "create": 12,
+        "create": 9.99,
         "renew": 12,
         "transfer": 11.5
       }
     },
     "net": {
       "regular-price": {
-        "create": 11.85,
+        "create": 9.99,
         "renew": 11.85,
         "transfer": 11.35
       }
@@ -1571,7 +1571,7 @@
     },
     "me": {
       "regular-price": {
-        "create": 9.89,
+        "create": 1.89,
         "renew": 19.89,
         "transfer": 18.99
       }
@@ -3117,7 +3117,7 @@
     },
     "locker": {
       "regular-price": {
-        "create": 6.78,
+        "create": 3.89,
         "renew": 37.89,
         "transfer": 34.99
       }
@@ -3131,7 +3131,7 @@
     },
     "id": {
       "regular-price": {
-        "create": 13.89,
+        "create": 9.89,
         "renew": 20.65,
         "transfer": 19.75
       }
